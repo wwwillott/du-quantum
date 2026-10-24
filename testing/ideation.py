@@ -642,12 +642,18 @@ def validate_submission_contract(
         frozenset(pair) for pair in cz_pauli_error_rate
     }
 
+    if not isinstance(circuit, cirq.Circuit):
+        violations.append("create_dicke_state did not return a cirq.Circuit")
+    if not isinstance(qubits, set):
+        violations.append("create_dicke_state did not return a qubit set")
     if len(qubits) != num_qubits:
         violations.append(
             f"returned {len(qubits)} result qubits, expected {num_qubits}"
         )
     if not qubits.issubset(active_qubits):
         violations.append("result includes unavailable single-qubit sites")
+    if not qubits.issubset(circuit.all_qubits()):
+        violations.append("result qubits are not all present in the circuit")
     if len(circuit) > 1750:
         violations.append(f"circuit has {len(circuit)} moments (limit 1750)")
     if construction_seconds >= 60:
@@ -657,6 +663,11 @@ def validate_submission_contract(
 
     for operation in circuit.all_operations():
         gate = operation.gate
+        if getattr(operation, "classical_controls", ()):
+            violations.append(
+                f"classically controlled operation is unsupported: {operation!r}"
+            )
+            continue
         if isinstance(gate, cirq.PhasedXZGate):
             if operation.qubits[0] not in active_qubits:
                 violations.append(
