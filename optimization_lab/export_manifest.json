@@ -1,0 +1,114 @@
+{
+  "file": "record_submission.py",
+  "file_sha256": "a0d846a400fb53be9ce966f93218d9c665e9fad8cbb85fe9d5def7e073481703",
+  "incumbent_sha256": "efbbce978d7050cfa81163defff8503311adc9e5a249104425d4c31576f9707f",
+  "specs": [
+    {
+      "n": 8,
+      "k": 4,
+      "signature": "4d5f09484cfb538c933a747584f64a4bc54de9bb48e94bdc9998cb28ff387377",
+      "frames": [
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "experiment": "optimization_lab\\runs\\refine-20261025T095636098346Z",
+      "hypothesis": "H6"
+    }
+  ],
+  "p2": "Unchanged delegate and entire incumbent source preserved verbatim as prefix",
+  "performance_scope": "Calibrated Willow QVM; guarded matched circuit families. No universal hardware record claimed."
+}

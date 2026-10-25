@@ -1,0 +1,65 @@
+{
+  "objective": "Original judges' noisy Z/X score at 10000 shots per basis; K=N and K=min(4,N)",
+  "baseline": "recommended_submission.py / Will 8af9eb4, original P2 score 82.3230363949385",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "claim": "Correct Z dispersion scaling and omit relative attenuation penalties for zero target correlators when ranking placements.",
+      "mechanism": "The official Z penalty amplifies nonuniformity by 10000/M; average gate fidelity alone misses it.",
+      "screen": "Analytic corrected denominator, then exact small independent-Pauli/readout denominator.",
+      "falsifier": "No improvement in calibrated-QVM score or poor agreement on unseen calibration maps."
+    },
+    {
+      "id": "H2",
+      "claim": "Merge redundant local/echo pulses and repack operations to reduce Markov-noise exposure.",
+      "mechanism": "Paired echo pulses do not refocus memoryless damping/depolarization, but add gate error and duration.",
+      "screen": "Exact single-qubit fusion and identity elimination with all CZ dependencies retained.",
+      "falsifier": "No score gain, or losses on independent relaxation/dephasing stress tests."
+    },
+    {
+      "id": "H3",
+      "claim": "A global terminal X on balanced Dicke states can reduce asymmetric noise bias.",
+      "mechanism": "X^N stabilizes D(N,N/2) exactly, while swapping the preparation's noisy populations before asymmetric readout.",
+      "screen": "Compare native fused terminal-X frame against the unchanged circuit.",
+      "falsifier": "Additional gate noise outweighs any imbalance reduction."
+    },
+    {
+      "id": "H4",
+      "claim": "Exact collective-Z and balanced-X output symmetries plus native scheduling can shorten some Problem 2 circuits.",
+      "mechanism": "Dicke states are eigenstates of collective Z rotations, and balanced Dicke states of global X; fusion may eliminate a critical-path final gate.",
+      "screen": "Try only symmetry-preserving changes, count full native moments, verify any strict depth improvement.",
+      "falsifier": "No strictly shorter exact physical circuit."
+    },
+    {
+      "id": "H5",
+      "claim": "Exact local Pauli frames around CZ gates can reduce systematic coherent-error accumulation.",
+      "mechanism": "For P=Pauli_a tensor Pauli_b, Q=CZ P-dagger CZ is also local Pauli; Q CZ P equals ideal CZ up to phase, while actual systematic errors change orientation. Frames can fuse into existing single-qubit gates.",
+      "motivation": "For D(8,4), cheap independent-noise denominator is 1.17 while full-QVM Z penalty alone is 4.01. Isolate coherent errors by ablation before attributing the gap.",
+      "screen": "Compare a small preregistered set of deterministic seed frames in complex64 full-QVM density simulation, then validate finalists in complex128 with new shot seeds.",
+      "falsifier": "No full-QVM gain, extra pulse noise dominates, or gain disappears under coherent-sign/calibration stress."
+    },
+    {
+      "id": "H6",
+      "claim": "Local coordinate search over exact CZ frames can improve the best seeded frame pattern further.",
+      "mechanism": "Different CZ errors contribute differently to final Z-shell imbalance. Altering one exact Pauli frame changes coherent interference without changing ideal preparation or CZ count.",
+      "motivation": "H5 screened D(8,4) frame seeds improve calibrated score by roughly 48-55% while most D(6,3) frames lose; search must be state-specific and independently validated.",
+      "screen": "At most 48 deterministic complex64 full-noise evaluations, ordered by supplied coupler error. Optimize the finite-shot expected original denominator without resampling noise; require at least 0.5% improvement per accepted step.",
+      "falsifier": "No further denominator improvement, or fresh complex128 median-score validation fails."
+    },
+    {
+      "id": "H7",
+      "claim": "Optimize a frame pattern across multiple placements to reduce calibration-specific gains.",
+      "mechanism": "Minimize mean normalized expected judge denominator plus half the worst normalized denominator on three training patches, rather than the nominal patch alone.",
+      "motivation": "D(7,3) and D(8,3) nominal seed wins fail some held-out physical placements, unlike D(8,4).",
+      "screen": "At most 24 frame-coordinate proposals on nominal plus two predefined patches. Reserve fourth and fifth distinct placements and coherent-sign inversion for fresh validation.",
+      "falsifier": "No nominal improvement or unacceptable loss on either reserved placement or sign-inverted noise."
+    }
+  ],
+  "promotion_rules": [
+    "No approximate ideal Dicke state, forbidden feedback, unavailable coupler or runtime-limit violation.",
+    "Screen with cheap models and at most 128 score resamplings; never replace the official 10000-shot objective with a lower-shot objective.",
+    "Validate finalists in calibrated Willow noise, independently of screening proxy.",
+    "Use fresh resampling seeds, both K settings, and matched coverage; retain all negative results.",
+    "Keep the incumbent untouched until evidence supports promotion; distinguish calibration-specific records from general improvements."
+  ]
+}

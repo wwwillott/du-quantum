@@ -1,0 +1,502 @@
+{
+  "hypothesis": "H4",
+  "records": [
+    {
+      "n": 2,
+      "k": 1,
+      "before": 3,
+      "after": 3,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.7545418000081554
+    },
+    {
+      "n": 3,
+      "k": 1,
+      "before": 6,
+      "after": 6,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.4958504000678658
+    },
+    {
+      "n": 4,
+      "k": 1,
+      "before": 6,
+      "after": 6,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.08852140000090003
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "before": 7,
+      "after": 7,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.14444709999952465
+    },
+    {
+      "n": 5,
+      "k": 1,
+      "before": 8,
+      "after": 8,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 2.76175449998118
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "before": 13,
+      "after": 13,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.1999410999706015
+    },
+    {
+      "n": 6,
+      "k": 1,
+      "before": 9,
+      "after": 9,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.15612369996961206
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "before": 15,
+      "after": 15,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.7441690999548882
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "before": 13,
+      "after": 13,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 2.1132489000447094
+    },
+    {
+      "n": 7,
+      "k": 1,
+      "before": 9,
+      "after": 9,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.17936259997077286
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "before": 18,
+      "after": 18,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.595459399977699
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "skipped": "adaptive branch phases need separate proof"
+    },
+    {
+      "n": 8,
+      "k": 1,
+      "before": 9,
+      "after": 9,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.20955290005076677
+    },
+    {
+      "n": 8,
+      "k": 2,
+      "before": 19,
+      "after": 19,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.1273771999403834
+    },
+    {
+      "n": 8,
+      "k": 3,
+      "before": 27,
+      "after": 27,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 2.31454529997427
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "before": 21,
+      "after": 21,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.416876700008288
+    },
+    {
+      "n": 9,
+      "k": 1,
+      "before": 10,
+      "after": 10,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.22078329999931157
+    },
+    {
+      "n": 9,
+      "k": 2,
+      "before": 22,
+      "after": 22,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 2.323576599941589
+    },
+    {
+      "n": 9,
+      "k": 3,
+      "before": 31,
+      "after": 31,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 3.0215918000321835
+    },
+    {
+      "n": 9,
+      "k": 4,
+      "before": 31,
+      "after": 31,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 3.3512570000020787
+    },
+    {
+      "n": 10,
+      "k": 1,
+      "before": 11,
+      "after": 11,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.2513965000398457
+    },
+    {
+      "n": 10,
+      "k": 2,
+      "before": 23,
+      "after": 23,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.571534899994731
+    },
+    {
+      "n": 10,
+      "k": 3,
+      "before": 41,
+      "after": 41,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.6929702999768779
+    },
+    {
+      "n": 10,
+      "k": 4,
+      "before": 54,
+      "after": 54,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.0735930000664666
+    },
+    {
+      "n": 10,
+      "k": 5,
+      "skipped": "adaptive branch phases need separate proof"
+    },
+    {
+      "n": 11,
+      "k": 1,
+      "before": 11,
+      "after": 11,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.2639991999603808
+    },
+    {
+      "n": 11,
+      "k": 2,
+      "before": 26,
+      "after": 26,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 3.024857599986717
+    },
+    {
+      "n": 11,
+      "k": 3,
+      "before": 41,
+      "after": 41,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.805301700020209
+    },
+    {
+      "n": 11,
+      "k": 4,
+      "before": 56,
+      "after": 56,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.0975810000672936
+    },
+    {
+      "n": 11,
+      "k": 5,
+      "skipped": "adaptive branch phases need separate proof"
+    },
+    {
+      "n": 12,
+      "k": 1,
+      "before": 12,
+      "after": 12,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.304535900009796
+    },
+    {
+      "n": 12,
+      "k": 2,
+      "before": 26,
+      "after": 26,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 2.4329429999925196
+    },
+    {
+      "n": 12,
+      "k": 3,
+      "before": 41,
+      "after": 41,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.9189617000520229
+    },
+    {
+      "n": 12,
+      "k": 4,
+      "before": 57,
+      "after": 57,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.2689079999690875
+    },
+    {
+      "n": 12,
+      "k": 5,
+      "before": 55,
+      "after": 55,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.1363944999175146
+    },
+    {
+      "n": 12,
+      "k": 6,
+      "before": 64,
+      "after": 64,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 2.4596027999650687
+    },
+    {
+      "n": 13,
+      "k": 1,
+      "before": 12,
+      "after": 12,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.34200639999471605
+    },
+    {
+      "n": 13,
+      "k": 2,
+      "before": 30,
+      "after": 30,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 3.6729539000662044
+    },
+    {
+      "n": 13,
+      "k": 3,
+      "before": 51,
+      "after": 51,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.9439864000305533
+    },
+    {
+      "n": 13,
+      "k": 4,
+      "before": 74,
+      "after": 74,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.452586599974893
+    },
+    {
+      "n": 13,
+      "k": 5,
+      "before": 87,
+      "after": 87,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.3851727999281138
+    },
+    {
+      "n": 13,
+      "k": 6,
+      "before": 89,
+      "after": 89,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.8766484999796376
+    },
+    {
+      "n": 14,
+      "k": 1,
+      "before": 13,
+      "after": 13,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.41045119997579604
+    },
+    {
+      "n": 14,
+      "k": 2,
+      "before": 31,
+      "after": 31,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 2.833376899943687
+    },
+    {
+      "n": 14,
+      "k": 3,
+      "before": 51,
+      "after": 51,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.1225429000332952
+    },
+    {
+      "n": 14,
+      "k": 4,
+      "before": 75,
+      "after": 75,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.5375573000637814
+    },
+    {
+      "n": 14,
+      "k": 5,
+      "before": 87,
+      "after": 87,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.6682866999180987
+    },
+    {
+      "n": 14,
+      "k": 6,
+      "before": 90,
+      "after": 90,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.7700749000068754
+    },
+    {
+      "n": 14,
+      "k": 7,
+      "before": 103,
+      "after": 103,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 8.574639900005423
+    },
+    {
+      "n": 15,
+      "k": 1,
+      "before": 13,
+      "after": 13,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 0.43305300001520663
+    },
+    {
+      "n": 15,
+      "k": 2,
+      "before": 30,
+      "after": 30,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 5.015369299915619
+    },
+    {
+      "n": 15,
+      "k": 3,
+      "before": 51,
+      "after": 51,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.135636999970302
+    },
+    {
+      "n": 15,
+      "k": 4,
+      "before": 91,
+      "after": 91,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.7944341000402346
+    },
+    {
+      "n": 15,
+      "k": 5,
+      "before": 119,
+      "after": 119,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.9098574999952689
+    },
+    {
+      "n": 15,
+      "k": 6,
+      "before": 121,
+      "after": 121,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 1.9376981999957934
+    },
+    {
+      "n": 15,
+      "k": 7,
+      "before": 136,
+      "after": 136,
+      "method": "incumbent",
+      "score_gain": 0.0,
+      "seconds": 2.5493755999486893
+    }
+  ],
+  "delta_score": 0.0,
+  "settings": {
+    "max_n": 15
+  },
+  "complete": true
+}

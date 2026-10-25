@@ -1,0 +1,748 @@
+{
+  "source_run": "optimization_lab\\runs\\qvm-20261025T094941816547Z",
+  "stage": "complex128, fresh resampling seeds, 8000 trials per nominal candidate",
+  "records": [
+    {
+      "statistics": {
+        "4": {
+          "median": 1.2893790728575136,
+          "mean": 1.841033093983039,
+          "q025": 0.43973597791985997,
+          "q975": 6.745061939483003
+        }
+      },
+      "penalties": {
+        "retention": 0.9632455900859895,
+        "finite_shot_Z": 0.8651282718120282,
+        "nonuniform_Z": 0.023406516839022007
+      },
+      "verification": {
+        "fidelity": 1.0000000000000004,
+        "amplitude_residual": 1.8703062565076793e-15,
+        "norm": 1.0,
+        "active_qubits": 4,
+        "ancilla_zero_probability": 1.0
+      },
+      "n": 4,
+      "k": 2,
+      "variant": "terminal_global_x",
+      "baseline": {
+        "statistics": {
+          "4": {
+            "median": 1.2838422190810062,
+            "mean": 1.8174174494775397,
+            "q025": 0.44276339100636564,
+            "q975": 6.339846089282653
+          }
+        },
+        "penalties": {
+          "retention": 0.9641610183176148,
+          "finite_shot_Z": 0.864307059932284,
+          "nonuniform_Z": 0.02158289918728284
+        },
+        "verification": {
+          "fidelity": 1.0,
+          "amplitude_residual": 1.8487761654677885e-15,
+          "norm": 0.9999999999999999,
+          "active_qubits": 4,
+          "ancilla_zero_probability": 1.0
+        }
+      },
+      "ratio": {
+        "4": 1.0043127213720007
+      },
+      "moments": 11,
+      "cz": 6,
+      "circuit_file": "4-2-terminal_global_x.cirq.json"
+    },
+    {
+      "statistics": {
+        "4": {
+          "median": 1.3466854378339281,
+          "mean": 1.8611093091488151,
+          "q025": 0.44322602659239707,
+          "q975": 6.617097321696463
+        }
+      },
+      "penalties": {
+        "retention": 0.963527037851854,
+        "finite_shot_Z": 0.8648769194907159,
+        "nonuniform_Z": 0.010369900074528511
+      },
+      "verification": {
+        "fidelity": 0.9999999999999996,
+        "amplitude_residual": 1.7100995178985785e-15,
+        "norm": 0.9999999999999997,
+        "active_qubits": 4,
+        "ancilla_zero_probability": 0.9999999999999994
+      },
+      "n": 4,
+      "k": 2,
+      "variant": "pauli_seed_3",
+      "baseline": {
+        "statistics": {
+          "4": {
+            "median": 1.2838422190810062,
+            "mean": 1.8174174494775397,
+            "q025": 0.44276339100636564,
+            "q975": 6.339846089282653
+          }
+        },
+        "penalties": {
+          "retention": 0.9641610183176148,
+          "finite_shot_Z": 0.864307059932284,
+          "nonuniform_Z": 0.02158289918728284
+        },
+        "verification": {
+          "fidelity": 1.0,
+          "amplitude_residual": 1.8487761654677885e-15,
+          "norm": 0.9999999999999999,
+          "active_qubits": 4,
+          "ancilla_zero_probability": 1.0
+        }
+      },
+      "ratio": {
+        "4": 1.0489493317939849
+      },
+      "moments": 11,
+      "cz": 6,
+      "circuit_file": "4-2-pauli_seed_3.cirq.json"
+    },
+    {
+      "statistics": {
+        "4": {
+          "median": 0.3934165136199398,
+          "mean": 0.39891248871662116,
+          "q025": 0.3043687319268158,
+          "q975": 0.5244588922517184
+        },
+        "8": {
+          "median": 0.382019289282174,
+          "mean": 0.3875491532923713,
+          "q025": 0.29873178255089505,
+          "q975": 0.5078570918990873
+        }
+      },
+      "penalties": {
+        "retention": 0.8843946381984357,
+        "finite_shot_Z": 1.1144033040842953,
+        "nonuniform_Z": 1.4197879151409944
+      },
+      "verification": {
+        "fidelity": 0.9999999999999996,
+        "amplitude_residual": 8.288577220514469e-12,
+        "norm": 0.9999999999999998,
+        "active_qubits": 8,
+        "ancilla_zero_probability": 0.9999999999999998
+      },
+      "n": 8,
+      "k": 4,
+      "variant": "pauli_seed_3",
+      "baseline": {
+        "statistics": {
+          "4": {
+            "median": 0.24723905279430863,
+            "mean": 0.2499287860255012,
+            "q025": 0.19700695808145688,
+            "q975": 0.31823242402456614
+          },
+          "8": {
+            "median": 0.24215829870291877,
+            "mean": 0.2449531794123488,
+            "q025": 0.19465186236415424,
+            "q975": 0.3097652771150177
+          }
+        },
+        "penalties": {
+          "retention": 0.8807514203413005,
+          "finite_shot_Z": 1.1188456504277096,
+          "nonuniform_Z": 2.8938995739441213
+        },
+        "verification": {
+          "fidelity": 0.9999999999999991,
+          "amplitude_residual": 8.289305951411509e-12,
+          "norm": 0.9999999999999996,
+          "active_qubits": 8,
+          "ancilla_zero_probability": 0.9999999999999993
+        }
+      },
+      "ratio": {
+        "4": 1.5912393660043829,
+        "8": 1.577560179966566
+      },
+      "moments": 23,
+      "cz": 24,
+      "circuit_file": "8-4-pauli_seed_3.cirq.json"
+    },
+    {
+      "statistics": {
+        "4": {
+          "median": 0.3731064930972712,
+          "mean": 0.37845614637719377,
+          "q025": 0.2871542270418269,
+          "q975": 0.4963997209020562
+        },
+        "8": {
+          "median": 0.36365624755364345,
+          "mean": 0.3675583594932034,
+          "q025": 0.28186027960031723,
+          "q975": 0.47767556452664994
+        }
+      },
+      "penalties": {
+        "retention": 0.8801153575066004,
+        "finite_shot_Z": 1.1198080929008754,
+        "nonuniform_Z": 1.5398569204747288
+      },
+      "verification": {
+        "fidelity": 0.9999999999999998,
+        "amplitude_residual": 8.289463064208102e-12,
+        "norm": 0.9999999999999999,
+        "active_qubits": 8,
+        "ancilla_zero_probability": 0.9999999999999999
+      },
+      "n": 8,
+      "k": 4,
+      "variant": "pauli_seed_0",
+      "baseline": {
+        "statistics": {
+          "4": {
+            "median": 0.24723905279430863,
+            "mean": 0.2499287860255012,
+            "q025": 0.19700695808145688,
+            "q975": 0.31823242402456614
+          },
+          "8": {
+            "median": 0.24215829870291877,
+            "mean": 0.2449531794123488,
+            "q025": 0.19465186236415424,
+            "q975": 0.3097652771150177
+          }
+        },
+        "penalties": {
+          "retention": 0.8807514203413005,
+          "finite_shot_Z": 1.1188456504277096,
+          "nonuniform_Z": 2.8938995739441213
+        },
+        "verification": {
+          "fidelity": 0.9999999999999991,
+          "amplitude_residual": 8.289305951411509e-12,
+          "norm": 0.9999999999999996,
+          "active_qubits": 8,
+          "ancilla_zero_probability": 0.9999999999999993
+        }
+      },
+      "ratio": {
+        "4": 1.5090920664854608,
+        "8": 1.5017294451666885
+      },
+      "moments": 23,
+      "cz": 24,
+      "circuit_file": "8-4-pauli_seed_0.cirq.json"
+    }
+  ],
+  "holdouts": [
+    {
+      "n": 8,
+      "k": 4,
+      "test": "coherent_angle_stress",
+      "scale": -1.0,
+      "variant": "pauli_seed_3",
+      "baseline": {
+        "statistics": {
+          "4": {
+            "median": 0.2699162487345243,
+            "mean": 0.27263953660110307,
+            "q025": 0.21593763943232624,
+            "q975": 0.34890687089641403
+          },
+          "8": {
+            "median": 0.26433499362026613,
+            "mean": 0.2673105639713793,
+            "q025": 0.21195266971224147,
+            "q975": 0.3375087429421812
+          }
+        },
+        "penalties": {
+          "retention": 0.8810530154628623,
+          "finite_shot_Z": 1.1185008365545184,
+          "nonuniform_Z": 2.5575087019334344
+        },
+        "verification": {
+          "fidelity": 0.9999999999999991,
+          "amplitude_residual": 8.289305951411509e-12,
+          "norm": 0.9999999999999996,
+          "active_qubits": 8,
+          "ancilla_zero_probability": 0.9999999999999993
+        }
+      },
+      "changed": {
+        "statistics": {
+          "4": {
+            "median": 0.3970079514984453,
+            "mean": 0.40289672912286595,
+            "q025": 0.3091649121262987,
+            "q975": 0.5341429436348738
+          },
+          "8": {
+            "median": 0.3877555003327175,
+            "mean": 0.39285495225655487,
+            "q025": 0.30202752766446445,
+            "q975": 0.5097032645524239
+          }
+        },
+        "penalties": {
+          "retention": 0.8848306787293203,
+          "finite_shot_Z": 1.1138598835616451,
+          "nonuniform_Z": 1.368889330736121
+        },
+        "verification": {
+          "fidelity": 0.9999999999999996,
+          "amplitude_residual": 8.288577220514469e-12,
+          "norm": 0.9999999999999998,
+          "active_qubits": 8,
+          "ancilla_zero_probability": 0.9999999999999998
+        }
+      },
+      "ratio": {
+        "4": 1.4708560650193456,
+        "8": 1.4669094508529306
+      }
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "test": "coherent_angle_stress",
+      "scale": 0.0,
+      "variant": "pauli_seed_3",
+      "baseline": {
+        "statistics": {
+          "4": {
+            "median": 0.8852069351987208,
+            "mean": 0.9028729944289059,
+            "q025": 0.6571873312960032,
+            "q975": 1.2465698181048903
+          },
+          "8": {
+            "median": 0.8390539128266454,
+            "mean": 0.8511528803867479,
+            "q025": 0.6253708523298812,
+            "q975": 1.1397592159206513
+          }
+        },
+        "penalties": {
+          "retention": 0.8940954014221267,
+          "finite_shot_Z": 1.1024699246808125,
+          "nonuniform_Z": 0.009958509728697136
+        },
+        "verification": {
+          "fidelity": 0.9999999999999991,
+          "amplitude_residual": 8.289305951411509e-12,
+          "norm": 0.9999999999999996,
+          "active_qubits": 8,
+          "ancilla_zero_probability": 0.9999999999999993
+        }
+      },
+      "changed": {
+        "statistics": {
+          "4": {
+            "median": 0.8868820655897027,
+            "mean": 0.9058216264428838,
+            "q025": 0.6555135093099692,
+            "q975": 1.237925364330512
+          },
+          "8": {
+            "median": 0.8430319033396647,
+            "mean": 0.8556683778200742,
+            "q025": 0.6272310412085441,
+            "q975": 1.163959134557805
+          }
+        },
+        "penalties": {
+          "retention": 0.8946477985769169,
+          "finite_shot_Z": 1.1017891128380488,
+          "nonuniform_Z": 0.010814177110423942
+        },
+        "verification": {
+          "fidelity": 0.9999999999999996,
+          "amplitude_residual": 8.288577220514469e-12,
+          "norm": 0.9999999999999998,
+          "active_qubits": 8,
+          "ancilla_zero_probability": 0.9999999999999998
+        }
+      },
+      "ratio": {
+        "4": 1.0018923602203882,
+        "8": 1.0047410428009542
+      }
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "test": "coherent_angle_stress",
+      "scale": 0.5,
+      "variant": "pauli_seed_3",
+      "baseline": {
+        "statistics": {
+          "4": {
+            "median": 0.5489892605622257,
+            "mean": 0.5582230275360889,
+            "q025": 0.4133985139998307,
+            "q975": 0.760491695674424
+          },
+          "8": {
+            "median": 0.5255108416853251,
+            "mean": 0.5364990652715221,
+            "q025": 0.404082484168038,
+            "q975": 0.7260480813149992
+          }
+        },
+        "penalties": {
+          "retention": 0.890700415682508,
+          "finite_shot_Z": 1.106594443921653,
+          "nonuniform_Z": 0.701545213155722
+        },
+        "verification": {
+          "fidelity": 0.9999999999999991,
+          "amplitude_residual": 8.289305951411509e-12,
+          "norm": 0.9999999999999996,
+          "active_qubits": 8,
+          "ancilla_zero_probability": 0.9999999999999993
+        }
+      },
+      "changed": {
+        "statistics": {
+          "4": {
+            "median": 0.670449033860001,
+            "mean": 0.6827025345443479,
+            "q025": 0.4973096373849014,
+            "q975": 0.9410994364995717
+          },
+          "8": {
+            "median": 0.6440306533369629,
+            "mean": 0.6545835327893096,
+            "q025": 0.4822061060068736,
+            "q975": 0.8891984804409427
+          }
+        },
+        "penalties": {
+          "retention": 0.8921018947303506,
+          "finite_shot_Z": 1.1048924919357348,
+          "nonuniform_Z": 0.37600185078152176
+        },
+        "verification": {
+          "fidelity": 0.9999999999999996,
+          "amplitude_residual": 8.288577220514469e-12,
+          "norm": 0.9999999999999998,
+          "active_qubits": 8,
+          "ancilla_zero_probability": 0.9999999999999998
+        }
+      },
+      "ratio": {
+        "4": 1.221242530634182,
+        "8": 1.2255325718334222
+      }
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "test": "coherent_angle_stress",
+      "scale": 1.5,
+      "variant": "pauli_seed_3",
+      "baseline": {
+        "statistics": {
+          "4": {
+            "median": 0.12648584689118064,
+            "mean": 0.12726901504336294,
+            "q025": 0.10554370762846144,
+            "q975": 0.15303704109897578
+          },
+          "8": {
+            "median": 0.12541887895799692,
+            "mean": 0.1258936441982805,
+            "q025": 0.10437393906669805,
+            "q975": 0.14925979521822827
+          }
+        },
+        "penalties": {
+          "retention": 0.8645634012239624,
+          "finite_shot_Z": 1.1393528253243224,
+          "nonuniform_Z": 6.715318577585917
+        },
+        "verification": {
+          "fidelity": 0.9999999999999991,
+          "amplitude_residual": 8.289305951411509e-12,
+          "norm": 0.9999999999999996,
+          "active_qubits": 8,
+          "ancilla_zero_probability": 0.9999999999999993
+        }
+      },
+      "changed": {
+        "statistics": {
+          "4": {
+            "median": 0.23488387066125727,
+            "mean": 0.23683350079964824,
+            "q025": 0.18766428881824865,
+            "q975": 0.2971179785927089
+          },
+          "8": {
+            "median": 0.22993537897346594,
+            "mean": 0.23158200723917813,
+            "q025": 0.18646130539942854,
+            "q975": 0.28824316546563106
+          }
+        },
+        "penalties": {
+          "retention": 0.8715179505015421,
+          "finite_shot_Z": 1.1306740772737207,
+          "nonuniform_Z": 3.1153120347037286
+        },
+        "verification": {
+          "fidelity": 0.9999999999999996,
+          "amplitude_residual": 8.288577220514469e-12,
+          "norm": 0.9999999999999998,
+          "active_qubits": 8,
+          "ancilla_zero_probability": 0.9999999999999998
+        }
+      },
+      "ratio": {
+        "4": 1.85699725648621,
+        "8": 1.8333394532291414
+      }
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "test": "unseen_physical_placement",
+      "placement": {
+        "swap": false,
+        "sx": 1,
+        "sy": -1,
+        "dr": 0,
+        "dc": 22
+      },
+      "variant": "pauli_seed_3",
+      "baseline": {
+        "statistics": {
+          "4": {
+            "median": 0.2415234492377661,
+            "mean": 0.2433013570494972,
+            "q025": 0.19219897251177728,
+            "q975": 0.3094536606392652
+          },
+          "8": {
+            "median": 0.2349532091609159,
+            "mean": 0.237664697399027,
+            "q025": 0.1885812861794172,
+            "q975": 0.303653962141518
+          }
+        },
+        "penalties": {
+          "retention": 0.8699113983075926,
+          "finite_shot_Z": 1.13277268380029,
+          "nonuniform_Z": 3.0241638493101144
+        },
+        "verification": {
+          "fidelity": 0.9999999999999991,
+          "amplitude_residual": 8.289305951411509e-12,
+          "norm": 0.9999999999999997,
+          "active_qubits": 8,
+          "ancilla_zero_probability": 0.9999999999999993
+        }
+      },
+      "changed": {
+        "statistics": {
+          "4": {
+            "median": 0.4024864227048013,
+            "mean": 0.4068797866635396,
+            "q025": 0.3106330650293252,
+            "q975": 0.5363137276110292
+          },
+          "8": {
+            "median": 0.39074120095888804,
+            "mean": 0.39483142298904933,
+            "q025": 0.29920596555247536,
+            "q975": 0.5192105650527858
+          }
+        },
+        "penalties": {
+          "retention": 0.8728586140589834,
+          "finite_shot_Z": 1.1291390189982429,
+          "nonuniform_Z": 1.3556651155937134
+        },
+        "verification": {
+          "fidelity": 0.9999999999999996,
+          "amplitude_residual": 8.288577220514469e-12,
+          "norm": 0.9999999999999998,
+          "active_qubits": 8,
+          "ancilla_zero_probability": 0.9999999999999996
+        }
+      },
+      "ratio": {
+        "4": 1.666448636664576,
+        "8": 1.6630596464476266
+      }
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "test": "unseen_physical_placement",
+      "placement": {
+        "swap": true,
+        "sx": -1,
+        "sy": 1,
+        "dr": 22,
+        "dc": 2
+      },
+      "variant": "pauli_seed_3",
+      "baseline": {
+        "statistics": {
+          "4": {
+            "median": 0.25168060917975404,
+            "mean": 0.25453149414916665,
+            "q025": 0.20153321716612058,
+            "q975": 0.3222577191774159
+          },
+          "8": {
+            "median": 0.2467263910997093,
+            "mean": 0.24998592231809372,
+            "q025": 0.20072921013413114,
+            "q975": 0.31427510707461154
+          }
+        },
+        "penalties": {
+          "retention": 0.872758288217195,
+          "finite_shot_Z": 1.1291026361836565,
+          "nonuniform_Z": 2.806017371154061
+        },
+        "verification": {
+          "fidelity": 0.9999999999999991,
+          "amplitude_residual": 8.289305951411507e-12,
+          "norm": 0.9999999999999997,
+          "active_qubits": 8,
+          "ancilla_zero_probability": 0.9999999999999993
+        }
+      },
+      "changed": {
+        "statistics": {
+          "4": {
+            "median": 0.39048301821468007,
+            "mean": 0.39344043307424936,
+            "q025": 0.299848601912686,
+            "q975": 0.5054821932365556
+          },
+          "8": {
+            "median": 0.37699953258457036,
+            "mean": 0.3817961305045224,
+            "q025": 0.2920537901926881,
+            "q975": 0.5015207840846694
+          }
+        },
+        "penalties": {
+          "retention": 0.8722144406957769,
+          "finite_shot_Z": 1.129965477569263,
+          "nonuniform_Z": 1.4207869067461327
+        },
+        "verification": {
+          "fidelity": 0.9999999999999996,
+          "amplitude_residual": 8.288577221234784e-12,
+          "norm": 0.9999999999999999,
+          "active_qubits": 8,
+          "ancilla_zero_probability": 0.9999999999999998
+        }
+      },
+      "ratio": {
+        "4": 1.551502197516501,
+        "8": 1.5280065132238483
+      }
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "test": "unseen_physical_placement",
+      "placement": {
+        "swap": true,
+        "sx": 1,
+        "sy": 1,
+        "dr": 0,
+        "dc": 2
+      },
+      "variant": "pauli_seed_3",
+      "baseline": {
+        "statistics": {
+          "4": {
+            "median": 0.3753971022874145,
+            "mean": 0.3800658229468254,
+            "q025": 0.29251188736278266,
+            "q975": 0.4928414667156175
+          },
+          "8": {
+            "median": 0.36238553485473446,
+            "mean": 0.3664626216013064,
+            "q025": 0.2837652947291538,
+            "q975": 0.4705118638900812
+          }
+        },
+        "penalties": {
+          "retention": 0.8695987782694238,
+          "finite_shot_Z": 1.1333556741377897,
+          "nonuniform_Z": 1.4957613934471503
+        },
+        "verification": {
+          "fidelity": 0.9999999999999996,
+          "amplitude_residual": 8.28930595144636e-12,
+          "norm": 0.9999999999999997,
+          "active_qubits": 8,
+          "ancilla_zero_probability": 0.9999999999999992
+        }
+      },
+      "changed": {
+        "statistics": {
+          "4": {
+            "median": 0.6018613757521725,
+            "mean": 0.6132272425079907,
+            "q025": 0.45096806199125256,
+            "q975": 0.8402173055347008
+          },
+          "8": {
+            "median": 0.573647309596774,
+            "mean": 0.5817543279893562,
+            "q025": 0.4314723142849807,
+            "q975": 0.7827207203113388
+          }
+        },
+        "penalties": {
+          "retention": 0.8727170135289614,
+          "finite_shot_Z": 1.1294178427302628,
+          "nonuniform_Z": 0.5211898040852766
+        },
+        "verification": {
+          "fidelity": 0.9999999999999996,
+          "amplitude_residual": 8.288577220514469e-12,
+          "norm": 0.9999999999999999,
+          "active_qubits": 8,
+          "ancilla_zero_probability": 0.9999999999999997
+        }
+      },
+      "ratio": {
+        "4": 1.6032659071815918,
+        "8": 1.5829751864315604
+      }
+    }
+  ],
+  "screen_did_not_use_validation_seeds": true,
+  "source_hashes": {
+    "methods.py": "a2b6ff358b4a0f641b52f964c41673e728bb85c995a2a22525017dfa61a4b138",
+    "frames.py": "9c2da29dc8433f840097b2eaf4e5055b5b70a80211eb92ab6eaa9529cbc88900",
+    "qvm.py": "dd94fabe094efb3ec2b2e91b813677de065cbf0a3c4a7f9865afbde9555c595a",
+    "validate.py": "cbd15c941365e9ad3fce7fc68136b5aec5b3e83c2c8deadb01cf465876a99780"
+  },
+  "rejected": [
+    {
+      "n": 6,
+      "k": 3,
+      "reason": "No screened candidate exceeds preregistered 5% lead"
+    }
+  ],
+  "complete": true
+}

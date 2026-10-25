@@ -1,0 +1,3519 @@
+{
+  "stage": "cheap screening only; no promotion",
+  "created_utc": "2026-10-25T09:44:22.440302+00:00",
+  "hypotheses": [
+    "H1",
+    "H2",
+    "H3"
+  ],
+  "settings": {
+    "cases": "4:2,5:2,6:3,7:3,8:3,8:4",
+    "shortlist": 10
+  },
+  "records": [
+    {
+      "n": 4,
+      "k": 2,
+      "baseline_proxy": 0.8698661966408017,
+      "candidates": [
+        {
+          "id": "4-2-will-04-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": -1,
+            "dr": -4,
+            "dc": 21
+          },
+          "enumerated": 1722,
+          "analytic_denominator": 0.8857359633730447,
+          "proxy_denominator": 0.86910602647347,
+          "proxy_ratio": 1.000874657572467,
+          "moments": 11,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 1.7702782952318718e-15,
+            "norm": 1.0,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "4-2-will-04-fused.cirq.json"
+        },
+        {
+          "id": "4-2-will-03-terminal_global_x",
+          "family": "will",
+          "variant": "terminal_global_x",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 0
+          },
+          "enumerated": 1722,
+          "analytic_denominator": 0.8856434412103729,
+          "proxy_denominator": 0.8691631148170422,
+          "proxy_ratio": 1.000808918155607,
+          "moments": 11,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 1.8703062565076793e-15,
+            "norm": 1.0,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "4-2-will-03-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "4-2-will-12-terminal_global_x",
+          "family": "will",
+          "variant": "terminal_global_x",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1722,
+          "analytic_denominator": 0.8856434412103729,
+          "proxy_denominator": 0.8691631148170422,
+          "proxy_ratio": 1.000808918155607,
+          "moments": 11,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 1.8703062565076793e-15,
+            "norm": 1.0,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "4-2-will-12-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "4-2-will-02-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 0
+          },
+          "enumerated": 1722,
+          "analytic_denominator": 0.8856434412103729,
+          "proxy_denominator": 0.8692825364592619,
+          "proxy_ratio": 1.000671427478478,
+          "moments": 11,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 1.7702782952318718e-15,
+            "norm": 1.0,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "4-2-will-02-fused.cirq.json"
+        },
+        {
+          "id": "4-2-will-11-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1722,
+          "analytic_denominator": 0.8856434412103729,
+          "proxy_denominator": 0.8692825364592619,
+          "proxy_ratio": 1.000671427478478,
+          "moments": 11,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 1.7702782952318718e-15,
+            "norm": 1.0,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "4-2-will-11-fused.cirq.json"
+        },
+        {
+          "id": "4-2-will-00-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": -1,
+            "dr": -4,
+            "dc": 21
+          },
+          "enumerated": 1722,
+          "analytic_denominator": 0.8846136503784952,
+          "proxy_denominator": 0.8695069257745258,
+          "proxy_ratio": 1.0004131891945034,
+          "moments": 11,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 1.8525226059623045e-15,
+            "norm": 0.9999999999999999,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "4-2-will-00-unchanged.cirq.json"
+        },
+        {
+          "id": "4-2-will-01-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 0
+          },
+          "enumerated": 1722,
+          "analytic_denominator": 0.8847552725600961,
+          "proxy_denominator": 0.8698661966408017,
+          "proxy_ratio": 1.0,
+          "moments": 11,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 1.8487761654677885e-15,
+            "norm": 0.9999999999999999,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "4-2-will-01-unchanged.cirq.json"
+        },
+        {
+          "id": "4-2-will-10-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1722,
+          "analytic_denominator": 0.8847552725600961,
+          "proxy_denominator": 0.8698661966408017,
+          "proxy_ratio": 1.0,
+          "moments": 11,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 1.8487761654677885e-15,
+            "norm": 0.9999999999999999,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "4-2-will-10-unchanged.cirq.json"
+        },
+        {
+          "id": "4-2-will-05-terminal_global_x",
+          "family": "will",
+          "variant": "terminal_global_x",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": -1,
+            "dr": -4,
+            "dc": 21
+          },
+          "enumerated": 1722,
+          "analytic_denominator": 0.8857359633730447,
+          "proxy_denominator": 0.8709630201254854,
+          "proxy_ratio": 0.9987406773200018,
+          "moments": 11,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 1.8703062565076793e-15,
+            "norm": 1.0,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0000000000000002
+          },
+          "circuit_file": "4-2-will-05-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "4-2-will-08-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": 1,
+            "dr": 15,
+            "dc": 3
+          },
+          "enumerated": 1722,
+          "analytic_denominator": 0.8886088703827908,
+          "proxy_denominator": 0.8727059732705145,
+          "proxy_ratio": 0.9967460098627828,
+          "moments": 11,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 1.7702782952318718e-15,
+            "norm": 1.0,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "4-2-will-08-fused.cirq.json"
+        },
+        {
+          "id": "4-2-will-06-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": -1,
+            "dr": -8,
+            "dc": 17
+          },
+          "enumerated": 1722,
+          "analytic_denominator": 0.8877276410381172,
+          "proxy_denominator": 0.8733096131697282,
+          "proxy_ratio": 0.9960570495537906,
+          "moments": 11,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 1.8487761654677885e-15,
+            "norm": 0.9999999999999999,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "4-2-will-06-unchanged.cirq.json"
+        },
+        {
+          "id": "4-2-will-07-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": 1,
+            "dr": 15,
+            "dc": 3
+          },
+          "enumerated": 1722,
+          "analytic_denominator": 0.8878056992370398,
+          "proxy_denominator": 0.8733560652896001,
+          "proxy_ratio": 0.9960040712058933,
+          "moments": 11,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 1.8525226059623045e-15,
+            "norm": 0.9999999999999999,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "4-2-will-07-unchanged.cirq.json"
+        },
+        {
+          "id": "4-2-will-09-terminal_global_x",
+          "family": "will",
+          "variant": "terminal_global_x",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": 1,
+            "dr": 15,
+            "dc": 3
+          },
+          "enumerated": 1722,
+          "analytic_denominator": 0.8886088703827908,
+          "proxy_denominator": 0.876047044930002,
+          "proxy_ratio": 0.9929446160169467,
+          "moments": 11,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 1.8703062565076793e-15,
+            "norm": 1.0,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0000000000000002
+          },
+          "circuit_file": "4-2-will-09-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "4-2-p2_unitary-02-terminal_global_x",
+          "family": "p2_unitary",
+          "variant": "terminal_global_x",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": -1,
+            "dr": 0,
+            "dc": 15
+          },
+          "enumerated": 1872,
+          "analytic_denominator": 0.8914924767934965,
+          "proxy_denominator": 0.8806967178093472,
+          "proxy_ratio": 0.9877023259545176,
+          "moments": 7,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0000000000000009,
+            "amplitude_residual": 5.609892957757988e-16,
+            "norm": 1.0000000000000004,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0000000000000007
+          },
+          "circuit_file": "4-2-p2_unitary-02-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "4-2-p2_unitary-01-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": -1,
+            "dr": 0,
+            "dc": 15
+          },
+          "enumerated": 1872,
+          "analytic_denominator": 0.8914924767934965,
+          "proxy_denominator": 0.8806967178093474,
+          "proxy_ratio": 0.9877023259545173,
+          "moments": 7,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 7.245414788618736e-16,
+            "norm": 1.0000000000000002,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0000000000000004
+          },
+          "circuit_file": "4-2-p2_unitary-01-fused.cirq.json"
+        },
+        {
+          "id": "4-2-p2_unitary-00-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": -1,
+            "dr": 0,
+            "dc": 15
+          },
+          "enumerated": 1872,
+          "analytic_denominator": 0.8914924767934965,
+          "proxy_denominator": 0.8806967178097175,
+          "proxy_ratio": 0.9877023259541023,
+          "moments": 7,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 5.967700892073772e-16,
+            "norm": 0.9999999999999999,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 0.9999999999999998
+          },
+          "circuit_file": "4-2-p2_unitary-00-unchanged.cirq.json"
+        },
+        {
+          "id": "4-2-p2_unitary-03-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": 1,
+            "dr": 16,
+            "dc": 2
+          },
+          "enumerated": 1872,
+          "analytic_denominator": 0.893398194908249,
+          "proxy_denominator": 0.8821615067034494,
+          "proxy_ratio": 0.986062291350034,
+          "moments": 7,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 5.967700892073772e-16,
+            "norm": 0.9999999999999999,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 0.9999999999999998
+          },
+          "circuit_file": "4-2-p2_unitary-03-unchanged.cirq.json"
+        },
+        {
+          "id": "4-2-p2_unitary-05-terminal_global_x",
+          "family": "p2_unitary",
+          "variant": "terminal_global_x",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": 1,
+            "dr": 16,
+            "dc": 2
+          },
+          "enumerated": 1872,
+          "analytic_denominator": 0.893398194908249,
+          "proxy_denominator": 0.8821615067034494,
+          "proxy_ratio": 0.986062291350034,
+          "moments": 7,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0000000000000009,
+            "amplitude_residual": 5.609892957757988e-16,
+            "norm": 1.0000000000000002,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0000000000000007
+          },
+          "circuit_file": "4-2-p2_unitary-05-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "4-2-p2_unitary-04-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": 1,
+            "dr": 16,
+            "dc": 2
+          },
+          "enumerated": 1872,
+          "analytic_denominator": 0.893398194908249,
+          "proxy_denominator": 0.8821615067038198,
+          "proxy_ratio": 0.98606229134962,
+          "moments": 7,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 7.245414788618736e-16,
+            "norm": 1.0,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0000000000000004
+          },
+          "circuit_file": "4-2-p2_unitary-04-fused.cirq.json"
+        },
+        {
+          "id": "4-2-p2_unitary-09-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": -1,
+            "dr": 4,
+            "dc": 10
+          },
+          "enumerated": 1872,
+          "analytic_denominator": 0.8942149475629624,
+          "proxy_denominator": 0.8826543147161486,
+          "proxy_ratio": 0.985511748073809,
+          "moments": 7,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 5.967700892073772e-16,
+            "norm": 0.9999999999999999,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 0.9999999999999998
+          },
+          "circuit_file": "4-2-p2_unitary-09-unchanged.cirq.json"
+        },
+        {
+          "id": "4-2-p2_unitary-08-terminal_global_x",
+          "family": "p2_unitary",
+          "variant": "terminal_global_x",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": -2,
+            "dc": 3
+          },
+          "enumerated": 1872,
+          "analytic_denominator": 0.8938425150346517,
+          "proxy_denominator": 0.8827904121420588,
+          "proxy_ratio": 0.9853598143755357,
+          "moments": 7,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0000000000000009,
+            "amplitude_residual": 5.609892957757988e-16,
+            "norm": 1.0000000000000004,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0000000000000004
+          },
+          "circuit_file": "4-2-p2_unitary-08-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "4-2-p2_unitary-06-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": -2,
+            "dc": 3
+          },
+          "enumerated": 1872,
+          "analytic_denominator": 0.8938425150346517,
+          "proxy_denominator": 0.8827904121424289,
+          "proxy_ratio": 0.9853598143751225,
+          "moments": 7,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 5.967700892073772e-16,
+            "norm": 0.9999999999999999,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 0.9999999999999998
+          },
+          "circuit_file": "4-2-p2_unitary-06-unchanged.cirq.json"
+        },
+        {
+          "id": "4-2-p2_unitary-07-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": -2,
+            "dc": 3
+          },
+          "enumerated": 1872,
+          "analytic_denominator": 0.8938425150346517,
+          "proxy_denominator": 0.8827904121431692,
+          "proxy_ratio": 0.9853598143742962,
+          "moments": 7,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 7.245414788618736e-16,
+            "norm": 1.0000000000000002,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0000000000000004
+          },
+          "circuit_file": "4-2-p2_unitary-07-fused.cirq.json"
+        },
+        {
+          "id": "4-2-p2_unitary-10-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1872,
+          "analytic_denominator": 0.9217921424577896,
+          "proxy_denominator": 0.9090486634404353,
+          "proxy_ratio": 0.956897283527879,
+          "moments": 7,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 5.967700892073772e-16,
+            "norm": 0.9999999999999999,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 0.9999999999999998
+          },
+          "circuit_file": "4-2-p2_unitary-10-unchanged.cirq.json"
+        },
+        {
+          "id": "4-2-p2_unitary-12-terminal_global_x",
+          "family": "p2_unitary",
+          "variant": "terminal_global_x",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1872,
+          "analytic_denominator": 0.9217921424577896,
+          "proxy_denominator": 0.9090486634404353,
+          "proxy_ratio": 0.956897283527879,
+          "moments": 7,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0000000000000009,
+            "amplitude_residual": 5.609892957757988e-16,
+            "norm": 1.0000000000000004,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0000000000000004
+          },
+          "circuit_file": "4-2-p2_unitary-12-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "4-2-p2_unitary-11-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1872,
+          "analytic_denominator": 0.9217921424577896,
+          "proxy_denominator": 0.9090486634404357,
+          "proxy_ratio": 0.9568972835278786,
+          "moments": 7,
+          "cz": 6,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 7.245414788618736e-16,
+            "norm": 1.0000000000000002,
+            "active_qubits": 4,
+            "ancilla_zero_probability": 1.0000000000000004
+          },
+          "circuit_file": "4-2-p2_unitary-11-fused.cirq.json"
+        }
+      ],
+      "seconds": 2.9303404999664053
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "baseline_proxy": 0.9484685909393588,
+      "candidates": [
+        {
+          "id": "5-2-will-01-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 0
+          },
+          "enumerated": 1024,
+          "analytic_denominator": 0.9722220345716053,
+          "proxy_denominator": 0.94814586282356,
+          "proxy_ratio": 1.0003403781300462,
+          "moments": 17,
+          "cz": 10,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 9.197000158407608e-09,
+            "norm": 1.0,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 1.0000000000000004
+          },
+          "circuit_file": "5-2-will-01-fused.cirq.json"
+        },
+        {
+          "id": "5-2-will-11-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1024,
+          "analytic_denominator": 0.9722220345716053,
+          "proxy_denominator": 0.94814586282356,
+          "proxy_ratio": 1.0003403781300462,
+          "moments": 17,
+          "cz": 10,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 9.197000158407608e-09,
+            "norm": 1.0,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 1.0000000000000004
+          },
+          "circuit_file": "5-2-will-11-fused.cirq.json"
+        },
+        {
+          "id": "5-2-will-00-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 0
+          },
+          "enumerated": 1024,
+          "analytic_denominator": 0.9690468444801956,
+          "proxy_denominator": 0.9484685909393588,
+          "proxy_ratio": 1.0,
+          "moments": 17,
+          "cz": 10,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 9.013323928960766e-09,
+            "norm": 1.0,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "5-2-will-00-unchanged.cirq.json"
+        },
+        {
+          "id": "5-2-will-10-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1024,
+          "analytic_denominator": 0.9690468444801956,
+          "proxy_denominator": 0.9484685909393588,
+          "proxy_ratio": 1.0,
+          "moments": 17,
+          "cz": 10,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 9.013323928960766e-09,
+            "norm": 1.0,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "5-2-will-10-unchanged.cirq.json"
+        },
+        {
+          "id": "5-2-will-04-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": -1,
+            "dr": 15,
+            "dc": 14
+          },
+          "enumerated": 1024,
+          "analytic_denominator": 0.9801878088108628,
+          "proxy_denominator": 0.9571626338575219,
+          "proxy_ratio": 0.9909168592560653,
+          "moments": 17,
+          "cz": 10,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 9.19700015840761e-09,
+            "norm": 1.0,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 1.0000000000000004
+          },
+          "circuit_file": "5-2-will-04-fused.cirq.json"
+        },
+        {
+          "id": "5-2-will-09-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 7,
+            "dc": -4
+          },
+          "enumerated": 1024,
+          "analytic_denominator": 0.983433778428476,
+          "proxy_denominator": 0.9576947204781858,
+          "proxy_ratio": 0.9903663147122495,
+          "moments": 17,
+          "cz": 10,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 9.013323928960766e-09,
+            "norm": 1.0,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "5-2-will-09-unchanged.cirq.json"
+        },
+        {
+          "id": "5-2-will-02-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": -1,
+            "dr": 15,
+            "dc": 14
+          },
+          "enumerated": 1024,
+          "analytic_denominator": 0.9772902090212261,
+          "proxy_denominator": 0.9577525696921214,
+          "proxy_ratio": 0.9903064955954678,
+          "moments": 17,
+          "cz": 10,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 9.013323928960766e-09,
+            "norm": 1.0,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "5-2-will-02-unchanged.cirq.json"
+        },
+        {
+          "id": "5-2-will-06-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": 1,
+            "dr": 15,
+            "dc": -3
+          },
+          "enumerated": 1024,
+          "analytic_denominator": 0.9816419366862469,
+          "proxy_denominator": 0.9582116413779488,
+          "proxy_ratio": 0.9898320475165808,
+          "moments": 17,
+          "cz": 10,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 9.197000158407608e-09,
+            "norm": 1.0000000000000002,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 1.0000000000000004
+          },
+          "circuit_file": "5-2-will-06-fused.cirq.json"
+        },
+        {
+          "id": "5-2-will-03-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": 1,
+            "dr": 15,
+            "dc": -3
+          },
+          "enumerated": 1024,
+          "analytic_denominator": 0.9783029085046899,
+          "proxy_denominator": 0.9585070058651203,
+          "proxy_ratio": 0.9895270301997416,
+          "moments": 17,
+          "cz": 10,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 9.013323928960766e-09,
+            "norm": 1.0,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "5-2-will-03-unchanged.cirq.json"
+        },
+        {
+          "id": "5-2-will-07-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": 1,
+            "dr": 8,
+            "dc": 0
+          },
+          "enumerated": 1024,
+          "analytic_denominator": 0.9823561871416531,
+          "proxy_denominator": 0.9605813074148261,
+          "proxy_ratio": 0.9873902225850452,
+          "moments": 17,
+          "cz": 10,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 9.013323928960766e-09,
+            "norm": 1.0,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "5-2-will-07-unchanged.cirq.json"
+        },
+        {
+          "id": "5-2-p2_unitary-06-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 6
+          },
+          "enumerated": 1124,
+          "analytic_denominator": 0.9887371735052862,
+          "proxy_denominator": 0.9611367555070714,
+          "proxy_ratio": 0.986819602418566,
+          "moments": 13,
+          "cz": 12,
+          "verification": {
+            "fidelity": 0.9999999999999989,
+            "amplitude_residual": 3.8820120852214655e-14,
+            "norm": 0.9999999999999992,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 0.9999999999999986
+          },
+          "circuit_file": "5-2-p2_unitary-06-unchanged.cirq.json"
+        },
+        {
+          "id": "5-2-p2_unitary-07-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 6
+          },
+          "enumerated": 1124,
+          "analytic_denominator": 0.9887371735052862,
+          "proxy_denominator": 0.9611367555072923,
+          "proxy_ratio": 0.9868196024183393,
+          "moments": 13,
+          "cz": 12,
+          "verification": {
+            "fidelity": 0.9999999999999998,
+            "amplitude_residual": 3.86620473332154e-14,
+            "norm": 0.9999999999999997,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 0.9999999999999994
+          },
+          "circuit_file": "5-2-p2_unitary-07-fused.cirq.json"
+        },
+        {
+          "id": "5-2-will-08-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": -5,
+            "dc": 7
+          },
+          "enumerated": 1024,
+          "analytic_denominator": 0.9830456476627615,
+          "proxy_denominator": 0.9619673957996955,
+          "proxy_ratio": 0.9859675027248559,
+          "moments": 17,
+          "cz": 10,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 9.013323928960766e-09,
+            "norm": 1.0,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "5-2-will-08-unchanged.cirq.json"
+        },
+        {
+          "id": "5-2-will-05-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": -7,
+            "dc": 6
+          },
+          "enumerated": 1024,
+          "analytic_denominator": 0.9813464580465868,
+          "proxy_denominator": 0.9636938405170706,
+          "proxy_ratio": 0.984201155037431,
+          "moments": 17,
+          "cz": 10,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 9.013323928960766e-09,
+            "norm": 1.0,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 1.0
+          },
+          "circuit_file": "5-2-will-05-unchanged.cirq.json"
+        },
+        {
+          "id": "5-2-p2_unitary-01-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": -1,
+            "dr": 0,
+            "dc": 15
+          },
+          "enumerated": 1124,
+          "analytic_denominator": 0.9875568271753993,
+          "proxy_denominator": 0.9656138963120504,
+          "proxy_ratio": 0.9822441397765977,
+          "moments": 13,
+          "cz": 12,
+          "verification": {
+            "fidelity": 0.9999999999999998,
+            "amplitude_residual": 3.86620473332154e-14,
+            "norm": 0.9999999999999997,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 0.9999999999999994
+          },
+          "circuit_file": "5-2-p2_unitary-01-fused.cirq.json"
+        },
+        {
+          "id": "5-2-p2_unitary-00-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": -1,
+            "dr": 0,
+            "dc": 15
+          },
+          "enumerated": 1124,
+          "analytic_denominator": 0.9875568271753993,
+          "proxy_denominator": 0.9656138963120523,
+          "proxy_ratio": 0.9822441397765957,
+          "moments": 13,
+          "cz": 12,
+          "verification": {
+            "fidelity": 0.9999999999999984,
+            "amplitude_residual": 3.881996209463512e-14,
+            "norm": 0.9999999999999992,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 0.9999999999999984
+          },
+          "circuit_file": "5-2-p2_unitary-00-unchanged.cirq.json"
+        },
+        {
+          "id": "5-2-p2_unitary-09-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": 1,
+            "dr": 15,
+            "dc": 2
+          },
+          "enumerated": 1124,
+          "analytic_denominator": 0.9900508702051966,
+          "proxy_denominator": 0.9667772297747627,
+          "proxy_ratio": 0.9810621948143426,
+          "moments": 13,
+          "cz": 12,
+          "verification": {
+            "fidelity": 0.9999999999999993,
+            "amplitude_residual": 3.8661848074765294e-14,
+            "norm": 0.9999999999999997,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 0.9999999999999994
+          },
+          "circuit_file": "5-2-p2_unitary-09-fused.cirq.json"
+        },
+        {
+          "id": "5-2-p2_unitary-08-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": 1,
+            "dr": 15,
+            "dc": 2
+          },
+          "enumerated": 1124,
+          "analytic_denominator": 0.9900508702051966,
+          "proxy_denominator": 0.9667772297747637,
+          "proxy_ratio": 0.9810621948143416,
+          "moments": 13,
+          "cz": 12,
+          "verification": {
+            "fidelity": 0.9999999999999984,
+            "amplitude_residual": 3.881996209463512e-14,
+            "norm": 0.9999999999999993,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 0.9999999999999984
+          },
+          "circuit_file": "5-2-p2_unitary-08-unchanged.cirq.json"
+        },
+        {
+          "id": "5-2-p2_unitary-05-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": 7,
+            "dc": 2
+          },
+          "enumerated": 1124,
+          "analytic_denominator": 0.9884086018008877,
+          "proxy_denominator": 0.9670548273232288,
+          "proxy_ratio": 0.980780576386433,
+          "moments": 13,
+          "cz": 12,
+          "verification": {
+            "fidelity": 0.9999999999999998,
+            "amplitude_residual": 3.86620473332154e-14,
+            "norm": 0.9999999999999997,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 0.9999999999999994
+          },
+          "circuit_file": "5-2-p2_unitary-05-fused.cirq.json"
+        },
+        {
+          "id": "5-2-p2_unitary-04-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": 7,
+            "dc": 2
+          },
+          "enumerated": 1124,
+          "analytic_denominator": 0.9884086018008877,
+          "proxy_denominator": 0.9670548273234517,
+          "proxy_ratio": 0.9807805763862069,
+          "moments": 13,
+          "cz": 12,
+          "verification": {
+            "fidelity": 0.9999999999999989,
+            "amplitude_residual": 3.8820120852214655e-14,
+            "norm": 0.9999999999999992,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 0.9999999999999986
+          },
+          "circuit_file": "5-2-p2_unitary-04-unchanged.cirq.json"
+        },
+        {
+          "id": "5-2-p2_unitary-02-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": 1,
+            "dr": 9,
+            "dc": 6
+          },
+          "enumerated": 1124,
+          "analytic_denominator": 0.9882987625629002,
+          "proxy_denominator": 0.9743485453154137,
+          "proxy_ratio": 0.973438709894438,
+          "moments": 13,
+          "cz": 12,
+          "verification": {
+            "fidelity": 0.9999999999999984,
+            "amplitude_residual": 3.8819882715601874e-14,
+            "norm": 0.9999999999999992,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 0.9999999999999986
+          },
+          "circuit_file": "5-2-p2_unitary-02-unchanged.cirq.json"
+        },
+        {
+          "id": "5-2-p2_unitary-03-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": 1,
+            "dr": 9,
+            "dc": 6
+          },
+          "enumerated": 1124,
+          "analytic_denominator": 0.9882987625629002,
+          "proxy_denominator": 0.9743485453156344,
+          "proxy_ratio": 0.9734387098942175,
+          "moments": 13,
+          "cz": 12,
+          "verification": {
+            "fidelity": 0.9999999999999993,
+            "amplitude_residual": 3.8661848074765294e-14,
+            "norm": 0.9999999999999997,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 0.9999999999999994
+          },
+          "circuit_file": "5-2-p2_unitary-03-fused.cirq.json"
+        },
+        {
+          "id": "5-2-p2_unitary-10-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1124,
+          "analytic_denominator": 1.021703816609855,
+          "proxy_denominator": 1.0003426284019497,
+          "proxy_ratio": 0.9481437299683412,
+          "moments": 13,
+          "cz": 12,
+          "verification": {
+            "fidelity": 0.9999999999999989,
+            "amplitude_residual": 3.8819981939368065e-14,
+            "norm": 0.9999999999999992,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 0.9999999999999986
+          },
+          "circuit_file": "5-2-p2_unitary-10-unchanged.cirq.json"
+        },
+        {
+          "id": "5-2-p2_unitary-11-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1124,
+          "analytic_denominator": 1.021703816609855,
+          "proxy_denominator": 1.0003426284021701,
+          "proxy_ratio": 0.9481437299681321,
+          "moments": 13,
+          "cz": 12,
+          "verification": {
+            "fidelity": 0.9999999999999998,
+            "amplitude_residual": 3.866216688779253e-14,
+            "norm": 0.9999999999999997,
+            "active_qubits": 5,
+            "ancilla_zero_probability": 0.9999999999999996
+          },
+          "circuit_file": "5-2-p2_unitary-11-fused.cirq.json"
+        }
+      ],
+      "seconds": 2.375713999965228
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "baseline_proxy": 1.0355190556379044,
+      "candidates": [
+        {
+          "id": "6-3-will-00-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 0
+          },
+          "enumerated": 1548,
+          "analytic_denominator": 1.0797850266261015,
+          "proxy_denominator": 1.0355190556379044,
+          "proxy_ratio": 1.0,
+          "moments": 18,
+          "cz": 14,
+          "verification": {
+            "fidelity": 0.9999999999999996,
+            "amplitude_residual": 1.7091872429225646e-11,
+            "norm": 0.9999999999999997,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 0.9999999999999996
+          },
+          "circuit_file": "6-3-will-00-unchanged.cirq.json"
+        },
+        {
+          "id": "6-3-will-10-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1548,
+          "analytic_denominator": 1.0797850266261015,
+          "proxy_denominator": 1.0355190556379044,
+          "proxy_ratio": 1.0,
+          "moments": 18,
+          "cz": 14,
+          "verification": {
+            "fidelity": 0.9999999999999996,
+            "amplitude_residual": 1.7091872429225646e-11,
+            "norm": 0.9999999999999997,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 0.9999999999999996
+          },
+          "circuit_file": "6-3-will-10-unchanged.cirq.json"
+        },
+        {
+          "id": "6-3-will-01-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 0
+          },
+          "enumerated": 1548,
+          "analytic_denominator": 1.0845142458392139,
+          "proxy_denominator": 1.0355190556379048,
+          "proxy_ratio": 0.9999999999999996,
+          "moments": 18,
+          "cz": 14,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 1.7092138088324154e-11,
+            "norm": 0.9999999999999999,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 0.9999999999999998
+          },
+          "circuit_file": "6-3-will-01-fused.cirq.json"
+        },
+        {
+          "id": "6-3-will-11-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1548,
+          "analytic_denominator": 1.0845142458392139,
+          "proxy_denominator": 1.0355190556379048,
+          "proxy_ratio": 0.9999999999999996,
+          "moments": 18,
+          "cz": 14,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 1.7092138088324154e-11,
+            "norm": 0.9999999999999999,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 0.9999999999999998
+          },
+          "circuit_file": "6-3-will-11-fused.cirq.json"
+        },
+        {
+          "id": "6-3-will-02-terminal_global_x",
+          "family": "will",
+          "variant": "terminal_global_x",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 0
+          },
+          "enumerated": 1548,
+          "analytic_denominator": 1.0849593918692901,
+          "proxy_denominator": 1.0360247902055937,
+          "proxy_ratio": 0.9995118509011846,
+          "moments": 18,
+          "cz": 14,
+          "verification": {
+            "fidelity": 0.9999999999999996,
+            "amplitude_residual": 1.709236424702093e-11,
+            "norm": 0.9999999999999998,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 0.9999999999999998
+          },
+          "circuit_file": "6-3-will-02-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "6-3-will-12-terminal_global_x",
+          "family": "will",
+          "variant": "terminal_global_x",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1548,
+          "analytic_denominator": 1.0849593918692901,
+          "proxy_denominator": 1.0360247902055937,
+          "proxy_ratio": 0.9995118509011846,
+          "moments": 18,
+          "cz": 14,
+          "verification": {
+            "fidelity": 0.9999999999999996,
+            "amplitude_residual": 1.709236424702093e-11,
+            "norm": 0.9999999999999998,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 0.9999999999999998
+          },
+          "circuit_file": "6-3-will-12-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "6-3-will-06-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": 1,
+            "dr": 15,
+            "dc": 6
+          },
+          "enumerated": 1548,
+          "analytic_denominator": 1.0907405756371933,
+          "proxy_denominator": 1.0440629881434758,
+          "proxy_ratio": 0.9918166503337467,
+          "moments": 18,
+          "cz": 14,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 1.7092138088335425e-11,
+            "norm": 0.9999999999999999,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 0.9999999999999998
+          },
+          "circuit_file": "6-3-will-06-fused.cirq.json"
+        },
+        {
+          "id": "6-3-will-03-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": 1,
+            "dr": 15,
+            "dc": 6
+          },
+          "enumerated": 1548,
+          "analytic_denominator": 1.0859587901069814,
+          "proxy_denominator": 1.0440629881435868,
+          "proxy_ratio": 0.9918166503336412,
+          "moments": 18,
+          "cz": 14,
+          "verification": {
+            "fidelity": 0.9999999999999996,
+            "amplitude_residual": 1.7091872429225646e-11,
+            "norm": 0.9999999999999997,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 0.9999999999999994
+          },
+          "circuit_file": "6-3-will-03-unchanged.cirq.json"
+        },
+        {
+          "id": "6-3-will-07-terminal_global_x",
+          "family": "will",
+          "variant": "terminal_global_x",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": 1,
+            "dr": 15,
+            "dc": 6
+          },
+          "enumerated": 1548,
+          "analytic_denominator": 1.0914749000554,
+          "proxy_denominator": 1.0448033109175079,
+          "proxy_ratio": 0.9911138726470435,
+          "moments": 18,
+          "cz": 14,
+          "verification": {
+            "fidelity": 0.9999999999999996,
+            "amplitude_residual": 1.7092364247020927e-11,
+            "norm": 0.9999999999999999,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 0.9999999999999997
+          },
+          "circuit_file": "6-3-will-07-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "6-3-will-04-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": 1,
+            "dr": 22,
+            "dc": 2
+          },
+          "enumerated": 1548,
+          "analytic_denominator": 1.0877155628424517,
+          "proxy_denominator": 1.0454263464105946,
+          "proxy_ratio": 0.9905232053824679,
+          "moments": 18,
+          "cz": 14,
+          "verification": {
+            "fidelity": 0.9999999999999996,
+            "amplitude_residual": 1.7091872429225646e-11,
+            "norm": 0.9999999999999997,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 0.9999999999999994
+          },
+          "circuit_file": "6-3-will-04-unchanged.cirq.json"
+        },
+        {
+          "id": "6-3-will-09-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": 1,
+            "dr": 22,
+            "dc": 2
+          },
+          "enumerated": 1548,
+          "analytic_denominator": 1.0925159900981092,
+          "proxy_denominator": 1.0454263464107056,
+          "proxy_ratio": 0.9905232053823626,
+          "moments": 18,
+          "cz": 14,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 1.7092138088335425e-11,
+            "norm": 0.9999999999999999,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 0.9999999999999998
+          },
+          "circuit_file": "6-3-will-09-fused.cirq.json"
+        },
+        {
+          "id": "6-3-will-05-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": -1,
+            "dr": 0,
+            "dc": 22
+          },
+          "enumerated": 1548,
+          "analytic_denominator": 1.0907404505700868,
+          "proxy_denominator": 1.0459376377149883,
+          "proxy_ratio": 0.9900390026121969,
+          "moments": 18,
+          "cz": 14,
+          "verification": {
+            "fidelity": 0.9999999999999991,
+            "amplitude_residual": 1.7091872429434105e-11,
+            "norm": 0.9999999999999998,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 0.9999999999999996
+          },
+          "circuit_file": "6-3-will-05-unchanged.cirq.json"
+        },
+        {
+          "id": "6-3-will-08-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": -1,
+            "dr": -7,
+            "dc": 14
+          },
+          "enumerated": 1548,
+          "analytic_denominator": 1.0919363134848388,
+          "proxy_denominator": 1.046713721885092,
+          "proxy_ratio": 0.9893049398196229,
+          "moments": 18,
+          "cz": 14,
+          "verification": {
+            "fidelity": 0.9999999999999996,
+            "amplitude_residual": 1.7091872429253815e-11,
+            "norm": 0.9999999999999998,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 0.9999999999999996
+          },
+          "circuit_file": "6-3-will-08-unchanged.cirq.json"
+        },
+        {
+          "id": "6-3-p2_unitary-04-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": 6,
+            "dc": 2
+          },
+          "enumerated": 1584,
+          "analytic_denominator": 1.1040788424543573,
+          "proxy_denominator": 1.0651947422329795,
+          "proxy_ratio": 0.9721405998185217,
+          "moments": 13,
+          "cz": 18,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 2.2394518718525064e-14,
+            "norm": 1.0000000000000002,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 1.0000000000000004
+          },
+          "circuit_file": "6-3-p2_unitary-04-fused.cirq.json"
+        },
+        {
+          "id": "6-3-p2_unitary-03-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": 6,
+            "dc": 2
+          },
+          "enumerated": 1584,
+          "analytic_denominator": 1.1040788424543573,
+          "proxy_denominator": 1.065194742233201,
+          "proxy_ratio": 0.9721405998183196,
+          "moments": 13,
+          "cz": 18,
+          "verification": {
+            "fidelity": 1.0000000000000009,
+            "amplitude_residual": 2.2517356285330628e-14,
+            "norm": 1.0000000000000004,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "6-3-p2_unitary-03-unchanged.cirq.json"
+        },
+        {
+          "id": "6-3-p2_unitary-05-terminal_global_x",
+          "family": "p2_unitary",
+          "variant": "terminal_global_x",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": 6,
+            "dc": 2
+          },
+          "enumerated": 1584,
+          "analytic_denominator": 1.104811173419003,
+          "proxy_denominator": 1.0661323153011149,
+          "proxy_ratio": 0.9712856845028994,
+          "moments": 13,
+          "cz": 18,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 2.2387678519147864e-14,
+            "norm": 1.0000000000000002,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 1.0000000000000004
+          },
+          "circuit_file": "6-3-p2_unitary-05-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "6-3-p2_unitary-01-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": -1,
+            "dr": 10,
+            "dc": 15
+          },
+          "enumerated": 1584,
+          "analytic_denominator": 1.1013946074875074,
+          "proxy_denominator": 1.0669544793973378,
+          "proxy_ratio": 0.9705372399981024,
+          "moments": 13,
+          "cz": 18,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 2.2394484318474804e-14,
+            "norm": 1.0000000000000002,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 1.0000000000000004
+          },
+          "circuit_file": "6-3-p2_unitary-01-fused.cirq.json"
+        },
+        {
+          "id": "6-3-p2_unitary-00-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": -1,
+            "dr": 10,
+            "dc": 15
+          },
+          "enumerated": 1584,
+          "analytic_denominator": 1.1013946074875074,
+          "proxy_denominator": 1.066954479397448,
+          "proxy_ratio": 0.9705372399980021,
+          "moments": 13,
+          "cz": 18,
+          "verification": {
+            "fidelity": 1.0000000000000009,
+            "amplitude_residual": 2.251745892218714e-14,
+            "norm": 1.0000000000000004,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "6-3-p2_unitary-00-unchanged.cirq.json"
+        },
+        {
+          "id": "6-3-p2_unitary-02-terminal_global_x",
+          "family": "p2_unitary",
+          "variant": "terminal_global_x",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": 1,
+            "dr": 10,
+            "dc": 6
+          },
+          "enumerated": 1584,
+          "analytic_denominator": 1.1023167503624456,
+          "proxy_denominator": 1.0689668607791136,
+          "proxy_ratio": 0.9687101570980124,
+          "moments": 13,
+          "cz": 18,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 2.2387678519147864e-14,
+            "norm": 1.0000000000000002,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 1.0000000000000004
+          },
+          "circuit_file": "6-3-p2_unitary-02-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "6-3-p2_unitary-07-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": 1,
+            "dr": 9,
+            "dc": 5
+          },
+          "enumerated": 1584,
+          "analytic_denominator": 1.105933255180941,
+          "proxy_denominator": 1.0705387088374003,
+          "proxy_ratio": 0.9672878216262473,
+          "moments": 13,
+          "cz": 18,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 2.2394518718525064e-14,
+            "norm": 1.0000000000000002,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 1.0000000000000004
+          },
+          "circuit_file": "6-3-p2_unitary-07-fused.cirq.json"
+        },
+        {
+          "id": "6-3-p2_unitary-06-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": 1,
+            "dr": 9,
+            "dc": 5
+          },
+          "enumerated": 1584,
+          "analytic_denominator": 1.105933255180941,
+          "proxy_denominator": 1.070538708837621,
+          "proxy_ratio": 0.9672878216260479,
+          "moments": 13,
+          "cz": 18,
+          "verification": {
+            "fidelity": 1.0000000000000009,
+            "amplitude_residual": 2.251745892218714e-14,
+            "norm": 1.0000000000000004,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "6-3-p2_unitary-06-unchanged.cirq.json"
+        },
+        {
+          "id": "6-3-p2_unitary-08-terminal_global_x",
+          "family": "p2_unitary",
+          "variant": "terminal_global_x",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": 1,
+            "dr": 9,
+            "dc": 5
+          },
+          "enumerated": 1584,
+          "analytic_denominator": 1.1071623512846414,
+          "proxy_denominator": 1.071686023888303,
+          "proxy_ratio": 0.9662522721727981,
+          "moments": 13,
+          "cz": 18,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 2.2387678519147864e-14,
+            "norm": 1.0000000000000002,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 1.0000000000000004
+          },
+          "circuit_file": "6-3-p2_unitary-08-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "6-3-p2_unitary-09-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": -1,
+            "dc": -1
+          },
+          "enumerated": 1584,
+          "analytic_denominator": 1.1115080624499352,
+          "proxy_denominator": 1.075087809926783,
+          "proxy_ratio": 0.9631948628535063,
+          "moments": 13,
+          "cz": 18,
+          "verification": {
+            "fidelity": 1.0000000000000009,
+            "amplitude_residual": 2.2517356285330628e-14,
+            "norm": 1.0000000000000004,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "6-3-p2_unitary-09-unchanged.cirq.json"
+        },
+        {
+          "id": "6-3-p2_unitary-10-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1584,
+          "analytic_denominator": 1.1885266165314543,
+          "proxy_denominator": 1.2124304609917038,
+          "proxy_ratio": 0.8540853178423979,
+          "moments": 13,
+          "cz": 18,
+          "verification": {
+            "fidelity": 1.0000000000000009,
+            "amplitude_residual": 2.2517356285330628e-14,
+            "norm": 1.0000000000000004,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "6-3-p2_unitary-10-unchanged.cirq.json"
+        },
+        {
+          "id": "6-3-p2_unitary-11-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1584,
+          "analytic_denominator": 1.1885266165314543,
+          "proxy_denominator": 1.2124304609918164,
+          "proxy_ratio": 0.8540853178423186,
+          "moments": 13,
+          "cz": 18,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 2.2394484318474804e-14,
+            "norm": 1.0000000000000002,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 1.0000000000000004
+          },
+          "circuit_file": "6-3-p2_unitary-11-fused.cirq.json"
+        },
+        {
+          "id": "6-3-p2_unitary-12-terminal_global_x",
+          "family": "p2_unitary",
+          "variant": "terminal_global_x",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1584,
+          "analytic_denominator": 1.1895213346553104,
+          "proxy_denominator": 1.2136987652786622,
+          "proxy_ratio": 0.8531928063716467,
+          "moments": 13,
+          "cz": 18,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 2.2387678519147864e-14,
+            "norm": 1.0000000000000002,
+            "active_qubits": 6,
+            "ancilla_zero_probability": 1.0000000000000004
+          },
+          "circuit_file": "6-3-p2_unitary-12-terminal_global_x.cirq.json"
+        }
+      ],
+      "seconds": 3.335394599940628
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "baseline_proxy": 1.0915896546555615,
+      "candidates": [
+        {
+          "id": "7-3-will-00-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 0
+          },
+          "enumerated": 964,
+          "analytic_denominator": 1.1488682491589752,
+          "proxy_denominator": 1.0915896546555615,
+          "proxy_ratio": 1.0,
+          "moments": 27,
+          "cz": 21,
+          "verification": {
+            "fidelity": 1.0000000000000009,
+            "amplitude_residual": 1.7623833857377477e-15,
+            "norm": 1.0000000000000004,
+            "active_qubits": 7,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "7-3-will-00-unchanged.cirq.json"
+        },
+        {
+          "id": "7-3-will-10-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 964,
+          "analytic_denominator": 1.1488682491589752,
+          "proxy_denominator": 1.0915896546555615,
+          "proxy_ratio": 1.0,
+          "moments": 27,
+          "cz": 21,
+          "verification": {
+            "fidelity": 1.0000000000000009,
+            "amplitude_residual": 1.7623833857377477e-15,
+            "norm": 1.0000000000000004,
+            "active_qubits": 7,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "7-3-will-10-unchanged.cirq.json"
+        },
+        {
+          "id": "7-3-will-02-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 0
+          },
+          "enumerated": 964,
+          "analytic_denominator": 1.1579163743158665,
+          "proxy_denominator": 1.0915896546556265,
+          "proxy_ratio": 0.9999999999999404,
+          "moments": 27,
+          "cz": 21,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 2.2214581976384655e-15,
+            "norm": 1.0,
+            "active_qubits": 7,
+            "ancilla_zero_probability": 1.0000000000000002
+          },
+          "circuit_file": "7-3-will-02-fused.cirq.json"
+        },
+        {
+          "id": "7-3-will-11-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 964,
+          "analytic_denominator": 1.1579163743158665,
+          "proxy_denominator": 1.0915896546556265,
+          "proxy_ratio": 0.9999999999999404,
+          "moments": 27,
+          "cz": 21,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 2.2214581976384655e-15,
+            "norm": 1.0,
+            "active_qubits": 7,
+            "ancilla_zero_probability": 1.0000000000000002
+          },
+          "circuit_file": "7-3-will-11-fused.cirq.json"
+        },
+        {
+          "id": "7-3-will-01-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": -1,
+            "dr": 9,
+            "dc": 22
+          },
+          "enumerated": 964,
+          "analytic_denominator": 1.1570845696617789,
+          "proxy_denominator": 1.0970162289724665,
+          "proxy_ratio": 0.9950533326913605,
+          "moments": 27,
+          "cz": 21,
+          "verification": {
+            "fidelity": 1.0000000000000009,
+            "amplitude_residual": 1.7555949609787688e-15,
+            "norm": 1.0000000000000004,
+            "active_qubits": 7,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "7-3-will-01-unchanged.cirq.json"
+        },
+        {
+          "id": "7-3-will-03-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": -1,
+            "dr": 9,
+            "dc": 22
+          },
+          "enumerated": 964,
+          "analytic_denominator": 1.166264908249884,
+          "proxy_denominator": 1.0970162289726588,
+          "proxy_ratio": 0.9950533326911861,
+          "moments": 27,
+          "cz": 21,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 2.225788809231238e-15,
+            "norm": 1.0,
+            "active_qubits": 7,
+            "ancilla_zero_probability": 1.0000000000000002
+          },
+          "circuit_file": "7-3-will-03-fused.cirq.json"
+        },
+        {
+          "id": "7-3-will-04-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": -1,
+            "dr": 15,
+            "dc": 14
+          },
+          "enumerated": 964,
+          "analytic_denominator": 1.166299888154936,
+          "proxy_denominator": 1.105529787143979,
+          "proxy_ratio": 0.9873905410324307,
+          "moments": 27,
+          "cz": 21,
+          "verification": {
+            "fidelity": 1.0000000000000009,
+            "amplitude_residual": 1.7555949609787688e-15,
+            "norm": 1.0000000000000004,
+            "active_qubits": 7,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "7-3-will-04-unchanged.cirq.json"
+        },
+        {
+          "id": "7-3-will-06-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": 1,
+            "dr": 9,
+            "dc": 0
+          },
+          "enumerated": 964,
+          "analytic_denominator": 1.1696066725439265,
+          "proxy_denominator": 1.1085836210043578,
+          "proxy_ratio": 0.9846705597784314,
+          "moments": 27,
+          "cz": 21,
+          "verification": {
+            "fidelity": 1.0000000000000009,
+            "amplitude_residual": 1.755594960978769e-15,
+            "norm": 1.0000000000000004,
+            "active_qubits": 7,
+            "ancilla_zero_probability": 1.000000000000001
+          },
+          "circuit_file": "7-3-will-06-unchanged.cirq.json"
+        },
+        {
+          "id": "7-3-will-08-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 2
+          },
+          "enumerated": 964,
+          "analytic_denominator": 1.1731952268370374,
+          "proxy_denominator": 1.1111290402157217,
+          "proxy_ratio": 0.9824148367534641,
+          "moments": 27,
+          "cz": 21,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 1.784321374662561e-15,
+            "norm": 1.0000000000000004,
+            "active_qubits": 7,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "7-3-will-08-unchanged.cirq.json"
+        },
+        {
+          "id": "7-3-will-07-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": -6,
+            "dc": -1
+          },
+          "enumerated": 964,
+          "analytic_denominator": 1.1730674246392216,
+          "proxy_denominator": 1.111799872863401,
+          "proxy_ratio": 0.9818220718484263,
+          "moments": 27,
+          "cz": 21,
+          "verification": {
+            "fidelity": 1.0000000000000004,
+            "amplitude_residual": 1.784321374662561e-15,
+            "norm": 1.0000000000000004,
+            "active_qubits": 7,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "7-3-will-07-unchanged.cirq.json"
+        },
+        {
+          "id": "7-3-will-05-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 7,
+            "dc": -4
+          },
+          "enumerated": 964,
+          "analytic_denominator": 1.169206623479734,
+          "proxy_denominator": 1.1123043181770078,
+          "proxy_ratio": 0.981376802028966,
+          "moments": 27,
+          "cz": 21,
+          "verification": {
+            "fidelity": 1.0000000000000009,
+            "amplitude_residual": 1.7623833857377477e-15,
+            "norm": 1.0000000000000004,
+            "active_qubits": 7,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "7-3-will-05-unchanged.cirq.json"
+        },
+        {
+          "id": "7-3-will-09-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": -1,
+            "dr": 9,
+            "dc": 21
+          },
+          "enumerated": 964,
+          "analytic_denominator": 1.1735385543980412,
+          "proxy_denominator": 1.1156645690885538,
+          "proxy_ratio": 0.9784210101315125,
+          "moments": 27,
+          "cz": 21,
+          "verification": {
+            "fidelity": 1.0000000000000009,
+            "amplitude_residual": 1.7555949609787688e-15,
+            "norm": 1.0000000000000004,
+            "active_qubits": 7,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "7-3-will-09-unchanged.cirq.json"
+        }
+      ],
+      "seconds": 1.5032633000519127
+    },
+    {
+      "n": 8,
+      "k": 3,
+      "baseline_proxy": 1.132034255520352,
+      "candidates": [
+        {
+          "id": "8-3-will-01-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 0
+          },
+          "enumerated": 872,
+          "analytic_denominator": 1.2249947931999385,
+          "proxy_denominator": 1.127220009161385,
+          "proxy_ratio": 1.0042709021485066,
+          "moments": 29,
+          "cz": 29,
+          "verification": {
+            "fidelity": 0.9999999999999996,
+            "amplitude_residual": 6.090017096313382e-08,
+            "norm": 1.0000000000000013,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 1.000000000000003
+          },
+          "circuit_file": "8-3-will-01-fused.cirq.json"
+        },
+        {
+          "id": "8-3-will-11-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 872,
+          "analytic_denominator": 1.2249947931999385,
+          "proxy_denominator": 1.127220009161385,
+          "proxy_ratio": 1.0042709021485066,
+          "moments": 29,
+          "cz": 29,
+          "verification": {
+            "fidelity": 0.9999999999999996,
+            "amplitude_residual": 6.090017096313382e-08,
+            "norm": 1.0000000000000013,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 1.000000000000003
+          },
+          "circuit_file": "8-3-will-11-fused.cirq.json"
+        },
+        {
+          "id": "8-3-will-00-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 0
+          },
+          "enumerated": 872,
+          "analytic_denominator": 1.1998164745578026,
+          "proxy_denominator": 1.132034255520352,
+          "proxy_ratio": 1.0,
+          "moments": 29,
+          "cz": 29,
+          "verification": {
+            "fidelity": 0.9999999999999971,
+            "amplitude_residual": 6.090017084322792e-08,
+            "norm": 1.0000000000000002,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 1.0000000000000007
+          },
+          "circuit_file": "8-3-will-00-unchanged.cirq.json"
+        },
+        {
+          "id": "8-3-will-10-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 872,
+          "analytic_denominator": 1.1998164745578026,
+          "proxy_denominator": 1.132034255520352,
+          "proxy_ratio": 1.0,
+          "moments": 29,
+          "cz": 29,
+          "verification": {
+            "fidelity": 0.9999999999999971,
+            "amplitude_residual": 6.090017084322792e-08,
+            "norm": 1.0000000000000002,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 1.0000000000000007
+          },
+          "circuit_file": "8-3-will-10-unchanged.cirq.json"
+        },
+        {
+          "id": "8-3-will-03-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": -1,
+            "dr": 22,
+            "dc": 11
+          },
+          "enumerated": 872,
+          "analytic_denominator": 1.23153575359571,
+          "proxy_denominator": 1.1604379565026692,
+          "proxy_ratio": 0.9755232920268134,
+          "moments": 29,
+          "cz": 29,
+          "verification": {
+            "fidelity": 0.9999999999999971,
+            "amplitude_residual": 6.090017084322793e-08,
+            "norm": 1.0,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "8-3-will-03-unchanged.cirq.json"
+        },
+        {
+          "id": "8-3-will-02-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": -1
+          },
+          "enumerated": 872,
+          "analytic_denominator": 1.2314061320173273,
+          "proxy_denominator": 1.1614099268773617,
+          "proxy_ratio": 0.9747068880012151,
+          "moments": 29,
+          "cz": 29,
+          "verification": {
+            "fidelity": 0.9999999999999971,
+            "amplitude_residual": 6.090017084322792e-08,
+            "norm": 1.0000000000000002,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 1.0000000000000007
+          },
+          "circuit_file": "8-3-will-02-unchanged.cirq.json"
+        },
+        {
+          "id": "8-3-will-04-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": 1,
+            "dr": 16,
+            "dc": -1
+          },
+          "enumerated": 872,
+          "analytic_denominator": 1.235147388170593,
+          "proxy_denominator": 1.1626816919968057,
+          "proxy_ratio": 0.9736407335839103,
+          "moments": 29,
+          "cz": 29,
+          "verification": {
+            "fidelity": 0.9999999999999969,
+            "amplitude_residual": 6.090017084322793e-08,
+            "norm": 1.0000000000000002,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "8-3-will-04-unchanged.cirq.json"
+        },
+        {
+          "id": "8-3-will-06-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": -1,
+            "dr": 7,
+            "dc": 18
+          },
+          "enumerated": 872,
+          "analytic_denominator": 1.2418229694978666,
+          "proxy_denominator": 1.1649705736912177,
+          "proxy_ratio": 0.9717277681388065,
+          "moments": 29,
+          "cz": 29,
+          "verification": {
+            "fidelity": 0.9999999999999971,
+            "amplitude_residual": 6.090017084322793e-08,
+            "norm": 1.0,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "8-3-will-06-unchanged.cirq.json"
+        },
+        {
+          "id": "8-3-will-05-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": -6,
+            "dc": -1
+          },
+          "enumerated": 872,
+          "analytic_denominator": 1.2405788214915385,
+          "proxy_denominator": 1.1653699115448823,
+          "proxy_ratio": 0.9713947857291607,
+          "moments": 29,
+          "cz": 29,
+          "verification": {
+            "fidelity": 0.9999999999999973,
+            "amplitude_residual": 6.090017084322792e-08,
+            "norm": 1.0000000000000002,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "8-3-will-05-unchanged.cirq.json"
+        },
+        {
+          "id": "8-3-will-07-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": -1,
+            "dr": 15,
+            "dc": 14
+          },
+          "enumerated": 872,
+          "analytic_denominator": 1.2422424466041364,
+          "proxy_denominator": 1.1685723327113013,
+          "proxy_ratio": 0.9687327209722874,
+          "moments": 29,
+          "cz": 29,
+          "verification": {
+            "fidelity": 0.9999999999999971,
+            "amplitude_residual": 6.090017084322793e-08,
+            "norm": 1.0,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "8-3-will-07-unchanged.cirq.json"
+        },
+        {
+          "id": "8-3-will-08-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": 1,
+            "dr": 7,
+            "dc": -5
+          },
+          "enumerated": 872,
+          "analytic_denominator": 1.2473537823043739,
+          "proxy_denominator": 1.17047111298664,
+          "proxy_ratio": 0.9671612079616297,
+          "moments": 29,
+          "cz": 29,
+          "verification": {
+            "fidelity": 0.9999999999999971,
+            "amplitude_residual": 6.090017084322793e-08,
+            "norm": 1.0,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "8-3-will-08-unchanged.cirq.json"
+        },
+        {
+          "id": "8-3-will-09-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": 1,
+            "dr": 17,
+            "dc": -1
+          },
+          "enumerated": 872,
+          "analytic_denominator": 1.2487551873221494,
+          "proxy_denominator": 1.1754051284027576,
+          "proxy_ratio": 0.963101341116878,
+          "moments": 29,
+          "cz": 29,
+          "verification": {
+            "fidelity": 0.9999999999999969,
+            "amplitude_residual": 6.090017084322793e-08,
+            "norm": 1.0000000000000002,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 1.0000000000000009
+          },
+          "circuit_file": "8-3-will-09-unchanged.cirq.json"
+        },
+        {
+          "id": "8-3-p2_unitary-01-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": 6,
+            "dc": 2
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.2378718892024392,
+          "proxy_denominator": 1.1868733045783961,
+          "proxy_ratio": 0.9537953639647121,
+          "moments": 27,
+          "cz": 35,
+          "verification": {
+            "fidelity": 0.9999999999999998,
+            "amplitude_residual": 4.565855249675516e-15,
+            "norm": 1.0,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999996
+          },
+          "circuit_file": "8-3-p2_unitary-01-fused.cirq.json"
+        },
+        {
+          "id": "8-3-p2_unitary-00-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": 6,
+            "dc": 2
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.2378718892024392,
+          "proxy_denominator": 1.1868733045785944,
+          "proxy_ratio": 0.9537953639645528,
+          "moments": 27,
+          "cz": 35,
+          "verification": {
+            "fidelity": 1.0000000000000013,
+            "amplitude_residual": 4.559942412768464e-15,
+            "norm": 1.0000000000000004,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 1.000000000000001
+          },
+          "circuit_file": "8-3-p2_unitary-00-unchanged.cirq.json"
+        },
+        {
+          "id": "8-3-p2_unitary-04-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 6
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.2390751835669438,
+          "proxy_denominator": 1.1926843763132908,
+          "proxy_ratio": 0.9491482222812253,
+          "moments": 27,
+          "cz": 35,
+          "verification": {
+            "fidelity": 1.0000000000000009,
+            "amplitude_residual": 4.555885967935594e-15,
+            "norm": 1.0000000000000004,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 1.0000000000000013
+          },
+          "circuit_file": "8-3-p2_unitary-04-unchanged.cirq.json"
+        },
+        {
+          "id": "8-3-p2_unitary-05-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 6
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.2390751835669438,
+          "proxy_denominator": 1.1926843763133719,
+          "proxy_ratio": 0.9491482222811608,
+          "moments": 27,
+          "cz": 35,
+          "verification": {
+            "fidelity": 0.9999999999999998,
+            "amplitude_residual": 4.565770886609589e-15,
+            "norm": 0.9999999999999999,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999996
+          },
+          "circuit_file": "8-3-p2_unitary-05-fused.cirq.json"
+        },
+        {
+          "id": "8-3-p2_unitary-02-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": 1,
+            "dr": 9,
+            "dc": 5
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.237909759511001,
+          "proxy_denominator": 1.1988878945247505,
+          "proxy_ratio": 0.9442369555070869,
+          "moments": 27,
+          "cz": 35,
+          "verification": {
+            "fidelity": 1.0000000000000013,
+            "amplitude_residual": 4.559805144225006e-15,
+            "norm": 1.0000000000000004,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 1.0000000000000013
+          },
+          "circuit_file": "8-3-p2_unitary-02-unchanged.cirq.json"
+        },
+        {
+          "id": "8-3-p2_unitary-03-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": 1,
+            "dr": 9,
+            "dc": 5
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.237909759511001,
+          "proxy_denominator": 1.1988878945247918,
+          "proxy_ratio": 0.9442369555070543,
+          "moments": 27,
+          "cz": 35,
+          "verification": {
+            "fidelity": 0.9999999999999998,
+            "amplitude_residual": 4.565855249675516e-15,
+            "norm": 0.9999999999999998,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999996
+          },
+          "circuit_file": "8-3-p2_unitary-03-fused.cirq.json"
+        },
+        {
+          "id": "8-3-p2_unitary-09-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": -1,
+            "dr": 9,
+            "dc": 14
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.2612923486955228,
+          "proxy_denominator": 1.203344896263158,
+          "proxy_ratio": 0.9407396491527469,
+          "moments": 27,
+          "cz": 35,
+          "verification": {
+            "fidelity": 1.0,
+            "amplitude_residual": 4.5709141842365365e-15,
+            "norm": 0.9999999999999998,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999993
+          },
+          "circuit_file": "8-3-p2_unitary-09-fused.cirq.json"
+        },
+        {
+          "id": "8-3-p2_unitary-08-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": -1,
+            "dr": 9,
+            "dc": 14
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.2612923486955228,
+          "proxy_denominator": 1.203344896263277,
+          "proxy_ratio": 0.9407396491526541,
+          "moments": 27,
+          "cz": 35,
+          "verification": {
+            "fidelity": 1.0000000000000013,
+            "amplitude_residual": 4.553042191225603e-15,
+            "norm": 1.0000000000000004,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 1.000000000000001
+          },
+          "circuit_file": "8-3-p2_unitary-08-unchanged.cirq.json"
+        },
+        {
+          "id": "8-3-p2_unitary-07-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": -1,
+            "dr": 6,
+            "dc": 12
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.2577828486840792,
+          "proxy_denominator": 1.2074462599831888,
+          "proxy_ratio": 0.9375442146270868,
+          "moments": 27,
+          "cz": 35,
+          "verification": {
+            "fidelity": 0.9999999999999998,
+            "amplitude_residual": 4.565855249675516e-15,
+            "norm": 0.9999999999999998,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999994
+          },
+          "circuit_file": "8-3-p2_unitary-07-fused.cirq.json"
+        },
+        {
+          "id": "8-3-p2_unitary-06-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": -1,
+            "dr": 6,
+            "dc": 12
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.2577828486840792,
+          "proxy_denominator": 1.2074462599834657,
+          "proxy_ratio": 0.9375442146268718,
+          "moments": 27,
+          "cz": 35,
+          "verification": {
+            "fidelity": 1.0000000000000013,
+            "amplitude_residual": 4.559942412768464e-15,
+            "norm": 1.0000000000000004,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 1.000000000000001
+          },
+          "circuit_file": "8-3-p2_unitary-06-unchanged.cirq.json"
+        },
+        {
+          "id": "8-3-p2_unitary-11-fused",
+          "family": "p2_unitary",
+          "variant": "fused",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.4874099460072132,
+          "proxy_denominator": 1.435760986383956,
+          "proxy_ratio": 0.7884559242492326,
+          "moments": 27,
+          "cz": 35,
+          "verification": {
+            "fidelity": 0.9999999999999998,
+            "amplitude_residual": 4.565770886609589e-15,
+            "norm": 0.9999999999999999,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999996
+          },
+          "circuit_file": "8-3-p2_unitary-11-fused.cirq.json"
+        },
+        {
+          "id": "8-3-p2_unitary-10-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.4874099460072132,
+          "proxy_denominator": 1.4357609863839953,
+          "proxy_ratio": 0.7884559242492111,
+          "moments": 27,
+          "cz": 35,
+          "verification": {
+            "fidelity": 1.0000000000000009,
+            "amplitude_residual": 4.555885967935594e-15,
+            "norm": 1.0000000000000004,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 1.0000000000000013
+          },
+          "circuit_file": "8-3-p2_unitary-10-unchanged.cirq.json"
+        }
+      ],
+      "seconds": 16.299886399996467
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "baseline_proxy": 1.1686344659999033,
+      "candidates": [
+        {
+          "id": "8-4-p2_unitary-01-terminal_global_x",
+          "family": "p2_unitary",
+          "variant": "terminal_global_x",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": -1,
+            "dr": 0,
+            "dc": 15
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.2563817201086998,
+          "proxy_denominator": 1.167015812269952,
+          "proxy_ratio": 1.0013870023978533,
+          "moments": 21,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999989,
+            "amplitude_residual": 8.289078427662896e-12,
+            "norm": 0.9999999999999997,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999991
+          },
+          "circuit_file": "8-4-p2_unitary-01-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "8-4-p2_unitary-00-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": -1,
+            "dr": 0,
+            "dc": 15
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.2563817201086998,
+          "proxy_denominator": 1.1670158122707108,
+          "proxy_ratio": 1.0013870023972022,
+          "moments": 21,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999996,
+            "amplitude_residual": 8.289218709431461e-12,
+            "norm": 0.9999999999999997,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999993
+          },
+          "circuit_file": "8-4-p2_unitary-00-unchanged.cirq.json"
+        },
+        {
+          "id": "8-4-will-08-terminal_global_x",
+          "family": "will",
+          "variant": "terminal_global_x",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 0
+          },
+          "enumerated": 1416,
+          "analytic_denominator": 1.270574304387487,
+          "proxy_denominator": 1.1686344659990804,
+          "proxy_ratio": 1.000000000000704,
+          "moments": 23,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999991,
+            "amplitude_residual": 8.28857633081819e-12,
+            "norm": 0.9999999999999996,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999993
+          },
+          "circuit_file": "8-4-will-08-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "8-4-will-12-terminal_global_x",
+          "family": "will",
+          "variant": "terminal_global_x",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1416,
+          "analytic_denominator": 1.270574304387487,
+          "proxy_denominator": 1.1686344659990804,
+          "proxy_ratio": 1.000000000000704,
+          "moments": 23,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999991,
+            "amplitude_residual": 8.28857633081819e-12,
+            "norm": 0.9999999999999996,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999993
+          },
+          "circuit_file": "8-4-will-12-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "8-4-will-07-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 0
+          },
+          "enumerated": 1416,
+          "analytic_denominator": 1.270574304387487,
+          "proxy_denominator": 1.1686344659998076,
+          "proxy_ratio": 1.000000000000082,
+          "moments": 23,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999993,
+            "amplitude_residual": 8.288717137818478e-12,
+            "norm": 0.9999999999999996,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999993
+          },
+          "circuit_file": "8-4-will-07-fused.cirq.json"
+        },
+        {
+          "id": "8-4-will-11-fused",
+          "family": "will",
+          "variant": "fused",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1416,
+          "analytic_denominator": 1.270574304387487,
+          "proxy_denominator": 1.1686344659998076,
+          "proxy_ratio": 1.000000000000082,
+          "moments": 23,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999993,
+            "amplitude_residual": 8.288717137818478e-12,
+            "norm": 0.9999999999999996,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999993
+          },
+          "circuit_file": "8-4-will-11-fused.cirq.json"
+        },
+        {
+          "id": "8-4-will-00-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 0
+          },
+          "enumerated": 1416,
+          "analytic_denominator": 1.253574591986276,
+          "proxy_denominator": 1.1686344659999033,
+          "proxy_ratio": 1.0,
+          "moments": 23,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999991,
+            "amplitude_residual": 8.289305951411509e-12,
+            "norm": 0.9999999999999996,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999993
+          },
+          "circuit_file": "8-4-will-00-unchanged.cirq.json"
+        },
+        {
+          "id": "8-4-will-10-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 1416,
+          "analytic_denominator": 1.253574591986276,
+          "proxy_denominator": 1.1686344659999033,
+          "proxy_ratio": 1.0,
+          "moments": 23,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999991,
+            "amplitude_residual": 8.289305951411509e-12,
+            "norm": 0.9999999999999996,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999993
+          },
+          "circuit_file": "8-4-will-10-unchanged.cirq.json"
+        },
+        {
+          "id": "8-4-p2_unitary-08-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": 1,
+            "dr": 8,
+            "dc": 5
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.263138743534667,
+          "proxy_denominator": 1.1737551876336836,
+          "proxy_ratio": 0.9956373171443836,
+          "moments": 21,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999996,
+            "amplitude_residual": 8.28921870934869e-12,
+            "norm": 0.9999999999999998,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999994
+          },
+          "circuit_file": "8-4-p2_unitary-08-unchanged.cirq.json"
+        },
+        {
+          "id": "8-4-p2_unitary-09-terminal_global_x",
+          "family": "p2_unitary",
+          "variant": "terminal_global_x",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": 1,
+            "dr": 8,
+            "dc": 5
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.263138743534667,
+          "proxy_denominator": 1.1737551876347259,
+          "proxy_ratio": 0.9956373171434995,
+          "moments": 21,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999989,
+            "amplitude_residual": 8.289078427662895e-12,
+            "norm": 0.9999999999999997,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999992
+          },
+          "circuit_file": "8-4-p2_unitary-09-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "8-4-p2_unitary-05-terminal_global_x",
+          "family": "p2_unitary",
+          "variant": "terminal_global_x",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 7
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.2612911435800296,
+          "proxy_denominator": 1.1739255554935533,
+          "proxy_ratio": 0.9954928236557339,
+          "moments": 21,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999989,
+            "amplitude_residual": 8.289078427662896e-12,
+            "norm": 0.9999999999999996,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999992
+          },
+          "circuit_file": "8-4-p2_unitary-05-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "8-4-p2_unitary-04-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 7
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.2612911435800296,
+          "proxy_denominator": 1.1739255554952912,
+          "proxy_ratio": 0.9954928236542602,
+          "moments": 21,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999996,
+            "amplitude_residual": 8.289218709431461e-12,
+            "norm": 0.9999999999999998,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999993
+          },
+          "circuit_file": "8-4-p2_unitary-04-unchanged.cirq.json"
+        },
+        {
+          "id": "8-4-p2_unitary-03-terminal_global_x",
+          "family": "p2_unitary",
+          "variant": "terminal_global_x",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": 7,
+            "dc": 2
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.261098603974971,
+          "proxy_denominator": 1.1743046740364567,
+          "proxy_ratio": 0.9951714336475703,
+          "moments": 21,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999991,
+            "amplitude_residual": 8.289078427546723e-12,
+            "norm": 0.9999999999999997,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999993
+          },
+          "circuit_file": "8-4-p2_unitary-03-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "8-4-p2_unitary-02-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": 7,
+            "dc": 2
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.261098603974971,
+          "proxy_denominator": 1.174304674037121,
+          "proxy_ratio": 0.9951714336470072,
+          "moments": 21,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999996,
+            "amplitude_residual": 8.289218709431461e-12,
+            "norm": 0.9999999999999998,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999994
+          },
+          "circuit_file": "8-4-p2_unitary-02-unchanged.cirq.json"
+        },
+        {
+          "id": "8-4-will-04-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": -7,
+            "dc": 5
+          },
+          "enumerated": 1416,
+          "analytic_denominator": 1.2591878797187641,
+          "proxy_denominator": 1.1744480740280132,
+          "proxy_ratio": 0.9950499233157487,
+          "moments": 23,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999996,
+            "amplitude_residual": 8.28930595144636e-12,
+            "norm": 0.9999999999999997,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999992
+          },
+          "circuit_file": "8-4-will-04-unchanged.cirq.json"
+        },
+        {
+          "id": "8-4-will-01-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": -1,
+            "dr": 0,
+            "dc": 22
+          },
+          "enumerated": 1416,
+          "analytic_denominator": 1.257351218119994,
+          "proxy_denominator": 1.1746230577122765,
+          "proxy_ratio": 0.9949016906546712,
+          "moments": 23,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999991,
+            "amplitude_residual": 8.289305951411509e-12,
+            "norm": 0.9999999999999997,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999993
+          },
+          "circuit_file": "8-4-will-01-unchanged.cirq.json"
+        },
+        {
+          "id": "8-4-p2_unitary-07-terminal_global_x",
+          "family": "p2_unitary",
+          "variant": "terminal_global_x",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": 1,
+            "dr": 15,
+            "dc": 2
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.2625309227824917,
+          "proxy_denominator": 1.1747706436502612,
+          "proxy_ratio": 0.9947767015770062,
+          "moments": 21,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999989,
+            "amplitude_residual": 8.289078427662895e-12,
+            "norm": 0.9999999999999997,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999992
+          },
+          "circuit_file": "8-4-p2_unitary-07-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "8-4-p2_unitary-06-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": 1,
+            "dr": 15,
+            "dc": 2
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.2625309227824917,
+          "proxy_denominator": 1.1747706436507679,
+          "proxy_ratio": 0.994776701576577,
+          "moments": 21,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999996,
+            "amplitude_residual": 8.28921870934869e-12,
+            "norm": 0.9999999999999998,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999994
+          },
+          "circuit_file": "8-4-p2_unitary-06-unchanged.cirq.json"
+        },
+        {
+          "id": "8-4-will-03-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": 2
+          },
+          "enumerated": 1416,
+          "analytic_denominator": 1.2587305641336484,
+          "proxy_denominator": 1.1756052504705345,
+          "proxy_ratio": 0.9940704718119954,
+          "moments": 23,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999996,
+            "amplitude_residual": 8.28930595144636e-12,
+            "norm": 0.9999999999999997,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999992
+          },
+          "circuit_file": "8-4-will-03-unchanged.cirq.json"
+        },
+        {
+          "id": "8-4-will-02-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": -1,
+            "sy": 1,
+            "dr": 22,
+            "dc": 2
+          },
+          "enumerated": 1416,
+          "analytic_denominator": 1.2586672236630851,
+          "proxy_denominator": 1.176344257682854,
+          "proxy_ratio": 0.9934459732917493,
+          "moments": 23,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999991,
+            "amplitude_residual": 8.289305951411507e-12,
+            "norm": 0.9999999999999997,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999993
+          },
+          "circuit_file": "8-4-will-02-unchanged.cirq.json"
+        },
+        {
+          "id": "8-4-will-06-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": -1,
+            "sy": -1,
+            "dr": 7,
+            "dc": 18
+          },
+          "enumerated": 1416,
+          "analytic_denominator": 1.2701260413379274,
+          "proxy_denominator": 1.1826079839035042,
+          "proxy_ratio": 0.9881841505437181,
+          "moments": 23,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999991,
+            "amplitude_residual": 8.289305951411507e-12,
+            "norm": 0.9999999999999997,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999993
+          },
+          "circuit_file": "8-4-will-06-unchanged.cirq.json"
+        },
+        {
+          "id": "8-4-will-05-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": true,
+            "sx": 1,
+            "sy": -1,
+            "dr": -7,
+            "dc": 14
+          },
+          "enumerated": 1416,
+          "analytic_denominator": 1.2695308301741173,
+          "proxy_denominator": 1.1840192756516914,
+          "proxy_ratio": 0.9870062844683671,
+          "moments": 23,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999991,
+            "amplitude_residual": 8.289305951411509e-12,
+            "norm": 0.9999999999999996,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999993
+          },
+          "circuit_file": "8-4-will-05-unchanged.cirq.json"
+        },
+        {
+          "id": "8-4-will-09-unchanged",
+          "family": "will",
+          "variant": "unchanged",
+          "placement": {
+            "swap": false,
+            "sx": 1,
+            "sy": 1,
+            "dr": 0,
+            "dc": -1
+          },
+          "enumerated": 1416,
+          "analytic_denominator": 1.2738382589575423,
+          "proxy_denominator": 1.1911178524897406,
+          "proxy_ratio": 0.9811241293690283,
+          "moments": 23,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999991,
+            "amplitude_residual": 8.289305951411509e-12,
+            "norm": 0.9999999999999996,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999993
+          },
+          "circuit_file": "8-4-will-09-unchanged.cirq.json"
+        },
+        {
+          "id": "8-4-p2_unitary-11-terminal_global_x",
+          "family": "p2_unitary",
+          "variant": "terminal_global_x",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.2949770689334337,
+          "proxy_denominator": 1.203021001075148,
+          "proxy_ratio": 0.9714165130579488,
+          "moments": 21,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999989,
+            "amplitude_residual": 8.289078427662896e-12,
+            "norm": 0.9999999999999996,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999992
+          },
+          "circuit_file": "8-4-p2_unitary-11-terminal_global_x.cirq.json"
+        },
+        {
+          "id": "8-4-p2_unitary-10-unchanged",
+          "family": "p2_unitary",
+          "variant": "unchanged",
+          "placement": {
+            "original_placement": true
+          },
+          "enumerated": 944,
+          "analytic_denominator": 1.2949770689334337,
+          "proxy_denominator": 1.203021001075653,
+          "proxy_ratio": 0.9714165130575412,
+          "moments": 21,
+          "cz": 24,
+          "verification": {
+            "fidelity": 0.9999999999999996,
+            "amplitude_residual": 8.289218709431461e-12,
+            "norm": 0.9999999999999998,
+            "active_qubits": 8,
+            "ancilla_zero_probability": 0.9999999999999993
+          },
+          "circuit_file": "8-4-p2_unitary-10-unchanged.cirq.json"
+        }
+      ],
+      "seconds": 11.00180960004218
+    }
+  ],
+  "source_sha256": "a2b6ff358b4a0f641b52f964c41673e728bb85c995a2a22525017dfa61a4b138",
+  "complete": true
+}

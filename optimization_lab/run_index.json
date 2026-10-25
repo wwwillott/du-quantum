@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-25",
+  "best_submission": "record_submission.py",
+  "incumbent_preserved": "recommended_submission.py",
+  "physical_hardware": false,
+  "noise_model": "Cirq Google bundled willow_pink calibration, 2024-08-16",
+  "official_shots_per_basis": 10000,
+  "score_aggregation": "sum of matched per-case medians; 4000 independent shot trials per case",
+  "promoted_cases": [[8, 4]],
+  "tests": {"command": "python -m pytest optimization_lab/tests/test_exact.py -q", "passed": 11},
+  "runs": [
+    {"directory": "20261025T094422438617Z", "hypotheses": ["H1", "H2", "H3"], "decision": "No material cheap-model lead; not promoted"},
+    {"directory": "depth-20261025T094532903368Z", "hypotheses": ["H4"], "decision": "No strict P2 depth wins; unchanged"},
+    {"directory": "qvm-20261025T094941816547Z", "hypotheses": ["H2", "H3", "H5"], "decision": "D(8,4) seeded frame leads advance to validation"},
+    {"directory": "validation-20261025T095410289633Z", "hypotheses": ["H3", "H5"], "decision": "D(8,4) seed 3 robust; D(4,2) nominees below 5% fresh-validation threshold"},
+    {"directory": "refine-20261025T095636098346Z", "hypotheses": ["H6"], "decision": "D(8,4) candidate; 48 proposals"},
+    {"directory": "qvm-20261025T095756214156Z", "hypotheses": ["H5"], "decision": "D(7,3), D(8,3) screen leads advance to validation"},
+    {"directory": "validation-20261025T100047232801Z", "hypotheses": ["H6"], "decision": "Promote refined D(8,4); fresh nominal, sign/strength stresses and three held-out patches pass"},
+    {"directory": "validation-20261025T100058071510Z", "hypotheses": ["H5"], "decision": "Reject general D(7,3), D(8,3) promotion due to placement losses"},
+    {"directory": "refine-20261025T100108197464Z", "hypotheses": ["H6"], "decision": "D(8,3) nominal-only lead retained experimentally; not independently robust-validated"},
+    {"directory": "multiplacement-20261025T100606715901Z", "hypotheses": ["H7"], "decision": "Reject: no nominal improvement; two reserved patches near baseline"},
+    {"directory": "record-20261025T100835002238Z", "hypotheses": ["H6"], "decision": "Exported API passed actual noisy QVM sampling, original scoring, physical/native checks, independent ideal check and matched 21-case rescore"}
+  ]
+}

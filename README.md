@@ -1,8 +1,11 @@
 # Dicke states on Willow
 
-Latest original-judges scoring comparison: [judges_audit/README.md](judges_audit/README.md).
-The best tested calibrated-noise P1 and verified depth P2 APIs are combined in
-[recommended_submission.py](recommended_submission.py).
+Latest optimization record: [optimization_lab/README.md](optimization_lab/README.md).
+The new [record_submission.py](record_submission.py) adds verified exact Pauli
+frames to Will's D(8,4) circuit: +79.6% for that case and +0.81% across the
+matched 21-case noisy-QVM comparison, with unchanged depth and P2 score.
+The prior [recommended_submission.py](recommended_submission.py) and its
+[original-judges scoring audit](judges_audit/README.md) remain unchanged.
 
 Deterministic, ancilla-free preparation of
 
