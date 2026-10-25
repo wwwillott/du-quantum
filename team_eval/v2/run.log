@@ -1,0 +1,82 @@
+built s101 D(2,1) cz=1 mom=3 t=0.1s valid=True F=1.0000000000 cache
+built s101 D(3,1) cz=3 mom=6 t=1.0s valid=True F=1.0000000000 cache
+built s101 D(4,1) cz=5 mom=11 t=1.0s valid=True F=1.0000000000 cache
+built s101 D(4,2) cz=5 mom=7 t=0.6s valid=True F=1.0000000000 cache
+built s101 D(5,1) cz=7 mom=15 t=1.8s valid=True F=1.0000000000 cache
+built s101 D(5,2) cz=10 mom=15 t=1.4s valid=True F=1.0000000000 cache
+built s101 D(6,1) cz=9 mom=18 t=2.0s valid=True F=1.0000000000 cache
+built s101 D(6,2) cz=15 mom=16 t=1.7s valid=True F=1.0000000000 cache
+built s101 D(6,3) cz=14 mom=18 t=2.6s valid=True F=1.0000000000 cache
+built s101 D(7,1) cz=11 mom=10 t=2.2s valid=True F=1.0000000000 cache
+built s101 D(7,2) cz=19 mom=18 t=1.8s valid=True F=1.0000000000 cache
+built s101 D(7,3) cz=21 mom=27 t=3.0s valid=True F=1.0000000000 cache
+built s101 D(8,1) cz=13 mom=26 t=5.2s valid=True F=1.0000000000 cache
+built s101 D(8,2) cz=23 mom=19 t=6.2s valid=True F=1.0000000000 cache
+built s101 D(8,3) cz=29 mom=29 t=8.7s valid=True F=1.0000000000 cache
+built s101 D(8,4) cz=24 mom=24 t=17.2s valid=True F=1.0000000000 cache
+built s101 D(9,1) cz=15 mom=12 t=1.5s valid=True F=1.0000000000 cache
+built s101 D(9,2) cz=27 mom=22 t=0.7s valid=True F=1.0000000000 cache
+built s101 D(9,3) cz=45 mom=45 t=0.9s valid=True F=1.0000000000 to-score
+built s101 D(9,4) cz=59 mom=61 t=0.9s valid=True F=1.0000000000 to-score
+built s101 D(10,1) cz=17 mom=13 t=1.6s valid=True F=1.0000000000 cache
+built s101 D(10,2) cz=31 mom=23 t=1.5s valid=True F=1.0000000000 cache
+built s101 D(10,3) cz=45 mom=45 t=1.9s valid=True F=1.0000000000 to-score
+built s101 D(10,4) cz=75 mom=67 t=1.4s valid=True F=1.0000000000 cache
+built s101 D(10,5) cz=73 mom=77 t=2.0s valid=True F=1.0000000000 to-score
+built s101 D(11,1) cz=19 mom=13 t=1.7s valid=True F=1.0000000000 cache
+built s101 D(11,2) cz=35 mom=26 t=1.3s valid=True F=1.0000000000 cache
+built s101 D(11,3) cz=66 mom=61 t=1.3s valid=True F=1.0000000000 to-score
+built s101 D(11,4) cz=89 mom=80 t=1.2s valid=True F=1.0000000000 cache
+built s101 D(11,5) cz=102 mom=93 t=1.1s valid=True F=1.0000000000 to-score
+built s202 D(2,1) cz=1 mom=3 t=0.1s valid=True F=1.0000000000 to-score
+built s202 D(3,1) cz=3 mom=7 t=0.8s valid=True F=1.0000000000 to-score
+built s202 D(4,1) cz=5 mom=7 t=1.2s valid=True F=1.0000000000 to-score
+built s202 D(4,2) cz=5 mom=7 t=0.7s valid=True F=1.0000000000 to-score
+built s202 D(5,1) cz=7 mom=15 t=1.9s valid=True F=1.0000000000 to-score
+built s202 D(5,2) cz=10 mom=17 t=1.5s valid=True F=1.0000000000 to-score
+built s202 D(6,1) cz=9 mom=11 t=2.2s valid=True F=1.0000000000 cache
+built s202 D(6,2) cz=15 mom=15 t=1.6s valid=True F=1.0000000000 cache
+built s202 D(6,3) cz=14 mom=18 t=2.6s valid=True F=1.0000000000 cache
+built s202 D(7,1) cz=11 mom=10 t=2.5s valid=True F=1.0000000000 cache
+built s202 D(7,2) cz=19 mom=18 t=2.4s valid=True F=1.0000000000 cache
+built s202 D(7,3) cz=21 mom=27 t=3.2s valid=True F=1.0000000000 cache
+built s202 D(8,1) cz=13 mom=11 t=5.7s valid=True F=1.0000000000 cache
+built s202 D(8,2) cz=23 mom=19 t=5.5s valid=True F=1.0000000000 cache
+built s202 D(8,3) cz=29 mom=29 t=8.9s valid=True F=1.0000000000 cache
+built s202 D(8,4) cz=24 mom=24 t=14.1s valid=True F=1.0000000000 cache
+built s202 D(9,1) cz=15 mom=12 t=1.2s valid=True F=1.0000000000 cache
+built s202 D(9,2) cz=27 mom=22 t=0.6s valid=True F=1.0000000000 cache
+built s202 D(9,3) cz=45 mom=45 t=0.9s valid=True F=1.0000000000 to-score
+built s202 D(9,4) cz=61 mom=62 t=0.7s valid=True F=1.0000000000 cache
+built s202 D(10,1) cz=17 mom=34 t=1.6s valid=True F=1.0000000000 cache
+built s202 D(10,2) cz=29 mom=27 t=1.2s valid=True F=1.0000000000 to-score
+built s202 D(10,3) cz=45 mom=45 t=1.2s valid=True F=1.0000000000 to-score
+built s202 D(10,4) cz=73 mom=65 t=1.4s valid=True F=1.0000000000 to-score
+built s202 D(10,5) cz=79 mom=73 t=1.5s valid=True F=1.0000000000 to-score
+built s202 D(11,1) cz=19 mom=13 t=1.5s valid=True F=1.0000000000 cache
+built s202 D(11,2) cz=33 mom=33 t=1.2s valid=True F=1.0000000000 to-score
+built s202 D(11,3) cz=66 mom=61 t=1.1s valid=True F=1.0000000000 to-score
+built s202 D(11,4) cz=89 mom=80 t=0.9s valid=True F=1.0000000000 cache
+built s202 D(11,5) cz=102 mom=93 t=1.0s valid=True F=1.0000000000 to-score
+40 cached, 20 to score
+scored s202 D(10,2) pauli=0.90952 hw=0.89661
+scored s202 D(10,3) pauli=0.85136 hw=0.76030
+scored s101 D(10,3) pauli=0.82517 hw=0.74624
+scored s101 D(9,3) pauli=0.85851 hw=0.75958
+scored s202 D(11,2) pauli=0.87905 hw=0.82052
+scored s202 D(5,1) pauli=1.37515 hw=1.32047
+scored s202 D(5,2) pauli=1.16729 hw=1.05571
+scored s202 D(4,1) pauli=1.59099 hw=1.57727
+scored s202 D(4,2) pauli=1.25966 hw=1.27300
+scored s202 D(10,4) pauli=0.72872 hw=0.55698
+scored s202 D(3,1) pauli=2.10545 hw=2.12881
+scored s202 D(2,1) pauli=4.52854 hw=5.02842
+scored s101 D(9,4) pauli=0.77141 hw=0.58103
+scored s101 D(10,5) pauli=0.71679 hw=0.51964
+scored s202 D(9,3) pauli=0.84122 hw=0.73878
+scored s202 D(10,5) pauli=0.66543 hw=0.51393
+scored s202 D(11,3) pauli=0.80458 hw=0.65574
+scored s101 D(11,3) pauli=0.79017 hw=0.67158
+scored s101 D(11,5) pauli=0.61419 hw=0.40482
+scored s202 D(11,5) pauli=0.60689 hw=0.41310
+done

@@ -1,0 +1,7462 @@
+[
+ {
+  "seed": 101,
+  "N": 2,
+  "n": 1,
+  "construction_seconds": 0.13449309999998604,
+  "moments": 3,
+  "qubits": [
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    6
+   ]
+  ],
+  "circuit_sha256": "c9faf0220b743d3177180cfe8b7dc4b691e4a6366d058fe82e79aca433a23c12",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N02_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 1,
+  "exactness": {
+   "fidelity": 1.0,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "867ea3cf5bddffaaf97443c3393c533a31a3cb3d5ef129985c7b93bc9e63c16c",
+  "models": {
+   "pauli": {
+    "median": 4.866620359768673,
+    "mean": 103.99875076446452,
+    "Zmed": 0.20503258288553095,
+    "Xmed": 0.0004315849999999995,
+    "f": 0.990987,
+    "n_traj": 2000,
+    "simulation_seconds": 0.010538200000155484,
+    "scoring_seconds": 0.0542076999990968,
+    "trajectory_seed": 12095115662517155351,
+    "resampling_seed": 18278914130990317411,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 3,
+     "nq": 2
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999998
+   },
+   "hw": {
+    "median": 4.090097525945231,
+    "mean": 61.58528974389142,
+    "Zmed": 0.2436703716471153,
+    "Xmed": 0.0007618000000000001,
+    "f": 0.989417,
+    "n_traj": 1000,
+    "simulation_seconds": 0.01634829999966314,
+    "scoring_seconds": 0.052324899999803165,
+    "trajectory_seed": 569139301971226081,
+    "resampling_seed": 3992212752790120931,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 3,
+     "nq": 2
+    },
+    "pz_sum": 0.9999999999999991,
+    "px_sum": 1.0
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 3,
+  "n": 1,
+  "construction_seconds": 1.0077039999999897,
+  "moments": 6,
+  "qubits": [
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    5,
+    5
+   ]
+  ],
+  "circuit_sha256": "98dbd7852618c2bde82870acb168579d0e3928d843394bcecf0626a5cea984e5",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N03_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 3,
+  "exactness": {
+   "fidelity": 1.0,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "90c30175570315c758d2d757cf9aa665164a477aa38c92b90a32f9ca0cfd211d",
+  "models": {
+   "pauli": {
+    "median": 2.2130216283980193,
+    "mean": 7.883678433638331,
+    "Zmed": 0.4509239382791457,
+    "Xmed": 0.0008755311111111067,
+    "f": 0.9834912499999998,
+    "n_traj": 2000,
+    "simulation_seconds": 0.032463399998960085,
+    "scoring_seconds": 0.07852619999903254,
+    "trajectory_seed": 14669116078964751534,
+    "resampling_seed": 155924457659147024,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 6,
+     "nq": 3
+    },
+    "pz_sum": 1.0000000000000084,
+    "px_sum": 1.0000000000000027
+   },
+   "hw": {
+    "median": 1.934749822062193,
+    "mean": 6.32365444546998,
+    "Zmed": 0.5155232737435169,
+    "Xmed": 0.0014456355555555506,
+    "f": 0.981143,
+    "n_traj": 1000,
+    "simulation_seconds": 0.03994009999951231,
+    "scoring_seconds": 0.06331009999848902,
+    "trajectory_seed": 1981271752375131740,
+    "resampling_seed": 14805906651990258716,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 6,
+     "nq": 3
+    },
+    "pz_sum": 1.0000000000000002,
+    "px_sum": 0.9999999999999996
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 4,
+  "n": 1,
+  "construction_seconds": 0.9702522999999701,
+  "moments": 11,
+  "qubits": [
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ]
+  ],
+  "circuit_sha256": "b455e0c80b672c351954982abee64c81586f81cce235ed82616bab02ca64783d",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N04_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 5,
+  "exactness": {
+   "fidelity": 0.9999999999999998,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "55e55c9d63c834491bc2f12f98fbf10b549756030f6e4dd39a989e81e5e6ff71",
+  "models": {
+   "pauli": {
+    "median": 1.6953687557439079,
+    "mean": 5.160317343997109,
+    "Zmed": 0.5886859285380273,
+    "Xmed": 0.0013087869444444462,
+    "f": 0.9757650000000001,
+    "n_traj": 2000,
+    "simulation_seconds": 0.0945787000018754,
+    "scoring_seconds": 0.09556599999996251,
+    "trajectory_seed": 5992592714766372383,
+    "resampling_seed": 11592946416539832181,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 11,
+     "nq": 4
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999999
+   },
+   "hw": {
+    "median": 1.7102806466683456,
+    "mean": 3.1486279648497826,
+    "Zmed": 0.58307898429732,
+    "Xmed": 0.0022485269444444417,
+    "f": 0.9672055,
+    "n_traj": 1000,
+    "simulation_seconds": 0.08681110000179615,
+    "scoring_seconds": 0.08015760000125738,
+    "trajectory_seed": 7114005707044106242,
+    "resampling_seed": 7119806364140646065,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 11,
+     "nq": 4
+    },
+    "pz_sum": 0.9999999999999998,
+    "px_sum": 0.9999999999999994
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 4,
+  "n": 2,
+  "construction_seconds": 0.6003802999999834,
+  "moments": 7,
+  "qubits": [
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ]
+  ],
+  "circuit_sha256": "bbd05fdef61661e5988d2ffa8a5e512a20260f7eaa8b8a028f5b3e2490f97e36",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N04_n02.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 5,
+  "exactness": {
+   "fidelity": 1.0,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "566b7cfd9d4f1ff8a643c6f9ee6dc01f3fa2507f0bde5e038371ab703b61591c",
+  "models": {
+   "pauli": {
+    "median": 1.374988192138451,
+    "mean": 2.0298645209318655,
+    "Zmed": 0.7235635747583906,
+    "Xmed": 0.003594383749999996,
+    "f": 0.9717505,
+    "n_traj": 2000,
+    "simulation_seconds": 0.04764639999848441,
+    "scoring_seconds": 0.06685379999908037,
+    "trajectory_seed": 1588687782953456799,
+    "resampling_seed": 2203306029740718300,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 7,
+     "nq": 4
+    },
+    "pz_sum": 1.000000000000008,
+    "px_sum": 1.0000000000000024
+   },
+   "hw": {
+    "median": 1.2684927779672748,
+    "mean": 1.8074641045457458,
+    "Zmed": 0.7820326785090803,
+    "Xmed": 0.006025393749999991,
+    "f": 0.96674425,
+    "n_traj": 1000,
+    "simulation_seconds": 0.058359499998914544,
+    "scoring_seconds": 0.06490439999834052,
+    "trajectory_seed": 713296297586122099,
+    "resampling_seed": 14490940546757279696,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 7,
+     "nq": 4
+    },
+    "pz_sum": 1.0000000000000004,
+    "px_sum": 0.9999999999999996
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 5,
+  "n": 1,
+  "construction_seconds": 1.8308688000000757,
+  "moments": 15,
+  "qubits": [
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    7
+   ]
+  ],
+  "circuit_sha256": "9223a8b5924a7adb07c9f9a4ff08d36f0935450366390db22d1b91ffe1a8a173",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N05_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 7,
+  "exactness": {
+   "fidelity": 0.9999999999999998,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "37b582986bbda5a6eb160c1808d0bea4c02d6e7c837069f1db792d9aca6d355e",
+  "models": {
+   "pauli": {
+    "median": 1.4099272946939223,
+    "mean": 2.3359213800230427,
+    "Zmed": 0.7077342489958389,
+    "Xmed": 0.0013034856000000046,
+    "f": 0.9662569999999999,
+    "n_traj": 2000,
+    "simulation_seconds": 0.19069170000148006,
+    "scoring_seconds": 0.10420570000133011,
+    "trajectory_seed": 658047567675643572,
+    "resampling_seed": 14359224236214808279,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 15,
+     "nq": 5
+    },
+    "pz_sum": 0.9999999999999656,
+    "px_sum": 1.0000000000000133
+   },
+   "hw": {
+    "median": 1.3799616478467587,
+    "mean": 2.1255646117079903,
+    "Zmed": 0.7226342113245072,
+    "Xmed": 0.001262020200000001,
+    "f": 0.9705195000000001,
+    "n_traj": 1000,
+    "simulation_seconds": 0.23117610000190325,
+    "scoring_seconds": 0.10285899999871617,
+    "trajectory_seed": 845895457644092921,
+    "resampling_seed": 4278553279748431378,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 15,
+     "nq": 5
+    },
+    "pz_sum": 0.9999999999999997,
+    "px_sum": 0.9999999999999992
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 5,
+  "n": 2,
+  "construction_seconds": 1.427186000000006,
+  "moments": 15,
+  "qubits": [
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    7,
+    7
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    7,
+    9
+   ]
+  ],
+  "circuit_sha256": "5cd4036a474049d2cf151beec0d940a8b7a983d376468bc1149334c54586e00d",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N05_n02.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 10,
+  "exactness": {
+   "fidelity": 1.0000000000000018,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "2525089e5dec82e8b3590e1b4cdfeee348f8ba726f9cd5ec3b55799d5112778e",
+  "models": {
+   "pauli": {
+    "median": 1.0975074280992834,
+    "mean": 1.3324962094184645,
+    "Zmed": 0.9057025301298953,
+    "Xmed": 0.005975012888888875,
+    "f": 0.96008075,
+    "n_traj": 2000,
+    "simulation_seconds": 0.20449619999999413,
+    "scoring_seconds": 0.08872419999897829,
+    "trajectory_seed": 1208668140043250666,
+    "resampling_seed": 14428996827210089085,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 15,
+     "nq": 5
+    },
+    "pz_sum": 0.9999999999999729,
+    "px_sum": 0.9999999999999907
+   },
+   "hw": {
+    "median": 1.1502514087485092,
+    "mean": 1.3086051731311374,
+    "Zmed": 0.8611905201372458,
+    "Xmed": 0.009699720799999978,
+    "f": 0.9557047499999999,
+    "n_traj": 1000,
+    "simulation_seconds": 0.20224210000014864,
+    "scoring_seconds": 0.0944707999988168,
+    "trajectory_seed": 14272039894444857550,
+    "resampling_seed": 7240068543049785217,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 15,
+     "nq": 5
+    },
+    "pz_sum": 1.0000000000000002,
+    "px_sum": 0.9999999999999993
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 6,
+  "n": 1,
+  "construction_seconds": 2.0482925000000023,
+  "moments": 18,
+  "qubits": [
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    6,
+    7
+   ]
+  ],
+  "circuit_sha256": "2d8a5dce39884b98c1a966ce67218856d358b0a8b65a63d91f472ce8e691091d",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N06_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 9,
+  "exactness": {
+   "fidelity": 0.9999999999999996,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "3e13cd5f76432783fd76fc21a164215b7244aa37a704bac511c4fec5753d9ee3",
+  "models": {
+   "pauli": {
+    "median": 1.2545878956107654,
+    "mean": 1.8108309924358903,
+    "Zmed": 0.7950070667394438,
+    "Xmed": 0.0022286565333333353,
+    "f": 0.961042,
+    "n_traj": 2000,
+    "simulation_seconds": 0.6491747000000032,
+    "scoring_seconds": 0.11741059999985737,
+    "trajectory_seed": 9032171241727168939,
+    "resampling_seed": 16508151785048086611,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 18,
+     "nq": 6
+    },
+    "pz_sum": 1.000000000000007,
+    "px_sum": 1.0000000000000067
+   },
+   "hw": {
+    "median": 1.2964037788789262,
+    "mean": 1.724157307706005,
+    "Zmed": 0.7679823144190159,
+    "Xmed": 0.0030681310888888797,
+    "f": 0.9459934999999998,
+    "n_traj": 1000,
+    "simulation_seconds": 0.3738683999981731,
+    "scoring_seconds": 0.16209729999900446,
+    "trajectory_seed": 16030877389872596003,
+    "resampling_seed": 11742443350523220305,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 18,
+     "nq": 6
+    },
+    "pz_sum": 0.9999999999999996,
+    "px_sum": 0.9999999999999989
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 6,
+  "n": 2,
+  "construction_seconds": 1.6671914999999444,
+  "moments": 16,
+  "qubits": [
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    7,
+    7
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    7,
+    9
+   ]
+  ],
+  "circuit_sha256": "ef27ce89f387072b1c5958485b29b7e5f8ccbc45b4e414f42fcb29281d90bf2a",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N06_n02.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 15,
+  "exactness": {
+   "fidelity": 1.0,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "953ac18843dbf837475441fbe98a3ccf7090092727bc529611ac0023c50fe66e",
+  "models": {
+   "pauli": {
+    "median": 1.0649620587878568,
+    "mean": 1.187083033524864,
+    "Zmed": 0.9277924103050222,
+    "Xmed": 0.010103158847222224,
+    "f": 0.9438990000000002,
+    "n_traj": 2000,
+    "simulation_seconds": 0.746408999999403,
+    "scoring_seconds": 0.17482680000102846,
+    "trajectory_seed": 12483116086980366826,
+    "resampling_seed": 12951500692867046751,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 16,
+     "nq": 6
+    },
+    "pz_sum": 0.9999999999999833,
+    "px_sum": 0.999999999999992
+   },
+   "hw": {
+    "median": 1.008918762220866,
+    "mean": 1.1098225730775189,
+    "Zmed": 0.9772921487738022,
+    "Xmed": 0.014124125779166687,
+    "f": 0.9336154999999999,
+    "n_traj": 1000,
+    "simulation_seconds": 0.3823941000009654,
+    "scoring_seconds": 0.20731569999770727,
+    "trajectory_seed": 18080939082981567360,
+    "resampling_seed": 10085829516879269478,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 16,
+     "nq": 6
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999989
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 6,
+  "n": 3,
+  "construction_seconds": 2.5693792000000713,
+  "moments": 18,
+  "qubits": [
+   [
+    1,
+    8
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    7
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    3,
+    9
+   ]
+  ],
+  "circuit_sha256": "7ef632c54f0ead4520cecfe47c0572d40a971d3b7b0e2b63118c2be71847f38e",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N06_n03.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 14,
+  "exactness": {
+   "fidelity": 0.9999999999999991,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "d57b531cb156a30e1a57e883ed6ba354714946eb62a04a63bc399ad5d6044e8e",
+  "models": {
+   "pauli": {
+    "median": 0.9873851443833861,
+    "mean": 1.0662123650826552,
+    "Zmed": 0.9973628933641994,
+    "Xmed": 0.015158122483950605,
+    "f": 0.949627,
+    "n_traj": 2000,
+    "simulation_seconds": 0.9122998999991978,
+    "scoring_seconds": 0.13535939999928814,
+    "trajectory_seed": 11253883855222932953,
+    "resampling_seed": 7064572054809581459,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 18,
+     "nq": 6
+    },
+    "pz_sum": 0.9999999999999882,
+    "px_sum": 0.9999999999999952
+   },
+   "hw": {
+    "median": 0.9228670166353256,
+    "mean": 1.0109142750618245,
+    "Zmed": 1.0469648952533688,
+    "Xmed": 0.03619128255555552,
+    "f": 0.91985575,
+    "n_traj": 1000,
+    "simulation_seconds": 0.5156851000028837,
+    "scoring_seconds": 0.222678400001314,
+    "trajectory_seed": 3755364724557254385,
+    "resampling_seed": 17703569613376846500,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 18,
+     "nq": 6
+    },
+    "pz_sum": 0.9999999999999999,
+    "px_sum": 0.9999999999999998
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 7,
+  "n": 1,
+  "construction_seconds": 2.155897999999979,
+  "moments": 10,
+  "qubits": [
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    7,
+    7
+   ]
+  ],
+  "circuit_sha256": "6eaa3b1758378c3e75140bd4dfecc7e295da6f4f34f7e121591bd7d06c46c5ab",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N07_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 11,
+  "exactness": {
+   "fidelity": 0.9999999999999991,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "146e95ec5ba896807283735a4e357c61be8cbef42ed82d267b51227103fc7c83",
+  "models": {
+   "pauli": {
+    "median": 1.1328285480826263,
+    "mean": 1.546447036008057,
+    "Zmed": 0.8797828929443262,
+    "Xmed": 0.0015667853006802659,
+    "f": 0.96052825,
+    "n_traj": 2000,
+    "simulation_seconds": 1.0121705999990809,
+    "scoring_seconds": 0.22559100000216858,
+    "trajectory_seed": 11964212930299493185,
+    "resampling_seed": 12648131789498014349,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 10,
+     "nq": 7
+    },
+    "pz_sum": 0.9999999999999981,
+    "px_sum": 0.9999999999999831
+   },
+   "hw": {
+    "median": 1.2715654246446273,
+    "mean": 1.6948191307483325,
+    "Zmed": 0.7841126886888649,
+    "Xmed": 0.0024478286693877466,
+    "f": 0.9474709999999998,
+    "n_traj": 1000,
+    "simulation_seconds": 0.921020599998883,
+    "scoring_seconds": 0.14566049999848474,
+    "trajectory_seed": 15404649163803544011,
+    "resampling_seed": 17754507740848310584,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 10,
+     "nq": 7
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999989
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 7,
+  "n": 2,
+  "construction_seconds": 1.8350568000000749,
+  "moments": 18,
+  "qubits": [
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    7,
+    7
+   ]
+  ],
+  "circuit_sha256": "c43c6c8620c7fade6c64f61d0463a376db3e48b27b7710aae0f04d61a3abd724",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N07_n02.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 19,
+  "exactness": {
+   "fidelity": 1.0000000000000004,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "bb26190c5fbbbd910ec74c461194f39d5fa36ca821773b0d9ed02e785dc34fb7",
+  "models": {
+   "pauli": {
+    "median": 1.0096544165542753,
+    "mean": 1.0688337899007168,
+    "Zmed": 0.9795491802409956,
+    "Xmed": 0.009946508248526057,
+    "f": 0.94042925,
+    "n_traj": 2000,
+    "simulation_seconds": 1.5037935999971523,
+    "scoring_seconds": 0.18149629999970784,
+    "trajectory_seed": 3934405242809579149,
+    "resampling_seed": 4471955447358687790,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 18,
+     "nq": 7
+    },
+    "pz_sum": 1.0000000000000435,
+    "px_sum": 1.000000000000012
+   },
+   "hw": {
+    "median": 0.9659076576078671,
+    "mean": 1.0230494049959413,
+    "Zmed": 1.0194371577911991,
+    "Xmed": 0.01864505006077096,
+    "f": 0.918437,
+    "n_traj": 1000,
+    "simulation_seconds": 1.23028770000019,
+    "scoring_seconds": 0.1579600000004575,
+    "trajectory_seed": 18339051199714901218,
+    "resampling_seed": 2729966469803490281,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 18,
+     "nq": 7
+    },
+    "pz_sum": 1.0000000000000002,
+    "px_sum": 0.9999999999999989
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 7,
+  "n": 3,
+  "construction_seconds": 3.0115924000000405,
+  "moments": 27,
+  "qubits": [
+   [
+    1,
+    8
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    3,
+    7
+   ],
+   [
+    3,
+    8
+   ]
+  ],
+  "circuit_sha256": "ef428efed980325612b0e68234d41f28236902077f6f5f09a711e816a44e87d4",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N07_n03.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 21,
+  "exactness": {
+   "fidelity": 1.0000000000000009,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "b509ffd3985eab454681147951f5c8fe81c7732dff5d39b657d17e5c9fefae15",
+  "models": {
+   "pauli": {
+    "median": 0.9509813691219058,
+    "mean": 0.9859203435687321,
+    "Zmed": 1.0209296910471501,
+    "Xmed": 0.03155352362811789,
+    "f": 0.9266589999999999,
+    "n_traj": 2000,
+    "simulation_seconds": 7.055120100001659,
+    "scoring_seconds": 0.17723079999996116,
+    "trajectory_seed": 1313792976458135730,
+    "resampling_seed": 9349436952295441480,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 27,
+     "nq": 7
+    },
+    "pz_sum": 1.0000000000000466,
+    "px_sum": 1.0000000000000056
+   },
+   "hw": {
+    "median": 0.9083445469841862,
+    "mean": 0.9419867171311946,
+    "Zmed": 1.0467616115813314,
+    "Xmed": 0.05005280008757869,
+    "f": 0.9133099999999998,
+    "n_traj": 1000,
+    "simulation_seconds": 0.29358439999850816,
+    "scoring_seconds": 0.15923209999891696,
+    "trajectory_seed": 7722027793400614998,
+    "resampling_seed": 6810340573252931008,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 27,
+     "nq": 7
+    },
+    "pz_sum": 0.9999999999999998,
+    "px_sum": 0.9999999999999987
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 8,
+  "n": 1,
+  "construction_seconds": 5.160228200000006,
+  "moments": 26,
+  "qubits": [
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    6,
+    9
+   ]
+  ],
+  "circuit_sha256": "4bf8d96337401eb646adcded5a923d5749cd3f322affdebe942a5fd64db3f555",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N08_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 13,
+  "exactness": {
+   "fidelity": 0.9999999999999989,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "7ed6fc368fe392f175b85be5c7cf091774ed3d9384214039a56d8feb63e16134",
+  "models": {
+   "pauli": {
+    "median": 1.1826234851251805,
+    "mean": 1.4792269776841023,
+    "Zmed": 0.8420856226010391,
+    "Xmed": 0.002684597512244896,
+    "f": 0.93968075,
+    "n_traj": 2000,
+    "simulation_seconds": 6.498972900000808,
+    "scoring_seconds": 0.20956139999907464,
+    "trajectory_seed": 214848484014246029,
+    "resampling_seed": 10903263935187625044,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 26,
+     "nq": 8
+    },
+    "pz_sum": 1.0000000000000002,
+    "px_sum": 0.9999999999999999
+   },
+   "hw": {
+    "median": 1.0504968351088397,
+    "mean": 1.33940463021922,
+    "Zmed": 0.9485721303283925,
+    "Xmed": 0.0046596317204081646,
+    "f": 0.9337420000000001,
+    "n_traj": 1000,
+    "simulation_seconds": 0.8896272999991197,
+    "scoring_seconds": 0.23108249999859254,
+    "trajectory_seed": 22333848221978308,
+    "resampling_seed": 5822421485801671403,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 26,
+     "nq": 8
+    },
+    "pz_sum": 1.0000000000000004,
+    "px_sum": 0.9999999999999987
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 8,
+  "n": 2,
+  "construction_seconds": 6.1593259999999646,
+  "moments": 19,
+  "qubits": [
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    7,
+    7
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "circuit_sha256": "7986bee884cc221e3cb2c77edf38758e74dc180bfa583bf27122f512983f4a78",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N08_n02.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 23,
+  "exactness": {
+   "fidelity": 1.0000000000000004,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "f5b543307a18fa61638059889154b21f82054b9693c628a72880689d576a0443",
+  "models": {
+   "pauli": {
+    "median": 0.9955488360479539,
+    "mean": 1.0409511080535767,
+    "Zmed": 0.9947472013026822,
+    "Xmed": 0.010629496103741483,
+    "f": 0.9322165000000001,
+    "n_traj": 2000,
+    "simulation_seconds": 3.2763432000028843,
+    "scoring_seconds": 0.22572020000006887,
+    "trajectory_seed": 9418527118356086432,
+    "resampling_seed": 8594638361833990815,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 19,
+     "nq": 8
+    },
+    "pz_sum": 0.9999999999999951,
+    "px_sum": 1.0000000000000027
+   },
+   "hw": {
+    "median": 0.893297195876438,
+    "mean": 0.9584766215219992,
+    "Zmed": 1.099695446468763,
+    "Xmed": 0.020346780945918345,
+    "f": 0.90439925,
+    "n_traj": 1000,
+    "simulation_seconds": 0.6940159000005224,
+    "scoring_seconds": 0.23577640000075917,
+    "trajectory_seed": 13072428937762612716,
+    "resampling_seed": 8167952502990081066,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 19,
+     "nq": 8
+    },
+    "pz_sum": 0.9999999999999999,
+    "px_sum": 0.9999999999999989
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 8,
+  "n": 3,
+  "construction_seconds": 8.699505000000045,
+  "moments": 29,
+  "qubits": [
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    6,
+    9
+   ],
+   [
+    7,
+    7
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    7,
+    10
+   ]
+  ],
+  "circuit_sha256": "93c2f2715b6bd1538baf4e5970ecf334d545d7988ef3bd482cbd042e4d9f10ec",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N08_n03.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 29,
+  "exactness": {
+   "fidelity": 0.9999999999999971,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "657a72426f349f42fd3550ab1754e9de45c23468dbbe4a017b073c66b76bf175",
+  "models": {
+   "pauli": {
+    "median": 0.9265674990464612,
+    "mean": 0.9431277406512918,
+    "Zmed": 1.0439888202110923,
+    "Xmed": 0.03525120926133783,
+    "f": 0.91650475,
+    "n_traj": 2000,
+    "simulation_seconds": 2.990995100000873,
+    "scoring_seconds": 0.33128880000003846,
+    "trajectory_seed": 15161867761497892101,
+    "resampling_seed": 11908212788822997217,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 29,
+     "nq": 8
+    },
+    "pz_sum": 0.9999999999999987,
+    "px_sum": 0.9999999999999966
+   },
+   "hw": {
+    "median": 0.828438117640279,
+    "mean": 0.8381002627951696,
+    "Zmed": 1.1197330720384921,
+    "Xmed": 0.08755680427131518,
+    "f": 0.8763865,
+    "n_traj": 1000,
+    "simulation_seconds": 1.2099162000013166,
+    "scoring_seconds": 0.27496980000069016,
+    "trajectory_seed": 92345407172012168,
+    "resampling_seed": 17707442419294795141,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 29,
+     "nq": 8
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999986
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 8,
+  "n": 4,
+  "construction_seconds": 17.197407100000078,
+  "moments": 24,
+  "qubits": [
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    4,
+    7
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ]
+  ],
+  "circuit_sha256": "c3d77d5b2b9c725bdad2d20123afe328ff5080cbaa71292218ad800d5f237dfe",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N08_n04.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 24,
+  "exactness": {
+   "fidelity": 1.0000000000000004,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "2ac073e5099e7d75dd27be0eacc01c66ac56090cee8228cd1bba15cae4840995",
+  "models": {
+   "pauli": {
+    "median": 0.9095448293267391,
+    "mean": 0.9192527179194004,
+    "Zmed": 1.0513899878548907,
+    "Xmed": 0.051002052383826164,
+    "f": 0.9200965,
+    "n_traj": 2000,
+    "simulation_seconds": 3.466355599997769,
+    "scoring_seconds": 0.23568929999964894,
+    "trajectory_seed": 12313678319808818016,
+    "resampling_seed": 12023734023204884072,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 24,
+     "nq": 8
+    },
+    "pz_sum": 0.9999999999999998,
+    "px_sum": 1.0
+   },
+   "hw": {
+    "median": 0.795069974954554,
+    "mean": 0.8038665612204002,
+    "Zmed": 1.1308703171712264,
+    "Xmed": 0.12286500262172453,
+    "f": 0.8734532500000001,
+    "n_traj": 1000,
+    "simulation_seconds": 0.711452300001838,
+    "scoring_seconds": 0.40940109999792185,
+    "trajectory_seed": 13423449792274390849,
+    "resampling_seed": 4067458860328937652,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 24,
+     "nq": 8
+    },
+    "pz_sum": 0.9999999999999999,
+    "px_sum": 0.9999999999999983
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 9,
+  "n": 1,
+  "construction_seconds": 1.5350799999998799,
+  "moments": 12,
+  "qubits": [
+   [
+    4,
+    6
+   ],
+   [
+    4,
+    7
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    6,
+    9
+   ],
+   [
+    7,
+    7
+   ]
+  ],
+  "circuit_sha256": "679d77cd030bf8f2226fced99cc32f1513984609e16e1c55708d3891f08212a5",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N09_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 15,
+  "exactness": {
+   "fidelity": 0.9999999999999996,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "10b5e54db2437ef00ab1de911d96ad55cf1d270aa25b12227be7e25107a30f94",
+  "models": {
+   "pauli": {
+    "median": 1.1868416340887982,
+    "mean": 1.5192454540839326,
+    "Zmed": 0.8410142701201578,
+    "Xmed": 0.002085720658226249,
+    "f": 0.9466929999999999,
+    "n_traj": 2000,
+    "simulation_seconds": 3.707461499998317,
+    "scoring_seconds": 0.2931094000014127,
+    "trajectory_seed": 16957238108721717210,
+    "resampling_seed": 10915397987361023045,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 12,
+     "nq": 9
+    },
+    "pz_sum": 1.0000000000000189,
+    "px_sum": 1.0000000000000036
+   },
+   "hw": {
+    "median": 1.0988575984708586,
+    "mean": 1.41209408080825,
+    "Zmed": 0.9080537120976349,
+    "Xmed": 0.0021483738274754296,
+    "f": 0.9388545,
+    "n_traj": 1000,
+    "simulation_seconds": 0.7895829999979469,
+    "scoring_seconds": 0.27001599999857717,
+    "trajectory_seed": 10610023954389571112,
+    "resampling_seed": 17792927143776745246,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 12,
+     "nq": 9
+    },
+    "pz_sum": 0.9999999999999998,
+    "px_sum": 0.9999999999999984
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 9,
+  "n": 2,
+  "construction_seconds": 0.6791175000000749,
+  "moments": 22,
+  "qubits": [
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    6,
+    9
+   ]
+  ],
+  "circuit_sha256": "a8562d646004bd9d4ccd5c35bf53a96d38676f2b7ec6bb2dd8721bd8b8ee014a",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N09_n02.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 27,
+  "exactness": {
+   "fidelity": 1.0,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "d3704e93af499b18f0e987d1a4066f220bf32f663bc5704b846f68a2f51292c6",
+  "models": {
+   "pauli": {
+    "median": 0.9799146064714481,
+    "mean": 0.9905532607882569,
+    "Zmed": 1.0062342394225907,
+    "Xmed": 0.010415368946837986,
+    "f": 0.92467275,
+    "n_traj": 2000,
+    "simulation_seconds": 3.8206245000001218,
+    "scoring_seconds": 0.27769809999881545,
+    "trajectory_seed": 2393515121262817061,
+    "resampling_seed": 1588667210237036289,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 22,
+     "nq": 9
+    },
+    "pz_sum": 1.0000000000000182,
+    "px_sum": 1.0000000000000124
+   },
+   "hw": {
+    "median": 0.8857282419899188,
+    "mean": 0.9346044141317617,
+    "Zmed": 1.1042703376623262,
+    "Xmed": 0.022395136301335335,
+    "f": 0.8918707499999999,
+    "n_traj": 1000,
+    "simulation_seconds": 1.6946740999992471,
+    "scoring_seconds": 0.27648520000002463,
+    "trajectory_seed": 2624608890031117097,
+    "resampling_seed": 3611862053792235376,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 22,
+     "nq": 9
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999984
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 9,
+  "n": 3,
+  "construction_seconds": 0.8551523000000998,
+  "moments": 45,
+  "qubits": [
+   [
+    4,
+    6
+   ],
+   [
+    4,
+    7
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    5,
+    8
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    7,
+    7
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    7,
+    9
+   ]
+  ],
+  "circuit_sha256": "e36158bb57886ffb411f0e9414dab01cda4c19e6ee30089591418b60e40d0505",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N09_n03.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 45,
+  "exactness": {
+   "fidelity": 1.0000000000000013,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "421286ca6facaa578901e9bfd65be6b04e9dfc16494afd0469d6c0601bbc9e71",
+  "models": {
+   "pauli": {
+    "median": 0.858511465575166,
+    "mean": 0.867293784772381,
+    "Zmed": 1.1118900394764943,
+    "Xmed": 0.054842509915041554,
+    "f": 0.887983,
+    "n_traj": 2000,
+    "simulation_seconds": 5.465355499999987,
+    "scoring_seconds": 0.2630007000000205,
+    "trajectory_seed": 7778403243329202795,
+    "resampling_seed": 2088643760120619119,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 45,
+     "nq": 9
+    },
+    "pz_sum": 1.000000000000016,
+    "px_sum": 0.9999999999999969
+   },
+   "hw": {
+    "median": 0.7595753319939086,
+    "mean": 0.7747585268051373,
+    "Zmed": 1.1889693914222295,
+    "Xmed": 0.12091877328591585,
+    "f": 0.83296925,
+    "n_traj": 1000,
+    "simulation_seconds": 6.038361400000213,
+    "scoring_seconds": 0.2788981999999578,
+    "trajectory_seed": 627021079420538224,
+    "resampling_seed": 1389841177812203080,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 45,
+     "nq": 9
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999982
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 101,
+  "N": 9,
+  "n": 4,
+  "construction_seconds": 0.9057769000000917,
+  "moments": 61,
+  "qubits": [
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    6,
+    9
+   ],
+   [
+    7,
+    6
+   ],
+   [
+    7,
+    7
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    8,
+    6
+   ]
+  ],
+  "circuit_sha256": "30ec64927614c070da77928a33477b989316a082ed888b9416e22704a1c029ee",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N09_n04.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 59,
+  "exactness": {
+   "fidelity": 0.9999999999999958,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "3b171cc80ed861df6fba1a70ae4b4b142ea2a2fc75850f5f0533ab8c34726aac",
+  "models": {
+   "pauli": {
+    "median": 0.771412638635256,
+    "mean": 0.7741457947653643,
+    "Zmed": 1.1509083400854596,
+    "Xmed": 0.14538001183980853,
+    "f": 0.8671844999999999,
+    "n_traj": 2000,
+    "simulation_seconds": 7.288156600000093,
+    "scoring_seconds": 0.2678088000000116,
+    "trajectory_seed": 17884096099779697697,
+    "resampling_seed": 13215534829380765352,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 61,
+     "nq": 9
+    },
+    "pz_sum": 1.0000000000000013,
+    "px_sum": 1.0000000000000009
+   },
+   "hw": {
+    "median": 0.5810296183795562,
+    "mean": 0.5857641254308485,
+    "Zmed": 1.3465199760660294,
+    "Xmed": 0.3754053776236962,
+    "f": 0.78489575,
+    "n_traj": 1000,
+    "simulation_seconds": 7.700315499999988,
+    "scoring_seconds": 0.28217240000003585,
+    "trajectory_seed": 14991342980775053841,
+    "resampling_seed": 14612342544697002011,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 61,
+     "nq": 9
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999982
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 101,
+  "N": 10,
+  "n": 1,
+  "construction_seconds": 1.5974530999999388,
+  "moments": 13,
+  "qubits": [
+   [
+    2,
+    6
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    7
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    4,
+    7
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    7
+   ]
+  ],
+  "circuit_sha256": "d4f7ad49a464a0b7b8e820a745906867f004a131550de77047a6e494b0fa019a",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N10_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 17,
+  "exactness": {
+   "fidelity": 0.9999999999999996,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "87c32050d93b776277b81a02f14234302a1fbbd9e62448cb9284bc8db3ef6136",
+  "models": {
+   "pauli": {
+    "median": 1.1361825666413659,
+    "mean": 1.2980471672557052,
+    "Zmed": 0.8775822194610885,
+    "Xmed": 0.0020382051670446008,
+    "f": 0.9371405,
+    "n_traj": 2000,
+    "simulation_seconds": 3.3120582000010472,
+    "scoring_seconds": 0.5322161000003689,
+    "trajectory_seed": 1039273785770953360,
+    "resampling_seed": 5815772907318610207,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 13,
+     "nq": 10
+    },
+    "pz_sum": 1.0000000000000087,
+    "px_sum": 1.0000000000000027
+   },
+   "hw": {
+    "median": 1.0898456835218626,
+    "mean": 1.3306408435039498,
+    "Zmed": 0.9152800307883044,
+    "Xmed": 0.0027767618772990763,
+    "f": 0.9354882499999999,
+    "n_traj": 1000,
+    "simulation_seconds": 3.0902353000019502,
+    "scoring_seconds": 0.5049321000005875,
+    "trajectory_seed": 3852025190054748603,
+    "resampling_seed": 1072997481724445324,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 13,
+     "nq": 10
+    },
+    "pz_sum": 1.0000000000000007,
+    "px_sum": 0.9999999999999988
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 10,
+  "n": 2,
+  "construction_seconds": 1.471205300000065,
+  "moments": 23,
+  "qubits": [
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    7,
+    7
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    7,
+    9
+   ]
+  ],
+  "circuit_sha256": "11476722a93c38fa31816f00bdbaec5a70510def4d767a3d840d58185cb393c6",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N10_n02.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 31,
+  "exactness": {
+   "fidelity": 0.9999999999999989,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "a12ddc09892b6d9265003152e896df6e56d03bf0b8a4194762569b18bb88bfe9",
+  "models": {
+   "pauli": {
+    "median": 0.9213907044822527,
+    "mean": 0.960353468753995,
+    "Zmed": 1.0734059964442513,
+    "Xmed": 0.011465544206935005,
+    "f": 0.9108042499999999,
+    "n_traj": 2000,
+    "simulation_seconds": 5.302630100002716,
+    "scoring_seconds": 0.42547209999975166,
+    "trajectory_seed": 15535575977234979837,
+    "resampling_seed": 3300571261192147757,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 23,
+     "nq": 10
+    },
+    "pz_sum": 0.9999999999999972,
+    "px_sum": 0.9999999999999944
+   },
+   "hw": {
+    "median": 0.8910537472481128,
+    "mean": 0.90198850367186,
+    "Zmed": 1.097443071101067,
+    "Xmed": 0.02796073587620622,
+    "f": 0.87168475,
+    "n_traj": 1000,
+    "simulation_seconds": 6.136345800001436,
+    "scoring_seconds": 0.4351879000023473,
+    "trajectory_seed": 9527461359579507409,
+    "resampling_seed": 16070841731551897595,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 23,
+     "nq": 10
+    },
+    "pz_sum": 1.0000000000000002,
+    "px_sum": 0.9999999999999982
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 10,
+  "n": 3,
+  "construction_seconds": 1.9314291000000594,
+  "moments": 45,
+  "qubits": [
+   [
+    5,
+    9
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    6,
+    9
+   ],
+   [
+    7,
+    6
+   ],
+   [
+    7,
+    7
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    8,
+    5
+   ],
+   [
+    8,
+    6
+   ]
+  ],
+  "circuit_sha256": "3727dbcb6d3961c5c2e1c07e25ddd90bd7ad77e9e30cd9713d6263b45be01b57",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N10_n03.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 45,
+  "exactness": {
+   "fidelity": 0.9999999999999747,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "2f24a54b56a2d019dcfa684e9d5ba83be4ea4d8aacf7d8d9dbf7a87d27c448b9",
+  "models": {
+   "pauli": {
+    "median": 0.8251743281143383,
+    "mean": 0.8385650536390543,
+    "Zmed": 1.1430777336857307,
+    "Xmed": 0.06596731826208108,
+    "f": 0.8741384999999999,
+    "n_traj": 2000,
+    "simulation_seconds": 13.965103,
+    "scoring_seconds": 0.37897479999992356,
+    "trajectory_seed": 1968560961805567232,
+    "resampling_seed": 17403754350179122733,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 45,
+     "nq": 10
+    },
+    "pz_sum": 1.0000000000000036,
+    "px_sum": 1.0000000000000027
+   },
+   "hw": {
+    "median": 0.7462379857120301,
+    "mean": 0.7465843108812986,
+    "Zmed": 1.2110809206363675,
+    "Xmed": 0.133377434105165,
+    "f": 0.8204602499999999,
+    "n_traj": 1000,
+    "simulation_seconds": 11.256044999999858,
+    "scoring_seconds": 0.4333899000000656,
+    "trajectory_seed": 8668483322902870259,
+    "resampling_seed": 85128184588244434,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 45,
+     "nq": 10
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999984
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 101,
+  "N": 10,
+  "n": 4,
+  "construction_seconds": 1.3994419000000562,
+  "moments": 67,
+  "qubits": [
+   [
+    5,
+    9
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    6,
+    9
+   ],
+   [
+    7,
+    6
+   ],
+   [
+    7,
+    7
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    8,
+    6
+   ]
+  ],
+  "circuit_sha256": "4f08d0a61f8ac2bc898504c8c9f385779e35fe0e9da4ff4b21f83ec5e0005f18",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N10_n04.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 75,
+  "exactness": {
+   "fidelity": 1.0000000000000009,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "92b485ebde7c3f43c6c1b219c4573038199e72a19d89aa7c973e1e441b67c42d",
+  "models": {
+   "pauli": {
+    "median": 0.7484759490417969,
+    "mean": 0.746596269510207,
+    "Zmed": 1.1774794513498987,
+    "Xmed": 0.1571492303193373,
+    "f": 0.84590925,
+    "n_traj": 2000,
+    "simulation_seconds": 13.828550799997174,
+    "scoring_seconds": 0.5793583000013314,
+    "trajectory_seed": 2722946838696154584,
+    "resampling_seed": 13386336333541633077,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 67,
+     "nq": 10
+    },
+    "pz_sum": 0.9999999999999987,
+    "px_sum": 1.0000000000000022
+   },
+   "hw": {
+    "median": 0.56763768711239,
+    "mean": 0.5676034057510758,
+    "Zmed": 1.3431675967475099,
+    "Xmed": 0.41789554994443173,
+    "f": 0.7489352499999999,
+    "n_traj": 1000,
+    "simulation_seconds": 17.290454099998897,
+    "scoring_seconds": 0.5541554000010365,
+    "trajectory_seed": 8759766355556086688,
+    "resampling_seed": 9473004389589120834,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 67,
+     "nq": 10
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999982
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 10,
+  "n": 5,
+  "construction_seconds": 1.976243199999999,
+  "moments": 77,
+  "qubits": [
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    6,
+    9
+   ],
+   [
+    7,
+    6
+   ],
+   [
+    7,
+    7
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    8,
+    6
+   ]
+  ],
+  "circuit_sha256": "cdf2efa6bf234432d0dab58482e1b54909ea5bafd9edb9959c42a24086ffa952",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N10_n05.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 73,
+  "exactness": {
+   "fidelity": 0.9999999999999984,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "784323b68bacd40ea27ea1e14e602ff3f8cc582b723e2971356f1af873b5d432",
+  "models": {
+   "pauli": {
+    "median": 0.7167865491288659,
+    "mean": 0.7180758002995684,
+    "Zmed": 1.211155633345114,
+    "Xmed": 0.18540200409435922,
+    "f": 0.8265705,
+    "n_traj": 2000,
+    "simulation_seconds": 20.448106999999936,
+    "scoring_seconds": 0.37816320000001724,
+    "trajectory_seed": 8623279222890867511,
+    "resampling_seed": 13310566453270394606,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 77,
+     "nq": 10
+    },
+    "pz_sum": 0.9999999999999991,
+    "px_sum": 1.0
+   },
+   "hw": {
+    "median": 0.5196423064845274,
+    "mean": 0.5212719184963212,
+    "Zmed": 1.4314121913961324,
+    "Xmed": 0.48534835022987344,
+    "f": 0.7113419999999999,
+    "n_traj": 1000,
+    "simulation_seconds": 20.613223500000004,
+    "scoring_seconds": 0.4184745000000021,
+    "trajectory_seed": 994531722785970541,
+    "resampling_seed": 6459297741908855924,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 77,
+     "nq": 10
+    },
+    "pz_sum": 1.0000000000000002,
+    "px_sum": 0.9999999999999983
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 101,
+  "N": 11,
+  "n": 1,
+  "construction_seconds": 1.6896159999998872,
+  "moments": 13,
+  "qubits": [
+   [
+    1,
+    8
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    7
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    4,
+    7
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    5,
+    7
+   ]
+  ],
+  "circuit_sha256": "9a940a3fe83da636e4665244992f2374e7c2258caf92562b97240ba01f9b89bf",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N11_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 19,
+  "exactness": {
+   "fidelity": 0.9999999999999993,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "7a87524199e1433e31cc4bdaf78e841102cf287285135f03477c395a28bec2b3",
+  "models": {
+   "pauli": {
+    "median": 1.0791873091127595,
+    "mean": 1.216974168130142,
+    "Zmed": 0.9246717693435355,
+    "Xmed": 0.001991815471509152,
+    "f": 0.9257645,
+    "n_traj": 2000,
+    "simulation_seconds": 5.427904899999703,
+    "scoring_seconds": 0.6700201999992714,
+    "trajectory_seed": 1552958270110029290,
+    "resampling_seed": 14697890462466461166,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 13,
+     "nq": 11
+    },
+    "pz_sum": 0.9999999999999987,
+    "px_sum": 0.9999999999999971
+   },
+   "hw": {
+    "median": 1.0218780167635315,
+    "mean": 1.2109881363252228,
+    "Zmed": 0.9750517695352809,
+    "Xmed": 0.0029649973297951777,
+    "f": 0.91933025,
+    "n_traj": 1000,
+    "simulation_seconds": 5.52759110000261,
+    "scoring_seconds": 0.6947658999997657,
+    "trajectory_seed": 11538092965640674014,
+    "resampling_seed": 14416468933372852555,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 13,
+     "nq": 11
+    },
+    "pz_sum": 1.0000000000000013,
+    "px_sum": 0.9999999999999993
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 11,
+  "n": 2,
+  "construction_seconds": 1.2518643000000793,
+  "moments": 26,
+  "qubits": [
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    7,
+    7
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    7,
+    10
+   ]
+  ],
+  "circuit_sha256": "040868538150a6a1517447062b410d06dc0255e5636c34970dbbcc110cf9cffc",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N11_n02.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 35,
+  "exactness": {
+   "fidelity": 1.0000000000000004,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "e36eb5a409a699fd9f93aa198f03f261928a471e52b4a22dfd705b6af1305095",
+  "models": {
+   "pauli": {
+    "median": 0.9008434862503207,
+    "mean": 0.9245117737947052,
+    "Zmed": 1.0944723771056126,
+    "Xmed": 0.01428504539954565,
+    "f": 0.8917404999999999,
+    "n_traj": 2000,
+    "simulation_seconds": 11.911785199998121,
+    "scoring_seconds": 0.7558692000020528,
+    "trajectory_seed": 15560545712126373391,
+    "resampling_seed": 3635827746060405991,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 26,
+     "nq": 11
+    },
+    "pz_sum": 0.9999999999999988,
+    "px_sum": 0.9999999999999958
+   },
+   "hw": {
+    "median": 0.8544834139368991,
+    "mean": 0.8747167147926292,
+    "Zmed": 1.136328552365443,
+    "Xmed": 0.027969513304793112,
+    "f": 0.8638975000000001,
+    "n_traj": 1000,
+    "simulation_seconds": 13.140300200000638,
+    "scoring_seconds": 0.8474110999995901,
+    "trajectory_seed": 11649902293772524431,
+    "resampling_seed": 9151872768027902150,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 26,
+     "nq": 11
+    },
+    "pz_sum": 1.0000000000000002,
+    "px_sum": 0.9999999999999983
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 11,
+  "n": 3,
+  "construction_seconds": 1.2831179999998312,
+  "moments": 61,
+  "qubits": [
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    5,
+    8
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    7,
+    9
+   ]
+  ],
+  "circuit_sha256": "52502b72e708afbdd8a34a4349394057d4e3cfa62935c89fe9713d434f93755d",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N11_n03.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 66,
+  "exactness": {
+   "fidelity": 1.0000000000000022,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "e7f5ade0b6c8662b4dcae70583cfa1cf60e1d142a7e7e27ab9b667feb8544d41",
+  "models": {
+   "pauli": {
+    "median": 0.7901683460309543,
+    "mean": 0.7936603914733169,
+    "Zmed": 1.1796465985084277,
+    "Xmed": 0.08429619631748468,
+    "f": 0.84396625,
+    "n_traj": 2000,
+    "simulation_seconds": 32.95536509999988,
+    "scoring_seconds": 0.5524071999998341,
+    "trajectory_seed": 12199775057508594776,
+    "resampling_seed": 4562521208904590275,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 61,
+     "nq": 11
+    },
+    "pz_sum": 1.0000000000000022,
+    "px_sum": 1.0
+   },
+   "hw": {
+    "median": 0.6715849567409324,
+    "mean": 0.6731141708735998,
+    "Zmed": 1.3077572824863735,
+    "Xmed": 0.17607968045841438,
+    "f": 0.779241,
+    "n_traj": 1000,
+    "simulation_seconds": 25.176226699999916,
+    "scoring_seconds": 0.5055633000001762,
+    "trajectory_seed": 1676158813522942820,
+    "resampling_seed": 14395362891928336349,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 61,
+     "nq": 11
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.999999999999998
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 101,
+  "N": 11,
+  "n": 4,
+  "construction_seconds": 1.2498875000001135,
+  "moments": 80,
+  "qubits": [
+   [
+    5,
+    9
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    6,
+    9
+   ],
+   [
+    7,
+    6
+   ],
+   [
+    7,
+    7
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    8,
+    6
+   ],
+   [
+    9,
+    6
+   ]
+  ],
+  "circuit_sha256": "3910b74ef60b2567844bcd8a15f4d4d663d3a2d3911c4e24eced1dd1944f0a3e",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N11_n04.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 89,
+  "exactness": {
+   "fidelity": 1.0000000000000018,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "041fa99b83550071e5dc9d69fb34f0ed0c635305aed3c7559a8ded0ab1e82f08",
+  "models": {
+   "pauli": {
+    "median": 0.7017351296729669,
+    "mean": 0.699161843411709,
+    "Zmed": 1.2247786681117296,
+    "Xmed": 0.20331342522602108,
+    "f": 0.81918925,
+    "n_traj": 2000,
+    "simulation_seconds": 31.03132790000018,
+    "scoring_seconds": 0.9438622000016039,
+    "trajectory_seed": 3190944833085016047,
+    "resampling_seed": 4944864473324521266,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 80,
+     "nq": 11
+    },
+    "pz_sum": 1.0000000000000047,
+    "px_sum": 1.0000000000000016
+   },
+   "hw": {
+    "median": 0.522381325840773,
+    "mean": 0.5228779793169644,
+    "Zmed": 1.4254901443430792,
+    "Xmed": 0.4897284803710509,
+    "f": 0.7036705000000001,
+    "n_traj": 1000,
+    "simulation_seconds": 42.219688599998335,
+    "scoring_seconds": 0.8467138000014529,
+    "trajectory_seed": 2113958837503575306,
+    "resampling_seed": 3592136336988689747,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 80,
+     "nq": 11
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.999999999999998
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 101,
+  "N": 11,
+  "n": 5,
+  "construction_seconds": 1.0695917000000463,
+  "moments": 93,
+  "qubits": [
+   [
+    6,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    6,
+    9
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    7,
+    6
+   ],
+   [
+    7,
+    7
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    8,
+    6
+   ]
+  ],
+  "circuit_sha256": "04ca7d4b4ecea830f7836b324e40d61f32c96bcc69903064ec2951c1a2d32e81",
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N11_n05.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 102,
+  "exactness": {
+   "fidelity": 0.9999999999999987,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "17d39f57243ffe7c097b152d4f733e3484d287ca7e5fdeafc03336da7657f457",
+  "models": {
+   "pauli": {
+    "median": 0.6141911767236259,
+    "mean": 0.6168319742537026,
+    "Zmed": 1.2685765536186921,
+    "Xmed": 0.360252938409333,
+    "f": 0.7926332500000001,
+    "n_traj": 2000,
+    "simulation_seconds": 46.451933800000006,
+    "scoring_seconds": 0.5289924000001065,
+    "trajectory_seed": 3513011301639168013,
+    "resampling_seed": 4408606157150268833,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 93,
+     "nq": 11
+    },
+    "pz_sum": 1.0000000000000087,
+    "px_sum": 1.000000000000004
+   },
+   "hw": {
+    "median": 0.40481816134865933,
+    "mean": 0.4050956423821292,
+    "Zmed": 1.5462829854815032,
+    "Xmed": 0.9297808568883026,
+    "f": 0.6553157499999999,
+    "n_traj": 1000,
+    "simulation_seconds": 21.26839229999996,
+    "scoring_seconds": 0.5519759999999678,
+    "trajectory_seed": 15085071508680612701,
+    "resampling_seed": 14463979749846340395,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 93,
+     "nq": 11
+    },
+    "pz_sum": 1.0000000000000002,
+    "px_sum": 0.9999999999999982
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 202,
+  "N": 2,
+  "n": 1,
+  "construction_seconds": 0.133730499999956,
+  "moments": 3,
+  "qubits": [
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ]
+  ],
+  "circuit_sha256": "af0f224ebf35567ed056f2a0afd6218b849ab780fd90b03e33423963c885dc0d",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N02_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 1,
+  "exactness": {
+   "fidelity": 1.0,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "ce3a3a14fa8e36356565a6c20c1e1aa4c9d7883e0d82a981d2c20161ed20004e",
+  "models": {
+   "pauli": {
+    "median": 4.528537191057168,
+    "mean": 61.012907412188206,
+    "Zmed": 0.22014227206064335,
+    "Xmed": 0.0007634500000000011,
+    "f": 0.987516,
+    "n_traj": 2000,
+    "simulation_seconds": 0.0034470999999030028,
+    "scoring_seconds": 0.03684930000008535,
+    "trajectory_seed": 17526654632871581477,
+    "resampling_seed": 12309161542114635112,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 3,
+     "nq": 2
+    },
+    "pz_sum": 1.0000000000000002,
+    "px_sum": 0.9999999999999999
+   },
+   "hw": {
+    "median": 5.028422725860085,
+    "mean": 63.46042875151825,
+    "Zmed": 0.1978572858896941,
+    "Xmed": 0.000845399999999999,
+    "f": 0.9850557499999999,
+    "n_traj": 1000,
+    "simulation_seconds": 0.004830999999967389,
+    "scoring_seconds": 0.03205870000010691,
+    "trajectory_seed": 6747210982793480374,
+    "resampling_seed": 17742752627919581786,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 3,
+     "nq": 2
+    },
+    "pz_sum": 1.0000000000000009,
+    "px_sum": 0.9999999999999993
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 202,
+  "N": 3,
+  "n": 1,
+  "construction_seconds": 0.8313256999999794,
+  "moments": 7,
+  "qubits": [
+   [
+    6,
+    11
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ]
+  ],
+  "circuit_sha256": "9a33e6f85ea7df9df602d9e9a682d98dfa2724fe54bae87b51de7ee0a6f70875",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N03_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 3,
+  "exactness": {
+   "fidelity": 0.9999999999999998,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "006740754c308190897149c7d0f773fd64db5268896465f31968952e0f3fb12e",
+  "models": {
+   "pauli": {
+    "median": 2.1054514783876557,
+    "mean": 9.715298378617915,
+    "Zmed": 0.4745537532614746,
+    "Xmed": 0.0011244022222222185,
+    "f": 0.9803605000000001,
+    "n_traj": 2000,
+    "simulation_seconds": 0.009237799999937124,
+    "scoring_seconds": 0.03878280000003542,
+    "trajectory_seed": 9846126535812279047,
+    "resampling_seed": 17180528277491734186,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 7,
+     "nq": 3
+    },
+    "pz_sum": 1.0000000000000084,
+    "px_sum": 1.0000000000000027
+   },
+   "hw": {
+    "median": 2.128812627223696,
+    "mean": 10.623628002982132,
+    "Zmed": 0.46817940026702026,
+    "Xmed": 0.0019261155555555488,
+    "f": 0.97129975,
+    "n_traj": 1000,
+    "simulation_seconds": 0.01200290000019777,
+    "scoring_seconds": 0.03980639999986124,
+    "trajectory_seed": 17668216140453688513,
+    "resampling_seed": 17278397943444128244,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 7,
+     "nq": 3
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999992
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 202,
+  "N": 4,
+  "n": 1,
+  "construction_seconds": 1.1956119000001308,
+  "moments": 7,
+  "qubits": [
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    6,
+    9
+   ],
+   [
+    7,
+    9
+   ]
+  ],
+  "circuit_sha256": "892e836f185afdb3efba7c6cb82c650f89011b9b089acde509d5651af9f1686e",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N04_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 5,
+  "exactness": {
+   "fidelity": 0.9999999999999996,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "ed7c9799ca17d85fd5040de730a539e9620c817e408d59e2951fda06e8526bd6",
+  "models": {
+   "pauli": {
+    "median": 1.590994507174977,
+    "mean": 5.909603651762292,
+    "Zmed": 0.6270205118296974,
+    "Xmed": 0.0014181127777777801,
+    "f": 0.9725845000000001,
+    "n_traj": 2000,
+    "simulation_seconds": 0.016956299999947078,
+    "scoring_seconds": 0.06368840000004639,
+    "trajectory_seed": 10466714547407749100,
+    "resampling_seed": 3503860861482541536,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 7,
+     "nq": 4
+    },
+    "pz_sum": 1.0,
+    "px_sum": 1.0
+   },
+   "hw": {
+    "median": 1.5772689617596567,
+    "mean": 3.487212204591483,
+    "Zmed": 0.632488304821869,
+    "Xmed": 0.0018715569444444405,
+    "f": 0.9658682500000001,
+    "n_traj": 1000,
+    "simulation_seconds": 0.015026299999817638,
+    "scoring_seconds": 0.055057799999985946,
+    "trajectory_seed": 7138806475158540858,
+    "resampling_seed": 9904371548892942825,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 7,
+     "nq": 4
+    },
+    "pz_sum": 0.9999999999999996,
+    "px_sum": 0.9999999999999998
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 202,
+  "N": 4,
+  "n": 2,
+  "construction_seconds": 0.6585688999998638,
+  "moments": 7,
+  "qubits": [
+   [
+    6,
+    11
+   ],
+   [
+    6,
+    12
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    7,
+    12
+   ]
+  ],
+  "circuit_sha256": "38280b926c2568fc89abe2e524a50960ca908d3ae3200892e895f31a1cb03566",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N04_n02.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 5,
+  "exactness": {
+   "fidelity": 1.0,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "437ddcdb631ba4ef0a9789dc97e31a095c9c1952dd37fc92e8cd299bd98f417e",
+  "models": {
+   "pauli": {
+    "median": 1.2596631442278512,
+    "mean": 1.8039777472635317,
+    "Zmed": 0.7893528354250151,
+    "Xmed": 0.004639188749999993,
+    "f": 0.9723632499999999,
+    "n_traj": 2000,
+    "simulation_seconds": 0.016402199999902223,
+    "scoring_seconds": 0.0588694000000487,
+    "trajectory_seed": 18090400556216403667,
+    "resampling_seed": 15925594222355067234,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 7,
+     "nq": 4
+    },
+    "pz_sum": 1.000000000000008,
+    "px_sum": 1.0000000000000022
+   },
+   "hw": {
+    "median": 1.2730042067120224,
+    "mean": 1.93717872359976,
+    "Zmed": 0.7800552475046737,
+    "Xmed": 0.006205788749999994,
+    "f": 0.9647585,
+    "n_traj": 1000,
+    "simulation_seconds": 0.016902000000072803,
+    "scoring_seconds": 0.05686470000000554,
+    "trajectory_seed": 2703226281793433503,
+    "resampling_seed": 2279748074894513953,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 7,
+     "nq": 4
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999989
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 202,
+  "N": 5,
+  "n": 1,
+  "construction_seconds": 1.8519318999999541,
+  "moments": 15,
+  "qubits": [
+   [
+    4,
+    9
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ]
+  ],
+  "circuit_sha256": "3167219c6c97d3a3b106c36db13a01a75344c5e1b72dde8b5532a077893fa25e",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N05_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 7,
+  "exactness": {
+   "fidelity": 0.9999999999999998,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "88069da7f775830c4700989db0648969e7f2de9688557ac928ba0262df941a2a",
+  "models": {
+   "pauli": {
+    "median": 1.3751530867709743,
+    "mean": 2.29550636429371,
+    "Zmed": 0.724928478765394,
+    "Xmed": 0.0015179200000000018,
+    "f": 0.96603925,
+    "n_traj": 2000,
+    "simulation_seconds": 0.03958250000005137,
+    "scoring_seconds": 0.08252449999986311,
+    "trajectory_seed": 3771042480399269417,
+    "resampling_seed": 15473128299054778916,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 15,
+     "nq": 5
+    },
+    "pz_sum": 0.9999999999999656,
+    "px_sum": 1.0000000000000133
+   },
+   "hw": {
+    "median": 1.3204706511776698,
+    "mean": 2.0997910217840685,
+    "Zmed": 0.7539100613893754,
+    "Xmed": 0.0021639580000000053,
+    "f": 0.9616692499999999,
+    "n_traj": 1000,
+    "simulation_seconds": 0.04250920000004044,
+    "scoring_seconds": 0.07504390000008243,
+    "trajectory_seed": 16674694776915005312,
+    "resampling_seed": 6316811773683486221,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 15,
+     "nq": 5
+    },
+    "pz_sum": 0.9999999999999996,
+    "px_sum": 0.9999999999999991
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 202,
+  "N": 5,
+  "n": 2,
+  "construction_seconds": 1.5144885999998223,
+  "moments": 17,
+  "qubits": [
+   [
+    4,
+    9
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ]
+  ],
+  "circuit_sha256": "71432511cc7917169936a5c071c14da2d55a818983ee2cda7a515212e661b176",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N05_n02.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 10,
+  "exactness": {
+   "fidelity": 1.0,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "1f7919c2d3457a4f8c55df03666d2291c33d310fbb434a99c0506ba1bb1772e2",
+  "models": {
+   "pauli": {
+    "median": 1.1672912313909904,
+    "mean": 1.4033779328851943,
+    "Zmed": 0.8454232513153769,
+    "Xmed": 0.007717122399999994,
+    "f": 0.966337,
+    "n_traj": 2000,
+    "simulation_seconds": 0.03937949999999546,
+    "scoring_seconds": 0.08148150000010901,
+    "trajectory_seed": 12368565619663158637,
+    "resampling_seed": 12306949901623762314,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 17,
+     "nq": 5
+    },
+    "pz_sum": 0.9999999999999987,
+    "px_sum": 1.0000000000000024
+   },
+   "hw": {
+    "median": 1.0557100818495742,
+    "mean": 1.2188433178188753,
+    "Zmed": 0.9374958487105255,
+    "Xmed": 0.009316388444444443,
+    "f": 0.95555975,
+    "n_traj": 1000,
+    "simulation_seconds": 0.053165300000046045,
+    "scoring_seconds": 0.09105060000001686,
+    "trajectory_seed": 11920254713938533985,
+    "resampling_seed": 6404969056400605216,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 17,
+     "nq": 5
+    },
+    "pz_sum": 1.0000000000000002,
+    "px_sum": 0.9999999999999991
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 202,
+  "N": 6,
+  "n": 1,
+  "construction_seconds": 2.2232030000000123,
+  "moments": 11,
+  "qubits": [
+   [
+    4,
+    9
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    6,
+    9
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ]
+  ],
+  "circuit_sha256": "ec65e8c14c2b23ca733e108683730e8d1ba4b608fe22b7fb3ccfdf2b11335174",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N06_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 9,
+  "exactness": {
+   "fidelity": 1.0000000000000009,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "e40d86588035556fd30bc7c3a41e72efe0690b564fa3f8d518f6be05dcb71007",
+  "models": {
+   "pauli": {
+    "median": 1.2327313703447529,
+    "mean": 1.836291553919546,
+    "Zmed": 0.8092056101674573,
+    "Xmed": 0.0018005082444444397,
+    "f": 0.9594102499999999,
+    "n_traj": 2000,
+    "simulation_seconds": 2.763136499997927,
+    "scoring_seconds": 0.12336430000141263,
+    "trajectory_seed": 6938125236582837601,
+    "resampling_seed": 7041811118728670197,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 11,
+     "nq": 6
+    },
+    "pz_sum": 1.0000000000000067,
+    "px_sum": 1.0000000000000069
+   },
+   "hw": {
+    "median": 1.267481610480526,
+    "mean": 1.9118300306288671,
+    "Zmed": 0.7876341962894862,
+    "Xmed": 0.0019745018222222174,
+    "f": 0.9604742500000001,
+    "n_traj": 1000,
+    "simulation_seconds": 0.0598457000014605,
+    "scoring_seconds": 0.11132740000175545,
+    "trajectory_seed": 16181931045753039303,
+    "resampling_seed": 13564483252878834668,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 11,
+     "nq": 6
+    },
+    "pz_sum": 1.0000000000000002,
+    "px_sum": 0.9999999999999987
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 202,
+  "N": 6,
+  "n": 2,
+  "construction_seconds": 1.614808400000129,
+  "moments": 15,
+  "qubits": [
+   [
+    5,
+    10
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    8,
+    11
+   ]
+  ],
+  "circuit_sha256": "2e5d76feed5618f7bb3affff079ca785f9c3999c78641401983869767c41a712",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N06_n02.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 15,
+  "exactness": {
+   "fidelity": 1.0000000000000004,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "0a0a765e1ac2514c8b1f5a15822b7706ad4de31f7ec4b173f7e0b5153206d327",
+  "models": {
+   "pauli": {
+    "median": 1.0266108546364436,
+    "mean": 1.107993641980684,
+    "Zmed": 0.9677637316667678,
+    "Xmed": 0.008269209079166676,
+    "f": 0.94454675,
+    "n_traj": 2000,
+    "simulation_seconds": 0.11070309999922756,
+    "scoring_seconds": 0.13067829999999958,
+    "trajectory_seed": 585947559854703293,
+    "resampling_seed": 15131477682134220611,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 15,
+     "nq": 6
+    },
+    "pz_sum": 0.9999999999999833,
+    "px_sum": 0.9999999999999915
+   },
+   "hw": {
+    "median": 0.9438870512522595,
+    "mean": 1.0592671268126486,
+    "Zmed": 1.0463593500267456,
+    "Xmed": 0.014222666101388889,
+    "f": 0.929315,
+    "n_traj": 1000,
+    "simulation_seconds": 0.08557029999792576,
+    "scoring_seconds": 0.11999460000151885,
+    "trajectory_seed": 3969637168995792825,
+    "resampling_seed": 10375141463526916698,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 15,
+     "nq": 6
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999991
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 202,
+  "N": 6,
+  "n": 3,
+  "construction_seconds": 2.6089670000001206,
+  "moments": 18,
+  "qubits": [
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    6,
+    12
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    8,
+    11
+   ]
+  ],
+  "circuit_sha256": "f3124c38bb71a4bae19992133970a5c026ad3475c29c4f3f902fe8d24e73fea3",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N06_n03.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 14,
+  "exactness": {
+   "fidelity": 0.9999999999999996,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "026baa852311f0d8126b7b2495673486e40e7e35f0bd07091b3b592304b2163e",
+  "models": {
+   "pauli": {
+    "median": 1.0093892639787336,
+    "mean": 1.088946200192973,
+    "Zmed": 0.9741002105379813,
+    "Xmed": 0.01667640166666664,
+    "f": 0.94552375,
+    "n_traj": 2000,
+    "simulation_seconds": 0.12207760000092094,
+    "scoring_seconds": 0.2071548999992956,
+    "trajectory_seed": 183777610288660685,
+    "resampling_seed": 13683348012288043465,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 18,
+     "nq": 6
+    },
+    "pz_sum": 0.9999999999999887,
+    "px_sum": 0.9999999999999947
+   },
+   "hw": {
+    "median": 0.9022779194782464,
+    "mean": 0.9701455771489198,
+    "Zmed": 1.0739705235870618,
+    "Xmed": 0.035545945972839506,
+    "f": 0.9248112499999999,
+    "n_traj": 1000,
+    "simulation_seconds": 0.16524289999870234,
+    "scoring_seconds": 0.1665865000031772,
+    "trajectory_seed": 11837921764538808130,
+    "resampling_seed": 15342513390528808302,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 18,
+     "nq": 6
+    },
+    "pz_sum": 1.0000000000000002,
+    "px_sum": 0.9999999999999982
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 202,
+  "N": 7,
+  "n": 1,
+  "construction_seconds": 2.5160127999999986,
+  "moments": 10,
+  "qubits": [
+   [
+    4,
+    9
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    6,
+    9
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    7,
+    9
+   ]
+  ],
+  "circuit_sha256": "00aa1fe9c6b34bebbde6e4e673949309a2806de8269e632b2848765ecd1bfc48",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N07_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 11,
+  "exactness": {
+   "fidelity": 0.9999999999999993,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "2b1e34e1b186bc6c3dfbc1f48794431feed051f1bea73239dc4ae27ce23ab585",
+  "models": {
+   "pauli": {
+    "median": 1.2396569026329551,
+    "mean": 1.603833003924136,
+    "Zmed": 0.8054328327930679,
+    "Xmed": 0.0014057977251700703,
+    "f": 0.9601017500000001,
+    "n_traj": 2000,
+    "simulation_seconds": 0.27317710000352236,
+    "scoring_seconds": 0.206771100001788,
+    "trajectory_seed": 1777617696299527170,
+    "resampling_seed": 568255543742954569,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 10,
+     "nq": 7
+    },
+    "pz_sum": 0.9999999999999987,
+    "px_sum": 0.9999999999999827
+   },
+   "hw": {
+    "median": 1.2253972238511157,
+    "mean": 1.7313778645382785,
+    "Zmed": 0.8140048742343804,
+    "Xmed": 0.0030482030730158657,
+    "f": 0.94408725,
+    "n_traj": 1000,
+    "simulation_seconds": 0.12480149999828427,
+    "scoring_seconds": 0.16482519999772194,
+    "trajectory_seed": 11723557507099298593,
+    "resampling_seed": 3872178397776521242,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 10,
+     "nq": 7
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.999999999999999
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 202,
+  "N": 7,
+  "n": 2,
+  "construction_seconds": 2.354987899999969,
+  "moments": 18,
+  "qubits": [
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    8,
+    11
+   ]
+  ],
+  "circuit_sha256": "e924dd6c20079957ed50cef74be89db5a79d19fa4a7646ba6d86a76d38af6306",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N07_n02.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 19,
+  "exactness": {
+   "fidelity": 1.0000000000000004,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "50d04c2d594b30a255a2abe36b02ac0fcb5cea199117453ca22a0173a08761f9",
+  "models": {
+   "pauli": {
+    "median": 1.0238411474233258,
+    "mean": 1.1036911722771412,
+    "Zmed": 0.9678011403473903,
+    "Xmed": 0.007672189358730157,
+    "f": 0.94379175,
+    "n_traj": 2000,
+    "simulation_seconds": 0.30155679999734275,
+    "scoring_seconds": 0.1710343999984616,
+    "trajectory_seed": 14530842973701879052,
+    "resampling_seed": 12941280248653988646,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 18,
+     "nq": 7
+    },
+    "pz_sum": 1.0000000000000442,
+    "px_sum": 1.0000000000000129
+   },
+   "hw": {
+    "median": 0.9876719502056414,
+    "mean": 1.0338185852926105,
+    "Zmed": 0.9960167029602406,
+    "Xmed": 0.014900980749206327,
+    "f": 0.9267015000000001,
+    "n_traj": 1000,
+    "simulation_seconds": 0.44152979999853414,
+    "scoring_seconds": 0.17148470000029192,
+    "trajectory_seed": 2702667403927076583,
+    "resampling_seed": 6110542383761239432,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 18,
+     "nq": 7
+    },
+    "pz_sum": 0.9999999999999996,
+    "px_sum": 0.9999999999999989
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 202,
+  "N": 7,
+  "n": 3,
+  "construction_seconds": 3.1722581999999875,
+  "moments": 27,
+  "qubits": [
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    6,
+    12
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    7,
+    12
+   ],
+   [
+    8,
+    11
+   ]
+  ],
+  "circuit_sha256": "9f97d9dfd301fdd3a03de31b885ff1e588cc71e842602267cce5e165400a7b5c",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N07_n03.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 21,
+  "exactness": {
+   "fidelity": 1.0000000000000009,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "48fda5f92177cdf2ce984a111202e8031afe9a4642a065bf7d400ded14f18729",
+  "models": {
+   "pauli": {
+    "median": 0.9340986222769836,
+    "mean": 0.9673080976216178,
+    "Zmed": 1.0427545967228227,
+    "Xmed": 0.027888572130108327,
+    "f": 0.9348400000000001,
+    "n_traj": 2000,
+    "simulation_seconds": 0.3325750000003609,
+    "scoring_seconds": 0.17116570000143838,
+    "trajectory_seed": 6529460594214056127,
+    "resampling_seed": 16547546440682505309,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 27,
+     "nq": 7
+    },
+    "pz_sum": 1.0000000000000464,
+    "px_sum": 1.0000000000000058
+   },
+   "hw": {
+    "median": 0.8877412259636988,
+    "mean": 0.9141456031646534,
+    "Zmed": 1.0755379706463692,
+    "Xmed": 0.05105332345326273,
+    "f": 0.90629625,
+    "n_traj": 1000,
+    "simulation_seconds": 0.31096120000074734,
+    "scoring_seconds": 0.18706319999910193,
+    "trajectory_seed": 12685821009420011446,
+    "resampling_seed": 6923801349103742050,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 27,
+     "nq": 7
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999988
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 202,
+  "N": 8,
+  "n": 1,
+  "construction_seconds": 5.6985652999999274,
+  "moments": 11,
+  "qubits": [
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    8,
+    11
+   ]
+  ],
+  "circuit_sha256": "6890ad8d861417b5eedf154635657b2269aa805cf3c6bcd371ba7b4a82f9a0a6",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N08_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 13,
+  "exactness": {
+   "fidelity": 0.9999999999999996,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "e0fd9fbff5c2fa024f5b4acaa527f31eba29304dcaefbc0138f46e227f7f2f55",
+  "models": {
+   "pauli": {
+    "median": 1.1732573511111497,
+    "mean": 1.4588839954698714,
+    "Zmed": 0.8513689271143139,
+    "Xmed": 0.0015610697428571404,
+    "f": 0.9506647500000001,
+    "n_traj": 2000,
+    "simulation_seconds": 0.38858860000254936,
+    "scoring_seconds": 0.22488999999768566,
+    "trajectory_seed": 3932158344204191004,
+    "resampling_seed": 14517022072841101258,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 11,
+     "nq": 8
+    },
+    "pz_sum": 1.0,
+    "px_sum": 1.0
+   },
+   "hw": {
+    "median": 1.1137127044324688,
+    "mean": 1.313046456176822,
+    "Zmed": 0.8957833173428131,
+    "Xmed": 0.0029212789102040825,
+    "f": 0.943809,
+    "n_traj": 1000,
+    "simulation_seconds": 0.2562937000002421,
+    "scoring_seconds": 0.36087899999984074,
+    "trajectory_seed": 9495465293411220308,
+    "resampling_seed": 13227601101057449135,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 11,
+     "nq": 8
+    },
+    "pz_sum": 1.0000000000000004,
+    "px_sum": 0.9999999999999988
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 202,
+  "N": 8,
+  "n": 2,
+  "construction_seconds": 5.469589999999926,
+  "moments": 19,
+  "qubits": [
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    8,
+    11
+   ],
+   [
+    8,
+    12
+   ]
+  ],
+  "circuit_sha256": "66392c15cdc4fcb2df3ea753346fee1612688d359f0a0d5343f927c9010b4fac",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N08_n02.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 23,
+  "exactness": {
+   "fidelity": 0.9999999999999993,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "3cf1e47f15ceb6ce4402dad1c02fcaeea13bd4c2428805db9ad1d28e6a208ed0",
+  "models": {
+   "pauli": {
+    "median": 0.9427459951414825,
+    "mean": 0.9805629892030063,
+    "Zmed": 1.0504369679823191,
+    "Xmed": 0.010630201618934222,
+    "f": 0.9294807500000001,
+    "n_traj": 2000,
+    "simulation_seconds": 0.6961124999979802,
+    "scoring_seconds": 0.2927741999992577,
+    "trajectory_seed": 15666748097854004914,
+    "resampling_seed": 3744808462084977224,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 19,
+     "nq": 8
+    },
+    "pz_sum": 0.9999999999999951,
+    "px_sum": 1.0000000000000022
+   },
+   "hw": {
+    "median": 0.9135958389136316,
+    "mean": 0.9513013153598047,
+    "Zmed": 1.0742583995460642,
+    "Xmed": 0.021349296332653034,
+    "f": 0.90390375,
+    "n_traj": 1000,
+    "simulation_seconds": 0.8298620999994455,
+    "scoring_seconds": 0.2973807000016677,
+    "trajectory_seed": 15251460706984651786,
+    "resampling_seed": 905042181899051365,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 19,
+     "nq": 8
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999984
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 202,
+  "N": 8,
+  "n": 3,
+  "construction_seconds": 8.912391500000012,
+  "moments": 29,
+  "qubits": [
+   [
+    5,
+    10
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    6,
+    12
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    7,
+    12
+   ],
+   [
+    7,
+    13
+   ]
+  ],
+  "circuit_sha256": "50538b33b729e1af6dc0a93565dd61a4681d4c15a72571c20a3ad571f7c6d42f",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N08_n03.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 29,
+  "exactness": {
+   "fidelity": 0.9999999999999971,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "d793e8614352bfdea453d68582cf231759e414ba5df8bfce97e3773c8c84c5be",
+  "models": {
+   "pauli": {
+    "median": 0.9168292329442804,
+    "mean": 0.9313779438597561,
+    "Zmed": 1.0553344762237151,
+    "Xmed": 0.04046708159455784,
+    "f": 0.91069325,
+    "n_traj": 2000,
+    "simulation_seconds": 1.1127243999981147,
+    "scoring_seconds": 0.21278109999911976,
+    "trajectory_seed": 544416424296978011,
+    "resampling_seed": 42459440484984070,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 29,
+     "nq": 8
+    },
+    "pz_sum": 0.9999999999999983,
+    "px_sum": 0.9999999999999966
+   },
+   "hw": {
+    "median": 0.8395635771680061,
+    "mean": 0.8540844117505156,
+    "Zmed": 1.1191580853435263,
+    "Xmed": 0.0700160992214286,
+    "f": 0.87759075,
+    "n_traj": 1000,
+    "simulation_seconds": 0.9591012000018964,
+    "scoring_seconds": 0.2494020999984059,
+    "trajectory_seed": 5953187813324738245,
+    "resampling_seed": 7488620325260166062,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 29,
+     "nq": 8
+    },
+    "pz_sum": 1.0000000000000002,
+    "px_sum": 0.9999999999999991
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 202,
+  "N": 8,
+  "n": 4,
+  "construction_seconds": 14.088493999999855,
+  "moments": 24,
+  "qubits": [
+   [
+    5,
+    10
+   ],
+   [
+    5,
+    11
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    6,
+    12
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    7,
+    12
+   ]
+  ],
+  "circuit_sha256": "3f5262761a926582bf3e1c5fc8c9ca9699dbc3d82204c7dc11632d612db0201b",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N08_n04.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 24,
+  "exactness": {
+   "fidelity": 1.0000000000000009,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "eb996b260e730d6cf7142623d93726bad73d9059f7530ede99a82b0799315db6",
+  "models": {
+   "pauli": {
+    "median": 0.877692994064098,
+    "mean": 0.8969990408529951,
+    "Zmed": 1.0879356438776013,
+    "Xmed": 0.05074038611634693,
+    "f": 0.92105925,
+    "n_traj": 2000,
+    "simulation_seconds": 1.2468398000019079,
+    "scoring_seconds": 0.26610680000158027,
+    "trajectory_seed": 17996206220240122023,
+    "resampling_seed": 2504451097277052474,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 24,
+     "nq": 8
+    },
+    "pz_sum": 0.9999999999999991,
+    "px_sum": 1.0
+   },
+   "hw": {
+    "median": 0.812304200090137,
+    "mean": 0.8220908165029105,
+    "Zmed": 1.1259779152761094,
+    "Xmed": 0.10585452826707761,
+    "f": 0.8851884999999998,
+    "n_traj": 1000,
+    "simulation_seconds": 1.28032180000082,
+    "scoring_seconds": 0.3945482999988599,
+    "trajectory_seed": 9310345182517373275,
+    "resampling_seed": 11306882807001840967,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 24,
+     "nq": 8
+    },
+    "pz_sum": 0.9999999999999998,
+    "px_sum": 0.999999999999999
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 202,
+  "N": 9,
+  "n": 1,
+  "construction_seconds": 1.1834389999999075,
+  "moments": 12,
+  "qubits": [
+   [
+    4,
+    9
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    8,
+    11
+   ]
+  ],
+  "circuit_sha256": "d9d605ead5cb1329dd92ad83514f164b3bb3e08122ccb33c44e417fdb5cf9db5",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N09_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 15,
+  "exactness": {
+   "fidelity": 0.9999999999999996,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "6b82dd662bdc8e082f9bf0dde02c7dea64f0076a7f5bec640426ae95b28c8a7b",
+  "models": {
+   "pauli": {
+    "median": 1.1170844774566988,
+    "mean": 1.4153547779371909,
+    "Zmed": 0.8937020710251893,
+    "Xmed": 0.0018156024203199801,
+    "f": 0.94427525,
+    "n_traj": 2000,
+    "simulation_seconds": 1.2773315999984334,
+    "scoring_seconds": 0.305755000001227,
+    "trajectory_seed": 5044366677378533296,
+    "resampling_seed": 17569470814708301518,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 12,
+     "nq": 9
+    },
+    "pz_sum": 1.0000000000000189,
+    "px_sum": 1.0000000000000036
+   },
+   "hw": {
+    "median": 1.096845296362542,
+    "mean": 1.3222393824414498,
+    "Zmed": 0.9071874197899614,
+    "Xmed": 0.0033418378193499606,
+    "f": 0.9269702500000001,
+    "n_traj": 1000,
+    "simulation_seconds": 1.2889668999996502,
+    "scoring_seconds": 0.4977496000028623,
+    "trajectory_seed": 3553924612379210999,
+    "resampling_seed": 1654877377269553133,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 12,
+     "nq": 9
+    },
+    "pz_sum": 1.0000000000000002,
+    "px_sum": 0.9999999999999989
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 202,
+  "N": 9,
+  "n": 2,
+  "construction_seconds": 0.629915100000062,
+  "moments": 22,
+  "qubits": [
+   [
+    4,
+    9
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    8,
+    11
+   ],
+   [
+    8,
+    12
+   ]
+  ],
+  "circuit_sha256": "7e43c17680cc3cd2e4df95b1767abd8c8fb72f7109686c142529c0f3fd9309b9",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N09_n02.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 27,
+  "exactness": {
+   "fidelity": 0.9999999999999989,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "b75df380e6034f24cffae29343ffbc5310ca738248c2f7554cd9fe25dac74896",
+  "models": {
+   "pauli": {
+    "median": 0.9572134915807575,
+    "mean": 0.9803876399538096,
+    "Zmed": 1.0382215256987215,
+    "Xmed": 0.00931547148652053,
+    "f": 0.923374,
+    "n_traj": 2000,
+    "simulation_seconds": 2.513747799999692,
+    "scoring_seconds": 0.3993717999983346,
+    "trajectory_seed": 709056241490758945,
+    "resampling_seed": 11712995894368338962,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 22,
+     "nq": 9
+    },
+    "pz_sum": 1.0000000000000182,
+    "px_sum": 1.000000000000012
+   },
+   "hw": {
+    "median": 0.918957272892158,
+    "mean": 0.9467749974404217,
+    "Zmed": 1.061135082828102,
+    "Xmed": 0.02484286985008815,
+    "f": 0.89186375,
+    "n_traj": 1000,
+    "simulation_seconds": 3.1461745999986306,
+    "scoring_seconds": 0.41027050000047893,
+    "trajectory_seed": 15142940181157382481,
+    "resampling_seed": 6951903354452611454,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 22,
+     "nq": 9
+    },
+    "pz_sum": 0.9999999999999999,
+    "px_sum": 0.9999999999999983
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 202,
+  "N": 9,
+  "n": 3,
+  "construction_seconds": 0.94455129999983,
+  "moments": 45,
+  "qubits": [
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    6,
+    12
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    7,
+    12
+   ],
+   [
+    7,
+    13
+   ]
+  ],
+  "circuit_sha256": "c3f48b520a2679107c35d3912ca70a69935361ec9b435ca382b91b44ad3c6670",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N09_n03.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 45,
+  "exactness": {
+   "fidelity": 1.0000000000000013,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "58104bf465fc42eca7d87f05431b03a482774149718201ad90464e2c571c693d",
+  "models": {
+   "pauli": {
+    "median": 0.8412157902788524,
+    "mean": 0.8616619500956588,
+    "Zmed": 1.1224048450330582,
+    "Xmed": 0.057300925033560116,
+    "f": 0.8843350000000001,
+    "n_traj": 2000,
+    "simulation_seconds": 4.6829088000001775,
+    "scoring_seconds": 0.2777189000000817,
+    "trajectory_seed": 7496190756220040234,
+    "resampling_seed": 1021337004550495803,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 45,
+     "nq": 9
+    },
+    "pz_sum": 1.0000000000000155,
+    "px_sum": 0.9999999999999972
+   },
+   "hw": {
+    "median": 0.7387770737159689,
+    "mean": 0.7487326995950697,
+    "Zmed": 1.2213528152566577,
+    "Xmed": 0.13367004757001766,
+    "f": 0.8308605,
+    "n_traj": 1000,
+    "simulation_seconds": 4.949822999999924,
+    "scoring_seconds": 0.2654717000000346,
+    "trajectory_seed": 2401566785809731024,
+    "resampling_seed": 11464986764001021586,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 45,
+     "nq": 9
+    },
+    "pz_sum": 1.0000000000000002,
+    "px_sum": 0.9999999999999987
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 202,
+  "N": 9,
+  "n": 4,
+  "construction_seconds": 0.6660053999999036,
+  "moments": 62,
+  "qubits": [
+   [
+    5,
+    1
+   ],
+   [
+    5,
+    2
+   ],
+   [
+    5,
+    3
+   ],
+   [
+    5,
+    4
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    6,
+    2
+   ],
+   [
+    6,
+    3
+   ],
+   [
+    6,
+    4
+   ],
+   [
+    6,
+    5
+   ]
+  ],
+  "circuit_sha256": "7f9c1f9d6f9e852b5777bf62952045e6de43d0eef2160996e1d9305ed26d01b1",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N09_n04.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 61,
+  "exactness": {
+   "fidelity": 1.0000000000000009,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "f506cf48d3cf98ea3a4b693df0efe8aa9e09baa21565b93fa97d261bcf81e065",
+  "models": {
+   "pauli": {
+    "median": 0.779318577346189,
+    "mean": 0.7916234086397786,
+    "Zmed": 1.1603968092151118,
+    "Xmed": 0.11906810155578232,
+    "f": 0.8641215,
+    "n_traj": 2000,
+    "simulation_seconds": 5.794674699998723,
+    "scoring_seconds": 0.5322082999991835,
+    "trajectory_seed": 4480725038342013006,
+    "resampling_seed": 15703383988477732965,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 62,
+     "nq": 9
+    },
+    "pz_sum": 0.9999999999999973,
+    "px_sum": 1.0000000000000024
+   },
+   "hw": {
+    "median": 0.6018333409460357,
+    "mean": 0.6086693131329193,
+    "Zmed": 1.3249928121341754,
+    "Xmed": 0.33809084454048877,
+    "f": 0.77455725,
+    "n_traj": 1000,
+    "simulation_seconds": 6.841492100000323,
+    "scoring_seconds": 0.4022758999999496,
+    "trajectory_seed": 10313272203585421034,
+    "resampling_seed": 2284274841119744628,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 62,
+     "nq": 9
+    },
+    "pz_sum": 1.0000000000000002,
+    "px_sum": 0.999999999999999
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 202,
+  "N": 10,
+  "n": 1,
+  "construction_seconds": 1.5793863999999758,
+  "moments": 34,
+  "qubits": [
+   [
+    4,
+    9
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    6,
+    12
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    7,
+    12
+   ],
+   [
+    8,
+    11
+   ],
+   [
+    8,
+    12
+   ]
+  ],
+  "circuit_sha256": "79300c15445bd071d13d332985f5268d24cb9233e79ed06b3f073800256f824f",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N10_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 17,
+  "exactness": {
+   "fidelity": 0.9999999999999987,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "9bfcf499105f0629c5828e638d41e8fa17315a7f7e505854c9efb34a0a626fdb",
+  "models": {
+   "pauli": {
+    "median": 1.0363112964248913,
+    "mean": 1.2436357714145811,
+    "Zmed": 0.9623876658372206,
+    "Xmed": 0.0026514574159738056,
+    "f": 0.9319375,
+    "n_traj": 2000,
+    "simulation_seconds": 5.476845500001218,
+    "scoring_seconds": 0.7370464000014181,
+    "trajectory_seed": 5751728243344720538,
+    "resampling_seed": 9319979273752569683,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 34,
+     "nq": 10
+    },
+    "pz_sum": 1.0000000000000084,
+    "px_sum": 1.0000000000000007
+   },
+   "hw": {
+    "median": 1.0567010254075737,
+    "mean": 1.1922471231930047,
+    "Zmed": 0.9397965596938871,
+    "Xmed": 0.005092985915747051,
+    "f": 0.9133515,
+    "n_traj": 1000,
+    "simulation_seconds": 5.914099600002373,
+    "scoring_seconds": 0.611520800001017,
+    "trajectory_seed": 11765334935989758763,
+    "resampling_seed": 1449181046227952167,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 34,
+     "nq": 10
+    },
+    "pz_sum": 1.0000000000000009,
+    "px_sum": 0.9999999999999993
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 202,
+  "N": 10,
+  "n": 2,
+  "construction_seconds": 1.1906013000000257,
+  "moments": 27,
+  "qubits": [
+   [
+    4,
+    9
+   ],
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    5,
+    12
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    6,
+    12
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    7,
+    12
+   ]
+  ],
+  "circuit_sha256": "b03bf9f0b59d9d566e1210a87dbafaddae408a9bc1cd417625ea3345bd6f09d3",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N10_n02.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 29,
+  "exactness": {
+   "fidelity": 1.0000000000000013,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "d1c01b58104defc5e1b0758adeb6cc487c5145cd1eb9387d370bf121c9fcc93d",
+  "models": {
+   "pauli": {
+    "median": 0.9095168134028315,
+    "mean": 0.9421325978447892,
+    "Zmed": 1.087214382787736,
+    "Xmed": 0.014231980677099075,
+    "f": 0.90458575,
+    "n_traj": 2000,
+    "simulation_seconds": 10.346987000000126,
+    "scoring_seconds": 0.4110478999998577,
+    "trajectory_seed": 3127539261527197542,
+    "resampling_seed": 13572521378882667632,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 27,
+     "nq": 10
+    },
+    "pz_sum": 1.0000000000000004,
+    "px_sum": 0.9999999999999987
+   },
+   "hw": {
+    "median": 0.8966081311655163,
+    "mean": 0.9061178774046911,
+    "Zmed": 1.093554807289103,
+    "Xmed": 0.024573470962733844,
+    "f": 0.874199,
+    "n_traj": 1000,
+    "simulation_seconds": 6.859965399999965,
+    "scoring_seconds": 0.36737910000010743,
+    "trajectory_seed": 1657976384066102927,
+    "resampling_seed": 11316003913952313552,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 27,
+     "nq": 10
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999982
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 202,
+  "N": 10,
+  "n": 3,
+  "construction_seconds": 1.2412702999999965,
+  "moments": 45,
+  "qubits": [
+   [
+    1,
+    5
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    3,
+    3
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    4,
+    3
+   ],
+   [
+    4,
+    4
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    5,
+    2
+   ],
+   [
+    5,
+    3
+   ]
+  ],
+  "circuit_sha256": "1f87971492e52ee5ea87ddb8c148a0328e418fbad5c7118f5c9327f92931ab60",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N10_n03.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 45,
+  "exactness": {
+   "fidelity": 0.9999999999999747,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "d98931c7e4ca8845300e7cb17a4a341a6595b41a8adedeca74507cc41016d78b",
+  "models": {
+   "pauli": {
+    "median": 0.8513616573793417,
+    "mean": 0.856578173976629,
+    "Zmed": 1.1176684287902243,
+    "Xmed": 0.052860606754900466,
+    "f": 0.8795294999999999,
+    "n_traj": 2000,
+    "simulation_seconds": 13.260195300000078,
+    "scoring_seconds": 0.38180609999994886,
+    "trajectory_seed": 12976372327072328738,
+    "resampling_seed": 13311788943238641516,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 45,
+     "nq": 10
+    },
+    "pz_sum": 1.0000000000000036,
+    "px_sum": 1.0000000000000029
+   },
+   "hw": {
+    "median": 0.7603035028526498,
+    "mean": 0.7659099313753296,
+    "Zmed": 1.2088984625842967,
+    "Xmed": 0.1065523505577727,
+    "f": 0.8325195,
+    "n_traj": 1000,
+    "simulation_seconds": 10.504965300000094,
+    "scoring_seconds": 0.42376649999982874,
+    "trajectory_seed": 6270574021876896182,
+    "resampling_seed": 3069326276132817712,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 45,
+     "nq": 10
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999984
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 202,
+  "N": 10,
+  "n": 4,
+  "construction_seconds": 1.385704300000043,
+  "moments": 65,
+  "qubits": [
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    5,
+    11
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    8,
+    10
+   ],
+   [
+    8,
+    11
+   ],
+   [
+    8,
+    12
+   ]
+  ],
+  "circuit_sha256": "d0a117da9949e4d5db1075cddb86931b27adfde1c698208dadd952eccb7943fe",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N10_n04.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 73,
+  "exactness": {
+   "fidelity": 0.9999999999999327,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "092219c7ba2b240184e78a45bd15fc44f6362ba4d96d5792d88c52448c1d0ded",
+  "models": {
+   "pauli": {
+    "median": 0.7287189321101236,
+    "mean": 0.7313364776207255,
+    "Zmed": 1.1867589410960557,
+    "Xmed": 0.17872250672174972,
+    "f": 0.8356207499999999,
+    "n_traj": 2000,
+    "simulation_seconds": 18.744486399999914,
+    "scoring_seconds": 0.3941009000000122,
+    "trajectory_seed": 15401039314334480548,
+    "resampling_seed": 11340983520693553158,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 65,
+     "nq": 10
+    },
+    "pz_sum": 1.000000000000005,
+    "px_sum": 1.0000000000000018
+   },
+   "hw": {
+    "median": 0.5569797956904663,
+    "mean": 0.557616434006316,
+    "Zmed": 1.3601902223088844,
+    "Xmed": 0.4335270148403312,
+    "f": 0.7426400000000001,
+    "n_traj": 1000,
+    "simulation_seconds": 18.50560919999998,
+    "scoring_seconds": 0.3860323999999764,
+    "trajectory_seed": 1918194929295853784,
+    "resampling_seed": 11329459842141262382,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 65,
+     "nq": 10
+    },
+    "pz_sum": 0.9999999999999999,
+    "px_sum": 0.9999999999999983
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 202,
+  "N": 10,
+  "n": 5,
+  "construction_seconds": 1.50594910000018,
+  "moments": 73,
+  "qubits": [
+   [
+    5,
+    1
+   ],
+   [
+    5,
+    2
+   ],
+   [
+    5,
+    3
+   ],
+   [
+    5,
+    4
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    6,
+    1
+   ],
+   [
+    6,
+    2
+   ],
+   [
+    6,
+    3
+   ],
+   [
+    6,
+    4
+   ],
+   [
+    6,
+    5
+   ]
+  ],
+  "circuit_sha256": "61b913b7f773c79f4b07b119cbcf43fdc1a96d7e7e3b5d544e1e47556ea532d2",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N10_n05.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 79,
+  "exactness": {
+   "fidelity": 0.9999999999999947,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "c8a2ed29875f260dc7c732c638d110617628284550ae384cb6a670fea4c6869a",
+  "models": {
+   "pauli": {
+    "median": 0.6654331398580974,
+    "mean": 0.6661815140244474,
+    "Zmed": 1.2225833791316343,
+    "Xmed": 0.27995219918312925,
+    "f": 0.82711625,
+    "n_traj": 2000,
+    "simulation_seconds": 17.88960300000008,
+    "scoring_seconds": 0.405965500000093,
+    "trajectory_seed": 14054012974018148294,
+    "resampling_seed": 5073742809771818105,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 73,
+     "nq": 10
+    },
+    "pz_sum": 1.0000000000000018,
+    "px_sum": 1.0000000000000022
+   },
+   "hw": {
+    "median": 0.5139328062116924,
+    "mean": 0.5142576746820121,
+    "Zmed": 1.3698419620995161,
+    "Xmed": 0.5780777960321652,
+    "f": 0.7438165000000001,
+    "n_traj": 1000,
+    "simulation_seconds": 15.740211299999828,
+    "scoring_seconds": 0.3924924000000374,
+    "trajectory_seed": 13494163934768615058,
+    "resampling_seed": 13952558323878959787,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 73,
+     "nq": 10
+    },
+    "pz_sum": 1.0000000000000002,
+    "px_sum": 0.9999999999999982
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 202,
+  "N": 11,
+  "n": 1,
+  "construction_seconds": 1.486608599999954,
+  "moments": 13,
+  "qubits": [
+   [
+    3,
+    3
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    3,
+    7
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    4,
+    7
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    5,
+    6
+   ]
+  ],
+  "circuit_sha256": "c18234a4778471a58bb55ec8a622f91987566a1039dc42b4efa763ad2df26d80",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N11_n01.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 19,
+  "exactness": {
+   "fidelity": 0.9999999999999989,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "d52d0044aeb3e9b0d049208f03822794e5664353d7cd0f1f76df2ebe93f2f541",
+  "models": {
+   "pauli": {
+    "median": 1.1381889921902166,
+    "mean": 1.3070783533496138,
+    "Zmed": 0.8762165151600914,
+    "Xmed": 0.003032282187140427,
+    "f": 0.9252205000000001,
+    "n_traj": 2000,
+    "simulation_seconds": 5.829908399999113,
+    "scoring_seconds": 0.8024351999993087,
+    "trajectory_seed": 17584760857918436848,
+    "resampling_seed": 1218006148038168430,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 13,
+     "nq": 11
+    },
+    "pz_sum": 0.9999999999999988,
+    "px_sum": 0.9999999999999969
+   },
+   "hw": {
+    "median": 1.0375882938813141,
+    "mean": 1.1881772142501117,
+    "Zmed": 0.9613836813233525,
+    "Xmed": 0.0036340807789509272,
+    "f": 0.91772925,
+    "n_traj": 1000,
+    "simulation_seconds": 6.547212199999194,
+    "scoring_seconds": 0.7553793999977643,
+    "trajectory_seed": 6780539879089456896,
+    "resampling_seed": 1644068410999904520,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 13,
+     "nq": 11
+    },
+    "pz_sum": 1.0000000000000009,
+    "px_sum": 0.9999999999999991
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 202,
+  "N": 11,
+  "n": 2,
+  "construction_seconds": 1.2480626000001394,
+  "moments": 33,
+  "qubits": [
+   [
+    5,
+    9
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    5,
+    12
+   ],
+   [
+    6,
+    9
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    6,
+    12
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    7,
+    12
+   ]
+  ],
+  "circuit_sha256": "9c35802432748e1e534824c2a23b134d88598f8d8ed847f1547ed053fc1dd70f",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N11_n02.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 33,
+  "exactness": {
+   "fidelity": 0.9999999999999958,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "fe95a9e228f635649fa8b8a76e981b9ebd8a32b6434ed44f6cc488ef22808bb3",
+  "models": {
+   "pauli": {
+    "median": 0.8790460025907149,
+    "mean": 0.8940106070771006,
+    "Zmed": 1.1152837165454832,
+    "Xmed": 0.02040329558247493,
+    "f": 0.88348275,
+    "n_traj": 2000,
+    "simulation_seconds": 18.94938860000002,
+    "scoring_seconds": 0.5535201999998662,
+    "trajectory_seed": 10604922311189533527,
+    "resampling_seed": 13054605191926800502,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 33,
+     "nq": 11
+    },
+    "pz_sum": 1.0000000000000016,
+    "px_sum": 0.9999999999999999
+   },
+   "hw": {
+    "median": 0.8205167448463726,
+    "mean": 0.847559323533052,
+    "Zmed": 1.1783708527096324,
+    "Xmed": 0.03915918804933774,
+    "f": 0.8455235000000001,
+    "n_traj": 1000,
+    "simulation_seconds": 16.926586800000223,
+    "scoring_seconds": 0.5314444999999068,
+    "trajectory_seed": 16289568955595670745,
+    "resampling_seed": 5314786816184969181,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 33,
+     "nq": 11
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999982
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 202,
+  "N": 11,
+  "n": 3,
+  "construction_seconds": 1.147520600000007,
+  "moments": 61,
+  "qubits": [
+   [
+    1,
+    5
+   ],
+   [
+    1,
+    6
+   ],
+   [
+    1,
+    7
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    3,
+    3
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    4,
+    3
+   ]
+  ],
+  "circuit_sha256": "7c0e63e50704967c8d6a94cb24e4b303b03e52e8d3bc2a6d6d3ae5e352366b91",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N11_n03.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 66,
+  "exactness": {
+   "fidelity": 1.0000000000000027,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "936fc545d03c4262113fc44c85c23cce0235c5a9065a1ec3f2956877a2f01233",
+  "models": {
+   "pauli": {
+    "median": 0.8045807855188984,
+    "mean": 0.8113601534906121,
+    "Zmed": 1.166744130923353,
+    "Xmed": 0.07379360384367044,
+    "f": 0.851251,
+    "n_traj": 2000,
+    "simulation_seconds": 32.251376800000116,
+    "scoring_seconds": 0.5728818999998566,
+    "trajectory_seed": 4069917246963684114,
+    "resampling_seed": 1525407112479781639,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 61,
+     "nq": 11
+    },
+    "pz_sum": 1.0000000000000027,
+    "px_sum": 1.0000000000000007
+   },
+   "hw": {
+    "median": 0.6557353655421745,
+    "mean": 0.6623271559014415,
+    "Zmed": 1.3185754349774743,
+    "Xmed": 0.20308221641666105,
+    "f": 0.77185425,
+    "n_traj": 1000,
+    "simulation_seconds": 24.896364000000176,
+    "scoring_seconds": 0.585949699999901,
+    "trajectory_seed": 3202028321703044224,
+    "resampling_seed": 8835896600918601183,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 61,
+     "nq": 11
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.999999999999998
+   }
+  },
+  "score_source": "scored"
+ },
+ {
+  "seed": 202,
+  "N": 11,
+  "n": 4,
+  "construction_seconds": 0.897621000000072,
+  "moments": 80,
+  "qubits": [
+   [
+    1,
+    5
+   ],
+   [
+    1,
+    6
+   ],
+   [
+    1,
+    7
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    6
+   ],
+   [
+    5,
+    5
+   ]
+  ],
+  "circuit_sha256": "f80afe4d4d6323c8cba0bbd307aee89d115a0df3f03d02025f7e86d4b2f5d1d0",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N11_n04.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 89,
+  "exactness": {
+   "fidelity": 1.0000000000000009,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "cafdc55ad2a0c9c0fa2b4cd89cd10ccc54d32c7bc71af18b6fc431b1bcbd0b80",
+  "models": {
+   "pauli": {
+    "median": 0.7165395001356556,
+    "mean": 0.7175942161174577,
+    "Zmed": 1.2128609148524654,
+    "Xmed": 0.17962845435098582,
+    "f": 0.8226005000000001,
+    "n_traj": 2000,
+    "simulation_seconds": 32.896005599999626,
+    "scoring_seconds": 0.847818999998708,
+    "trajectory_seed": 6991777820705156160,
+    "resampling_seed": 5528899931380517272,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 80,
+     "nq": 11
+    },
+    "pz_sum": 1.000000000000004,
+    "px_sum": 1.0000000000000002
+   },
+   "hw": {
+    "median": 0.5261495404849226,
+    "mean": 0.5268387073503523,
+    "Zmed": 1.4048444455036475,
+    "Xmed": 0.4913683579322444,
+    "f": 0.71061425,
+    "n_traj": 1000,
+    "simulation_seconds": 47.76021539999783,
+    "scoring_seconds": 0.9081422999988717,
+    "trajectory_seed": 15546658579198471898,
+    "resampling_seed": 933399675417446069,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 80,
+     "nq": 11
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.999999999999998
+   }
+  },
+  "score_source": "cache"
+ },
+ {
+  "seed": 202,
+  "N": 11,
+  "n": 5,
+  "construction_seconds": 0.9659833000000617,
+  "moments": 93,
+  "qubits": [
+   [
+    5,
+    1
+   ],
+   [
+    5,
+    2
+   ],
+   [
+    5,
+    3
+   ],
+   [
+    5,
+    4
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    6,
+    1
+   ],
+   [
+    6,
+    2
+   ],
+   [
+    6,
+    3
+   ],
+   [
+    6,
+    4
+   ],
+   [
+    6,
+    5
+   ],
+   [
+    7,
+    5
+   ]
+  ],
+  "circuit_sha256": "6d83fadec34268a0249d1808d7090041a6cedae83ba8c457289af6a2d849aa20",
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N11_n05.json",
+  "validity": {
+   "passed": true,
+   "errors": [],
+   "willow105": true
+  },
+  "cz_count": 102,
+  "exactness": {
+   "fidelity": 0.9999999999999987,
+   "passed": true,
+   "threshold": 0.99999999,
+   "ancilla_count": 0,
+   "dtype": "complex128"
+  },
+  "key": "73a2da670076b7d832570fd459281f383955bbbfc46f656c3b7b9f2c0c6db4e3",
+  "models": {
+   "pauli": {
+    "median": 0.6068861441188675,
+    "mean": 0.6094748572250268,
+    "Zmed": 1.271583869576968,
+    "Xmed": 0.37277585320208284,
+    "f": 0.7868225,
+    "n_traj": 2000,
+    "simulation_seconds": 46.46343469999988,
+    "scoring_seconds": 0.5279935999999452,
+    "trajectory_seed": 16913928916592513248,
+    "resampling_seed": 1098988745107849390,
+    "hw": {
+     "T1": 1000000000.0,
+     "Tphi_white": 0,
+     "T2star": 0,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 93,
+     "nq": 11
+    },
+    "pz_sum": 1.000000000000008,
+    "px_sum": 1.000000000000003
+   },
+   "hw": {
+    "median": 0.413095588192287,
+    "mean": 0.4146225644948436,
+    "Zmed": 1.5599486515333274,
+    "Xmed": 0.8605048240336344,
+    "f": 0.6532310000000001,
+    "n_traj": 1000,
+    "simulation_seconds": 21.410683500000005,
+    "scoring_seconds": 0.5620738000000074,
+    "trajectory_seed": 3047297840536277186,
+    "resampling_seed": 8250126370009854724,
+    "hw": {
+     "T1": 6.8e-05,
+     "Tphi_white": 0.0002,
+     "T2star": 3e-05,
+     "zz_hz": 0.0,
+     "t_1q": 2.5e-08,
+     "t_cz": 4.2e-08,
+     "t_reset": 1.6e-07,
+     "cz_phase_err_std": 0.0,
+     "sq_overrot_std": 0.0,
+     "gate_noise_scale": 1.0,
+     "readout_scale": 1.0,
+     "seed": 1234
+    },
+    "simulator_info": {
+     "depth": 93,
+     "nq": 11
+    },
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999983
+   }
+  },
+  "score_source": "scored"
+ }
+]

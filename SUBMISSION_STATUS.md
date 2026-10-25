@@ -1,4 +1,4 @@
-# Submission status (Kai's workspace, 2026-10-25 ~04:20 EDT)
+# Submission status (Kai's workspace, updated 2026-10-25)
 
 All numbers below are **simulator proxies** (tools/sim.py trajectory noise model, official scorer, 10k shots per basis),
 not hardware results. Higher is better; each instance is ~1 for good circuits, < 1 as N grows.
@@ -7,7 +7,7 @@ not hardware results. Higher is better; each instance is ~1 for good circuits, <
 
 | File | What it is | Status |
 |---|---|---|
-| `final_v2/submission_v2.py` | **Recommended.** Team portfolio (= `dicke_submission.py` on `main`, unchanged for N ≤ 8) plus a library of exact, GPU/CPU-compressed op-list circuits for N ≥ 9, ranked against the portfolio circuit by one error estimate and verified noiselessly, with fallback to the portfolio circuit. Built by `tools/build_v2.py`. | Smoke-tested (see below); not yet in the full team_eval run. |
+| `final_v2/submission_v2.py` | **Recommended.** Team portfolio (= `dicke_submission.py` on `main`, unchanged for N ≤ 8) plus a library of exact, GPU/CPU-compressed op-list circuits for N ≥ 9, ranked against the portfolio circuit by one error estimate and verified noiselessly, with fallback to the portfolio circuit. Built by `tools/build_v2.py`. | Smoke-tested and noisy-sim scored (see below): best total, +0.1% over A. |
 | `dicke_submission.py` (on `main`) | Team portfolio, candidate **A** in `team_eval/RESULTS.md`. Includes `create_dicke_state_adaptive` (bonus). | Fully evaluated, safest fallback. |
 | `submission.py` | Root pipeline (`build_submission.py` inlines `dicke_core.py` + `dicke_main.py` + `data/templates` + `data/peep`), candidate **B**. | Fully evaluated; about tied with A. |
 
@@ -47,7 +47,42 @@ Every circuit passes `Willow105.validate_circuit`, uses only calibrated CZ pairs
 
 So far v2 has only produced a clear gain where the root pipeline beat the portfolio (D(10,3)). Elsewhere it ties.
 The few extra moments at D(10,5), D(12,6) and D(14,7) come from the error estimate picking a different, equal-CZ
-embedding. **Still to do:** a noisy-sim score for v2 (add it as candidate E in team_eval).
+embedding.
+
+## v2 noisy-sim score vs A and B (`team_eval/v2/eval_v2.py`)
+
+The team_eval pipeline was used unchanged: the same saved calibrations, per-instance RNG seeds (which depend only
+on seed, N, n and model, so a circuit identical to A's or B's gets an identical score), 2000 Pauli / 1000 HW
+trajectories, 400 resamplings, and K = N. 40 of v2's 60 circuits (N ≤ 11) were byte-identical to an already-scored
+A or B circuit and reuse that score; the other 20 were simulated. All 60 are valid and exact, and each builds in
+≤ 15 s.
+
+Sum of medians over the 24 instances per seed where A, B and v2 all have scores (N ≤ 11; seed 202 has no A/B
+scores for N ≤ 5 yet). "Best of A/B" is the per-instance maximum, i.e. the ceiling for a perfect selector:
+
+| Seed | Model | A portfolio | B `submission.py` | **v2** | best of A/B |
+|---:|:---|---:|---:|---:|---:|
+| 101 | Pauli | **22.668** | 22.454 | 22.645 | 22.800 |
+| 101 | HW | 20.511 | 20.425 | **20.556** | 20.805 |
+| 202 | Pauli | **22.546** | 22.437 | 22.408 | 22.900 |
+| 202 | HW | 20.266 | 20.413 | **20.488** | 20.787 |
+| all | total | 85.991 | 85.729 | **86.097** | 87.292 |
+
+**Verdict:** v2 is the best single file, but only just. It wins the HW model (T1 and dephasing, the more realistic
+one) on both seeds and is +0.1% over A in total. That is within the run-to-run differences of the proxy, so
+in practice A and v2 are tied, and B is about 0.3% behind. For N ≤ 8, v2 is A.
+
+Where v2's selector gains and loses (N ≥ 9; Pauli/HW medians):
+- **Gains:** D(9,3) s101 0.859/0.760 against A 0.836/0.708 (45 vs 48 CZ). D(10,3) on both seeds (takes B's
+  45-CZ circuit). D(10,4) and D(11,2) on s202 under HW.
+- **Losses:** D(10,5) on both seeds: v2 scores 0.717/0.520 (s101) and 0.665/0.514 (s202), against A's
+  0.743/0.552 and 0.709/0.545. On s202 it even picked B's 79-CZ circuit over A's 73-CZ one. Also D(11,5) and
+  D(9,3) on s202 under Pauli, slightly.
+- **Missed:** W states, where B beats A on some seeds (e.g. D(10,1) s202: B 1.155/1.090 vs A 1.036/1.057). v2
+  keeps A there.
+
+Closing the gap to "best of A/B" (+1.4%) needs a better ranking of candidates than `estimate_error`. The simplest
+fix: always keep A's circuit for half-filled states (n = N/2) and allow B's W-state circuits.
 
 ## Reproduce
 
