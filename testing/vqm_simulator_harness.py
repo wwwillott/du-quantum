@@ -12,15 +12,53 @@ import numpy as np
 
 from ideation import (
     create_dicke_state,
-    cz_pauli_error_rate,
+    generate_qubit_error_rates,
+    generate_two_qubit_pauli_error_rates,
     native_h,
-    one_errors,
-    sq_pauli_error_rate,
-    zero_errors,
+    pick_single_qubit_dropouts,
 )
 
 
 ErrorMap = Mapping[object, float | tuple[float, float]]
+
+
+def generate_seeded_error_maps(
+    seed: int,
+) -> tuple[dict, dict, dict, dict]:
+    """Generate a reproducible set of synthetic challenge error maps."""
+    rng = np.random.default_rng(seed)
+    dropouts = pick_single_qubit_dropouts(0.01, rng=rng)
+    sq_errors = generate_qubit_error_rates(
+        4e-4,
+        0.5,
+        dropouts,
+        2e-4,
+        rng=rng,
+    )
+    cz_errors = generate_two_qubit_pauli_error_rates(
+        single_qubit_dropouts=dropouts,
+        rng=rng,
+    )
+    zero_readout_errors = generate_qubit_error_rates(
+        5e-3,
+        0.5,
+        dropouts,
+        2e-4,
+        rng=rng,
+    )
+    one_readout_errors = generate_qubit_error_rates(
+        1e-2,
+        0.5,
+        dropouts,
+        3e-4,
+        rng=rng,
+    )
+    return (
+        sq_errors,
+        cz_errors,
+        zero_readout_errors,
+        one_readout_errors,
+    )
 
 
 class VQMSimulatorHarness:
@@ -32,11 +70,24 @@ class VQMSimulatorHarness:
         cz_errors: ErrorMap,
         zero_errors: ErrorMap,
         one_errors: ErrorMap,
+        idle_phase_error: float = 0.0,
+        simulator_backend: str = "auto",
+        max_density_matrix_qubits: int = 10,
     ) -> None:
         self.sq_errors = sq_errors
         self.cz_errors = cz_errors
         self.zero_errors = zero_errors
         self.one_errors = one_errors
+        self.idle_phase_error = idle_phase_error
+        self.simulator_backend = simulator_backend
+        self.max_density_matrix_qubits = max_density_matrix_qubits
+
+        if not 0.0 <= idle_phase_error <= 1.0:
+            raise ValueError("idle_phase_error must be between 0 and 1")
+        if simulator_backend not in {"auto", "density_matrix", "trajectory"}:
+            raise ValueError(
+                "simulator_backend must be auto, density_matrix, or trajectory"
+            )
 
     @staticmethod
     def _error_rate(
@@ -74,7 +125,9 @@ class VQMSimulatorHarness:
         for moment in circuit:
             noisy_circuit.append(moment)
             noise_operations = []
+            active_qubits = set()
             for operation in moment.operations:
+                active_qubits.update(operation.qubits)
                 if len(operation.qubits) == 1:
                     qubit = operation.qubits[0]
                     error = self._error_rate(
@@ -97,6 +150,11 @@ class VQMSimulatorHarness:
                     noise_operations.append(
                         cirq.depolarize(error, n_qubits=2).on(first, second)
                     )
+            if self.idle_phase_error:
+                for qubit in path_qubits.difference(active_qubits):
+                    noise_operations.append(
+                        cirq.phase_damp(self.idle_phase_error).on(qubit)
+                    )
             if noise_operations:
                 noisy_circuit.append(noise_operations)
 
@@ -110,18 +168,18 @@ class VQMSimulatorHarness:
         noisy_circuit.append(readout_operations)
         return noisy_circuit
 
+    @staticmethod
     def score_z_distribution(
-        self,
         samples: np.ndarray,
         num_qubits: int,
         num_excitations: int,
     ) -> float:
-        """Score Z-basis subspace retention and in-subspace uniformity."""
+        """Apply the challenge's exact Z-basis scoring formula."""
         shots = samples.shape[0]
         valid_mask = np.sum(samples, axis=1) == num_excitations
         subspace_retention = float(np.mean(valid_mask))
         if subspace_retention == 0:
-            return 1e6
+            return float("inf")
 
         valid_samples = samples[valid_mask]
         state_count = math.comb(num_qubits, num_excitations)
@@ -143,14 +201,85 @@ class VQMSimulatorHarness:
         chi_squared = np.sum(
             (observed_counts - expected_count) ** 2 / expected_count
         )
-        return float((1.0 - subspace_retention) + 0.01 * chi_squared)
+        ideal_probability = 1.0 / state_count
+        return float(
+            ideal_probability * chi_squared / subspace_retention
+        )
 
     @staticmethod
-    def score_x_distribution(samples: np.ndarray) -> float:
-        """Score full-register X-basis parity preservation."""
-        eigenvalues = 1.0 - 2.0 * samples
-        parity_correlation = np.mean(np.prod(eigenvalues, axis=1))
-        return float(np.abs(1.0 - np.abs(parity_correlation)))
+    def _correlator_average(
+        samples: np.ndarray,
+        correlator_size: int,
+    ) -> float:
+        """Return the average of all weight-k X correlators."""
+        correlator_sum = 0.0
+        _, num_qubits = samples.shape
+        for indices in itertools.combinations(
+            range(num_qubits),
+            correlator_size,
+        ):
+            parity = np.sum(samples[:, indices], axis=1) % 2
+            correlator_sum += 1.0 - 2.0 * np.mean(parity)
+        return float(
+            correlator_sum / math.comb(num_qubits, correlator_size)
+        )
+
+    @classmethod
+    def score_x_distribution(
+        cls,
+        samples: np.ndarray,
+        num_excitations: int,
+        max_correlator_size: int,
+    ) -> float:
+        """Apply the challenge's exact X-basis scoring formula."""
+
+        def safe_combination(n: int, k: int) -> int:
+            return math.comb(n, k) if 0 <= k <= n else 0
+
+        _, num_qubits = samples.shape
+        score = 0.0
+        for correlator_size in range(1, max_correlator_size + 1):
+            expected_correlator = (
+                safe_combination(
+                    correlator_size,
+                    correlator_size // 2,
+                )
+                * safe_combination(
+                    num_qubits - correlator_size,
+                    num_excitations - correlator_size // 2,
+                )
+                / safe_combination(num_qubits, num_excitations)
+                if correlator_size % 2 == 0
+                else 0.0
+            )
+            measured_correlator = cls._correlator_average(
+                samples,
+                correlator_size,
+            )
+            difference = expected_correlator - measured_correlator
+            score += (
+                difference**2 / expected_correlator**2
+                if expected_correlator != 0
+                else difference**2
+            )
+        return float(score)
+
+    def _select_simulator(
+        self,
+        num_qubits: int,
+        seed: int | None,
+    ) -> tuple[cirq.Sampler, str]:
+        """Choose a fast backend without risking a huge density matrix."""
+        backend = self.simulator_backend
+        if backend == "auto":
+            backend = (
+                "density_matrix"
+                if num_qubits <= self.max_density_matrix_qubits
+                else "trajectory"
+            )
+        if backend == "density_matrix":
+            return cirq.DensityMatrixSimulator(seed=seed), backend
+        return cirq.Simulator(seed=seed), backend
 
     def evaluate_solution(
         self,
@@ -159,7 +288,7 @@ class VQMSimulatorHarness:
         num_excitations: int,
         shots: int = 10_000,
         seed: int | None = None,
-    ) -> dict[str, float | int]:
+    ) -> dict[str, float | int | str]:
         """Run noisy Z- and X-basis evaluations for one Dicke-state case."""
         clean_circuit, qubit_set = circuit_fn(
             num_qubits=num_qubits,
@@ -179,7 +308,7 @@ class VQMSimulatorHarness:
         noisy_x = self.build_noisy_circuit(x_basis_circuit, qubit_set)
         noisy_x.append(cirq.measure(*ordered_path, key="x"))
 
-        simulator = cirq.Simulator(seed=seed)
+        simulator, backend = self._select_simulator(num_qubits, seed)
         samples_z = simulator.run(
             noisy_z,
             repetitions=shots,
@@ -194,17 +323,31 @@ class VQMSimulatorHarness:
             num_qubits,
             num_excitations,
         )
-        score_x = self.score_x_distribution(samples_x)
+        score_x = self.score_x_distribution(
+            samples_x,
+            num_excitations,
+            max_correlator_size=num_qubits,
+        )
+        total_penalty = score_z + score_x
+        if not np.isfinite(total_penalty):
+            judge_score = 0.0
+        elif total_penalty == 0:
+            judge_score = float("inf")
+        else:
+            judge_score = 1.0 / total_penalty
         return {
             "N": num_qubits,
             "n": num_excitations,
             "shots": shots,
+            "simulator_backend": backend,
+            "idle_phase_error": self.idle_phase_error,
             "subspace_retention": float(
                 np.mean(np.sum(samples_z, axis=1) == num_excitations)
             ),
             "score_z": score_z,
             "score_x": score_x,
-            "overall_score": 1.0 / (score_z + score_x + 1e-8),
+            "estimated_judge_score": judge_score,
+            "overall_score": judge_score,
         }
 
 
@@ -215,13 +358,38 @@ def main() -> None:
     parser.add_argument("--num-excitations", "-n", type=int, default=2)
     parser.add_argument("--shots", type=int, default=10_000)
     parser.add_argument("--seed", type=int, default=12345)
+    parser.add_argument(
+        "--error-seed",
+        type=int,
+        default=2026,
+        help="Seed used to generate reproducible synthetic error maps",
+    )
+    parser.add_argument(
+        "--idle-phase-error",
+        type=float,
+        default=0.0,
+        help="Optional phase-damping probability per idle logical moment",
+    )
+    parser.add_argument(
+        "--backend",
+        choices=("auto", "density_matrix", "trajectory"),
+        default="auto",
+    )
     arguments = parser.parse_args()
 
+    (
+        sq_errors,
+        cz_errors,
+        zero_readout_errors,
+        one_readout_errors,
+    ) = generate_seeded_error_maps(arguments.error_seed)
     harness = VQMSimulatorHarness(
-        sq_errors=sq_pauli_error_rate,
-        cz_errors=cz_pauli_error_rate,
-        zero_errors=zero_errors,
-        one_errors=one_errors,
+        sq_errors=sq_errors,
+        cz_errors=cz_errors,
+        zero_errors=zero_readout_errors,
+        one_errors=one_readout_errors,
+        idle_phase_error=arguments.idle_phase_error,
+        simulator_backend=arguments.backend,
     )
     result = harness.evaluate_solution(
         create_dicke_state,
@@ -230,6 +398,7 @@ def main() -> None:
         shots=arguments.shots,
         seed=arguments.seed,
     )
+    result["error_seed"] = arguments.error_seed
 
     print("VQM noisy-simulation report")
     print("=" * 40)

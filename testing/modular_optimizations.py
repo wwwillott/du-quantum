@@ -75,7 +75,43 @@ def cancel_adjacent_czs(circuit: cirq.Circuit) -> cirq.Circuit:
 
 
 # ==============================================================================
-# Pass 2: Threshold-based dynamical decoupling
+# Pass 2: Parallel stair-pushing / moment compression
+# ==============================================================================
+
+
+def compress_moments(circuit: cirq.Circuit) -> cirq.Circuit:
+    """Greedily move operations to their earliest dependency-safe moments.
+
+    Iterating in circuit order preserves the operation order on every qubit.
+    Operations on disjoint qubits can move left, which exposes parallelism
+    without changing the circuit unitary or gate set.
+    """
+    return cirq.Circuit(
+        circuit.all_operations(),
+        strategy=cirq.InsertStrategy.EARLIEST,
+    )
+
+
+# ==============================================================================
+# Pass 3: Native single-qubit gate fusion
+# ==============================================================================
+
+
+def fuse_single_qubit_gates(
+    circuit: cirq.Circuit,
+    atol: float = 1e-10,
+) -> cirq.Circuit:
+    """Merge uninterrupted 1Q runs into native PhasedXZ operations."""
+    fused = cirq.merge_single_qubit_gates_to_phxz(
+        circuit,
+        atol=atol,
+    )
+    native = cirq.drop_negligible_operations(fused, atol=atol)
+    return compress_moments(native)
+
+
+# ==============================================================================
+# Pass 4: Threshold-based dynamical decoupling
 # ==============================================================================
 
 
@@ -177,6 +213,17 @@ def compile_dicke_state(
         cz_canceled = cancel_adjacent_czs(circuit)
         return apply_threshold_dd(
             cz_canceled,
+            qubit_set,
+            min_gap_moments=dd_threshold,
+        )
+    if mode == "baseline_compressed":
+        return compress_moments(circuit)
+    if mode == "baseline_fused":
+        return fuse_single_qubit_gates(circuit)
+    if mode == "baseline_compressed_threshold":
+        compressed = compress_moments(circuit)
+        return apply_threshold_dd(
+            compressed,
             qubit_set,
             min_gap_moments=dd_threshold,
         )

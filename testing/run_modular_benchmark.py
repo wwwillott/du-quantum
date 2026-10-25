@@ -6,16 +6,15 @@ import cirq
 
 from ideation import (
     create_dicke_state,
-    cz_pauli_error_rate,
-    one_errors,
-    sq_pauli_error_rate,
-    zero_errors,
 )
 from modular_optimizations import (
     apply_threshold_dd,
     cancel_adjacent_czs,
 )
-from vqm_simulator_harness import VQMSimulatorHarness
+from vqm_simulator_harness import (
+    VQMSimulatorHarness,
+    generate_seeded_error_maps,
+)
 
 
 # ==============================================================================
@@ -26,12 +25,25 @@ from vqm_simulator_harness import VQMSimulatorHarness
 class VQMBenchmarkEvaluator:
     """Evaluate optimization modes on the validated generated circuit."""
 
-    def __init__(self) -> None:
+    def __init__(
+        self,
+        idle_phase_error: float = 0.0,
+        simulator_backend: str = "auto",
+        error_seed: int = 2026,
+    ) -> None:
+        (
+            self.sq_errors,
+            self.cz_errors,
+            self.zero_errors,
+            self.one_errors,
+        ) = generate_seeded_error_maps(error_seed)
         self.harness = VQMSimulatorHarness(
-            sq_errors=sq_pauli_error_rate,
-            cz_errors=cz_pauli_error_rate,
-            zero_errors=zero_errors,
-            one_errors=one_errors,
+            sq_errors=self.sq_errors,
+            cz_errors=self.cz_errors,
+            zero_errors=self.zero_errors,
+            one_errors=self.one_errors,
+            idle_phase_error=idle_phase_error,
+            simulator_backend=simulator_backend,
         )
         self._base_circuits: dict[
             tuple[int, int],
@@ -49,10 +61,10 @@ class VQMBenchmarkEvaluator:
             self._base_circuits[key] = create_dicke_state(
                 num_qubits=num_qubits,
                 num_excitations=num_excitations,
-                cz_pauli_error_rate=cz_pauli_error_rate,
-                sq_pauli_error_rate=sq_pauli_error_rate,
-                zero_errors=zero_errors,
-                one_errors=one_errors,
+                cz_pauli_error_rate=self.cz_errors,
+                sq_pauli_error_rate=self.sq_errors,
+                zero_errors=self.zero_errors,
+                one_errors=self.one_errors,
             )
         return self._base_circuits[key]
 
@@ -132,9 +144,25 @@ if __name__ == "__main__":
         help="Shots per basis and optimization mode (use 10000 for a full run)",
     )
     parser.add_argument("--seed", type=int, default=12345)
+    parser.add_argument("--error-seed", type=int, default=2026)
+    parser.add_argument(
+        "--idle-phase-error",
+        type=float,
+        default=0.0,
+        help="Optional phase damping per idle logical moment",
+    )
+    parser.add_argument(
+        "--backend",
+        choices=("auto", "density_matrix", "trajectory"),
+        default="auto",
+    )
     arguments = parser.parse_args()
 
-    evaluator = VQMBenchmarkEvaluator()
+    evaluator = VQMBenchmarkEvaluator(
+        idle_phase_error=arguments.idle_phase_error,
+        simulator_backend=arguments.backend,
+        error_seed=arguments.error_seed,
+    )
     test_cases = [(4, 2), (5, 2), (6, 3)]
     modes = [
         "raw_baseline",
@@ -142,6 +170,7 @@ if __name__ == "__main__":
         "baseline_threshold",
         "baseline_adjacent_threshold",
     ]
+    score_totals = {mode: 0.0 for mode in modes}
 
     for num_qubits, num_excitations in test_cases:
         print(
@@ -150,7 +179,7 @@ if __name__ == "__main__":
         )
         print(
             f"{'Mode':<30} | {'Moments':<7} | {'CZs':<5} | "
-            f"{'Subspace %':<10} | {'Overall Score':<13}"
+            f"{'Subspace %':<10} | {'Judge Score':<13}"
         )
         print("-" * 75)
 
@@ -162,6 +191,7 @@ if __name__ == "__main__":
                 repetitions=arguments.shots,
                 seed=arguments.seed,
             )
+            score_totals[mode] += float(result["overall_score"])
             print(
                 f"{result['mode']:<30} | "
                 f"{result['moments']:<7} | "
@@ -169,3 +199,7 @@ if __name__ == "__main__":
                 f"{result['subspace_pct']:>9.2f}% | "
                 f"{result['overall_score']:>13.4f}"
             )
+
+    print("\n=== Estimated Judge-Score Totals for Listed Cases ===")
+    for mode in modes:
+        print(f"{mode:<30}: {score_totals[mode]:.6f}")
