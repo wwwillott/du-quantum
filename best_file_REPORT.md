@@ -1,5 +1,10 @@
 # DuQuantum reconciled submission
 
+New Problem 1 research handoff for Astra:
+[NEW_BEST_prob_1_note_for_astra_agent.md](NEW_BEST_prob_1_note_for_astra_agent.md).
+It reports a validated D(8,4) improvement over Will's baseline, with implementation
+and evidence links; comparison against this reconciled file remains to be done.
+
 Submit **best_file.py**. It is self-contained and includes both notebook entry points and the available AI prompt logs in `AI_PROMPTS`. The separate best_file_PROMPTS.md is a readable copy. The original two submissions, root submission.py, and notebook were preserved unchanged.
 
 SHA-256: `5a31b10eaa83b948a0be6940fcfa3c16f8da0d0a2fdc0931748c873c6edad1b2`. File size: 1,397,132 bytes.
