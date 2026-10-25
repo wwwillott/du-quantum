@@ -4931,6 +4931,43 @@ def _team_checked_candidate(candidate, n, cz, sq):
     return circuit,outputs
 
 
+def _offline_calibrated_candidates(n, k, cz, sq, zero, one):
+    """Return calibrated hardware placements for any offline templates matching (n, k)."""
+    k0 = min(k, n - k)
+    raw_templates = []
+    for data in _FINAL_EXTRA.get((n, k0), []):
+        raw_templates.append(_decode_template_data(data))
+    try:
+        seed = _other__native_seed(n, k0)
+        if seed is not None:
+            raw_templates.append(seed)
+        if k0 == 2:
+            arms = _other__three_arm(n)
+            if arms is not None:
+                raw_templates.append(arms)
+    except Exception:
+        pass
+    if not raw_templates:
+        return []
+    args = (cz, sq, zero, one)
+    placements = []
+    for ct, qt in raw_templates:
+        ct = cirq.Circuit(ct)
+        qt = set(qt)
+        if k > n - k:
+            ct = cirq.Circuit(
+                cirq.merge_single_qubit_gates_to_phxz(
+                    ct + cirq.Circuit(cirq.X.on_each(qt))
+                ).all_operations()
+            )
+        ranked = rank_template(ct, qt, k, *args, count=2)
+        ranked.extend(rank_graph_embeddings(ct, qt, k, *args, count=2))
+        ranked.sort(key=lambda item: item[0])
+        for _, cp, qp in ranked[:2]:
+            placements.append((cp, qp))
+    return placements
+
+
 def create_dicke_state(
     num_qubits: int,
     num_excitations: int,
@@ -4942,9 +4979,9 @@ def create_dicke_state(
     """Prepare an exact Dicke state using the notebook's calibration inputs.
 
     Only CZ and PhasedXZ gates; no measurements or external file dependencies.
-    A shallow exact circuit is retained as an immediate incumbent. Alternative
-    exact families are ranked by uncertainty-adjusted projected survival using
-    only the calibration dictionaries supplied for the current hardware run.
+    A shallow exact circuit is retained as an immediate incumbent. Offline
+    templates (when available) are placed on the calibrated graph and scored
+    next, followed by dynamic synthesis families within the remaining runtime.
     """
     global _TEAM_RUNTIME_DEADLINE
     n,k=num_qubits,num_excitations
@@ -4954,8 +4991,7 @@ def create_dicke_state(
     started=time.monotonic()
     _TEAM_RUNTIME_DEADLINE=started+50.0
     try:
-        # Astra is the immediate valid incumbent. Dynamic families may replace
-        # it only when the current calibration predicts better survival.
+        # 1. Estimate the immediate valid incumbent.
         incumbent=_FINAL_ASTRA_MAIN(n,k,*args)
         if k in (0,n):
             return incumbent
@@ -4976,11 +5012,14 @@ def create_dicke_state(
                 # An unavailable or timed-out family cannot discard the incumbent.
                 return
         consider('shallow',candidate=incumbent)
-        try:
-            bonus_cand=_unitary_bonus_best(n,k)
-            consider('unitary_bonus',candidate=bonus_cand)
-        except Exception:
-            pass
+        # 2. Estimate offline templates (if any exist for this target).
+        if _TEAM_RUNTIME_DEADLINE-time.monotonic()>5:
+            try:
+                for offline_cand in _offline_calibrated_candidates(n,k,*args):
+                    consider('offline',candidate=offline_cand)
+            except Exception:
+                pass
+        # 3. Use remaining time budget to calculate dynamic families.
         if _TEAM_RUNTIME_DEADLINE-time.monotonic()>15:
             consider('dynamic_columnforge',_cf_create_dicke_state)
         if _TEAM_RUNTIME_DEADLINE-time.monotonic()>10:
