@@ -1,0 +1,4 @@
+D(9,3) k=9 start CZ=48 infid=6.44e-15
+  m=48: delete #3 (cz 7 (1, 2), damage 7.02e-02) -> CZ=47 infid=-4.4e-16 (202s)
+  m=47: delete #4 (cz 18 (0, 1), damage 1.26e-01) -> CZ=46 infid=-1.3e-15 (185s)
+  m=46: delete #6 (cz 25 (6, 7), damage 1.57e-01) -> CZ=45 infid=2.2e-16 (254s)

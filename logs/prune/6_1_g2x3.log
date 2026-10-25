@@ -1,0 +1,17 @@
+N=6 n=1 g2x3 edges=[(0, 1), (0, 3), (1, 2), (1, 4), (2, 5), (3, 4), (4, 5)] L0=14: start losses [4.80159001e-09 1.09782214e-08 5.73922424e-08 8.85921467e-07
+ 5.81402667e-06] (30s)
+   pruned to L=13 (loss 2.29e-11) seq=[6, 1, 5, 2, 0, 1, 0, 2, 4, 1, 4, 3, 0]
+   pruned to L=12 (loss 4.41e-08) seq=[1, 5, 2, 0, 1, 0, 2, 4, 1, 4, 3, 0]
+Traceback (most recent call last):
+  File "C:\Users\kaisa\Documents\duquantum\tools\prune.py", line 119, in <module>
+    s, p = prune(N, n, edges, list(seqs[b]), P[b], mode, rng)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaisa\Documents\duquantum\tools\prune.py", line 78, in prune
+    val, P = run_adam(loss, np.array(P0), cands, steps)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaisa\Documents\duquantum\tools\prune.py", line 61, in run_adam
+    p, m, v, val = step(p, m, v, t, s)
+                   ^^^^^^^^^^^^^^^^^^^
+MemoryError: bad allocation
+--------------------
+For simplicity, JAX has removed its internal frames from the traceback of the following exception. Set JAX_TRACEBACK_FILTERING=off to include these.

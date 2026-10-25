@@ -1,0 +1,26 @@
+D(2,1)  ours: med=4.353 f=0.989 X=0.000 cz=1 mom=3 F=1.00000000 t=0.1s | theirs: med=4.218 f=0.989 X=0.000 cz=1 mom=3 F=1.00000000 t=0.0s
+D(3,1)  ours: med=2.136 f=0.982 X=0.001 cz=3 mom=7 F=1.00000000 t=0.1s | theirs: med=2.070 f=0.981 X=0.001 cz=3 mom=7 F=1.00000000 t=0.6s
+D(4,1)  ours: med=1.507 f=0.964 X=0.002 cz=5 mom=7 F=1.00000000 t=0.2s | theirs: med=1.621 f=0.969 X=0.002 cz=5 mom=10 F=1.00000000 t=0.5s
+D(4,2)  ours: med=1.284 f=0.959 X=0.008 cz=5 mom=7 F=1.00000000 t=0.2s | theirs: med=1.233 f=0.958 X=0.009 cz=5 mom=7 F=1.00000000 t=0.3s
+D(5,1)  ours: med=1.579 f=0.966 X=0.001 cz=7 mom=11 F=1.00000000 t=0.2s | theirs: med=1.189 f=0.966 X=0.002 cz=7 mom=15 F=1.00000000 t=1.0s
+D(5,2)  ours: med=1.099 f=0.961 X=0.007 cz=9 mom=15 F=1.00000000 t=0.7s | theirs: med=1.020 f=0.956 X=0.006 cz=11 mom=15 F=1.00000000 t=0.3s
+D(6,1)  ours: med=1.263 f=0.952 X=0.002 cz=9 mom=11 F=1.00000000 t=0.3s | theirs: med=1.230 f=0.951 X=0.003 cz=9 mom=18 F=1.00000000 t=1.0s
+D(6,2)  ours: med=0.956 f=0.920 X=0.018 cz=15 mom=17 F=1.00000000 t=0.8s | theirs: med=0.980 f=0.931 X=0.014 cz=17 mom=22 F=1.00000000 t=0.3s
+D(6,3)  ours: med=0.977 f=0.941 X=0.024 cz=14 mom=15 F=1.00000000 t=0.4s | theirs: med=0.990 f=0.929 X=0.025 cz=17 mom=23 F=1.00000000 t=0.9s
+D(7,1)  ours: med=1.294 f=0.956 X=0.002 cz=11 mom=11 F=1.00000000 t=0.3s | theirs: med=1.140 f=0.929 X=0.004 cz=11 mom=23 F=1.00000000 t=1.1s
+D(7,2)  ours: med=0.940 f=0.930 X=0.014 cz=18 mom=21 F=1.00000000 t=0.6s | theirs: med=0.971 f=0.920 X=0.019 cz=19 mom=21 F=1.00000000 t=0.5s
+D(7,3)  ours: med=0.822 f=0.878 X=0.089 cz=35 mom=45 F=1.00000000 t=0.5s | theirs: med=0.866 f=0.888 X=0.059 cz=30 mom=34 F=1.00000000 t=0.7s
+D(8,1)  ours: med=1.128 f=0.941 X=0.002 cz=13 mom=11 F=1.00000000 t=0.3s | theirs: med=1.162 f=0.946 X=0.002 cz=13 mom=11 F=1.00000000 t=2.1s
+D(8,2)  ours: med=0.887 f=0.887 X=0.030 cz=35 mom=35 F=1.00000000 t=0.6s | theirs: med=0.945 f=0.928 X=0.013 cz=23 mom=19 F=1.00000000 t=3.3s
+D(8,3)  ours: med=0.776 f=0.853 X=0.107 cz=47 mom=47 F=1.00000000 t=0.7s | theirs: med=0.796 f=0.859 X=0.090 cz=39 mom=37 F=1.00000000 t=4.0s
+D(8,4)  ours: med=0.642 f=0.817 X=0.252 cz=49 mom=49 F=1.00000000 t=0.6s | theirs: med=0.740 f=0.835 X=0.147 cz=39 mom=45 F=1.00000000 t=6.8s
+D(9,1)  ours: med=1.077 f=0.917 X=0.003 cz=15 mom=15 F=1.00000000 t=0.5s | theirs: med=1.092 f=0.923 X=0.004 cz=15 mom=31 F=1.00000000 t=2.1s
+D(9,2)  ours: med=0.823 f=0.862 X=0.040 cz=42 mom=47 F=1.00000000 t=0.7s | theirs: med=0.895 f=0.897 X=0.020 cz=27 mom=22 F=1.00000000 t=0.5s
+D(9,3)  ours: med=0.713 f=0.804 X=0.157 cz=59 mom=63 F=1.00000000 t=0.5s | theirs: med=0.729 f=0.812 X=0.127 cz=48 mom=48 F=1.00000000 t=0.7s
+D(9,4)  ours: med=0.594 f=0.793 X=0.319 cz=66 mom=73 F=1.00000000 t=0.5s | theirs: med=0.601 f=0.786 X=0.320 cz=61 mom=62 F=1.00000000 t=0.8s
+D(10,1)  ours: med=1.074 f=0.924 X=0.003 cz=17 mom=15 F=1.00000000 t=0.5s | theirs: med=1.036 f=0.933 X=0.003 cz=17 mom=14 F=1.00000000 t=1.9s
+D(10,2)  ours: med=0.785 f=0.813 X=0.061 cz=49 mom=47 F=1.00000000 t=0.8s | theirs: med=0.859 f=0.885 X=0.023 cz=31 mom=23 F=1.00000000 t=0.9s
+D(10,3)  ours: med=0.687 f=0.791 X=0.159 cz=71 mom=65 F=1.00000000 t=0.9s | theirs: med=0.713 f=0.805 X=0.146 cz=57 mom=51 F=1.00000000 t=1.0s
+D(10,4)  ours: med=0.570 f=0.753 X=0.381 cz=83 mom=77 F=1.00000000 t=0.5s | theirs: med=0.587 f=0.753 X=0.353 cz=75 mom=67 F=1.00000000 t=0.9s
+D(10,5)  ours: med=0.494 f=0.719 X=0.620 cz=85 mom=79 F=1.00000000 t=0.6s | theirs: med=0.538 f=0.724 X=0.440 cz=73 mom=73 F=1.00000000 t=1.6s
+TOTAL medians {'ours': 28.459, 'theirs': 28.22}

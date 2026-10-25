@@ -1,0 +1,7 @@
+D(7,2) 2x4 d=8 mom=17 target<18: fail adam=0.030675896830693293 pol=0.0305862758346744 (42s)
+D(7,2) 3x3 d=8 mom=17 target<18: fail adam=0.09022989674525067 pol=None (23s)
+D(8,2) 2x4 d=8 mom=17 target<19: fail adam=0.03692309414476283 pol=0.03642086373827398 (57s)
+D(8,2) 3x3 d=8 mom=17 target<19: fail adam=0.09737726011276446 pol=None (38s)
+D(9,2) 3x3 d=10 mom=21 target<22: fail adam=0.08841403644304678 pol=None (85s)
+D(10,2) 3x4 d=10 mom=21 target<23: fail adam=0.08771531987952794 pol=None (196s)
+D(10,2) 2x5 d=10 mom=21 target<23: fail adam=0.0578338772532846 pol=None (184s)

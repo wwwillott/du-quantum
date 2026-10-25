@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\kaisa\Documents\duquantum\tools\prune.py", line 109, in <module>
+    val, P = run_adam(loss, P0, seqs, 3000)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaisa\Documents\duquantum\tools\prune.py", line 62, in run_adam
+    val, _ = vg(p, s)
+             ^^^^^^^^
+MemoryError: bad allocation
+--------------------
+For simplicity, JAX has removed its internal frames from the traceback of the following exception. Set JAX_TRACEBACK_FILTERING=off to include these.

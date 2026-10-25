@@ -1,0 +1,12 @@
+D(4,2)  ours: med=1.259 f=0.968 X=0.005 cz=5 mom=7 t=1.0s | theirs: med=1.309 f=0.966 X=0.005 cz=5 mom=7 t=0.4s
+D(5,2)  ours: med=1.063 f=0.956 X=0.009 cz=10 mom=17 t=3.9s | theirs: med=1.039 f=0.947 X=0.012 cz=11 mom=15 t=0.3s
+D(6,2)  ours: med=0.970 f=0.933 X=0.017 cz=14 mom=25 t=3.8s | theirs: med=1.024 f=0.928 X=0.017 cz=17 mom=22 t=0.4s
+D(6,3)  ours: med=0.908 f=0.927 X=0.026 cz=15 mom=17 t=5.0s | theirs: med=0.915 f=0.920 X=0.030 cz=17 mom=23 t=1.9s
+D(7,2)  ours: med=0.960 f=0.914 X=0.019 cz=18 mom=21 t=4.7s | theirs: med=0.950 f=0.917 X=0.022 cz=19 mom=21 t=0.9s
+D(7,3)  ours: med=0.910 f=0.918 X=0.054 cz=21 mom=27 t=5.1s | theirs: med=0.841 f=0.879 X=0.079 cz=30 mom=34 t=1.0s
+D(8,2)  ours: med=0.940 f=0.901 X=0.019 cz=23 mom=21 t=4.2s | theirs: med=0.939 f=0.913 X=0.020 cz=23 mom=19 t=5.6s
+D(8,3)  ours: med=0.852 f=0.888 X=0.067 cz=29 mom=29 t=5.1s | theirs: med=0.796 f=0.862 X=0.087 cz=39 mom=37 t=7.6s
+D(8,4)  ours: med=0.807 f=0.877 X=0.114 cz=38 mom=23 t=10.1s | theirs: med=0.768 f=0.841 X=0.118 cz=39 mom=45 t=13.2s
+D(9,2)  ours: med=0.899 f=0.884 X=0.025 cz=27 mom=25 t=22.5s | theirs: med=0.927 f=0.899 X=0.021 cz=27 mom=22 t=2.3s
+D(9,3)  ours: med=0.769 f=0.852 X=0.105 cz=45 mom=31 t=23.6s | theirs: med=0.755 f=0.821 X=0.126 cz=48 mom=48 t=2.2s
+D(9,4)  ours: med=0.721 f=0.855 X=0.168 cz=45 mom=31 t=27.5s | theirs: med=0.617 f=0.778 X=0.320 cz=61 mom=62 t=2.4s

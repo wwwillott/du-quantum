@@ -1,0 +1,11 @@
+D(6,3) k=6 start CZ=22 infid=5.55e-15
+  m=22: delete #3 (cz 16 (3, 4), damage 3.11e-01) -> CZ=21 infid=1.3e-15 (45s)
+  m=21: delete #14 (cz 3 (1, 4), damage 7.50e-01) -> CZ=20 infid=8.2e-15 (160s)
+  m=20: delete #1 (cz 11 (1, 0), damage 3.60e-01) -> CZ=19 infid=-4.4e-16 (8s)
+  m=19: delete #3 (cz 5 (1, 0), damage 7.34e-01) -> CZ=18 infid=0.0e+00 (33s)
+  m=18: delete #3 (cz 1 (1, 0), damage 4.76e-01) -> CZ=17 infid=0.0e+00 (19s)
+  m=17: delete #3 (cz 3 (1, 0), damage 6.16e-01) -> CZ=16 infid=-8.9e-16 (20s)
+  m=16: delete #3 (cz 14 (3, 4), damage 5.87e-01) -> CZ=15 infid=2.2e-16 (17s)
+  m=15: delete #9 (cz 11 (5, 4), damage 7.50e-01) -> CZ=14 infid=0.0e+00 (59s)
+  m=14: no deletion succeeded (67s)
+FINAL D(6,3) CZ=14

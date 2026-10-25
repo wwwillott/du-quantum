@@ -1,0 +1,13 @@
+{
+    "observed_utc":  "2026-10-25T07:47:14.9784474+00:00",
+    "method":  "Read-only PowerShell CIM inventory after timing retry exited",
+    "status": "unverified",
+    "error": "PowerShell CIM Win32_Process inventory was denied: HRESULT 0x80041003. No worker-count conclusion is available from this command.",
+    "total_workers": null,
+    "score_batch_count": null,
+    "evaluate_worker_count": null,
+    "score_job_count": null,
+    "workers":  [
+
+                ]
+}

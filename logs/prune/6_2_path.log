@@ -1,0 +1,61 @@
+N=6 n=2 path edges=[(0, 1), (1, 2), (2, 3), (3, 4), (4, 5)] L0=26: start losses [6.63350654e-06 1.16876129e-05 4.13321825e-05 4.92602008e-05
+ 5.97968126e-05] (24s)
+Traceback (most recent call last):
+  File "C:\Users\kaisa\Documents\duquantum\tools\prune.py", line 115, in <module>
+    fv, pp = polish(loss, P[b], seqs[b], iters=3000)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaisa\Documents\duquantum\tools\synth.py", line 102, in polish
+    from scipy.optimize import minimize
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\scipy\optimize\__init__.py", line 422, in <module>
+    from ._optimize import *
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\scipy\optimize\_optimize.py", line 34, in <module>
+    from scipy.linalg import cholesky, issymmetric, LinAlgError
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\scipy\linalg\__init__.py", line 204, in <module>
+    from ._cythonized_array_utils import *
+  File "scipy/linalg/_cythonized_array_utils.pyx", line 11, in init scipy.linalg._cythonized_array_utils
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\scipy\_lib\_util.py", line 14, in <module>
+    from scipy._lib._array_api import (Array, array_namespace, is_lazy_array,
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\scipy\_lib\_array_api.py", line 25, in <module>
+    from scipy._lib.array_api_compat import (
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\scipy\_lib\array_api_compat\numpy\__init__.py", line 4, in <module>
+    from numpy import *  # noqa: F403  # pyright: ignore[reportWildcardImportFromLibrary]
+    ^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1410, in _handle_fromlist
+  File "<frozen importlib._bootstrap>", line 1412, in _handle_fromlist
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\numpy\__init__.py", line 374, in __getattr__
+    import numpy.f2py as f2py
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\numpy\f2py\__init__.py", line 18, in <module>
+    from . import f2py2e
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\numpy\f2py\f2py2e.py", line 19, in <module>
+    from . import crackfortran
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\numpy\f2py\crackfortran.py", line 149, in <module>
+    import charset_normalizer
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\charset_normalizer\__init__.py", line 26, in <module>
+    from .api import from_bytes, from_fp, from_path, is_binary
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\charset_normalizer\api.py", line 7, in <module>
+    from .cd import (
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\charset_normalizer\cd.py", line 9, in <module>
+    from .constant import (
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\charset_normalizer\constant.py", line 379, in <module>
+    RE_POSSIBLE_ENCODING_INDICATION = re_compile(
+                                      ^^^^^^^^^^^
+  File "C:\Users\kaisa\miniforge3\Lib\re\__init__.py", line 228, in compile
+    return _compile(pattern, flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaisa\miniforge3\Lib\re\__init__.py", line 307, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaisa\miniforge3\Lib\re\_compiler.py", line 750, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaisa\miniforge3\Lib\re\_parser.py", line 979, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaisa\miniforge3\Lib\re\_parser.py", line 460, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaisa\miniforge3\Lib\re\_parser.py", line 530, in _parse
+    sourceget()
+  File "C:\Users\kaisa\miniforge3\Lib\re\_parser.py", line 263, in get
+    self.__next()
+MemoryError

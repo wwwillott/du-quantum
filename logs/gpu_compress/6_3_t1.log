@@ -1,0 +1,6 @@
+D(6,3) k=6 start CZ=22 infid=5.55e-15
+  m=22: screened 44 in 345s; best adam losses [0. 0. 0. 0. 0. 0.]
+    delete 13 (3, 4): adam 5.67e-04 -> LM 1.71e-04
+    delete 6 (1, 0): adam 1.13e-03 -> LM 9.96e-25
+  ACCEPT -> CZ=21 infid=-8.88e-16  saved scratch_gpu\6_3_t1_cz21.json
+FINAL D(6,3) CZ=21

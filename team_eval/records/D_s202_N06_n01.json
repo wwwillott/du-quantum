@@ -1,0 +1,58 @@
+{
+  "candidate": "D",
+  "seed": 202,
+  "N": 6,
+  "n": 1,
+  "source_path": "astra/submission.py",
+  "source_sha256": "cfbe6a6095226aaa6e147889f2ee92e6e208e0fb9ad9ad3a1f63d3dd23825aa5",
+  "import_seconds": 0.2692621999995026,
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "status": "constructed",
+  "build_started_unix": 1792912845.2485068,
+  "failures": [],
+  "models": {},
+  "construction_seconds": 1.674122400003398,
+  "moments": 18,
+  "qubits": [
+    [
+      4,
+      9
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      6,
+      12
+    ]
+  ],
+  "all_qubit_count": 6,
+  "circuit_path": "team_eval/circuits/D_s202_N06_n01.json",
+  "circuit_sha256": "1e7acf2743521c2ec976ba10fba7d9ea5017b90aca6b6815fabcbecbb1bd09a9",
+  "validity": {
+    "passed": true,
+    "errors": [],
+    "willow105": true
+  },
+  "cz_count": 9,
+  "exactness": {
+    "fidelity": 0.9999999999999993,
+    "passed": true,
+    "threshold": 0.99999999,
+    "ancilla_count": 0,
+    "dtype": "complex128"
+  }
+}

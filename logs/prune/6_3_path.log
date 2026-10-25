@@ -1,0 +1,19 @@
+N=6 n=3 path edges=[(0, 1), (1, 2), (2, 3), (3, 4), (4, 5)] L0=30: start losses [2.85952925e-06 1.60832550e-05 2.67072055e-05 8.47354959e-05
+ 9.63412898e-05] (27s)
+Traceback (most recent call last):
+  File "C:\Users\kaisa\Documents\duquantum\tools\prune.py", line 115, in <module>
+    fv, pp = polish(loss, P[b], seqs[b], iters=3000)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaisa\Documents\duquantum\tools\synth.py", line 102, in polish
+    from scipy.optimize import minimize
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\scipy\optimize\__init__.py", line 422, in <module>
+    from ._optimize import *
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\scipy\optimize\_optimize.py", line 34, in <module>
+    from scipy.linalg import cholesky, issymmetric, LinAlgError
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\scipy\linalg\__init__.py", line 203, in <module>
+    from ._misc import *
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\scipy\linalg\_misc.py", line 4, in <module>
+    from .lapack import get_lapack_funcs
+  File "C:\Users\kaisa\miniforge3\Lib\site-packages\scipy\linalg\lapack.py", line 871, in <module>
+    from scipy.linalg import _flapack
+ImportError: DLL load failed while importing _flapack: The paging file is too small for this operation to complete.

@@ -1,0 +1,12 @@
+{
+  "backend": "numba",
+  "scope": "CPU-only serial complex128 Batch arithmetic kernels; tools/sim.py simulate noise model and RNG flow unchanged",
+  "validation": "Identical RNG seeds and circuits; both models agree with original NumPy distributions to <1e-11",
+  "max_absolute_probability_difference": 9.367506770274758e-17,
+  "benchmarks": [
+    {"N": 6, "moments": 24, "trajectories": 64, "model": "pauli", "numpy_seconds": 0.09987009999895236, "numba_seconds_including_initial_jit": 9.816686400001345, "max_absolute_probability_difference": 9.367506770274758e-17},
+    {"N": 6, "moments": 24, "trajectories": 64, "model": "hw", "numpy_seconds": 0.07525189999796567, "numba_seconds": 0.024749700001848396, "max_absolute_probability_difference": 2.7755575615628914e-17},
+    {"N": 12, "moments": 120, "trajectories": 64, "model": "pauli", "numpy_seconds": 28.18821200000093, "numba_seconds": 2.160586800000601, "max_absolute_probability_difference": 5.963111948670274e-19},
+    {"N": 12, "moments": 120, "trajectories": 64, "model": "hw", "numpy_seconds": 33.59012750000329, "numba_seconds": 4.431448499999533, "max_absolute_probability_difference": 7.047314121155779e-19}
+  ]
+}

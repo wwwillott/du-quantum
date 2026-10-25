@@ -1,0 +1,62 @@
+{
+  "candidate": "A",
+  "seed": 101,
+  "N": 7,
+  "n": 1,
+  "source_path": "team_eval/will_dicke_submission.py",
+  "source_sha256": "e618641a745a98b2f63ec7e080d525ca2bf8a94c94ab3e6875a334dd8dc7f920",
+  "import_seconds": 0.6538473000000522,
+  "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+  "status": "constructed",
+  "build_started_unix": 1792912880.813448,
+  "failures": [],
+  "models": {},
+  "construction_seconds": 5.208804099998815,
+  "moments": 10,
+  "qubits": [
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      7
+    ]
+  ],
+  "all_qubit_count": 7,
+  "circuit_path": "team_eval/circuits/A_s101_N07_n01.json",
+  "circuit_sha256": "6eaa3b1758378c3e75140bd4dfecc7e295da6f4f34f7e121591bd7d06c46c5ab",
+  "validity": {
+    "passed": true,
+    "errors": [],
+    "willow105": true
+  },
+  "cz_count": 11,
+  "exactness": {
+    "fidelity": 0.9999999999999991,
+    "passed": true,
+    "threshold": 0.99999999,
+    "ancilla_count": 0,
+    "dtype": "complex128"
+  }
+}

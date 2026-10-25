@@ -1,0 +1,82 @@
+{
+  "candidate": "D",
+  "seed": 202,
+  "N": 12,
+  "n": 5,
+  "source_path": "astra/submission.py",
+  "source_sha256": "cfbe6a6095226aaa6e147889f2ee92e6e208e0fb9ad9ad3a1f63d3dd23825aa5",
+  "import_seconds": 0.2692621999995026,
+  "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+  "status": "constructed",
+  "build_started_unix": 1792912998.2818332,
+  "failures": [],
+  "models": {},
+  "construction_seconds": 1.2944255000002158,
+  "moments": 165,
+  "qubits": [
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      5
+    ]
+  ],
+  "all_qubit_count": 12,
+  "circuit_path": "team_eval/circuits/D_s202_N12_n05.json",
+  "circuit_sha256": "d7f6b9501ee82cabb6b9c0dc976551be03121b823a0e832a848bb70dd3285d9a",
+  "validity": {
+    "passed": true,
+    "errors": [],
+    "willow105": true
+  },
+  "cz_count": 143,
+  "exactness": {
+    "fidelity": 1.0000000000000009,
+    "passed": true,
+    "threshold": 0.99999999,
+    "ancilla_count": 0,
+    "dtype": "complex128"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "python": "C:\\Users\\kaisa\\miniforge3\\python.exe",
+  "pythonhashseed": "0",
+  "calibrations": {
+    "101": {
+      "path": "team_eval\\calibrations\\seed_101.json",
+      "fresh_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+      "saved_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
+      "equal": true,
+      "n_qubits": 105,
+      "n_couplers": 181
+    },
+    "202": {
+      "path": "team_eval\\calibrations\\seed_202.json",
+      "fresh_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+      "saved_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
+      "equal": true,
+      "n_qubits": 103,
+      "n_couplers": 173
+    }
+  }
+}
