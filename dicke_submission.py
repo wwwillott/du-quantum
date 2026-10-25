@@ -1625,7 +1625,8 @@ def _checked_hardware(circuit, outputs, n, cz, sq):
                 raise NotImplementedError('Uncalibrated qubit')
             ops.append(op)
         moments.append(cirq.Moment(ops))
-    return (alap_leading_single(cirq.Circuit(moments)), outputs)
+    c = optimize_native_depth(cirq.Circuit(moments))
+    return (alap_leading_single(c), outputs)
 
 def create_dicke_state(num_qubits, num_excitations, cz_pauli_error_rate, sq_pauli_error_rate, zero_errors, one_errors):
     args = (cz_pauli_error_rate, sq_pauli_error_rate, zero_errors, one_errors)
@@ -4975,6 +4976,11 @@ def create_dicke_state(
                 # An unavailable or timed-out family cannot discard the incumbent.
                 return
         consider('shallow',candidate=incumbent)
+        try:
+            bonus_cand=_unitary_bonus_best(n,k)
+            consider('unitary_bonus',candidate=bonus_cand)
+        except Exception:
+            pass
         if _TEAM_RUNTIME_DEADLINE-time.monotonic()>15:
             consider('dynamic_columnforge',_cf_create_dicke_state)
         if _TEAM_RUNTIME_DEADLINE-time.monotonic()>10:
