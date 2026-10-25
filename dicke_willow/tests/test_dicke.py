@@ -12,6 +12,7 @@ import pytest
 from dicke_willow.challenge import create_dicke_state, create_dicke_state_adaptive
 from dicke_willow.dicke_math import amplitude_norm, binomial, split_amplitudes, split_weights
 from dicke_willow.divide import prepare_balanced
+from dicke_willow.placement import dijkstra_parallel_paths, dijkstra_path
 from dicke_willow.routing import apply_swap_layers, route_permutation
 from dicke_willow.scs import prepare_dicke_circuit
 from dicke_willow.topology import graph_from_pairs, willow105_graph
@@ -90,6 +91,48 @@ def test_balanced_preparation(n, k):
     circuit, region = prepare_balanced(qubits, k)
     assert fidelity(circuit, k, qubits) == pytest.approx(1.0, abs=1e-6)
     assert region.n == n
+
+
+def test_dijkstra_picks_the_fast_corridor():
+    """A length-3 path should step onto the quiet row, not the noisy one."""
+    noisy = [cirq.GridQubit(0, i) for i in range(3)]
+    quiet = [cirq.GridQubit(1, i) for i in range(3)]
+    a, b, c = noisy
+    d, e, f = quiet
+    pairs = [(a, b), (b, c), (a, d), (d, e), (e, f), (b, e), (c, f)]
+    adjacency = graph_from_pairs(pairs)
+    qubits = noisy + quiet
+    sq = {q: (1e-4, 0.0) for q in qubits}
+    zero = {q: (1e-3, 0.0) for q in qubits}
+    one = {q: (1e-3, 0.0) for q in qubits}
+    cz = {pair: (0.2, 0.0) for pair in pairs}
+    cz[(d, e)] = (1e-4, 0.0)
+    cz[(e, f)] = (1e-4, 0.0)
+    path = dijkstra_path(adjacency, 3, 1, cz_errors=cz, sq_errors=sq, zero_errors=zero, one_errors=one)
+    assert path is not None and len(path) == 3
+    assert set(path) == {d, e, f}
+
+
+def test_parallel_paths_take_disjoint_fast_corridors():
+    """Two simultaneous paths leave each other the next-fastest free couplers."""
+    row0 = [cirq.GridQubit(0, i) for i in range(2)]
+    row1 = [cirq.GridQubit(1, i) for i in range(2)]
+    a, b = row0
+    c, d = row1
+    pairs = [(a, b), (c, d), (a, c), (b, d)]
+    adjacency = graph_from_pairs(pairs)
+    qubits = row0 + row1
+    sq = {q: (1e-4, 0.0) for q in qubits}
+    zero = {q: (1e-3, 0.0) for q in qubits}
+    one = {q: (1e-3, 0.0) for q in qubits}
+    cz = {(a, b): (1e-4, 0.0), (c, d): (1e-3, 0.0), (a, c): (0.2, 0.0), (b, d): (0.2, 0.0)}
+    paths = dijkstra_parallel_paths(
+        adjacency, [2, 2], 1, cz_errors=cz, sq_errors=sq, zero_errors=zero, one_errors=one
+    )
+    assert paths is not None
+    assert len(paths[0]) == 2 and len(paths[1]) == 2
+    assert set(paths[0]).isdisjoint(paths[1])
+    assert {frozenset(paths[0]), frozenset(paths[1])} == {frozenset((a, b)), frozenset((c, d))}
 
 
 def test_route_permutation_on_a_path():

@@ -1,0 +1,56 @@
+{
+  "device": "Willow105",
+  "n": 105,
+  "k": 2,
+  "leaf_factor": 2,
+  "quantum_rotations_inserted": true,
+  "compiled_circuit_device_valid": true,
+  "divide_logical_depth": 546,
+  "divide_cz_depth": 252,
+  "routing_swap_depth": 32,
+  "routing_cz_depth": 96,
+  "leaf_logical_depth": 52,
+  "leaf_cz_depth": 46,
+  "logical": {
+    "moments": 608,
+    "cz": 544,
+    "cz_depth": 176,
+    "single_qubit": 2190,
+    "max_cz_on_one_qubit": 38
+  },
+  "compiled": {
+    "moments": 1299,
+    "cz": 3069,
+    "cz_depth": 663,
+    "single_qubit": 7359,
+    "max_cz_on_one_qubit": 129
+  },
+  "partition": {
+    "n": 105,
+    "k": 2,
+    "partition_depth": 6,
+    "internal_nodes": 32,
+    "leaves": 33,
+    "min_child_size": 2,
+    "max_child_size": 59,
+    "max_staging_path_length": 4,
+    "max_corridor_length": 14,
+    "mean_corridor_length": 5.391304347826087,
+    "parallel_routing_depth": 38,
+    "swap_count": 141,
+    "routes": 23,
+    "failed_routes": 0,
+    "structural_benchmark": 26.428491035332243,
+    "routing_depth_over_benchmark": 1.4378422116191882
+  },
+  "fixed_weight_check": {
+    "weight": 2,
+    "basis_states_found": 5460,
+    "basis_states_expected": 5460,
+    "max_abs_amplitude_error": 1.4224732503009818e-16,
+    "leaked_probability": 0.0,
+    "passed": true
+  },
+  "amplitude_check": "block replay of Divide, leaf unitaries, and certified SWAPs",
+  "fixed_weight_passed": true
+}

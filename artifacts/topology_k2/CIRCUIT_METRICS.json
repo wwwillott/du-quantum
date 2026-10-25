@@ -1,0 +1,5 @@
+{
+  "stage": "topology-only",
+  "quantum_rotations_inserted": false,
+  "note": "Gate counts are absent until Divide rotations are inserted."
+}

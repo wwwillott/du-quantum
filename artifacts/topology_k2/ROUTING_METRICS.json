@@ -1,0 +1,18 @@
+{
+  "n": 105,
+  "k": 2,
+  "partition_depth": 6,
+  "internal_nodes": 32,
+  "leaves": 33,
+  "min_child_size": 2,
+  "max_child_size": 59,
+  "max_staging_path_length": 4,
+  "max_corridor_length": 14,
+  "mean_corridor_length": 5.391304347826087,
+  "parallel_routing_depth": 38,
+  "swap_count": 141,
+  "routes": 23,
+  "failed_routes": 0,
+  "structural_benchmark": 26.428491035332243,
+  "routing_depth_over_benchmark": 1.4378422116191882
+}

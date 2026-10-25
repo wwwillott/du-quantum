@@ -18,7 +18,12 @@ import cirq_google
 import numpy as np
 
 from dicke_willow.benchmarks import logical_metrics, write_benchmarks
-from dicke_willow.challenge import circuit_report, create_dicke_state_adaptive
+from dicke_willow.calibration import error_rates_from_calibration
+from dicke_willow.challenge import (
+    circuit_report,
+    create_dicke_state,
+    create_dicke_state_adaptive,
+)
 from dicke_willow.compile import MOMENT_LIMIT, gate_counts, to_willow_gates
 from dicke_willow.divide import prepare_balanced
 from dicke_willow.scs import prepare_dicke_circuit
@@ -81,24 +86,39 @@ def _simulate(circuit: cirq.Circuit, qubits: list[cirq.Qid], k: int, repetitions
     print(f"ideal per-bit excitation {ideal:.6f}")
 
 
-def _qvm(circuit: cirq.Circuit, qubits: list[cirq.Qid], k: int, processor_id: str, repetitions: int) -> None:
+def _circuit_from_calibration(n: int, k: int, processor_id: str):
+    """Place the stair using the virtual processor's own error rates."""
     engine = cirq_google.engine.create_default_noisy_quantum_virtual_machine(processor_id)
+    calibration = engine.get_processor(processor_id).get_current_calibration()
+    cz, single, zero, one = error_rates_from_calibration(calibration)
+    circuit, qubits = create_dicke_state(n, k, cz, single, zero, one)
+    cz_values = [rate for rate, _uncertainty in cz.values()]
+    single_values = [rate for rate, _uncertainty in single.values()]
+    print(f"calibration metrics {len(single)} qubits, {len(cz)} couplers")
+    print(f"median single-qubit Pauli error {float(np.median(single_values)):.6g}")
+    print(f"median CZ Pauli error {float(np.median(cz_values)):.6g}")
+    print(f"selected path {sorted(qubits, key=str)}")
+    return circuit, sorted(qubits)
+
+
+def _qvm(circuit: cirq.Circuit, qubits: list[cirq.Qid], k: int, processor_id: str, repetitions: int) -> None:
+    """Sample on cirq-google's bundled noisy virtual processor.
+
+    The circuit must already be routed onto qubits of that processor.
+    ``willow_pink`` rejects line qubits.
+    """
+    engine = cirq_google.engine.create_default_noisy_quantum_virtual_machine(processor_id)
+    processor = engine.get_processor(processor_id)
+    device = processor.get_device()
     print(f"qvm processor {processor_id}")
-    # The bundled virtual processor has its own qubit names. Fall back to a
-    # depolarizing simulation of this circuit when the QVM device rejects it.
-    try:
-        sampler = engine.get_sampler(processor_id) if hasattr(engine, "get_sampler") else None
-    except Exception:
-        sampler = None
-    if sampler is None:
-        noisy = cirq.DensityMatrixSimulator(noise=cirq.depolarize(p=0.001))
-        measured = circuit + cirq.Circuit(cirq.measure(*qubits, key="m"))
-        result = noisy.run(measured, repetitions=min(repetitions, 400))
-        bits = result.measurements["m"]
-        print("qvm backend local depolarizing fallback (virtual processor qubit set differs)")
-        print(f"fraction of samples with Hamming weight k {hamming_fraction(bits, k):.6f}")
-        return
-    print("qvm sampler available; not used because the prepared patch is not the virtual device's calibration map")
+    print(f"number of active qubits {len(device.metadata.qubit_set)}")
+    device.validate_circuit(circuit)
+    ordered = sorted(qubits)
+    measured = circuit + cirq.Circuit(cirq.measure(*ordered, key="m"))
+    bits = engine.get_sampler(processor_id).run(measured, repetitions=repetitions).measurements["m"]
+    print(f"fraction of samples with Hamming weight k {hamming_fraction(bits, k):.6f}")
+    print(f"per-bit excitation {np.array2string(marginal_excitation(bits), precision=3)}")
+    print(f"ideal per-bit excitation {k / len(qubits):.6f}")
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -112,7 +132,10 @@ def main(argv: list[str] | None = None) -> int:
         write_benchmarks(Path("benchmarks") / "logical_metrics.json", rows)
         return 0
 
-    if args.device == "willow" and args.method == "scs":
+    if args.qvm and args.device == "willow" and args.method == "scs":
+        circuit, qubits = _circuit_from_calibration(args.n, args.k, args.processor_id)
+        qubit_set = set(qubits)
+    elif args.device == "willow" and args.method == "scs":
         circuit, qubit_set = _willow_circuit(args.n, args.k)
         qubits = sorted(qubit_set)
     else:

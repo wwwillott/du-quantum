@@ -1,0 +1,6694 @@
+{
+  "region": {
+    "id": "d0_0",
+    "size": 105,
+    "depth": 0,
+    "parent_id": null,
+    "row_min": 0,
+    "row_max": 12,
+    "col_min": 0,
+    "col_max": 14,
+    "bbox_span": 26,
+    "qubits": [
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        6,
+        14
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        7,
+        13
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        9,
+        4
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        9,
+        6
+      ],
+      [
+        9,
+        7
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        10,
+        4
+      ],
+      [
+        10,
+        5
+      ],
+      [
+        10,
+        6
+      ],
+      [
+        10,
+        7
+      ],
+      [
+        10,
+        8
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        6
+      ],
+      [
+        11,
+        7
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        12,
+        6
+      ],
+      [
+        12,
+        7
+      ],
+      [
+        12,
+        8
+      ]
+    ]
+  },
+  "split_axis": "vertical",
+  "split_coordinate": 6,
+  "left_size": 46,
+  "right_size": 59,
+  "failure": null,
+  "staging_path": [
+    [
+      1,
+      6
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      8
+    ]
+  ],
+  "left_anchor": [
+    [
+      1,
+      6
+    ],
+    [
+      0,
+      6
+    ]
+  ],
+  "right_anchor": [
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      8
+    ]
+  ],
+  "leaf_anchor": null,
+  "cut_edges": [
+    [
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ]
+    ],
+    [
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ]
+    ],
+    [
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ]
+    ],
+    [
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ]
+    ],
+    [
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ]
+    ],
+    [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    [
+      [
+        7,
+        6
+      ],
+      [
+        7,
+        7
+      ]
+    ],
+    [
+      [
+        8,
+        6
+      ],
+      [
+        8,
+        7
+      ]
+    ],
+    [
+      [
+        9,
+        6
+      ],
+      [
+        9,
+        7
+      ]
+    ],
+    [
+      [
+        10,
+        6
+      ],
+      [
+        10,
+        7
+      ]
+    ],
+    [
+      [
+        11,
+        6
+      ],
+      [
+        11,
+        7
+      ]
+    ],
+    [
+      [
+        12,
+        6
+      ],
+      [
+        12,
+        7
+      ]
+    ]
+  ],
+  "left": {
+    "region": {
+      "id": "d1_0",
+      "size": 46,
+      "depth": 1,
+      "parent_id": "d0_0",
+      "row_min": 0,
+      "row_max": 12,
+      "col_min": 0,
+      "col_max": 6,
+      "bbox_span": 18,
+      "qubits": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          11,
+          6
+        ],
+        [
+          12,
+          6
+        ]
+      ]
+    },
+    "split_axis": "vertical",
+    "split_coordinate": 4,
+    "left_size": 23,
+    "right_size": 23,
+    "failure": null,
+    "staging_path": [
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "left_anchor": [
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "right_anchor": [
+      [
+        3,
+        5
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "leaf_anchor": null,
+    "cut_edges": [
+      [
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      [
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      [
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      [
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      [
+        [
+          7,
+          4
+        ],
+        [
+          7,
+          5
+        ]
+      ],
+      [
+        [
+          8,
+          4
+        ],
+        [
+          8,
+          5
+        ]
+      ],
+      [
+        [
+          9,
+          4
+        ],
+        [
+          9,
+          5
+        ]
+      ],
+      [
+        [
+          10,
+          4
+        ],
+        [
+          10,
+          5
+        ]
+      ]
+    ],
+    "left": {
+      "region": {
+        "id": "d2_2",
+        "size": 23,
+        "depth": 2,
+        "parent_id": "d1_0",
+        "row_min": 2,
+        "row_max": 10,
+        "col_min": 0,
+        "col_max": 4,
+        "bbox_span": 12,
+        "qubits": [
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            0
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            9,
+            4
+          ],
+          [
+            10,
+            4
+          ]
+        ]
+      },
+      "split_axis": "horizontal",
+      "split_coordinate": 5,
+      "left_size": 10,
+      "right_size": 13,
+      "failure": null,
+      "staging_path": [
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "left_anchor": [
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "right_anchor": [
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "leaf_anchor": null,
+      "cut_edges": [
+        [
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        [
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        [
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            3
+          ]
+        ],
+        [
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            4
+          ]
+        ]
+      ],
+      "left": {
+        "region": {
+          "id": "d3_4",
+          "size": 10,
+          "depth": 3,
+          "parent_id": "d2_2",
+          "row_min": 2,
+          "row_max": 5,
+          "col_min": 1,
+          "col_max": 4,
+          "bbox_span": 6,
+          "qubits": [
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              5,
+              4
+            ]
+          ]
+        },
+        "split_axis": "horizontal",
+        "split_coordinate": 4,
+        "left_size": 6,
+        "right_size": 4,
+        "failure": null,
+        "staging_path": [
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "left_anchor": [
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "right_anchor": [
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "leaf_anchor": null,
+        "cut_edges": [
+          [
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ]
+          ],
+          [
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              4
+            ]
+          ]
+        ],
+        "left": {
+          "region": {
+            "id": "d4_6",
+            "size": 6,
+            "depth": 4,
+            "parent_id": "d3_4",
+            "row_min": 2,
+            "row_max": 4,
+            "col_min": 2,
+            "col_max": 4,
+            "bbox_span": 4,
+            "qubits": [
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                2
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                4,
+                4
+              ]
+            ]
+          },
+          "split_axis": "vertical",
+          "split_coordinate": 3,
+          "left_size": 3,
+          "right_size": 3,
+          "failure": null,
+          "staging_path": [
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "left_anchor": [
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "right_anchor": [
+            [
+              4,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "leaf_anchor": null,
+          "cut_edges": [
+            [
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            [
+              [
+                4,
+                4
+              ],
+              [
+                4,
+                3
+              ]
+            ]
+          ],
+          "left": {
+            "region": {
+              "id": "d5_8",
+              "size": 3,
+              "depth": 5,
+              "parent_id": "d4_6",
+              "row_min": 2,
+              "row_max": 4,
+              "col_min": 4,
+              "col_max": 4,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  2,
+                  4
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  4
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                4
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "region": {
+              "id": "d5_9",
+              "size": 3,
+              "depth": 5,
+              "parent_id": "d4_6",
+              "row_min": 3,
+              "row_max": 4,
+              "col_min": 2,
+              "col_max": 3,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  3,
+                  3
+                ],
+                [
+                  4,
+                  2
+                ],
+                [
+                  4,
+                  3
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                4,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          }
+        },
+        "right": {
+          "region": {
+            "id": "d4_7",
+            "size": 4,
+            "depth": 4,
+            "parent_id": "d3_4",
+            "row_min": 5,
+            "row_max": 5,
+            "col_min": 1,
+            "col_max": 4,
+            "bbox_span": 3,
+            "qubits": [
+              [
+                5,
+                1
+              ],
+              [
+                5,
+                2
+              ],
+              [
+                5,
+                3
+              ],
+              [
+                5,
+                4
+              ]
+            ]
+          },
+          "split_axis": null,
+          "split_coordinate": null,
+          "left_size": 0,
+          "right_size": 0,
+          "failure": null,
+          "staging_path": null,
+          "left_anchor": null,
+          "right_anchor": null,
+          "leaf_anchor": [
+            [
+              5,
+              4
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          "cut_edges": [],
+          "left": null,
+          "right": null
+        }
+      },
+      "right": {
+        "region": {
+          "id": "d3_5",
+          "size": 13,
+          "depth": 3,
+          "parent_id": "d2_2",
+          "row_min": 6,
+          "row_max": 10,
+          "col_min": 0,
+          "col_max": 4,
+          "bbox_span": 8,
+          "qubits": [
+            [
+              6,
+              0
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              6,
+              3
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              9,
+              4
+            ],
+            [
+              10,
+              4
+            ]
+          ]
+        },
+        "split_axis": "vertical",
+        "split_coordinate": 2,
+        "left_size": 5,
+        "right_size": 8,
+        "failure": null,
+        "staging_path": [
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ]
+        ],
+        "left_anchor": [
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ]
+        ],
+        "right_anchor": [
+          [
+            6,
+            3
+          ],
+          [
+            6,
+            4
+          ]
+        ],
+        "leaf_anchor": null,
+        "cut_edges": [
+          [
+            [
+              6,
+              2
+            ],
+            [
+              6,
+              3
+            ]
+          ],
+          [
+            [
+              7,
+              2
+            ],
+            [
+              7,
+              3
+            ]
+          ],
+          [
+            [
+              8,
+              2
+            ],
+            [
+              8,
+              3
+            ]
+          ]
+        ],
+        "left": {
+          "region": {
+            "id": "d4_10",
+            "size": 5,
+            "depth": 4,
+            "parent_id": "d3_5",
+            "row_min": 6,
+            "row_max": 8,
+            "col_min": 0,
+            "col_max": 2,
+            "bbox_span": 4,
+            "qubits": [
+              [
+                6,
+                0
+              ],
+              [
+                6,
+                1
+              ],
+              [
+                6,
+                2
+              ],
+              [
+                7,
+                2
+              ],
+              [
+                8,
+                2
+              ]
+            ]
+          },
+          "split_axis": "horizontal",
+          "split_coordinate": 6,
+          "left_size": 3,
+          "right_size": 2,
+          "failure": null,
+          "staging_path": [
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ]
+          ],
+          "left_anchor": [
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              2
+            ]
+          ],
+          "right_anchor": [
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ]
+          ],
+          "leaf_anchor": null,
+          "cut_edges": [
+            [
+              [
+                6,
+                2
+              ],
+              [
+                7,
+                2
+              ]
+            ]
+          ],
+          "left": {
+            "region": {
+              "id": "d5_12",
+              "size": 3,
+              "depth": 5,
+              "parent_id": "d4_10",
+              "row_min": 6,
+              "row_max": 6,
+              "col_min": 0,
+              "col_max": 2,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  6,
+                  0
+                ],
+                [
+                  6,
+                  1
+                ],
+                [
+                  6,
+                  2
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                6,
+                1
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "region": {
+              "id": "d5_13",
+              "size": 2,
+              "depth": 5,
+              "parent_id": "d4_10",
+              "row_min": 7,
+              "row_max": 8,
+              "col_min": 2,
+              "col_max": 2,
+              "bbox_span": 1,
+              "qubits": [
+                [
+                  7,
+                  2
+                ],
+                [
+                  8,
+                  2
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                7,
+                2
+              ],
+              [
+                8,
+                2
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          }
+        },
+        "right": {
+          "region": {
+            "id": "d4_11",
+            "size": 8,
+            "depth": 4,
+            "parent_id": "d3_5",
+            "row_min": 6,
+            "row_max": 10,
+            "col_min": 3,
+            "col_max": 4,
+            "bbox_span": 5,
+            "qubits": [
+              [
+                6,
+                3
+              ],
+              [
+                6,
+                4
+              ],
+              [
+                7,
+                3
+              ],
+              [
+                7,
+                4
+              ],
+              [
+                8,
+                3
+              ],
+              [
+                8,
+                4
+              ],
+              [
+                9,
+                4
+              ],
+              [
+                10,
+                4
+              ]
+            ]
+          },
+          "split_axis": "horizontal",
+          "split_coordinate": 7,
+          "left_size": 4,
+          "right_size": 4,
+          "failure": null,
+          "staging_path": [
+            [
+              6,
+              3
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              8,
+              4
+            ]
+          ],
+          "left_anchor": [
+            [
+              6,
+              3
+            ],
+            [
+              7,
+              3
+            ]
+          ],
+          "right_anchor": [
+            [
+              8,
+              3
+            ],
+            [
+              8,
+              4
+            ]
+          ],
+          "leaf_anchor": null,
+          "cut_edges": [
+            [
+              [
+                7,
+                3
+              ],
+              [
+                8,
+                3
+              ]
+            ],
+            [
+              [
+                7,
+                4
+              ],
+              [
+                8,
+                4
+              ]
+            ]
+          ],
+          "left": {
+            "region": {
+              "id": "d5_14",
+              "size": 4,
+              "depth": 5,
+              "parent_id": "d4_11",
+              "row_min": 6,
+              "row_max": 7,
+              "col_min": 3,
+              "col_max": 4,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  6,
+                  3
+                ],
+                [
+                  6,
+                  4
+                ],
+                [
+                  7,
+                  3
+                ],
+                [
+                  7,
+                  4
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                6,
+                3
+              ],
+              [
+                7,
+                3
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "region": {
+              "id": "d5_15",
+              "size": 4,
+              "depth": 5,
+              "parent_id": "d4_11",
+              "row_min": 8,
+              "row_max": 10,
+              "col_min": 3,
+              "col_max": 4,
+              "bbox_span": 3,
+              "qubits": [
+                [
+                  8,
+                  3
+                ],
+                [
+                  8,
+                  4
+                ],
+                [
+                  9,
+                  4
+                ],
+                [
+                  10,
+                  4
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                8,
+                3
+              ],
+              [
+                8,
+                4
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          }
+        }
+      }
+    },
+    "right": {
+      "region": {
+        "id": "d2_3",
+        "size": 23,
+        "depth": 2,
+        "parent_id": "d1_0",
+        "row_min": 0,
+        "row_max": 12,
+        "col_min": 5,
+        "col_max": 6,
+        "bbox_span": 13,
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            9,
+            6
+          ],
+          [
+            10,
+            5
+          ],
+          [
+            10,
+            6
+          ],
+          [
+            11,
+            6
+          ],
+          [
+            12,
+            6
+          ]
+        ]
+      },
+      "split_axis": "horizontal",
+      "split_coordinate": 5,
+      "left_size": 11,
+      "right_size": 12,
+      "failure": null,
+      "staging_path": [
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "left_anchor": [
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "right_anchor": [
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "leaf_anchor": null,
+      "cut_edges": [
+        [
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            5
+          ]
+        ],
+        [
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            6
+          ]
+        ]
+      ],
+      "left": {
+        "region": {
+          "id": "d3_16",
+          "size": 11,
+          "depth": 3,
+          "parent_id": "d2_3",
+          "row_min": 0,
+          "row_max": 5,
+          "col_min": 5,
+          "col_max": 6,
+          "bbox_span": 6,
+          "qubits": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              5,
+              6
+            ]
+          ]
+        },
+        "split_axis": "horizontal",
+        "split_coordinate": 2,
+        "left_size": 5,
+        "right_size": 6,
+        "failure": null,
+        "staging_path": [
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "left_anchor": [
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "right_anchor": [
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "leaf_anchor": null,
+        "cut_edges": [
+          [
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          [
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ]
+          ]
+        ],
+        "left": {
+          "region": {
+            "id": "d4_18",
+            "size": 5,
+            "depth": 4,
+            "parent_id": "d3_16",
+            "row_min": 0,
+            "row_max": 2,
+            "col_min": 5,
+            "col_max": 6,
+            "bbox_span": 3,
+            "qubits": [
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ]
+            ]
+          },
+          "split_axis": "vertical",
+          "split_coordinate": 5,
+          "left_size": 2,
+          "right_size": 3,
+          "failure": null,
+          "staging_path": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "left_anchor": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "right_anchor": [
+            [
+              2,
+              6
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "leaf_anchor": null,
+          "cut_edges": [
+            [
+              [
+                1,
+                5
+              ],
+              [
+                1,
+                6
+              ]
+            ],
+            [
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ]
+            ]
+          ],
+          "left": {
+            "region": {
+              "id": "d5_20",
+              "size": 2,
+              "depth": 5,
+              "parent_id": "d4_18",
+              "row_min": 1,
+              "row_max": 2,
+              "col_min": 5,
+              "col_max": 5,
+              "bbox_span": 1,
+              "qubits": [
+                [
+                  1,
+                  5
+                ],
+                [
+                  2,
+                  5
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                5
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "region": {
+              "id": "d5_21",
+              "size": 3,
+              "depth": 5,
+              "parent_id": "d4_18",
+              "row_min": 0,
+              "row_max": 2,
+              "col_min": 6,
+              "col_max": 6,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  0,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                2,
+                6
+              ],
+              [
+                1,
+                6
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          }
+        },
+        "right": {
+          "region": {
+            "id": "d4_19",
+            "size": 6,
+            "depth": 4,
+            "parent_id": "d3_16",
+            "row_min": 3,
+            "row_max": 5,
+            "col_min": 5,
+            "col_max": 6,
+            "bbox_span": 3,
+            "qubits": [
+              [
+                3,
+                5
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                6
+              ],
+              [
+                5,
+                5
+              ],
+              [
+                5,
+                6
+              ]
+            ]
+          },
+          "split_axis": "vertical",
+          "split_coordinate": 5,
+          "left_size": 3,
+          "right_size": 3,
+          "failure": null,
+          "staging_path": [
+            [
+              4,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "left_anchor": [
+            [
+              4,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "right_anchor": [
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "leaf_anchor": null,
+          "cut_edges": [
+            [
+              [
+                3,
+                5
+              ],
+              [
+                3,
+                6
+              ]
+            ],
+            [
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                6
+              ]
+            ],
+            [
+              [
+                5,
+                5
+              ],
+              [
+                5,
+                6
+              ]
+            ]
+          ],
+          "left": {
+            "region": {
+              "id": "d5_22",
+              "size": 3,
+              "depth": 5,
+              "parent_id": "d4_19",
+              "row_min": 3,
+              "row_max": 5,
+              "col_min": 5,
+              "col_max": 5,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  3,
+                  5
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  5
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                4,
+                5
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "region": {
+              "id": "d5_23",
+              "size": 3,
+              "depth": 5,
+              "parent_id": "d4_19",
+              "row_min": 3,
+              "row_max": 5,
+              "col_min": 6,
+              "col_max": 6,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  3,
+                  6
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  5,
+                  6
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                3,
+                6
+              ],
+              [
+                4,
+                6
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          }
+        }
+      },
+      "right": {
+        "region": {
+          "id": "d3_17",
+          "size": 12,
+          "depth": 3,
+          "parent_id": "d2_3",
+          "row_min": 6,
+          "row_max": 12,
+          "col_min": 5,
+          "col_max": 6,
+          "bbox_span": 7,
+          "qubits": [
+            [
+              6,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              8,
+              5
+            ],
+            [
+              8,
+              6
+            ],
+            [
+              9,
+              5
+            ],
+            [
+              9,
+              6
+            ],
+            [
+              10,
+              5
+            ],
+            [
+              10,
+              6
+            ],
+            [
+              11,
+              6
+            ],
+            [
+              12,
+              6
+            ]
+          ]
+        },
+        "split_axis": "horizontal",
+        "split_coordinate": 8,
+        "left_size": 6,
+        "right_size": 6,
+        "failure": null,
+        "staging_path": [
+          [
+            8,
+            6
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            9,
+            6
+          ]
+        ],
+        "left_anchor": [
+          [
+            8,
+            6
+          ],
+          [
+            8,
+            5
+          ]
+        ],
+        "right_anchor": [
+          [
+            9,
+            5
+          ],
+          [
+            9,
+            6
+          ]
+        ],
+        "leaf_anchor": null,
+        "cut_edges": [
+          [
+            [
+              8,
+              5
+            ],
+            [
+              9,
+              5
+            ]
+          ],
+          [
+            [
+              8,
+              6
+            ],
+            [
+              9,
+              6
+            ]
+          ]
+        ],
+        "left": {
+          "region": {
+            "id": "d4_24",
+            "size": 6,
+            "depth": 4,
+            "parent_id": "d3_17",
+            "row_min": 6,
+            "row_max": 8,
+            "col_min": 5,
+            "col_max": 6,
+            "bbox_span": 3,
+            "qubits": [
+              [
+                6,
+                5
+              ],
+              [
+                6,
+                6
+              ],
+              [
+                7,
+                5
+              ],
+              [
+                7,
+                6
+              ],
+              [
+                8,
+                5
+              ],
+              [
+                8,
+                6
+              ]
+            ]
+          },
+          "split_axis": "vertical",
+          "split_coordinate": 5,
+          "left_size": 3,
+          "right_size": 3,
+          "failure": null,
+          "staging_path": [
+            [
+              7,
+              5
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              6
+            ]
+          ],
+          "left_anchor": [
+            [
+              7,
+              5
+            ],
+            [
+              6,
+              5
+            ]
+          ],
+          "right_anchor": [
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              6
+            ]
+          ],
+          "leaf_anchor": null,
+          "cut_edges": [
+            [
+              [
+                6,
+                5
+              ],
+              [
+                6,
+                6
+              ]
+            ],
+            [
+              [
+                7,
+                5
+              ],
+              [
+                7,
+                6
+              ]
+            ],
+            [
+              [
+                8,
+                5
+              ],
+              [
+                8,
+                6
+              ]
+            ]
+          ],
+          "left": {
+            "region": {
+              "id": "d5_26",
+              "size": 3,
+              "depth": 5,
+              "parent_id": "d4_24",
+              "row_min": 6,
+              "row_max": 8,
+              "col_min": 5,
+              "col_max": 5,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  6,
+                  5
+                ],
+                [
+                  7,
+                  5
+                ],
+                [
+                  8,
+                  5
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                7,
+                5
+              ],
+              [
+                6,
+                5
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "region": {
+              "id": "d5_27",
+              "size": 3,
+              "depth": 5,
+              "parent_id": "d4_24",
+              "row_min": 6,
+              "row_max": 8,
+              "col_min": 6,
+              "col_max": 6,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  6,
+                  6
+                ],
+                [
+                  7,
+                  6
+                ],
+                [
+                  8,
+                  6
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                6,
+                6
+              ],
+              [
+                7,
+                6
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          }
+        },
+        "right": {
+          "region": {
+            "id": "d4_25",
+            "size": 6,
+            "depth": 4,
+            "parent_id": "d3_17",
+            "row_min": 9,
+            "row_max": 12,
+            "col_min": 5,
+            "col_max": 6,
+            "bbox_span": 4,
+            "qubits": [
+              [
+                9,
+                5
+              ],
+              [
+                9,
+                6
+              ],
+              [
+                10,
+                5
+              ],
+              [
+                10,
+                6
+              ],
+              [
+                11,
+                6
+              ],
+              [
+                12,
+                6
+              ]
+            ]
+          },
+          "split_axis": "horizontal",
+          "split_coordinate": 10,
+          "left_size": 4,
+          "right_size": 2,
+          "failure": null,
+          "staging_path": [
+            [
+              9,
+              6
+            ],
+            [
+              10,
+              6
+            ],
+            [
+              11,
+              6
+            ],
+            [
+              12,
+              6
+            ]
+          ],
+          "left_anchor": [
+            [
+              9,
+              6
+            ],
+            [
+              10,
+              6
+            ]
+          ],
+          "right_anchor": [
+            [
+              11,
+              6
+            ],
+            [
+              12,
+              6
+            ]
+          ],
+          "leaf_anchor": null,
+          "cut_edges": [
+            [
+              [
+                10,
+                6
+              ],
+              [
+                11,
+                6
+              ]
+            ]
+          ],
+          "left": {
+            "region": {
+              "id": "d5_28",
+              "size": 4,
+              "depth": 5,
+              "parent_id": "d4_25",
+              "row_min": 9,
+              "row_max": 10,
+              "col_min": 5,
+              "col_max": 6,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  9,
+                  5
+                ],
+                [
+                  9,
+                  6
+                ],
+                [
+                  10,
+                  5
+                ],
+                [
+                  10,
+                  6
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                9,
+                6
+              ],
+              [
+                10,
+                6
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "region": {
+              "id": "d5_29",
+              "size": 2,
+              "depth": 5,
+              "parent_id": "d4_25",
+              "row_min": 11,
+              "row_max": 12,
+              "col_min": 6,
+              "col_max": 6,
+              "bbox_span": 1,
+              "qubits": [
+                [
+                  11,
+                  6
+                ],
+                [
+                  12,
+                  6
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                11,
+                6
+              ],
+              [
+                12,
+                6
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          }
+        }
+      }
+    }
+  },
+  "right": {
+    "region": {
+      "id": "d1_1",
+      "size": 59,
+      "depth": 1,
+      "parent_id": "d0_0",
+      "row_min": 0,
+      "row_max": 12,
+      "col_min": 7,
+      "col_max": 14,
+      "bbox_span": 19,
+      "qubits": [
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          7,
+          13
+        ],
+        [
+          8,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          10,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          7
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          12,
+          7
+        ],
+        [
+          12,
+          8
+        ]
+      ]
+    },
+    "split_axis": "horizontal",
+    "split_coordinate": 6,
+    "left_size": 32,
+    "right_size": 27,
+    "failure": null,
+    "staging_path": [
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "left_anchor": [
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "right_anchor": [
+      [
+        7,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "leaf_anchor": null,
+    "cut_edges": [
+      [
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          7
+        ]
+      ],
+      [
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      [
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          9
+        ]
+      ],
+      [
+        [
+          6,
+          10
+        ],
+        [
+          7,
+          10
+        ]
+      ],
+      [
+        [
+          6,
+          11
+        ],
+        [
+          7,
+          11
+        ]
+      ],
+      [
+        [
+          6,
+          12
+        ],
+        [
+          7,
+          12
+        ]
+      ],
+      [
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          13
+        ]
+      ]
+    ],
+    "left": {
+      "region": {
+        "id": "d2_30",
+        "size": 32,
+        "depth": 2,
+        "parent_id": "d1_1",
+        "row_min": 0,
+        "row_max": 6,
+        "col_min": 7,
+        "col_max": 14,
+        "bbox_span": 13,
+        "qubits": [
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            5,
+            9
+          ],
+          [
+            5,
+            10
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            5,
+            12
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            6,
+            12
+          ],
+          [
+            6,
+            13
+          ],
+          [
+            6,
+            14
+          ]
+        ]
+      },
+      "split_axis": "horizontal",
+      "split_coordinate": 4,
+      "left_size": 14,
+      "right_size": 18,
+      "failure": null,
+      "staging_path": [
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "left_anchor": [
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "right_anchor": [
+        [
+          4,
+          7
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "leaf_anchor": null,
+      "cut_edges": [
+        [
+          [
+            5,
+            7
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        [
+          [
+            5,
+            8
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        [
+          [
+            5,
+            9
+          ],
+          [
+            4,
+            9
+          ]
+        ],
+        [
+          [
+            5,
+            10
+          ],
+          [
+            4,
+            10
+          ]
+        ],
+        [
+          [
+            5,
+            11
+          ],
+          [
+            4,
+            11
+          ]
+        ],
+        [
+          [
+            5,
+            12
+          ],
+          [
+            4,
+            12
+          ]
+        ]
+      ],
+      "left": {
+        "region": {
+          "id": "d3_32",
+          "size": 14,
+          "depth": 3,
+          "parent_id": "d2_30",
+          "row_min": 5,
+          "row_max": 6,
+          "col_min": 7,
+          "col_max": 14,
+          "bbox_span": 8,
+          "qubits": [
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              5,
+              9
+            ],
+            [
+              5,
+              10
+            ],
+            [
+              5,
+              11
+            ],
+            [
+              5,
+              12
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              6,
+              9
+            ],
+            [
+              6,
+              10
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              6,
+              12
+            ],
+            [
+              6,
+              13
+            ],
+            [
+              6,
+              14
+            ]
+          ]
+        },
+        "split_axis": "vertical",
+        "split_coordinate": 10,
+        "left_size": 8,
+        "right_size": 6,
+        "failure": null,
+        "staging_path": [
+          [
+            5,
+            9
+          ],
+          [
+            5,
+            10
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            5,
+            12
+          ]
+        ],
+        "left_anchor": [
+          [
+            5,
+            9
+          ],
+          [
+            5,
+            10
+          ]
+        ],
+        "right_anchor": [
+          [
+            5,
+            11
+          ],
+          [
+            5,
+            12
+          ]
+        ],
+        "leaf_anchor": null,
+        "cut_edges": [
+          [
+            [
+              5,
+              10
+            ],
+            [
+              5,
+              11
+            ]
+          ],
+          [
+            [
+              6,
+              10
+            ],
+            [
+              6,
+              11
+            ]
+          ]
+        ],
+        "left": {
+          "region": {
+            "id": "d4_34",
+            "size": 8,
+            "depth": 4,
+            "parent_id": "d3_32",
+            "row_min": 5,
+            "row_max": 6,
+            "col_min": 7,
+            "col_max": 10,
+            "bbox_span": 4,
+            "qubits": [
+              [
+                5,
+                7
+              ],
+              [
+                5,
+                8
+              ],
+              [
+                5,
+                9
+              ],
+              [
+                5,
+                10
+              ],
+              [
+                6,
+                7
+              ],
+              [
+                6,
+                8
+              ],
+              [
+                6,
+                9
+              ],
+              [
+                6,
+                10
+              ]
+            ]
+          },
+          "split_axis": "vertical",
+          "split_coordinate": 8,
+          "left_size": 4,
+          "right_size": 4,
+          "failure": null,
+          "staging_path": [
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              5,
+              9
+            ],
+            [
+              5,
+              10
+            ]
+          ],
+          "left_anchor": [
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "right_anchor": [
+            [
+              5,
+              9
+            ],
+            [
+              5,
+              10
+            ]
+          ],
+          "leaf_anchor": null,
+          "cut_edges": [
+            [
+              [
+                5,
+                8
+              ],
+              [
+                5,
+                9
+              ]
+            ],
+            [
+              [
+                6,
+                8
+              ],
+              [
+                6,
+                9
+              ]
+            ]
+          ],
+          "left": {
+            "region": {
+              "id": "d5_36",
+              "size": 4,
+              "depth": 5,
+              "parent_id": "d4_34",
+              "row_min": 5,
+              "row_max": 6,
+              "col_min": 7,
+              "col_max": 8,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  5,
+                  7
+                ],
+                [
+                  5,
+                  8
+                ],
+                [
+                  6,
+                  7
+                ],
+                [
+                  6,
+                  8
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                5,
+                7
+              ],
+              [
+                5,
+                8
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "region": {
+              "id": "d5_37",
+              "size": 4,
+              "depth": 5,
+              "parent_id": "d4_34",
+              "row_min": 5,
+              "row_max": 6,
+              "col_min": 9,
+              "col_max": 10,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  5,
+                  9
+                ],
+                [
+                  5,
+                  10
+                ],
+                [
+                  6,
+                  9
+                ],
+                [
+                  6,
+                  10
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                5,
+                9
+              ],
+              [
+                5,
+                10
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          }
+        },
+        "right": {
+          "region": {
+            "id": "d4_35",
+            "size": 6,
+            "depth": 4,
+            "parent_id": "d3_32",
+            "row_min": 5,
+            "row_max": 6,
+            "col_min": 11,
+            "col_max": 14,
+            "bbox_span": 4,
+            "qubits": [
+              [
+                5,
+                11
+              ],
+              [
+                5,
+                12
+              ],
+              [
+                6,
+                11
+              ],
+              [
+                6,
+                12
+              ],
+              [
+                6,
+                13
+              ],
+              [
+                6,
+                14
+              ]
+            ]
+          },
+          "split_axis": "vertical",
+          "split_coordinate": 12,
+          "left_size": 4,
+          "right_size": 2,
+          "failure": null,
+          "staging_path": [
+            [
+              5,
+              12
+            ],
+            [
+              6,
+              12
+            ],
+            [
+              6,
+              13
+            ],
+            [
+              6,
+              14
+            ]
+          ],
+          "left_anchor": [
+            [
+              5,
+              12
+            ],
+            [
+              6,
+              12
+            ]
+          ],
+          "right_anchor": [
+            [
+              6,
+              13
+            ],
+            [
+              6,
+              14
+            ]
+          ],
+          "leaf_anchor": null,
+          "cut_edges": [
+            [
+              [
+                6,
+                12
+              ],
+              [
+                6,
+                13
+              ]
+            ]
+          ],
+          "left": {
+            "region": {
+              "id": "d5_38",
+              "size": 4,
+              "depth": 5,
+              "parent_id": "d4_35",
+              "row_min": 5,
+              "row_max": 6,
+              "col_min": 11,
+              "col_max": 12,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  5,
+                  11
+                ],
+                [
+                  5,
+                  12
+                ],
+                [
+                  6,
+                  11
+                ],
+                [
+                  6,
+                  12
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                5,
+                12
+              ],
+              [
+                6,
+                12
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "region": {
+              "id": "d5_39",
+              "size": 2,
+              "depth": 5,
+              "parent_id": "d4_35",
+              "row_min": 6,
+              "row_max": 6,
+              "col_min": 13,
+              "col_max": 14,
+              "bbox_span": 1,
+              "qubits": [
+                [
+                  6,
+                  13
+                ],
+                [
+                  6,
+                  14
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                6,
+                13
+              ],
+              [
+                6,
+                14
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          }
+        }
+      },
+      "right": {
+        "region": {
+          "id": "d3_33",
+          "size": 18,
+          "depth": 3,
+          "parent_id": "d2_30",
+          "row_min": 0,
+          "row_max": 4,
+          "col_min": 7,
+          "col_max": 12,
+          "bbox_span": 9,
+          "qubits": [
+            [
+              0,
+              7
+            ],
+            [
+              0,
+              8
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              2,
+              9
+            ],
+            [
+              2,
+              10
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              3,
+              9
+            ],
+            [
+              3,
+              10
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              4,
+              10
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              4,
+              12
+            ]
+          ]
+        },
+        "split_axis": "vertical",
+        "split_coordinate": 8,
+        "left_size": 10,
+        "right_size": 8,
+        "failure": null,
+        "staging_path": [
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            2,
+            10
+          ]
+        ],
+        "left_anchor": [
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            8
+          ]
+        ],
+        "right_anchor": [
+          [
+            2,
+            9
+          ],
+          [
+            2,
+            10
+          ]
+        ],
+        "leaf_anchor": null,
+        "cut_edges": [
+          [
+            [
+              2,
+              8
+            ],
+            [
+              2,
+              9
+            ]
+          ],
+          [
+            [
+              3,
+              8
+            ],
+            [
+              3,
+              9
+            ]
+          ],
+          [
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              9
+            ]
+          ]
+        ],
+        "left": {
+          "region": {
+            "id": "d4_40",
+            "size": 10,
+            "depth": 4,
+            "parent_id": "d3_33",
+            "row_min": 0,
+            "row_max": 4,
+            "col_min": 7,
+            "col_max": 8,
+            "bbox_span": 5,
+            "qubits": [
+              [
+                0,
+                7
+              ],
+              [
+                0,
+                8
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                1,
+                8
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                2,
+                8
+              ],
+              [
+                3,
+                7
+              ],
+              [
+                3,
+                8
+              ],
+              [
+                4,
+                7
+              ],
+              [
+                4,
+                8
+              ]
+            ]
+          },
+          "split_axis": "vertical",
+          "split_coordinate": 7,
+          "left_size": 5,
+          "right_size": 5,
+          "failure": null,
+          "staging_path": [
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              1,
+              7
+            ]
+          ],
+          "left_anchor": [
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              8
+            ]
+          ],
+          "right_anchor": [
+            [
+              2,
+              7
+            ],
+            [
+              1,
+              7
+            ]
+          ],
+          "leaf_anchor": null,
+          "cut_edges": [
+            [
+              [
+                0,
+                8
+              ],
+              [
+                0,
+                7
+              ]
+            ],
+            [
+              [
+                1,
+                8
+              ],
+              [
+                1,
+                7
+              ]
+            ],
+            [
+              [
+                2,
+                8
+              ],
+              [
+                2,
+                7
+              ]
+            ],
+            [
+              [
+                3,
+                8
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            [
+              [
+                4,
+                8
+              ],
+              [
+                4,
+                7
+              ]
+            ]
+          ],
+          "left": {
+            "region": {
+              "id": "d5_42",
+              "size": 5,
+              "depth": 5,
+              "parent_id": "d4_40",
+              "row_min": 0,
+              "row_max": 4,
+              "col_min": 8,
+              "col_max": 8,
+              "bbox_span": 4,
+              "qubits": [
+                [
+                  0,
+                  8
+                ],
+                [
+                  1,
+                  8
+                ],
+                [
+                  2,
+                  8
+                ],
+                [
+                  3,
+                  8
+                ],
+                [
+                  4,
+                  8
+                ]
+              ]
+            },
+            "split_axis": "horizontal",
+            "split_coordinate": 2,
+            "left_size": 3,
+            "right_size": 2,
+            "failure": null,
+            "staging_path": [
+              [
+                1,
+                8
+              ],
+              [
+                2,
+                8
+              ],
+              [
+                3,
+                8
+              ],
+              [
+                4,
+                8
+              ]
+            ],
+            "left_anchor": [
+              [
+                1,
+                8
+              ],
+              [
+                2,
+                8
+              ]
+            ],
+            "right_anchor": [
+              [
+                3,
+                8
+              ],
+              [
+                4,
+                8
+              ]
+            ],
+            "leaf_anchor": null,
+            "cut_edges": [
+              [
+                [
+                  2,
+                  8
+                ],
+                [
+                  3,
+                  8
+                ]
+              ]
+            ],
+            "left": {
+              "region": {
+                "id": "d6_44",
+                "size": 3,
+                "depth": 6,
+                "parent_id": "d5_42",
+                "row_min": 0,
+                "row_max": 2,
+                "col_min": 8,
+                "col_max": 8,
+                "bbox_span": 2,
+                "qubits": [
+                  [
+                    0,
+                    8
+                  ],
+                  [
+                    1,
+                    8
+                  ],
+                  [
+                    2,
+                    8
+                  ]
+                ]
+              },
+              "split_axis": null,
+              "split_coordinate": null,
+              "left_size": 0,
+              "right_size": 0,
+              "failure": null,
+              "staging_path": null,
+              "left_anchor": null,
+              "right_anchor": null,
+              "leaf_anchor": [
+                [
+                  1,
+                  8
+                ],
+                [
+                  2,
+                  8
+                ]
+              ],
+              "cut_edges": [],
+              "left": null,
+              "right": null
+            },
+            "right": {
+              "region": {
+                "id": "d6_45",
+                "size": 2,
+                "depth": 6,
+                "parent_id": "d5_42",
+                "row_min": 3,
+                "row_max": 4,
+                "col_min": 8,
+                "col_max": 8,
+                "bbox_span": 1,
+                "qubits": [
+                  [
+                    3,
+                    8
+                  ],
+                  [
+                    4,
+                    8
+                  ]
+                ]
+              },
+              "split_axis": null,
+              "split_coordinate": null,
+              "left_size": 0,
+              "right_size": 0,
+              "failure": null,
+              "staging_path": null,
+              "left_anchor": null,
+              "right_anchor": null,
+              "leaf_anchor": [
+                [
+                  3,
+                  8
+                ],
+                [
+                  4,
+                  8
+                ]
+              ],
+              "cut_edges": [],
+              "left": null,
+              "right": null
+            }
+          },
+          "right": {
+            "region": {
+              "id": "d5_43",
+              "size": 5,
+              "depth": 5,
+              "parent_id": "d4_40",
+              "row_min": 0,
+              "row_max": 4,
+              "col_min": 7,
+              "col_max": 7,
+              "bbox_span": 4,
+              "qubits": [
+                [
+                  0,
+                  7
+                ],
+                [
+                  1,
+                  7
+                ],
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  7
+                ],
+                [
+                  4,
+                  7
+                ]
+              ]
+            },
+            "split_axis": "horizontal",
+            "split_coordinate": 1,
+            "left_size": 2,
+            "right_size": 3,
+            "failure": null,
+            "staging_path": [
+              [
+                0,
+                7
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "left_anchor": [
+              [
+                0,
+                7
+              ],
+              [
+                1,
+                7
+              ]
+            ],
+            "right_anchor": [
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                7
+              ]
+            ],
+            "leaf_anchor": null,
+            "cut_edges": [
+              [
+                [
+                  1,
+                  7
+                ],
+                [
+                  2,
+                  7
+                ]
+              ]
+            ],
+            "left": {
+              "region": {
+                "id": "d6_46",
+                "size": 2,
+                "depth": 6,
+                "parent_id": "d5_43",
+                "row_min": 0,
+                "row_max": 1,
+                "col_min": 7,
+                "col_max": 7,
+                "bbox_span": 1,
+                "qubits": [
+                  [
+                    0,
+                    7
+                  ],
+                  [
+                    1,
+                    7
+                  ]
+                ]
+              },
+              "split_axis": null,
+              "split_coordinate": null,
+              "left_size": 0,
+              "right_size": 0,
+              "failure": null,
+              "staging_path": null,
+              "left_anchor": null,
+              "right_anchor": null,
+              "leaf_anchor": [
+                [
+                  0,
+                  7
+                ],
+                [
+                  1,
+                  7
+                ]
+              ],
+              "cut_edges": [],
+              "left": null,
+              "right": null
+            },
+            "right": {
+              "region": {
+                "id": "d6_47",
+                "size": 3,
+                "depth": 6,
+                "parent_id": "d5_43",
+                "row_min": 2,
+                "row_max": 4,
+                "col_min": 7,
+                "col_max": 7,
+                "bbox_span": 2,
+                "qubits": [
+                  [
+                    2,
+                    7
+                  ],
+                  [
+                    3,
+                    7
+                  ],
+                  [
+                    4,
+                    7
+                  ]
+                ]
+              },
+              "split_axis": null,
+              "split_coordinate": null,
+              "left_size": 0,
+              "right_size": 0,
+              "failure": null,
+              "staging_path": null,
+              "left_anchor": null,
+              "right_anchor": null,
+              "leaf_anchor": [
+                [
+                  2,
+                  7
+                ],
+                [
+                  3,
+                  7
+                ]
+              ],
+              "cut_edges": [],
+              "left": null,
+              "right": null
+            }
+          }
+        },
+        "right": {
+          "region": {
+            "id": "d4_41",
+            "size": 8,
+            "depth": 4,
+            "parent_id": "d3_33",
+            "row_min": 2,
+            "row_max": 4,
+            "col_min": 9,
+            "col_max": 12,
+            "bbox_span": 5,
+            "qubits": [
+              [
+                2,
+                9
+              ],
+              [
+                2,
+                10
+              ],
+              [
+                3,
+                9
+              ],
+              [
+                3,
+                10
+              ],
+              [
+                4,
+                9
+              ],
+              [
+                4,
+                10
+              ],
+              [
+                4,
+                11
+              ],
+              [
+                4,
+                12
+              ]
+            ]
+          },
+          "split_axis": "horizontal",
+          "split_coordinate": 3,
+          "left_size": 4,
+          "right_size": 4,
+          "failure": null,
+          "staging_path": [
+            [
+              2,
+              9
+            ],
+            [
+              3,
+              9
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              4,
+              10
+            ]
+          ],
+          "left_anchor": [
+            [
+              2,
+              9
+            ],
+            [
+              3,
+              9
+            ]
+          ],
+          "right_anchor": [
+            [
+              4,
+              9
+            ],
+            [
+              4,
+              10
+            ]
+          ],
+          "leaf_anchor": null,
+          "cut_edges": [
+            [
+              [
+                3,
+                9
+              ],
+              [
+                4,
+                9
+              ]
+            ],
+            [
+              [
+                3,
+                10
+              ],
+              [
+                4,
+                10
+              ]
+            ]
+          ],
+          "left": {
+            "region": {
+              "id": "d5_48",
+              "size": 4,
+              "depth": 5,
+              "parent_id": "d4_41",
+              "row_min": 2,
+              "row_max": 3,
+              "col_min": 9,
+              "col_max": 10,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  2,
+                  9
+                ],
+                [
+                  2,
+                  10
+                ],
+                [
+                  3,
+                  9
+                ],
+                [
+                  3,
+                  10
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                2,
+                9
+              ],
+              [
+                3,
+                9
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "region": {
+              "id": "d5_49",
+              "size": 4,
+              "depth": 5,
+              "parent_id": "d4_41",
+              "row_min": 4,
+              "row_max": 4,
+              "col_min": 9,
+              "col_max": 12,
+              "bbox_span": 3,
+              "qubits": [
+                [
+                  4,
+                  9
+                ],
+                [
+                  4,
+                  10
+                ],
+                [
+                  4,
+                  11
+                ],
+                [
+                  4,
+                  12
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                4,
+                9
+              ],
+              [
+                4,
+                10
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          }
+        }
+      }
+    },
+    "right": {
+      "region": {
+        "id": "d2_31",
+        "size": 27,
+        "depth": 2,
+        "parent_id": "d1_1",
+        "row_min": 7,
+        "row_max": 12,
+        "col_min": 7,
+        "col_max": 13,
+        "bbox_span": 11,
+        "qubits": [
+          [
+            7,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            7,
+            12
+          ],
+          [
+            7,
+            13
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            8,
+            12
+          ],
+          [
+            9,
+            7
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            10,
+            7
+          ],
+          [
+            10,
+            8
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            12,
+            7
+          ],
+          [
+            12,
+            8
+          ]
+        ]
+      },
+      "split_axis": "horizontal",
+      "split_coordinate": 8,
+      "left_size": 13,
+      "right_size": 14,
+      "failure": null,
+      "staging_path": [
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          7
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          9,
+          8
+        ]
+      ],
+      "left_anchor": [
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          7
+        ]
+      ],
+      "right_anchor": [
+        [
+          9,
+          7
+        ],
+        [
+          9,
+          8
+        ]
+      ],
+      "leaf_anchor": null,
+      "cut_edges": [
+        [
+          [
+            8,
+            7
+          ],
+          [
+            9,
+            7
+          ]
+        ],
+        [
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ]
+        ],
+        [
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        [
+          [
+            8,
+            10
+          ],
+          [
+            9,
+            10
+          ]
+        ],
+        [
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            11
+          ]
+        ]
+      ],
+      "left": {
+        "region": {
+          "id": "d3_50",
+          "size": 13,
+          "depth": 3,
+          "parent_id": "d2_31",
+          "row_min": 7,
+          "row_max": 8,
+          "col_min": 7,
+          "col_max": 13,
+          "bbox_span": 7,
+          "qubits": [
+            [
+              7,
+              7
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              7,
+              11
+            ],
+            [
+              7,
+              12
+            ],
+            [
+              7,
+              13
+            ],
+            [
+              8,
+              7
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              8,
+              9
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              8,
+              12
+            ]
+          ]
+        },
+        "split_axis": "vertical",
+        "split_coordinate": 9,
+        "left_size": 6,
+        "right_size": 7,
+        "failure": null,
+        "staging_path": [
+          [
+            8,
+            9
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "left_anchor": [
+          [
+            8,
+            9
+          ],
+          [
+            7,
+            9
+          ]
+        ],
+        "right_anchor": [
+          [
+            7,
+            10
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "leaf_anchor": null,
+        "cut_edges": [
+          [
+            [
+              7,
+              9
+            ],
+            [
+              7,
+              10
+            ]
+          ],
+          [
+            [
+              8,
+              9
+            ],
+            [
+              8,
+              10
+            ]
+          ]
+        ],
+        "left": {
+          "region": {
+            "id": "d4_52",
+            "size": 6,
+            "depth": 4,
+            "parent_id": "d3_50",
+            "row_min": 7,
+            "row_max": 8,
+            "col_min": 7,
+            "col_max": 9,
+            "bbox_span": 3,
+            "qubits": [
+              [
+                7,
+                7
+              ],
+              [
+                7,
+                8
+              ],
+              [
+                7,
+                9
+              ],
+              [
+                8,
+                7
+              ],
+              [
+                8,
+                8
+              ],
+              [
+                8,
+                9
+              ]
+            ]
+          },
+          "split_axis": "horizontal",
+          "split_coordinate": 7,
+          "left_size": 3,
+          "right_size": 3,
+          "failure": null,
+          "staging_path": [
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              8,
+              7
+            ],
+            [
+              8,
+              8
+            ]
+          ],
+          "left_anchor": [
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              7
+            ]
+          ],
+          "right_anchor": [
+            [
+              8,
+              7
+            ],
+            [
+              8,
+              8
+            ]
+          ],
+          "leaf_anchor": null,
+          "cut_edges": [
+            [
+              [
+                7,
+                7
+              ],
+              [
+                8,
+                7
+              ]
+            ],
+            [
+              [
+                7,
+                8
+              ],
+              [
+                8,
+                8
+              ]
+            ],
+            [
+              [
+                7,
+                9
+              ],
+              [
+                8,
+                9
+              ]
+            ]
+          ],
+          "left": {
+            "region": {
+              "id": "d5_54",
+              "size": 3,
+              "depth": 5,
+              "parent_id": "d4_52",
+              "row_min": 7,
+              "row_max": 7,
+              "col_min": 7,
+              "col_max": 9,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  7,
+                  7
+                ],
+                [
+                  7,
+                  8
+                ],
+                [
+                  7,
+                  9
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                7,
+                8
+              ],
+              [
+                7,
+                7
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "region": {
+              "id": "d5_55",
+              "size": 3,
+              "depth": 5,
+              "parent_id": "d4_52",
+              "row_min": 8,
+              "row_max": 8,
+              "col_min": 7,
+              "col_max": 9,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  8,
+                  7
+                ],
+                [
+                  8,
+                  8
+                ],
+                [
+                  8,
+                  9
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                8,
+                7
+              ],
+              [
+                8,
+                8
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          }
+        },
+        "right": {
+          "region": {
+            "id": "d4_53",
+            "size": 7,
+            "depth": 4,
+            "parent_id": "d3_50",
+            "row_min": 7,
+            "row_max": 8,
+            "col_min": 10,
+            "col_max": 13,
+            "bbox_span": 4,
+            "qubits": [
+              [
+                7,
+                10
+              ],
+              [
+                7,
+                11
+              ],
+              [
+                7,
+                12
+              ],
+              [
+                7,
+                13
+              ],
+              [
+                8,
+                10
+              ],
+              [
+                8,
+                11
+              ],
+              [
+                8,
+                12
+              ]
+            ]
+          },
+          "split_axis": "vertical",
+          "split_coordinate": 11,
+          "left_size": 4,
+          "right_size": 3,
+          "failure": null,
+          "staging_path": [
+            [
+              7,
+              10
+            ],
+            [
+              7,
+              11
+            ],
+            [
+              7,
+              12
+            ],
+            [
+              7,
+              13
+            ]
+          ],
+          "left_anchor": [
+            [
+              7,
+              10
+            ],
+            [
+              7,
+              11
+            ]
+          ],
+          "right_anchor": [
+            [
+              7,
+              12
+            ],
+            [
+              7,
+              13
+            ]
+          ],
+          "leaf_anchor": null,
+          "cut_edges": [
+            [
+              [
+                7,
+                11
+              ],
+              [
+                7,
+                12
+              ]
+            ],
+            [
+              [
+                8,
+                11
+              ],
+              [
+                8,
+                12
+              ]
+            ]
+          ],
+          "left": {
+            "region": {
+              "id": "d5_56",
+              "size": 4,
+              "depth": 5,
+              "parent_id": "d4_53",
+              "row_min": 7,
+              "row_max": 8,
+              "col_min": 10,
+              "col_max": 11,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  7,
+                  10
+                ],
+                [
+                  7,
+                  11
+                ],
+                [
+                  8,
+                  10
+                ],
+                [
+                  8,
+                  11
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                7,
+                10
+              ],
+              [
+                7,
+                11
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "region": {
+              "id": "d5_57",
+              "size": 3,
+              "depth": 5,
+              "parent_id": "d4_53",
+              "row_min": 7,
+              "row_max": 8,
+              "col_min": 12,
+              "col_max": 13,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  7,
+                  12
+                ],
+                [
+                  7,
+                  13
+                ],
+                [
+                  8,
+                  12
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                7,
+                12
+              ],
+              [
+                7,
+                13
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          }
+        }
+      },
+      "right": {
+        "region": {
+          "id": "d3_51",
+          "size": 14,
+          "depth": 3,
+          "parent_id": "d2_31",
+          "row_min": 9,
+          "row_max": 12,
+          "col_min": 7,
+          "col_max": 11,
+          "bbox_span": 7,
+          "qubits": [
+            [
+              9,
+              7
+            ],
+            [
+              9,
+              8
+            ],
+            [
+              9,
+              9
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              10,
+              7
+            ],
+            [
+              10,
+              8
+            ],
+            [
+              10,
+              9
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              11,
+              7
+            ],
+            [
+              11,
+              8
+            ],
+            [
+              11,
+              9
+            ],
+            [
+              12,
+              7
+            ],
+            [
+              12,
+              8
+            ]
+          ]
+        },
+        "split_axis": "vertical",
+        "split_coordinate": 8,
+        "left_size": 8,
+        "right_size": 6,
+        "failure": null,
+        "staging_path": [
+          [
+            9,
+            7
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            9,
+            10
+          ]
+        ],
+        "left_anchor": [
+          [
+            9,
+            7
+          ],
+          [
+            9,
+            8
+          ]
+        ],
+        "right_anchor": [
+          [
+            9,
+            9
+          ],
+          [
+            9,
+            10
+          ]
+        ],
+        "leaf_anchor": null,
+        "cut_edges": [
+          [
+            [
+              9,
+              8
+            ],
+            [
+              9,
+              9
+            ]
+          ],
+          [
+            [
+              10,
+              8
+            ],
+            [
+              10,
+              9
+            ]
+          ],
+          [
+            [
+              11,
+              8
+            ],
+            [
+              11,
+              9
+            ]
+          ]
+        ],
+        "left": {
+          "region": {
+            "id": "d4_58",
+            "size": 8,
+            "depth": 4,
+            "parent_id": "d3_51",
+            "row_min": 9,
+            "row_max": 12,
+            "col_min": 7,
+            "col_max": 8,
+            "bbox_span": 4,
+            "qubits": [
+              [
+                9,
+                7
+              ],
+              [
+                9,
+                8
+              ],
+              [
+                10,
+                7
+              ],
+              [
+                10,
+                8
+              ],
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                12,
+                7
+              ],
+              [
+                12,
+                8
+              ]
+            ]
+          },
+          "split_axis": "horizontal",
+          "split_coordinate": 10,
+          "left_size": 4,
+          "right_size": 4,
+          "failure": null,
+          "staging_path": [
+            [
+              9,
+              7
+            ],
+            [
+              10,
+              7
+            ],
+            [
+              11,
+              7
+            ],
+            [
+              11,
+              8
+            ]
+          ],
+          "left_anchor": [
+            [
+              9,
+              7
+            ],
+            [
+              10,
+              7
+            ]
+          ],
+          "right_anchor": [
+            [
+              11,
+              7
+            ],
+            [
+              11,
+              8
+            ]
+          ],
+          "leaf_anchor": null,
+          "cut_edges": [
+            [
+              [
+                10,
+                7
+              ],
+              [
+                11,
+                7
+              ]
+            ],
+            [
+              [
+                10,
+                8
+              ],
+              [
+                11,
+                8
+              ]
+            ]
+          ],
+          "left": {
+            "region": {
+              "id": "d5_60",
+              "size": 4,
+              "depth": 5,
+              "parent_id": "d4_58",
+              "row_min": 9,
+              "row_max": 10,
+              "col_min": 7,
+              "col_max": 8,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  9,
+                  7
+                ],
+                [
+                  9,
+                  8
+                ],
+                [
+                  10,
+                  7
+                ],
+                [
+                  10,
+                  8
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                9,
+                7
+              ],
+              [
+                10,
+                7
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "region": {
+              "id": "d5_61",
+              "size": 4,
+              "depth": 5,
+              "parent_id": "d4_58",
+              "row_min": 11,
+              "row_max": 12,
+              "col_min": 7,
+              "col_max": 8,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  11,
+                  7
+                ],
+                [
+                  11,
+                  8
+                ],
+                [
+                  12,
+                  7
+                ],
+                [
+                  12,
+                  8
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                11,
+                7
+              ],
+              [
+                11,
+                8
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          }
+        },
+        "right": {
+          "region": {
+            "id": "d4_59",
+            "size": 6,
+            "depth": 4,
+            "parent_id": "d3_51",
+            "row_min": 9,
+            "row_max": 11,
+            "col_min": 9,
+            "col_max": 11,
+            "bbox_span": 4,
+            "qubits": [
+              [
+                9,
+                9
+              ],
+              [
+                9,
+                10
+              ],
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                9
+              ],
+              [
+                10,
+                10
+              ],
+              [
+                11,
+                9
+              ]
+            ]
+          },
+          "split_axis": "horizontal",
+          "split_coordinate": 9,
+          "left_size": 3,
+          "right_size": 3,
+          "failure": null,
+          "staging_path": [
+            [
+              9,
+              9
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              10,
+              10
+            ],
+            [
+              10,
+              9
+            ]
+          ],
+          "left_anchor": [
+            [
+              9,
+              9
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "right_anchor": [
+            [
+              10,
+              10
+            ],
+            [
+              10,
+              9
+            ]
+          ],
+          "leaf_anchor": null,
+          "cut_edges": [
+            [
+              [
+                9,
+                9
+              ],
+              [
+                10,
+                9
+              ]
+            ],
+            [
+              [
+                9,
+                10
+              ],
+              [
+                10,
+                10
+              ]
+            ]
+          ],
+          "left": {
+            "region": {
+              "id": "d5_62",
+              "size": 3,
+              "depth": 5,
+              "parent_id": "d4_59",
+              "row_min": 9,
+              "row_max": 9,
+              "col_min": 9,
+              "col_max": 11,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  9,
+                  9
+                ],
+                [
+                  9,
+                  10
+                ],
+                [
+                  9,
+                  11
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                9,
+                9
+              ],
+              [
+                9,
+                10
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "region": {
+              "id": "d5_63",
+              "size": 3,
+              "depth": 5,
+              "parent_id": "d4_59",
+              "row_min": 10,
+              "row_max": 11,
+              "col_min": 9,
+              "col_max": 10,
+              "bbox_span": 2,
+              "qubits": [
+                [
+                  10,
+                  9
+                ],
+                [
+                  10,
+                  10
+                ],
+                [
+                  11,
+                  9
+                ]
+              ]
+            },
+            "split_axis": null,
+            "split_coordinate": null,
+            "left_size": 0,
+            "right_size": 0,
+            "failure": null,
+            "staging_path": null,
+            "left_anchor": null,
+            "right_anchor": null,
+            "leaf_anchor": [
+              [
+                10,
+                10
+              ],
+              [
+                10,
+                9
+              ]
+            ],
+            "cut_edges": [],
+            "left": null,
+            "right": null
+          }
+        }
+      }
+    }
+  }
+}
