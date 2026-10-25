@@ -115,14 +115,24 @@ def create_dicke_state(
     args = cz_pauli_error_rate, sq_pauli_error_rate, zero_errors, one_errors
     base = _team_v1_create_dicke_state(N, k, *args)
     kk = min(k, N - k) if isinstance(N, int) and isinstance(k, int) else k
-    if not isinstance(N, int) or N <= 8 or (N, kk) not in _V2_LIB:
+    if not isinstance(N, int) or N <= 8 or 2 * kk == N:
+        # Half filling: the portfolio circuit beat every library pick in the noisy sim (team_eval/v2).
+        return base
+    if kk != 1 and (N, kk) not in _V2_LIB:
         return base
     flip = kk != k
     try:
         adj = _peer_hw_graph(cz_pauli_error_rate, sq_pauli_error_rate)
         qcost = lambda q: _peer_readout_cost(q, k / N, zero_errors, one_errors) + 2 * float(sq_pauli_error_rate[q][0])
         scored = [(_peer_estimate_error(base[0], base[1], k, *args, dd=True), 'base', base[0], set(base[1]))]
-        for entry in _V2_LIB[(N, kk)]:
+        if kk == 1:
+            # W states: also rank the root pipeline's broadcast-tree circuit (2N-3 CZ, shallow).
+            try:
+                pc, pq = _peer_create_dicke_state(N, k, *args)
+                scored.append((_peer_estimate_error(pc, set(pq), k, *args, dd=True), 'peer_w', pc, set(pq)))
+            except Exception:
+                pass
+        for entry in _V2_LIB.get((N, kk), []):
             if time.monotonic() - started > 25:
                 break
             t = _v2_template(entry, N, kk)

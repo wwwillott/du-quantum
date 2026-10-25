@@ -6,3 +6,4 @@ __pycache__/
 # local scratch
 *.pyc
 *.pkl
+team_eval/v2/circuits/

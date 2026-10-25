@@ -3,7 +3,7 @@
   "seed": 101,
   "N": 2,
   "n": 1,
-  "construction_seconds": 0.13449309999998604,
+  "construction_seconds": 0.09668519999991076,
   "moments": 3,
   "qubits": [
    [
@@ -17,7 +17,7 @@
   ],
   "circuit_sha256": "c9faf0220b743d3177180cfe8b7dc4b691e4a6366d058fe82e79aca433a23c12",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N02_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N02_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -104,7 +104,7 @@
   "seed": 101,
   "N": 3,
   "n": 1,
-  "construction_seconds": 1.0077039999999897,
+  "construction_seconds": 0.7348502999998345,
   "moments": 6,
   "qubits": [
    [
@@ -122,7 +122,7 @@
   ],
   "circuit_sha256": "98dbd7852618c2bde82870acb168579d0e3928d843394bcecf0626a5cea984e5",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N03_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N03_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -209,7 +209,7 @@
   "seed": 101,
   "N": 4,
   "n": 1,
-  "construction_seconds": 0.9702522999999701,
+  "construction_seconds": 0.8698302999998759,
   "moments": 11,
   "qubits": [
    [
@@ -231,7 +231,7 @@
   ],
   "circuit_sha256": "b455e0c80b672c351954982abee64c81586f81cce235ed82616bab02ca64783d",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N04_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N04_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -318,7 +318,7 @@
   "seed": 101,
   "N": 4,
   "n": 2,
-  "construction_seconds": 0.6003802999999834,
+  "construction_seconds": 0.5581251999999495,
   "moments": 7,
   "qubits": [
    [
@@ -340,7 +340,7 @@
   ],
   "circuit_sha256": "bbd05fdef61661e5988d2ffa8a5e512a20260f7eaa8b8a028f5b3e2490f97e36",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N04_n02.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N04_n02.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -427,7 +427,7 @@
   "seed": 101,
   "N": 5,
   "n": 1,
-  "construction_seconds": 1.8308688000000757,
+  "construction_seconds": 1.600628899999947,
   "moments": 15,
   "qubits": [
    [
@@ -453,7 +453,7 @@
   ],
   "circuit_sha256": "9223a8b5924a7adb07c9f9a4ff08d36f0935450366390db22d1b91ffe1a8a173",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N05_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N05_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -540,7 +540,7 @@
   "seed": 101,
   "N": 5,
   "n": 2,
-  "construction_seconds": 1.427186000000006,
+  "construction_seconds": 1.1257351000001563,
   "moments": 15,
   "qubits": [
    [
@@ -566,7 +566,7 @@
   ],
   "circuit_sha256": "5cd4036a474049d2cf151beec0d940a8b7a983d376468bc1149334c54586e00d",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N05_n02.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N05_n02.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -653,7 +653,7 @@
   "seed": 101,
   "N": 6,
   "n": 1,
-  "construction_seconds": 2.0482925000000023,
+  "construction_seconds": 1.8240891999998894,
   "moments": 18,
   "qubits": [
    [
@@ -683,7 +683,7 @@
   ],
   "circuit_sha256": "2d8a5dce39884b98c1a966ce67218856d358b0a8b65a63d91f472ce8e691091d",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N06_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N06_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -770,7 +770,7 @@
   "seed": 101,
   "N": 6,
   "n": 2,
-  "construction_seconds": 1.6671914999999444,
+  "construction_seconds": 1.4132779999999912,
   "moments": 16,
   "qubits": [
    [
@@ -800,7 +800,7 @@
   ],
   "circuit_sha256": "ef27ce89f387072b1c5958485b29b7e5f8ccbc45b4e414f42fcb29281d90bf2a",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N06_n02.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N06_n02.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -887,7 +887,7 @@
   "seed": 101,
   "N": 6,
   "n": 3,
-  "construction_seconds": 2.5693792000000713,
+  "construction_seconds": 2.5015006000000994,
   "moments": 18,
   "qubits": [
    [
@@ -917,7 +917,7 @@
   ],
   "circuit_sha256": "7ef632c54f0ead4520cecfe47c0572d40a971d3b7b0e2b63118c2be71847f38e",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N06_n03.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N06_n03.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -1004,7 +1004,7 @@
   "seed": 101,
   "N": 7,
   "n": 1,
-  "construction_seconds": 2.155897999999979,
+  "construction_seconds": 2.0951233000000684,
   "moments": 10,
   "qubits": [
    [
@@ -1038,7 +1038,7 @@
   ],
   "circuit_sha256": "6eaa3b1758378c3e75140bd4dfecc7e295da6f4f34f7e121591bd7d06c46c5ab",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N07_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N07_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -1125,7 +1125,7 @@
   "seed": 101,
   "N": 7,
   "n": 2,
-  "construction_seconds": 1.8350568000000749,
+  "construction_seconds": 1.7489837999999054,
   "moments": 18,
   "qubits": [
    [
@@ -1159,7 +1159,7 @@
   ],
   "circuit_sha256": "c43c6c8620c7fade6c64f61d0463a376db3e48b27b7710aae0f04d61a3abd724",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N07_n02.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N07_n02.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -1246,7 +1246,7 @@
   "seed": 101,
   "N": 7,
   "n": 3,
-  "construction_seconds": 3.0115924000000405,
+  "construction_seconds": 2.8403270999999677,
   "moments": 27,
   "qubits": [
    [
@@ -1280,7 +1280,7 @@
   ],
   "circuit_sha256": "ef428efed980325612b0e68234d41f28236902077f6f5f09a711e816a44e87d4",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N07_n03.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N07_n03.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -1367,7 +1367,7 @@
   "seed": 101,
   "N": 8,
   "n": 1,
-  "construction_seconds": 5.160228200000006,
+  "construction_seconds": 4.510642100000041,
   "moments": 26,
   "qubits": [
    [
@@ -1405,7 +1405,7 @@
   ],
   "circuit_sha256": "4bf8d96337401eb646adcded5a923d5749cd3f322affdebe942a5fd64db3f555",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N08_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N08_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -1492,7 +1492,7 @@
   "seed": 101,
   "N": 8,
   "n": 2,
-  "construction_seconds": 6.1593259999999646,
+  "construction_seconds": 5.609541000000036,
   "moments": 19,
   "qubits": [
    [
@@ -1530,7 +1530,7 @@
   ],
   "circuit_sha256": "7986bee884cc221e3cb2c77edf38758e74dc180bfa583bf27122f512983f4a78",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N08_n02.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N08_n02.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -1617,7 +1617,7 @@
   "seed": 101,
   "N": 8,
   "n": 3,
-  "construction_seconds": 8.699505000000045,
+  "construction_seconds": 7.675549000000046,
   "moments": 29,
   "qubits": [
    [
@@ -1655,7 +1655,7 @@
   ],
   "circuit_sha256": "93c2f2715b6bd1538baf4e5970ecf334d545d7988ef3bd482cbd042e4d9f10ec",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N08_n03.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N08_n03.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -1742,7 +1742,7 @@
   "seed": 101,
   "N": 8,
   "n": 4,
-  "construction_seconds": 17.197407100000078,
+  "construction_seconds": 13.028384499999902,
   "moments": 24,
   "qubits": [
    [
@@ -1780,7 +1780,7 @@
   ],
   "circuit_sha256": "c3d77d5b2b9c725bdad2d20123afe328ff5080cbaa71292218ad800d5f237dfe",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N08_n04.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N08_n04.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -1867,11 +1867,15 @@
   "seed": 101,
   "N": 9,
   "n": 1,
-  "construction_seconds": 1.5350799999998799,
-  "moments": 12,
+  "construction_seconds": 1.7842759000000115,
+  "moments": 15,
   "qubits": [
    [
     4,
+    5
+   ],
+   [
+    4,
     6
    ],
    [
@@ -1887,8 +1891,8 @@
     7
    ],
    [
-    5,
-    9
+    6,
+    6
    ],
    [
     6,
@@ -1899,17 +1903,13 @@
     8
    ],
    [
-    6,
-    9
-   ],
-   [
     7,
     7
    ]
   ],
-  "circuit_sha256": "679d77cd030bf8f2226fced99cc32f1513984609e16e1c55708d3891f08212a5",
+  "circuit_sha256": "cb9da35f6077c058844765ab59548953afc9edcb4cf06e81af98c05d98faadad",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N09_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N09_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -1917,23 +1917,23 @@
   },
   "cz_count": 15,
   "exactness": {
-   "fidelity": 0.9999999999999996,
+   "fidelity": 1.0000000000000009,
    "passed": true,
    "threshold": 0.99999999,
    "ancilla_count": 0,
    "dtype": "complex128"
   },
-  "key": "10b5e54db2437ef00ab1de911d96ad55cf1d270aa25b12227be7e25107a30f94",
+  "key": "4cf84f8efd76462d8ad6da33cf06f668bf6f016d3899cb7c9ba8adf72994404e",
   "models": {
    "pauli": {
-    "median": 1.1868416340887982,
-    "mean": 1.5192454540839326,
-    "Zmed": 0.8410142701201578,
-    "Xmed": 0.002085720658226249,
-    "f": 0.9466929999999999,
+    "median": 1.1727356390950088,
+    "mean": 1.3719922163122253,
+    "Zmed": 0.8512152824452545,
+    "Xmed": 0.001817462348828412,
+    "f": 0.9429559999999999,
     "n_traj": 2000,
-    "simulation_seconds": 3.707461499998317,
-    "scoring_seconds": 0.2931094000014127,
+    "simulation_seconds": 1.6714906999986852,
+    "scoring_seconds": 0.3436260999988008,
     "trajectory_seed": 16957238108721717210,
     "resampling_seed": 10915397987361023045,
     "hw": {
@@ -1951,21 +1951,21 @@
      "seed": 1234
     },
     "simulator_info": {
-     "depth": 12,
+     "depth": 15,
      "nq": 9
     },
-    "pz_sum": 1.0000000000000189,
-    "px_sum": 1.0000000000000036
+    "pz_sum": 1.0000000000000187,
+    "px_sum": 1.0000000000000027
    },
    "hw": {
-    "median": 1.0988575984708586,
-    "mean": 1.41209408080825,
-    "Zmed": 0.9080537120976349,
-    "Xmed": 0.0021483738274754296,
-    "f": 0.9388545,
+    "median": 1.084714252143839,
+    "mean": 1.3488000892125331,
+    "Zmed": 0.9198211468531867,
+    "Xmed": 0.002615478938019649,
+    "f": 0.9401645000000001,
     "n_traj": 1000,
-    "simulation_seconds": 0.7895829999979469,
-    "scoring_seconds": 0.27001599999857717,
+    "simulation_seconds": 1.3441229999989446,
+    "scoring_seconds": 0.3508661999985634,
     "trajectory_seed": 10610023954389571112,
     "resampling_seed": 17792927143776745246,
     "hw": {
@@ -1983,11 +1983,11 @@
      "seed": 1234
     },
     "simulator_info": {
-     "depth": 12,
+     "depth": 15,
      "nq": 9
     },
-    "pz_sum": 0.9999999999999998,
-    "px_sum": 0.9999999999999984
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999987
    }
   },
   "score_source": "cache"
@@ -1996,7 +1996,7 @@
   "seed": 101,
   "N": 9,
   "n": 2,
-  "construction_seconds": 0.6791175000000749,
+  "construction_seconds": 0.7066690999999992,
   "moments": 22,
   "qubits": [
    [
@@ -2038,7 +2038,7 @@
   ],
   "circuit_sha256": "a8562d646004bd9d4ccd5c35bf53a96d38676f2b7ec6bb2dd8721bd8b8ee014a",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N09_n02.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N09_n02.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -2125,7 +2125,7 @@
   "seed": 101,
   "N": 9,
   "n": 3,
-  "construction_seconds": 0.8551523000000998,
+  "construction_seconds": 0.7606670000000122,
   "moments": 45,
   "qubits": [
    [
@@ -2167,7 +2167,7 @@
   ],
   "circuit_sha256": "e36158bb57886ffb411f0e9414dab01cda4c19e6ee30089591418b60e40d0505",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N09_n03.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N09_n03.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -2248,13 +2248,13 @@
     "px_sum": 0.9999999999999982
    }
   },
-  "score_source": "scored"
+  "score_source": "previous v2 run"
  },
  {
   "seed": 101,
   "N": 9,
   "n": 4,
-  "construction_seconds": 0.9057769000000917,
+  "construction_seconds": 0.7466819999999643,
   "moments": 61,
   "qubits": [
    [
@@ -2296,7 +2296,7 @@
   ],
   "circuit_sha256": "30ec64927614c070da77928a33477b989316a082ed888b9416e22704a1c029ee",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N09_n04.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N09_n04.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -2377,13 +2377,13 @@
     "px_sum": 0.9999999999999982
    }
   },
-  "score_source": "scored"
+  "score_source": "previous v2 run"
  },
  {
   "seed": 101,
   "N": 10,
   "n": 1,
-  "construction_seconds": 1.5974530999999388,
+  "construction_seconds": 1.9495272999999997,
   "moments": 13,
   "qubits": [
    [
@@ -2429,7 +2429,7 @@
   ],
   "circuit_sha256": "d4f7ad49a464a0b7b8e820a745906867f004a131550de77047a6e494b0fa019a",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N10_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N10_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -2516,7 +2516,7 @@
   "seed": 101,
   "N": 10,
   "n": 2,
-  "construction_seconds": 1.471205300000065,
+  "construction_seconds": 0.813370900000109,
   "moments": 23,
   "qubits": [
    [
@@ -2562,7 +2562,7 @@
   ],
   "circuit_sha256": "11476722a93c38fa31816f00bdbaec5a70510def4d767a3d840d58185cb393c6",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N10_n02.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N10_n02.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -2649,7 +2649,7 @@
   "seed": 101,
   "N": 10,
   "n": 3,
-  "construction_seconds": 1.9314291000000594,
+  "construction_seconds": 0.9166967999999542,
   "moments": 45,
   "qubits": [
    [
@@ -2695,7 +2695,7 @@
   ],
   "circuit_sha256": "3727dbcb6d3961c5c2e1c07e25ddd90bd7ad77e9e30cd9713d6263b45be01b57",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N10_n03.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N10_n03.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -2776,13 +2776,13 @@
     "px_sum": 0.9999999999999984
    }
   },
-  "score_source": "scored"
+  "score_source": "previous v2 run"
  },
  {
   "seed": 101,
   "N": 10,
   "n": 4,
-  "construction_seconds": 1.3994419000000562,
+  "construction_seconds": 0.9389269999999215,
   "moments": 67,
   "qubits": [
    [
@@ -2828,7 +2828,7 @@
   ],
   "circuit_sha256": "4f08d0a61f8ac2bc898504c8c9f385779e35fe0e9da4ff4b21f83ec5e0005f18",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N10_n04.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N10_n04.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -2915,12 +2915,12 @@
   "seed": 101,
   "N": 10,
   "n": 5,
-  "construction_seconds": 1.976243199999999,
-  "moments": 77,
+  "construction_seconds": 0.7753601000001709,
+  "moments": 73,
   "qubits": [
    [
-    6,
-    6
+    5,
+    7
    ],
    [
     6,
@@ -2935,8 +2935,12 @@
     9
    ],
    [
-    7,
-    6
+    6,
+    10
+   ],
+   [
+    6,
+    11
    ],
    [
     7,
@@ -2953,15 +2957,11 @@
    [
     7,
     10
-   ],
-   [
-    8,
-    6
    ]
   ],
-  "circuit_sha256": "cdf2efa6bf234432d0dab58482e1b54909ea5bafd9edb9959c42a24086ffa952",
+  "circuit_sha256": "75118d88aa177a73401de379c4811952fd5bf142d479610e02cedcfdf4aa6173",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N10_n05.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N10_n05.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -2969,23 +2969,23 @@
   },
   "cz_count": 73,
   "exactness": {
-   "fidelity": 0.9999999999999984,
+   "fidelity": 1.0000000000000004,
    "passed": true,
    "threshold": 0.99999999,
    "ancilla_count": 0,
    "dtype": "complex128"
   },
-  "key": "784323b68bacd40ea27ea1e14e602ff3f8cc582b723e2971356f1af873b5d432",
+  "key": "cabe38c234b46bbf2b169fd56ce7ee6ddab63e47b85182a7f982661f38aed184",
   "models": {
    "pauli": {
-    "median": 0.7167865491288659,
-    "mean": 0.7180758002995684,
-    "Zmed": 1.211155633345114,
-    "Xmed": 0.18540200409435922,
-    "f": 0.8265705,
+    "median": 0.7428479112980377,
+    "mean": 0.7425819280548217,
+    "Zmed": 1.1835023669383085,
+    "Xmed": 0.1660898827170572,
+    "f": 0.8379830000000001,
     "n_traj": 2000,
-    "simulation_seconds": 20.448106999999936,
-    "scoring_seconds": 0.37816320000001724,
+    "simulation_seconds": 15.534002899999905,
+    "scoring_seconds": 0.5880030999978771,
     "trajectory_seed": 8623279222890867511,
     "resampling_seed": 13310566453270394606,
     "hw": {
@@ -3003,21 +3003,21 @@
      "seed": 1234
     },
     "simulator_info": {
-     "depth": 77,
+     "depth": 73,
      "nq": 10
     },
-    "pz_sum": 0.9999999999999991,
-    "px_sum": 1.0
+    "pz_sum": 0.9999999999999992,
+    "px_sum": 1.0000000000000004
    },
    "hw": {
-    "median": 0.5196423064845274,
-    "mean": 0.5212719184963212,
-    "Zmed": 1.4314121913961324,
-    "Xmed": 0.48534835022987344,
-    "f": 0.7113419999999999,
+    "median": 0.5522094872774507,
+    "mean": 0.5553150981654673,
+    "Zmed": 1.369691472195249,
+    "Xmed": 0.43455963290269584,
+    "f": 0.73479225,
     "n_traj": 1000,
-    "simulation_seconds": 20.613223500000004,
-    "scoring_seconds": 0.4184745000000021,
+    "simulation_seconds": 18.079477499999484,
+    "scoring_seconds": 0.7727804000023752,
     "trajectory_seed": 994531722785970541,
     "resampling_seed": 6459297741908855924,
     "hw": {
@@ -3035,20 +3035,20 @@
      "seed": 1234
     },
     "simulator_info": {
-     "depth": 77,
+     "depth": 73,
      "nq": 10
     },
-    "pz_sum": 1.0000000000000002,
-    "px_sum": 0.9999999999999983
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999982
    }
   },
-  "score_source": "scored"
+  "score_source": "cache"
  },
  {
   "seed": 101,
   "N": 11,
   "n": 1,
-  "construction_seconds": 1.6896159999998872,
+  "construction_seconds": 2.139554400000179,
   "moments": 13,
   "qubits": [
    [
@@ -3098,7 +3098,7 @@
   ],
   "circuit_sha256": "9a940a3fe83da636e4665244992f2374e7c2258caf92562b97240ba01f9b89bf",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N11_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N11_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -3185,7 +3185,7 @@
   "seed": 101,
   "N": 11,
   "n": 2,
-  "construction_seconds": 1.2518643000000793,
+  "construction_seconds": 0.9653355000000374,
   "moments": 26,
   "qubits": [
    [
@@ -3235,7 +3235,7 @@
   ],
   "circuit_sha256": "040868538150a6a1517447062b410d06dc0255e5636c34970dbbcc110cf9cffc",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N11_n02.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N11_n02.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -3322,7 +3322,7 @@
   "seed": 101,
   "N": 11,
   "n": 3,
-  "construction_seconds": 1.2831179999998312,
+  "construction_seconds": 1.232680500000015,
   "moments": 61,
   "qubits": [
    [
@@ -3372,7 +3372,7 @@
   ],
   "circuit_sha256": "52502b72e708afbdd8a34a4349394057d4e3cfa62935c89fe9713d434f93755d",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N11_n03.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N11_n03.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -3453,13 +3453,13 @@
     "px_sum": 0.999999999999998
    }
   },
-  "score_source": "scored"
+  "score_source": "previous v2 run"
  },
  {
   "seed": 101,
   "N": 11,
   "n": 4,
-  "construction_seconds": 1.2498875000001135,
+  "construction_seconds": 0.8252003000000059,
   "moments": 80,
   "qubits": [
    [
@@ -3509,7 +3509,7 @@
   ],
   "circuit_sha256": "3910b74ef60b2567844bcd8a15f4d4d663d3a2d3911c4e24eced1dd1944f0a3e",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N11_n04.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N11_n04.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -3596,7 +3596,7 @@
   "seed": 101,
   "N": 11,
   "n": 5,
-  "construction_seconds": 1.0695917000000463,
+  "construction_seconds": 1.0037990000000718,
   "moments": 93,
   "qubits": [
    [
@@ -3646,7 +3646,7 @@
   ],
   "circuit_sha256": "04ca7d4b4ecea830f7836b324e40d61f32c96bcc69903064ec2951c1a2d32e81",
   "calibration_sha256": "3e78cf23ad04e115b3dfacc7071885dc63f1d668394387076ec750f2195decac",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s101_N11_n05.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s101_N11_n05.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -3727,13 +3727,13 @@
     "px_sum": 0.9999999999999982
    }
   },
-  "score_source": "scored"
+  "score_source": "previous v2 run"
  },
  {
   "seed": 202,
   "N": 2,
   "n": 1,
-  "construction_seconds": 0.133730499999956,
+  "construction_seconds": 0.0980818000000454,
   "moments": 3,
   "qubits": [
    [
@@ -3747,7 +3747,7 @@
   ],
   "circuit_sha256": "af0f224ebf35567ed056f2a0afd6218b849ab780fd90b03e33423963c885dc0d",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N02_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N02_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -3828,13 +3828,13 @@
     "px_sum": 0.9999999999999993
    }
   },
-  "score_source": "scored"
+  "score_source": "previous v2 run"
  },
  {
   "seed": 202,
   "N": 3,
   "n": 1,
-  "construction_seconds": 0.8313256999999794,
+  "construction_seconds": 0.6382442999999967,
   "moments": 7,
   "qubits": [
    [
@@ -3852,7 +3852,7 @@
   ],
   "circuit_sha256": "9a33e6f85ea7df9df602d9e9a682d98dfa2724fe54bae87b51de7ee0a6f70875",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N03_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N03_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -3933,13 +3933,13 @@
     "px_sum": 0.9999999999999992
    }
   },
-  "score_source": "scored"
+  "score_source": "previous v2 run"
  },
  {
   "seed": 202,
   "N": 4,
   "n": 1,
-  "construction_seconds": 1.1956119000001308,
+  "construction_seconds": 0.8262231000001066,
   "moments": 7,
   "qubits": [
    [
@@ -3961,7 +3961,7 @@
   ],
   "circuit_sha256": "892e836f185afdb3efba7c6cb82c650f89011b9b089acde509d5651af9f1686e",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N04_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N04_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -4042,13 +4042,13 @@
     "px_sum": 0.9999999999999998
    }
   },
-  "score_source": "scored"
+  "score_source": "previous v2 run"
  },
  {
   "seed": 202,
   "N": 4,
   "n": 2,
-  "construction_seconds": 0.6585688999998638,
+  "construction_seconds": 0.5131890000000112,
   "moments": 7,
   "qubits": [
    [
@@ -4070,7 +4070,7 @@
   ],
   "circuit_sha256": "38280b926c2568fc89abe2e524a50960ca908d3ae3200892e895f31a1cb03566",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N04_n02.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N04_n02.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -4151,13 +4151,13 @@
     "px_sum": 0.9999999999999989
    }
   },
-  "score_source": "scored"
+  "score_source": "previous v2 run"
  },
  {
   "seed": 202,
   "N": 5,
   "n": 1,
-  "construction_seconds": 1.8519318999999541,
+  "construction_seconds": 1.6525542000001678,
   "moments": 15,
   "qubits": [
    [
@@ -4183,7 +4183,7 @@
   ],
   "circuit_sha256": "3167219c6c97d3a3b106c36db13a01a75344c5e1b72dde8b5532a077893fa25e",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N05_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N05_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -4264,13 +4264,13 @@
     "px_sum": 0.9999999999999991
    }
   },
-  "score_source": "scored"
+  "score_source": "previous v2 run"
  },
  {
   "seed": 202,
   "N": 5,
   "n": 2,
-  "construction_seconds": 1.5144885999998223,
+  "construction_seconds": 0.9912405000000035,
   "moments": 17,
   "qubits": [
    [
@@ -4296,7 +4296,7 @@
   ],
   "circuit_sha256": "71432511cc7917169936a5c071c14da2d55a818983ee2cda7a515212e661b176",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N05_n02.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N05_n02.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -4377,13 +4377,13 @@
     "px_sum": 0.9999999999999991
    }
   },
-  "score_source": "scored"
+  "score_source": "previous v2 run"
  },
  {
   "seed": 202,
   "N": 6,
   "n": 1,
-  "construction_seconds": 2.2232030000000123,
+  "construction_seconds": 1.8304200000000037,
   "moments": 11,
   "qubits": [
    [
@@ -4413,7 +4413,7 @@
   ],
   "circuit_sha256": "ec65e8c14c2b23ca733e108683730e8d1ba4b608fe22b7fb3ccfdf2b11335174",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N06_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N06_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -4500,7 +4500,7 @@
   "seed": 202,
   "N": 6,
   "n": 2,
-  "construction_seconds": 1.614808400000129,
+  "construction_seconds": 1.2125843999999688,
   "moments": 15,
   "qubits": [
    [
@@ -4530,7 +4530,7 @@
   ],
   "circuit_sha256": "2e5d76feed5618f7bb3affff079ca785f9c3999c78641401983869767c41a712",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N06_n02.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N06_n02.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -4617,7 +4617,7 @@
   "seed": 202,
   "N": 6,
   "n": 3,
-  "construction_seconds": 2.6089670000001206,
+  "construction_seconds": 1.9676752999998826,
   "moments": 18,
   "qubits": [
    [
@@ -4647,7 +4647,7 @@
   ],
   "circuit_sha256": "f3124c38bb71a4bae19992133970a5c026ad3475c29c4f3f902fe8d24e73fea3",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N06_n03.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N06_n03.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -4734,7 +4734,7 @@
   "seed": 202,
   "N": 7,
   "n": 1,
-  "construction_seconds": 2.5160127999999986,
+  "construction_seconds": 1.9795126999999866,
   "moments": 10,
   "qubits": [
    [
@@ -4768,7 +4768,7 @@
   ],
   "circuit_sha256": "00aa1fe9c6b34bebbde6e4e673949309a2806de8269e632b2848765ecd1bfc48",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N07_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N07_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -4855,7 +4855,7 @@
   "seed": 202,
   "N": 7,
   "n": 2,
-  "construction_seconds": 2.354987899999969,
+  "construction_seconds": 1.7273766000000705,
   "moments": 18,
   "qubits": [
    [
@@ -4889,7 +4889,7 @@
   ],
   "circuit_sha256": "e924dd6c20079957ed50cef74be89db5a79d19fa4a7646ba6d86a76d38af6306",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N07_n02.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N07_n02.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -4976,7 +4976,7 @@
   "seed": 202,
   "N": 7,
   "n": 3,
-  "construction_seconds": 3.1722581999999875,
+  "construction_seconds": 2.425179400000161,
   "moments": 27,
   "qubits": [
    [
@@ -5010,7 +5010,7 @@
   ],
   "circuit_sha256": "9f97d9dfd301fdd3a03de31b885ff1e588cc71e842602267cce5e165400a7b5c",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N07_n03.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N07_n03.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -5097,7 +5097,7 @@
   "seed": 202,
   "N": 8,
   "n": 1,
-  "construction_seconds": 5.6985652999999274,
+  "construction_seconds": 4.453585799999928,
   "moments": 11,
   "qubits": [
    [
@@ -5135,7 +5135,7 @@
   ],
   "circuit_sha256": "6890ad8d861417b5eedf154635657b2269aa805cf3c6bcd371ba7b4a82f9a0a6",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N08_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N08_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -5222,7 +5222,7 @@
   "seed": 202,
   "N": 8,
   "n": 2,
-  "construction_seconds": 5.469589999999926,
+  "construction_seconds": 5.714344500000152,
   "moments": 19,
   "qubits": [
    [
@@ -5260,7 +5260,7 @@
   ],
   "circuit_sha256": "66392c15cdc4fcb2df3ea753346fee1612688d359f0a0d5343f927c9010b4fac",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N08_n02.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N08_n02.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -5347,7 +5347,7 @@
   "seed": 202,
   "N": 8,
   "n": 3,
-  "construction_seconds": 8.912391500000012,
+  "construction_seconds": 8.797838100000035,
   "moments": 29,
   "qubits": [
    [
@@ -5385,7 +5385,7 @@
   ],
   "circuit_sha256": "50538b33b729e1af6dc0a93565dd61a4681d4c15a72571c20a3ad571f7c6d42f",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N08_n03.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N08_n03.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -5472,7 +5472,7 @@
   "seed": 202,
   "N": 8,
   "n": 4,
-  "construction_seconds": 14.088493999999855,
+  "construction_seconds": 12.918672599999809,
   "moments": 24,
   "qubits": [
    [
@@ -5510,7 +5510,7 @@
   ],
   "circuit_sha256": "3f5262761a926582bf3e1c5fc8c9ca9699dbc3d82204c7dc11632d612db0201b",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N08_n04.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N08_n04.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -5597,7 +5597,7 @@
   "seed": 202,
   "N": 9,
   "n": 1,
-  "construction_seconds": 1.1834389999999075,
+  "construction_seconds": 1.775823599999967,
   "moments": 12,
   "qubits": [
    [
@@ -5639,7 +5639,7 @@
   ],
   "circuit_sha256": "d9d605ead5cb1329dd92ad83514f164b3bb3e08122ccb33c44e417fdb5cf9db5",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N09_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N09_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -5726,7 +5726,7 @@
   "seed": 202,
   "N": 9,
   "n": 2,
-  "construction_seconds": 0.629915100000062,
+  "construction_seconds": 0.6516380000000481,
   "moments": 22,
   "qubits": [
    [
@@ -5768,7 +5768,7 @@
   ],
   "circuit_sha256": "7e43c17680cc3cd2e4df95b1767abd8c8fb72f7109686c142529c0f3fd9309b9",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N09_n02.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N09_n02.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -5855,7 +5855,7 @@
   "seed": 202,
   "N": 9,
   "n": 3,
-  "construction_seconds": 0.94455129999983,
+  "construction_seconds": 0.5773239999998623,
   "moments": 45,
   "qubits": [
    [
@@ -5897,7 +5897,7 @@
   ],
   "circuit_sha256": "c3f48b520a2679107c35d3912ca70a69935361ec9b435ca382b91b44ad3c6670",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N09_n03.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N09_n03.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -5978,13 +5978,13 @@
     "px_sum": 0.9999999999999987
    }
   },
-  "score_source": "scored"
+  "score_source": "previous v2 run"
  },
  {
   "seed": 202,
   "N": 9,
   "n": 4,
-  "construction_seconds": 0.6660053999999036,
+  "construction_seconds": 0.571527500000002,
   "moments": 62,
   "qubits": [
    [
@@ -6026,7 +6026,7 @@
   ],
   "circuit_sha256": "7f9c1f9d6f9e852b5777bf62952045e6de43d0eef2160996e1d9305ed26d01b1",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N09_n04.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N09_n04.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -6113,8 +6113,8 @@
   "seed": 202,
   "N": 10,
   "n": 1,
-  "construction_seconds": 1.5793863999999758,
-  "moments": 34,
+  "construction_seconds": 1.921773499999972,
+  "moments": 15,
   "qubits": [
    [
     4,
@@ -6130,6 +6130,10 @@
    ],
    [
     6,
+    9
+   ],
+   [
+    6,
     10
    ],
    [
@@ -6137,29 +6141,25 @@
     11
    ],
    [
-    6,
-    12
+    7,
+    9
+   ],
+   [
+    7,
+    10
    ],
    [
     7,
     11
    ],
    [
-    7,
-    12
-   ],
-   [
     8,
     11
-   ],
-   [
-    8,
-    12
    ]
   ],
-  "circuit_sha256": "79300c15445bd071d13d332985f5268d24cb9233e79ed06b3f073800256f824f",
+  "circuit_sha256": "78fc22c42cbd86ed018d76129783260b653fcd77454b42ea1e76a26f224769b6",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N10_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N10_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -6167,23 +6167,23 @@
   },
   "cz_count": 17,
   "exactness": {
-   "fidelity": 0.9999999999999987,
+   "fidelity": 1.0000000000000022,
    "passed": true,
    "threshold": 0.99999999,
    "ancilla_count": 0,
    "dtype": "complex128"
   },
-  "key": "9bfcf499105f0629c5828e638d41e8fa17315a7f7e505854c9efb34a0a626fdb",
+  "key": "edcb6ca98e905538418c4478dbba63e91546cb9ddacea9f6986e9b907ee9ecbb",
   "models": {
    "pauli": {
-    "median": 1.0363112964248913,
-    "mean": 1.2436357714145811,
-    "Zmed": 0.9623876658372206,
-    "Xmed": 0.0026514574159738056,
-    "f": 0.9319375,
+    "median": 1.1551308546833083,
+    "mean": 1.3844539747908635,
+    "Zmed": 0.8626769493587909,
+    "Xmed": 0.0022397214848576506,
+    "f": 0.92858225,
     "n_traj": 2000,
-    "simulation_seconds": 5.476845500001218,
-    "scoring_seconds": 0.7370464000014181,
+    "simulation_seconds": 3.5826379999998608,
+    "scoring_seconds": 0.6576505999983056,
     "trajectory_seed": 5751728243344720538,
     "resampling_seed": 9319979273752569683,
     "hw": {
@@ -6201,21 +6201,21 @@
      "seed": 1234
     },
     "simulator_info": {
-     "depth": 34,
+     "depth": 15,
      "nq": 10
     },
     "pz_sum": 1.0000000000000084,
-    "px_sum": 1.0000000000000007
+    "px_sum": 1.0000000000000024
    },
    "hw": {
-    "median": 1.0567010254075737,
-    "mean": 1.1922471231930047,
-    "Zmed": 0.9397965596938871,
-    "Xmed": 0.005092985915747051,
-    "f": 0.9133515,
+    "median": 1.0898639628857334,
+    "mean": 1.2969638709635694,
+    "Zmed": 0.9136486646361239,
+    "Xmed": 0.003474393537163005,
+    "f": 0.9185037500000002,
     "n_traj": 1000,
-    "simulation_seconds": 5.914099600002373,
-    "scoring_seconds": 0.611520800001017,
+    "simulation_seconds": 3.2066912000009324,
+    "scoring_seconds": 0.430638199999521,
     "trajectory_seed": 11765334935989758763,
     "resampling_seed": 1449181046227952167,
     "hw": {
@@ -6233,11 +6233,11 @@
      "seed": 1234
     },
     "simulator_info": {
-     "depth": 34,
+     "depth": 15,
      "nq": 10
     },
-    "pz_sum": 1.0000000000000009,
-    "px_sum": 0.9999999999999993
+    "pz_sum": 1.0,
+    "px_sum": 0.9999999999999986
    }
   },
   "score_source": "cache"
@@ -6246,7 +6246,7 @@
   "seed": 202,
   "N": 10,
   "n": 2,
-  "construction_seconds": 1.1906013000000257,
+  "construction_seconds": 0.7751468999999815,
   "moments": 27,
   "qubits": [
    [
@@ -6292,7 +6292,7 @@
   ],
   "circuit_sha256": "b03bf9f0b59d9d566e1210a87dbafaddae408a9bc1cd417625ea3345bd6f09d3",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N10_n02.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N10_n02.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -6373,13 +6373,13 @@
     "px_sum": 0.9999999999999982
    }
   },
-  "score_source": "scored"
+  "score_source": "previous v2 run"
  },
  {
   "seed": 202,
   "N": 10,
   "n": 3,
-  "construction_seconds": 1.2412702999999965,
+  "construction_seconds": 0.7094296000000213,
   "moments": 45,
   "qubits": [
    [
@@ -6425,7 +6425,7 @@
   ],
   "circuit_sha256": "1f87971492e52ee5ea87ddb8c148a0328e418fbad5c7118f5c9327f92931ab60",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N10_n03.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N10_n03.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -6506,13 +6506,13 @@
     "px_sum": 0.9999999999999984
    }
   },
-  "score_source": "scored"
+  "score_source": "previous v2 run"
  },
  {
   "seed": 202,
   "N": 10,
   "n": 4,
-  "construction_seconds": 1.385704300000043,
+  "construction_seconds": 0.8594626999999946,
   "moments": 65,
   "qubits": [
    [
@@ -6558,7 +6558,7 @@
   ],
   "circuit_sha256": "d0a117da9949e4d5db1075cddb86931b27adfde1c698208dadd952eccb7943fe",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N10_n04.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N10_n04.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -6639,15 +6639,19 @@
     "px_sum": 0.9999999999999983
    }
   },
-  "score_source": "scored"
+  "score_source": "previous v2 run"
  },
  {
   "seed": 202,
   "N": 10,
   "n": 5,
-  "construction_seconds": 1.50594910000018,
+  "construction_seconds": 0.549686999999949,
   "moments": 73,
   "qubits": [
+   [
+    4,
+    5
+   ],
    [
     5,
     1
@@ -6667,10 +6671,6 @@
    [
     5,
     5
-   ],
-   [
-    6,
-    1
    ],
    [
     6,
@@ -6689,33 +6689,33 @@
     5
    ]
   ],
-  "circuit_sha256": "61b913b7f773c79f4b07b119cbcf43fdc1a96d7e7e3b5d544e1e47556ea532d2",
+  "circuit_sha256": "d5508c79d3f610f60d7bd346aaba4b8f05b003e9655f32c47bd15e8021ada8fb",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N10_n05.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N10_n05.json",
   "validity": {
    "passed": true,
    "errors": [],
    "willow105": true
   },
-  "cz_count": 79,
+  "cz_count": 73,
   "exactness": {
-   "fidelity": 0.9999999999999947,
+   "fidelity": 1.0000000000000004,
    "passed": true,
    "threshold": 0.99999999,
    "ancilla_count": 0,
    "dtype": "complex128"
   },
-  "key": "c8a2ed29875f260dc7c732c638d110617628284550ae384cb6a670fea4c6869a",
+  "key": "0872589510ee014ba388ef6f59d5f18406e91773da585d892480486eacd8b7e9",
   "models": {
    "pauli": {
-    "median": 0.6654331398580974,
-    "mean": 0.6661815140244474,
-    "Zmed": 1.2225833791316343,
-    "Xmed": 0.27995219918312925,
-    "f": 0.82711625,
+    "median": 0.7086542066011446,
+    "mean": 0.712361342722387,
+    "Zmed": 1.2075816668545523,
+    "Xmed": 0.20393977174574557,
+    "f": 0.8321357500000001,
     "n_traj": 2000,
-    "simulation_seconds": 17.88960300000008,
-    "scoring_seconds": 0.405965500000093,
+    "simulation_seconds": 10.993491799999902,
+    "scoring_seconds": 0.5855628000026627,
     "trajectory_seed": 14054012974018148294,
     "resampling_seed": 5073742809771818105,
     "hw": {
@@ -6736,18 +6736,18 @@
      "depth": 73,
      "nq": 10
     },
-    "pz_sum": 1.0000000000000018,
-    "px_sum": 1.0000000000000022
+    "pz_sum": 0.9999999999999993,
+    "px_sum": 1.0000000000000007
    },
    "hw": {
-    "median": 0.5139328062116924,
-    "mean": 0.5142576746820121,
-    "Zmed": 1.3698419620995161,
-    "Xmed": 0.5780777960321652,
-    "f": 0.7438165000000001,
+    "median": 0.5450765836209366,
+    "mean": 0.5484505511534689,
+    "Zmed": 1.3876272645440193,
+    "Xmed": 0.4462363664189952,
+    "f": 0.7343047500000001,
     "n_traj": 1000,
-    "simulation_seconds": 15.740211299999828,
-    "scoring_seconds": 0.3924924000000374,
+    "simulation_seconds": 13.874019499999122,
+    "scoring_seconds": 0.6210068000000319,
     "trajectory_seed": 13494163934768615058,
     "resampling_seed": 13952558323878959787,
     "hw": {
@@ -6768,67 +6768,67 @@
      "depth": 73,
      "nq": 10
     },
-    "pz_sum": 1.0000000000000002,
-    "px_sum": 0.9999999999999982
+    "pz_sum": 1.0,
+    "px_sum": 0.999999999999998
    }
   },
-  "score_source": "scored"
+  "score_source": "cache"
  },
  {
   "seed": 202,
   "N": 11,
   "n": 1,
-  "construction_seconds": 1.486608599999954,
-  "moments": 13,
+  "construction_seconds": 2.0349664000000303,
+  "moments": 15,
   "qubits": [
    [
-    3,
-    3
-   ],
-   [
-    3,
-    4
-   ],
-   [
-    3,
-    5
-   ],
-   [
-    3,
-    6
-   ],
-   [
-    3,
-    7
-   ],
-   [
-    3,
-    8
-   ],
-   [
-    4,
-    5
-   ],
-   [
-    4,
-    6
-   ],
-   [
-    4,
-    7
+    5,
+    9
    ],
    [
     5,
-    5
+    10
    ],
    [
     5,
-    6
+    12
+   ],
+   [
+    6,
+    9
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    6,
+    12
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    7,
+    12
+   ],
+   [
+    8,
+    11
    ]
   ],
-  "circuit_sha256": "c18234a4778471a58bb55ec8a622f91987566a1039dc42b4efa763ad2df26d80",
+  "circuit_sha256": "d112efb7b769d527f49fe245de6d8cf9cb7a75663ff4d0aefa66f391fb52811c",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N11_n01.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N11_n01.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -6836,23 +6836,23 @@
   },
   "cz_count": 19,
   "exactness": {
-   "fidelity": 0.9999999999999989,
+   "fidelity": 1.0000000000000018,
    "passed": true,
    "threshold": 0.99999999,
    "ancilla_count": 0,
    "dtype": "complex128"
   },
-  "key": "d52d0044aeb3e9b0d049208f03822794e5664353d7cd0f1f76df2ebe93f2f541",
+  "key": "a1ed931728f9486200a6e55d46921fe73214ddee9dca42d6eec9a4b597dbf7a2",
   "models": {
    "pauli": {
-    "median": 1.1381889921902166,
-    "mean": 1.3070783533496138,
-    "Zmed": 0.8762165151600914,
-    "Xmed": 0.003032282187140427,
-    "f": 0.9252205000000001,
+    "median": 1.1668824224769931,
+    "mean": 1.319927570397993,
+    "Zmed": 0.8527470241224429,
+    "Xmed": 0.0028694340546691335,
+    "f": 0.9182485,
     "n_traj": 2000,
-    "simulation_seconds": 5.829908399999113,
-    "scoring_seconds": 0.8024351999993087,
+    "simulation_seconds": 7.198387300002651,
+    "scoring_seconds": 0.6809971000002406,
     "trajectory_seed": 17584760857918436848,
     "resampling_seed": 1218006148038168430,
     "hw": {
@@ -6870,21 +6870,21 @@
      "seed": 1234
     },
     "simulator_info": {
-     "depth": 13,
+     "depth": 15,
      "nq": 11
     },
-    "pz_sum": 0.9999999999999988,
-    "px_sum": 0.9999999999999969
+    "pz_sum": 0.9999999999999999,
+    "px_sum": 0.9999999999999971
    },
    "hw": {
-    "median": 1.0375882938813141,
-    "mean": 1.1881772142501117,
-    "Zmed": 0.9613836813233525,
-    "Xmed": 0.0036340807789509272,
-    "f": 0.91772925,
+    "median": 1.0338866772664812,
+    "mean": 1.198178693494111,
+    "Zmed": 0.9635913497020114,
+    "Xmed": 0.0037504334955791733,
+    "f": 0.9095400000000001,
     "n_traj": 1000,
-    "simulation_seconds": 6.547212199999194,
-    "scoring_seconds": 0.7553793999977643,
+    "simulation_seconds": 6.558752000000823,
+    "scoring_seconds": 0.736416100000497,
     "trajectory_seed": 6780539879089456896,
     "resampling_seed": 1644068410999904520,
     "hw": {
@@ -6902,11 +6902,11 @@
      "seed": 1234
     },
     "simulator_info": {
-     "depth": 13,
+     "depth": 15,
      "nq": 11
     },
-    "pz_sum": 1.0000000000000009,
-    "px_sum": 0.9999999999999991
+    "pz_sum": 1.0000000000000007,
+    "px_sum": 0.9999999999999987
    }
   },
   "score_source": "cache"
@@ -6915,7 +6915,7 @@
   "seed": 202,
   "N": 11,
   "n": 2,
-  "construction_seconds": 1.2480626000001394,
+  "construction_seconds": 0.8789964999998574,
   "moments": 33,
   "qubits": [
    [
@@ -6965,7 +6965,7 @@
   ],
   "circuit_sha256": "9c35802432748e1e534824c2a23b134d88598f8d8ed847f1547ed053fc1dd70f",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N11_n02.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N11_n02.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -7046,13 +7046,13 @@
     "px_sum": 0.9999999999999982
    }
   },
-  "score_source": "scored"
+  "score_source": "previous v2 run"
  },
  {
   "seed": 202,
   "N": 11,
   "n": 3,
-  "construction_seconds": 1.147520600000007,
+  "construction_seconds": 1.0154144000000542,
   "moments": 61,
   "qubits": [
    [
@@ -7102,7 +7102,7 @@
   ],
   "circuit_sha256": "7c0e63e50704967c8d6a94cb24e4b303b03e52e8d3bc2a6d6d3ae5e352366b91",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N11_n03.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N11_n03.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -7183,13 +7183,13 @@
     "px_sum": 0.999999999999998
    }
   },
-  "score_source": "scored"
+  "score_source": "previous v2 run"
  },
  {
   "seed": 202,
   "N": 11,
   "n": 4,
-  "construction_seconds": 0.897621000000072,
+  "construction_seconds": 0.6152746000000207,
   "moments": 80,
   "qubits": [
    [
@@ -7239,7 +7239,7 @@
   ],
   "circuit_sha256": "f80afe4d4d6323c8cba0bbd307aee89d115a0df3f03d02025f7e86d4b2f5d1d0",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N11_n04.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N11_n04.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -7326,7 +7326,7 @@
   "seed": 202,
   "N": 11,
   "n": 5,
-  "construction_seconds": 0.9659833000000617,
+  "construction_seconds": 0.745617399999901,
   "moments": 93,
   "qubits": [
    [
@@ -7376,7 +7376,7 @@
   ],
   "circuit_sha256": "6d83fadec34268a0249d1808d7090041a6cedae83ba8c457289af6a2d849aa20",
   "calibration_sha256": "bc3b6d6ad048a333cfa6a07cafbf30268039ae1f621ea3e449e26a17489a1f42",
-  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\eval_v2\\circuits\\E_s202_N11_n05.json",
+  "circuit_path": "C:\\Users\\kaisa\\AppData\\Local\\Temp\\claude\\C--Users-kaisa-Documents-duquantum\\cac96668-6092-4539-9700-6e3ae32d6409\\scratchpad\\remote\\team_eval\\v2\\circuits\\E_s202_N11_n05.json",
   "validity": {
    "passed": true,
    "errors": [],
@@ -7457,6 +7457,6 @@
     "px_sum": 0.9999999999999983
    }
   },
-  "score_source": "scored"
+  "score_source": "previous v2 run"
  }
 ]

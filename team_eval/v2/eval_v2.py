@@ -2,8 +2,9 @@
 
 Stage 1 builds every v2 circuit and checks validity/exactness. If a circuit's score-cache key already exists in
 team_eval/scores (i.e. the circuit is byte-identical to one A or B produced), that score is reused; otherwise the
-circuit is scored here. Writes only to this script's directory.
-usage (from the repo root): python <this file> [workers]
+circuit is scored here. Scores from this script's previous rows.json are reused the same way. Writes only to
+this script's directory.
+usage (from the repo root): python team_eval/v2/eval_v2.py [workers] [submission file]
 """
 import os
 for _k in ('OPENBLAS_NUM_THREADS', 'OMP_NUM_THREADS', 'MKL_NUM_THREADS', 'NUMEXPR_NUM_THREADS'):
@@ -17,6 +18,10 @@ OUT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / 'team_eval')); sys.path.insert(0, str(ROOT))
 SEEDS = (101, 202)
 INST = [(N, n) for N in range(2, 12) for n in range(1, N // 2 + 1)]
+SRC = Path(sys.argv[2]) if len(sys.argv) > 2 else ROOT / 'final_v2' / 'submission_v2.py'
+PREV = {}
+if (OUT / 'rows.json').exists():
+    PREV = {r['key']: r['models'] for r in json.loads((OUT / 'rows.json').read_text()) if 'hw' in r.get('models', {})}
 
 
 def key_of(row):
@@ -28,7 +33,7 @@ def build():
     import cirq
     from official_calibration import load_calibration, calibration_fingerprint
     from evaluate_worker import validate, exactness
-    spec = importlib.util.spec_from_file_location('v2', ROOT / 'final_v2' / 'submission_v2.py')
+    spec = importlib.util.spec_from_file_location('v2', SRC)
     mod = importlib.util.module_from_spec(spec); spec.loader.exec_module(mod)
     rows = []
     for seed in SEEDS:
@@ -50,6 +55,8 @@ def build():
             cached = ROOT / 'team_eval' / 'scores' / f"{row['key']}.json"
             if cached.exists() and 'pauli' in json.loads(cached.read_text()).get('models', {}):
                 row['models'] = json.loads(cached.read_text())['models']; row['score_source'] = 'cache'
+            elif row['key'] in PREV:
+                row['models'] = PREV[row['key']]; row['score_source'] = 'previous v2 run'
             rows.append(row)
             print(f"built s{seed} D({N},{n}) cz={row['cz_count']} mom={len(c)} t={dt:.1f}s "
                   f"valid={row['validity']['passed']} F={row['exactness']['fidelity']:.10f} "
