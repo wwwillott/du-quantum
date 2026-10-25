@@ -70,14 +70,14 @@ def main() -> None:
             "src/dicke_compiler/data/best_known_templates.json"
         ),
     )
-    parser.add_argument("--source-commit", default="5f15cbe")
+    parser.add_argument("--source-commit", default="8af9eb4")
     arguments = parser.parse_args()
     repository = Path(__file__).resolve().parents[1]
     submission = _load_submission(repository)
     templates = []
     for num_qubits in range(2, 16):
         for num_excitations in range(1, num_qubits // 2 + 1):
-            circuit, outputs = submission.create_dicke_state_adaptive(
+            circuit, outputs = submission._unitary_bonus_best(
                 num_qubits,
                 num_excitations,
             )
