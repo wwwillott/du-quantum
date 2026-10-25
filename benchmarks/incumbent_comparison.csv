@@ -1,0 +1,7 @@
+num_qubits,num_excitations,implementation,family,moments,cz_depth,cz_count,fidelity
+4,2,dicke_compiler,analytic_square_4_2,7,4,5,1.0
+4,2,competition_incumbent,adaptive_portfolio,7,4,5,1.0000000000000004
+6,3,dicke_compiler,best_known_6_3,13,11,12,1.0000000000000004
+6,3,competition_incumbent,adaptive_portfolio,13,11,12,1.0000000000000009
+8,4,dicke_compiler,best_known_8_4,21,15,24,0.9999999999999998
+8,4,competition_incumbent,adaptive_portfolio,23,18,24,1.0000000000000004
