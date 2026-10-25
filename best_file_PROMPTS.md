@@ -1408,3 +1408,54 @@ Collective-phase follow-up: test the conjecture that a common final Rz stabilize
 Commutation branch: test reordering overlapping commuting CZs with identical ideal unitary, no new gates, strict emitted exactness, and a preparation-fidelity floor. Reject pure disjoint swaps and retain the original schedule when no useful candidate exists. Test D(6,2), D(6,3), D(7,3), D(8,4) on two calibrations. The branch found no accepted improvement and was left disabled.
 
 Inherited baseline prompts remain in `../PROMPTS_SUBMISSION.md` and `../PROMPTS.md`; the baseline source retains its original authorship attribution. This file describes new work only. No other team's active files or the notebook were edited.
+
+
+# Further reconciliation, 2026-10-25
+
+These are the current human requests and an explicit summary of agent delegation.
+Earlier available prompt logs are retained verbatim above. Missing historical
+conversations from the remote branches have not been invented.
+
+Human request:
+
+> Reconcile https://github.com/wwwillott/du-quantum/tree/yuan-zhang-7x8/judges_audit (comprison.py / whatever the main file in this folder is), https://github.com/wwwillott/du-quantum/tree/will dicke_submission.py, and my best_file.py. Must comply with the requirements of problem 1 and 2 in DuQuantum_Google_Standard.ipynb.
+
+Human clarification:
+
+> Bonus problem is confirmed to just up through N=15.
+
+Human scoring update:
+
+> Also make sure to take this update into account (the scoring function - does that change anything)?
+
+The attached organizer update says to average inverse trial scores, then invert:
+`1 / mean(1 / score)`. It also says the selected (N,n) pairs and correlator cutoff
+changed. The displayed preliminary pairs are (10,3), (10,5), and (15,4); the
+organizer explicitly reserves the right to change them for judging.
+
+Asked whether the new `max_correlator_size` was provided, the human replied:
+
+> No value provided
+
+Agent delegation summary (summaries, not reconstructed verbatim transcripts):
+
+- Read the notebook's actual cells and independently audit gates, timing,
+  exactness, output sets, calibration, readout diagonals, imports and AI provenance.
+- Inspect the current self-contained file and build machinery without modifying
+  source submissions; identify safe integration points and certificate limitations.
+- Fetch pinned remote source revisions. Recognize `judges_audit/compare.py` as a
+  benchmark harness and inspect its recommended Problem 1 and Problem 2 generators.
+- Compare all 56 bonus cases, retain per-case depth winners, and exhaustively
+  verify all adaptive branches. Rebuild the 23-moment D(7,3) complement circuit
+  from the precise existing D(8,4) parent and check complete readout diagonals.
+- Harvest complete native Problem 1 circuits from both remote constructors on
+  notebook seed 101. Reject amplitude residuals above 1e-10. Preserve schedules
+  and DD; retain only full CZ and PhasedXZ templates with valid outputs.
+- Independently validate the harmonic scoring identity and finite-shot expected
+  penalty against the literal notebook scorer, including zero correlators.
+- Compare the three preliminary pairs on Google's bundled calibrated noisy Willow
+  QVM model, with all correlator cutoffs, trajectory uncertainty and no claims of
+  physical hardware execution. Distinguish simulation evidence from judge results.
+- Build a standalone file from snapshots and accepted templates, preserve input
+  files and notebook, include these prompts, run fresh full-domain compliance
+  checks and isolated construction tests, and report limitations explicitly.

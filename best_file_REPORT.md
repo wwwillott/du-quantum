@@ -1,69 +1,120 @@
-# DuQuantum reconciled submission
+# Reconciled DuQuantum submission
 
-New Problem 1 research handoff for Astra:
-[NEW_BEST_prob_1_note_for_astra_agent.md](NEW_BEST_prob_1_note_for_astra_agent.md).
-It reports a validated D(8,4) improvement over Will's baseline, with implementation
-and evidence links; comparison against this reconciled file remains to be done.
+Submit **best_file.py**. It contains both notebook entry points and the available
+AI prompt history, without project imports, external data, network access or
+runtime fitting. Bonus is restricted to the user-confirmed **N<=15**.
 
-Submit **best_file.py**. It is self-contained and includes both notebook entry points and the available AI prompt logs in `AI_PROMPTS`. The separate best_file_PROMPTS.md is a readable copy. The original two submissions, root submission.py, and notebook were preserved unchanged.
+SHA-256: `bb249a78550a0b00298c832865493944f2d35ad3a7c6dce2dfa541b9b9a5cc39`. Size: 1,835,305 bytes.
+The original file/report are preserved under `reports/reconcile_20261025/sources/`.
+The notebook and other original submissions were not changed.
 
-SHA-256: `5a31b10eaa83b948a0be6940fcfa3c16f8da0d0a2fdc0931748c873c6edad1b2`. File size: 1,397,132 bytes.
+## What changed
 
-## Validation of the exact final file
+- Reconciled the original best file with Will commit
+  [`1aaf4ffe29778615f247aa67baf412586a9ae7d4`](https://github.com/wwwillott/du-quantum/tree/1aaf4ffe29778615f247aa67baf412586a9ae7d4)
+  and the generators recommended by judges-audit commit
+  [`5d739d1c06169915bc6376799a18ca6a5e318770`](https://github.com/wwwillott/du-quantum/tree/5d739d1c06169915bc6376799a18ca6a5e318770/judges_audit).
+  `compare.py` is a benchmark harness. Its `package.py` identifies the actual
+  P1 source `judges_audit/sources/will_8af9eb4.py` and P2 source `problem2_submission.py`.
+- Added **80 distinct accepted native templates**, for **249 total**. All 112
+  remote source/case combinations were constructed on notebook seed 101; 107
+  passed the strict amplitude check. Rejected: both sources' D(4,1) and D(8,3),
+  plus the judges snapshot's D(9,4). Their residuals were 2.11e-9 to 6.09e-8;
+  verified alternatives remain in the portfolio. Duplicate templates were removed.
+- Bonus changes only **D(7,3), 24 to 23 moments**. It uses the remote complement
+  construction with the original file's more precise D(8,4) parent. Both branches
+  pass at residual 2.75e-15. The other 55 bonus circuits retain the original winners.
+
+## Scoring update
+
+The organizer now reports the harmonic mean of trial scores:
+
+`1 / mean(1 / trial_score) = 1 / mean(Z_penalty + X_penalty)`.
+
+Apply that average across repeated trials for each case, then sum the per-case
+harmonic scores, consistent with the notebook and the screenshot's totals.
+
+The previous audit's arithmetic-mean and median rankings cannot be treated as
+rankings under this updated statistic. We independently checked the new
+aggregation against the literal notebook scorer, including zero-valued ideal
+correlators and finite-shot variance. The notebook itself was not rewritten.
+
+The existing runtime selector already targets expected denominators for N<=8,
+using the worst relative loss across all possible cutoffs. Above 8 it retains a
+calibration-based gate/readout proxy; it does **not** run a full QVM simulation
+inside the one-minute constructor. The reconciliation expands its verified
+choices without pretending that this proxy guarantees the best hardware score.
+
+The screenshot's preliminary cases D(10,3), D(10,5), D(15,4) were freshly compared
+under Google's bundled noisy Willow QVM. Both remote sources return identical
+circuits for those three cases on that calibration. The **final file returns
+exactly the original best-file circuits** for all three, including their schedules
+and physical layouts; `p1_benchmark/final_binding.json` binds them to this file hash.
+
+Values below are final / Will-or-judges harmonic simulation scores. N=10 uses
+exact noisy probabilities and finite-shot expectations; N=15 uses trajectory
+estimates with batch-jackknife uncertainty. Every trial is 10,000 shots per basis.
+
+| Case | Cutoff K=4 | Cutoff K=N | Method |
+|---|---:|---:|---|
+| D(10,3) | 0.693933 / 0.698679 | 0.670357 / 0.660937 | Exact density matrix |
+| D(10,5) | 0.606075 / 0.598583 | 0.512295 / 0.491902 | Exact density matrix |
+| D(15,4) | 0.550808 / 0.502061 | 0.439471 / 0.384895 | 512 trajectories per basis; uncertainty in receipt |
+| Sum over the three cases | 1.850816 / 1.799322 | 1.622123 / 1.537733 | Includes N=15 trajectory uncertainty |
+
+For D(10,3), the preferred circuit changes with the cutoff. The user confirmed
+that the new cutoff was not supplied; no value is assumed and all K are retained
+in the evidence. The organizer may also change the final (N,k) cases. These are
+simulation comparisons on bundled calibration timestamp 2024-08-16, **not current
+hardware measurements**. Trajectory and finite-trial uncertainty are recorded
+separately; simulation precision does not remove noise-model uncertainty.
+
+## Validation of this exact file
 
 | Check | Result |
 |---|---|
-| Main, all 56 pairs N=2..15 on notebook calibration seeds 101 and 202 | **112/112 pass**, no skips |
-| Maximum main amplitude residual in that sweep | 7.1e-14 |
-| Slowest main construction in that sweep | 6.611 seconds |
-| Bonus, all 56 pairs N=2..15 | **56/56 pass**, no skips |
-| Bonus score, sum N*k/moments over N<=15 | **52.521828276100** |
-| Maximum bonus numerical residual | 8.19e-14 |
-| Slowest bonus construction | 0.170 seconds |
-| Additional extreme/complement/dropout/orientation/larger-state checks | **26/26 pass** |
-| Deliberately invalid gate/state/input regression checks | **26/26 pass** |
-| Isolated constructors with runtime file reads prohibited | **Pass**, zero file reads |
+| P1, all 56 cases through N=15, notebook seeds 101 and 202 | **112/112 pass**, zero skips |
+| Largest P1 amplitude residual | 1.71e-11 |
+| Slowest construction in the P1 sweep | 8.650 seconds |
+| P2, all 56 cases through N=15 | **56/56 pass**, zero skips |
+| Bonus depth sum, sum N*k/moments | **52.559871754361** |
+| Largest bonus numerical residual | 8.19e-14 |
+| Complements, extremes, reversed edges, sparse/dropout maps, N=16..20 checks | **26/26 pass** |
+| Deliberately invalid circuit/input regression checks | **26/26 pass** |
+| Isolated standalone construction | **13 calls pass**, zero filesystem attempts after permitted dependency initialization |
 
-The amplitude acceptance threshold is 1e-10 in complex128, with output normalization checked separately. This tests the full state including relative phases, not just a rounded fidelity. Finite precision certification is not a symbolic exactness proof. Tests include the notebook's own state helper with its `range(qubits)` bug corrected to `range(len(qubits))` **in the test harness only**. The notebook itself was not edited.
+The previous best bonus sum was 52.521828276100; Will is 41.371403219828 and the
+judges recommendation is 49.349903201506 over the same confirmed 56-case domain.
+The merged bonus is never deeper than any of the three inputs on that domain.
 
-All main circuits use only full CZ gates on supplied couplers and finite PhasedXZ rotations on supplied, physical Willow qubits. CZ operands use a literal orientation present in the input dictionary. Outputs have exactly N qubits; main circuits contain no measurements, feedforward, or ancillas. Every returned main circuit receives a fresh structural/device check and full noiseless amplitude check. Illegal or unsupported requests raise NotImplementedError. Circuits remain within 1750 moments. Main supports valid requests through 20 with an analytic fallback; the larger-domain checks are representative, not an exhaustive two-calibration sweep. The largest additional measured construction time was 21.825s, including D(20,10).
+Checks enforce full CZ/PhasedXZ output operations, calibrated/physical qubits,
+couplers, <=1750 moments, <60-second construction, output size, imports, and
+complete complex128 amplitudes at tolerance 1e-10. Maximum construction in the
+additional stress cases was 15.195 seconds (D(20,10)).
+Numerical residual certification is distinct from a symbolic exactness proof.
 
-Tested with Cirq and Cirq-Google 1.8.0.dev20261023221525. Imports are limited to Cirq/Cirq-Google, their NumPy/SymPy dependencies, and Python's standard library. No fitting, local source imports, data-file reads, network calls, or hardware access occur during construction.
+Adaptive D(7,3) and D(11,5) are exhaustively checked on their actual returned
+circuits. D(10,5) retains a circuit-bound deferred-measurement Clifford/Choi
+certificate covering all 262,144 possible active readout strings. Full physical
+readout diagonals and classical causality are checked separately. Cirq's device
+validator rejects classical-control wrappers, so underlying native operations
+are validated alongside the explicit control/readout checks.
 
-## What was reconciled
+The notebook helper's `range(qubits)` bug is corrected only in the verifier's
+in-memory copy. Its undefined bonus `validate_circuit` is replaced by explicit
+structural and state/branch checks. Bonus N>15 intentionally raises
+NotImplementedError, consistent with the user's confirmed range.
 
-The main entry point keeps verified native templates from both requested source files and selects placements using the supplied calibration. Source schedules and complete native operations are retained. This removes expensive online fitting and nested portfolio searches from the submission path. If defects prevent any saved patch from embedding, an analytic path construction is tried.
-
-Five raw V3 outputs passed its loose fidelity check despite amplitude errors above 1e-10: D(8,3), D(10,2), D(10,3), D(10,5), and D(11,2). Their original versions are excluded. Offline precision repairs preserved each circuit's CZ topology, gate count, and moment count, and reached independently measured residuals between 2.85e-15 and 1.43e-14. All five original/repair pairs are covered by rejection/acceptance regression tests. Repaired circuits are embedded as complete templates; their nominal echo pulses must not be removed independently.
-
-For N<=8, the selector compares predicted 10,000-shot notebook denominators under independent gate-Pauli and asymmetric-readout noise, considering every possible X-correlator cutoff. It minimizes worst relative loss because the notebook does not specify the cutoff. For larger cases, it uses calibrated gate/readout costs. These are estimates, not an exact characterization of Willow noise or a guarantee of the highest hardware score.
-
-On the tested calibration, 15 of 16 small cases improve or tie both compliant source outputs at every cutoff under this deterministic model. D(4,2) trades a 0.0408% increase at cutoff 4 for improvements at cutoffs 1..3. This is why the report does not claim universal per-cutoff nonregression.
-
-An exploratory larger-case check used 128 noise trajectories and 400 resamplings of 10,000 shots per basis, with the notebook statistic and cutoff K=N:
-
-| Case | Revised model score | Reconciled model score | Reconciled CZ / moments |
-|---|---:|---:|---:|
-| D(10,3) | 0.693708 | 0.760597 | 37 / 37 |
-| D(10,5) | 0.565435 | 0.565435 | 73 / 73 |
-| D(15,4) | 0.469810 | 0.469810 | 119 / 81 |
-
-These harmonic simulated scores are exploratory and have sampling/model uncertainty. They are **not real Willow results**. The repaired 71-CZ D(10,5) is retained as an alternative; the calibrated ranking prefers the revised 73-CZ circuit for the tested map. A different calibration may select a different valid template. The final main function and template portfolio preserve the circuits used for these scores.
-
-## Bonus
-
-The user confirmed **N<=15**, overriding the notebook's inconsistent executable loop through 20. The final function returns NotImplementedError outside the requested bonus range, which the original scorer handles by skipping those cases. Both `create_dicke_state_adaptive` (notebook/root spelling) and `create_dicke_states_adaptive` (user spelling) are available.
-
-The bonus retains root submission.py for 55 cases and replaces its 23-moment D(8,4) with the verified 21-moment revised schedule. Root alone scores 52.389323100116; the combined portfolio scores 52.521828276100.
-
-Three cases use measurement/feedforward: D(7,3), D(10,5), and D(11,5). Full physical readout diagonals, classical-key causality, allowed native gates, and Willow couplers were checked. D(7,3) and D(11,5) have exhaustive two-branch verification; D(10,5) uses a circuit-bound Choi/channel certificate covering all 262,144 readout strings. No sampling or postselection substitutes for this proof. Controlled X/Z were converted to exactly matrix-identical PhasedXZ representations without changing depth. Cirq's ordinary Willow validator rejects classical-control wrappers, so the bonus audit validates underlying native operations and separately proves feedforward/readout correctness.
-
-## Reproduce and evidence
+## Reproduce
 
 ```powershell
-python -B reports/reconcile_audit/verify_final.py --target best_file.py --mode main --max-n 15 --seeds 101,202 --output reports/recheck_main
-python -B reports/reconcile_audit/verify_final.py --target best_file.py --mode bonus --max-n 15 --output reports/recheck_bonus
-python -I -B reports/check_best_isolated.py
+python -B reports/reconcile_20261025/build_reconciled.py
+python -B reports/reconcile_20261025/verify_reconciled.py --target best_file.py --mode main --max-n 15 --seeds 101,202 --output reports/reconcile_20261025/recheck_main
+python -B reports/reconcile_20261025/verify_reconciled.py --target best_file.py --mode bonus --max-n 15 --output reports/reconcile_20261025/recheck_bonus
+python -I -B reports/reconcile_20261025/final_stress/isolated.py
+python -B reports/reconcile_20261025/scoring_audit/audit_scores.py
 ```
 
-Detailed final receipts: reports/reconcile_audit/final_main/, reports/reconcile_audit/final_bonus/, reports/reconcile_audit/stress_cases.json, reports/reconcile_audit/guard_cases.json, and reports/reconcile_isolation.json. Numerical repair scripts and residual histories are in reports/reconcile_audit/. Source comparisons and noise-model results are in reports/reconcile_main/. All-branch bonus certificates and the selected portfolio are in reports/reconcile_bonus/.
+Use the new builder above; the older `reports/build_best_file.py` describes the
+previous reconciliation. All current receipts, source hashes, rejected outputs,
+scoring references and noise-model results are under `reports/reconcile_20261025/`.
