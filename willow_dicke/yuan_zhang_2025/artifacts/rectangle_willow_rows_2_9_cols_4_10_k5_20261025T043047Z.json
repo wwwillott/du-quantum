@@ -1,0 +1,389 @@
+{
+  "algorithm": "yuan_zhang_2025_grid",
+  "paper": "arxiv:2505.15413",
+  "kind": "rectangle",
+  "methodology_version": "yz2025-2",
+  "git_commit": "01f6e6ef0a36667b4bb75090a032c6d6866ca9f3",
+  "packages": {
+    "python": "3.14.4",
+    "cirq": "1.8.0.dev20261023221525",
+    "numpy": "2.5.0"
+  },
+  "created_utc": "2026-10-25T04:30:47.264777+00:00",
+  "geometry": {
+    "name": "willow_rows_2_9_cols_4_10",
+    "height": 7,
+    "width": 8,
+    "qubits": 56,
+    "physical_rows": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "physical_cols": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "graph_hash": "f1d7c6b54d87f766623acd3796210b0241db6cedacf8ad6efa7dc2bf4e94cf69"
+  },
+  "target": {
+    "n": 56,
+    "k": 5
+  },
+  "implementation": {
+    "divide_backend": "lnn_optimized",
+    "routing_backend": "structured_permutation"
+  },
+  "metrics": {
+    "logical": {
+      "divide_blocks": 7,
+      "certificates": 14,
+      "swap_layers": 122,
+      "swap_count": 429
+    },
+    "hardware": {
+      "moments": 8367,
+      "cz_count": 14568,
+      "single_qubit_count": 31773
+    },
+    "critical_path": {
+      "name": "root",
+      "divide_moments": 2329,
+      "divide_cz": 1495,
+      "route_moments": 103,
+      "route_cz": 651,
+      "leaf_moments": 0,
+      "leaf_cz": 0,
+      "child_moments": 5685,
+      "child_cz": 3715,
+      "critical_moments": 8117,
+      "critical_cz": 5861,
+      "dominant": "children",
+      "children": [
+        {
+          "name": "rootL",
+          "divide_moments": 2329,
+          "divide_cz": 1495,
+          "route_moments": 61,
+          "route_cz": 147,
+          "leaf_moments": 0,
+          "leaf_cz": 0,
+          "child_moments": 3295,
+          "child_cz": 2073,
+          "critical_moments": 5685,
+          "critical_cz": 3715,
+          "dominant": "children",
+          "children": [
+            {
+              "name": "rootLL",
+              "divide_moments": 2329,
+              "divide_cz": 1495,
+              "route_moments": 31,
+              "route_cz": 51,
+              "leaf_moments": 0,
+              "leaf_cz": 0,
+              "child_moments": 493,
+              "child_cz": 246,
+              "critical_moments": 2853,
+              "critical_cz": 1792,
+              "dominant": "divide",
+              "children": [
+                {
+                  "name": "rootLLL",
+                  "divide_moments": 0,
+                  "divide_cz": 0,
+                  "route_moments": 0,
+                  "route_cz": 0,
+                  "leaf_moments": 493,
+                  "leaf_cz": 246,
+                  "child_moments": 0,
+                  "child_cz": 0,
+                  "critical_moments": 493,
+                  "critical_cz": 246,
+                  "dominant": "leaf",
+                  "children": [],
+                  "logical_divide_moments": 0,
+                  "logical_route_moments": 0,
+                  "logical_leaf_moments": 220,
+                  "swap_count": 100
+                },
+                {
+                  "name": "rootLLR",
+                  "divide_moments": 0,
+                  "divide_cz": 0,
+                  "route_moments": 0,
+                  "route_cz": 0,
+                  "leaf_moments": 493,
+                  "leaf_cz": 246,
+                  "child_moments": 0,
+                  "child_cz": 0,
+                  "critical_moments": 493,
+                  "critical_cz": 246,
+                  "dominant": "leaf",
+                  "children": [],
+                  "logical_divide_moments": 0,
+                  "logical_route_moments": 0,
+                  "logical_leaf_moments": 220,
+                  "swap_count": 100
+                }
+              ],
+              "logical_divide_moments": 1035,
+              "logical_route_moments": 5,
+              "logical_leaf_moments": 0,
+              "swap_count": 447
+            },
+            {
+              "name": "rootLR",
+              "divide_moments": 2329,
+              "divide_cz": 1495,
+              "route_moments": 49,
+              "route_cz": 120,
+              "leaf_moments": 0,
+              "leaf_cz": 0,
+              "child_moments": 917,
+              "child_cz": 458,
+              "critical_moments": 3295,
+              "critical_cz": 2073,
+              "dominant": "divide",
+              "children": [
+                {
+                  "name": "rootLRL",
+                  "divide_moments": 0,
+                  "divide_cz": 0,
+                  "route_moments": 0,
+                  "route_cz": 0,
+                  "leaf_moments": 917,
+                  "leaf_cz": 458,
+                  "child_moments": 0,
+                  "child_cz": 0,
+                  "critical_moments": 917,
+                  "critical_cz": 458,
+                  "dominant": "leaf",
+                  "children": [],
+                  "logical_divide_moments": 0,
+                  "logical_route_moments": 0,
+                  "logical_leaf_moments": 392,
+                  "swap_count": 188
+                },
+                {
+                  "name": "rootLRR",
+                  "divide_moments": 0,
+                  "divide_cz": 0,
+                  "route_moments": 0,
+                  "route_cz": 0,
+                  "leaf_moments": 917,
+                  "leaf_cz": 458,
+                  "child_moments": 0,
+                  "child_cz": 0,
+                  "critical_moments": 917,
+                  "critical_cz": 458,
+                  "dominant": "leaf",
+                  "children": [],
+                  "logical_divide_moments": 0,
+                  "logical_route_moments": 0,
+                  "logical_leaf_moments": 392,
+                  "swap_count": 188
+                }
+              ],
+              "logical_divide_moments": 1035,
+              "logical_route_moments": 8,
+              "logical_leaf_moments": 0,
+              "swap_count": 470
+            }
+          ],
+          "logical_divide_moments": 1035,
+          "logical_route_moments": 10,
+          "logical_leaf_moments": 0,
+          "swap_count": 479
+        },
+        {
+          "name": "rootR",
+          "divide_moments": 2329,
+          "divide_cz": 1495,
+          "route_moments": 61,
+          "route_cz": 147,
+          "leaf_moments": 0,
+          "leaf_cz": 0,
+          "child_moments": 3295,
+          "child_cz": 2073,
+          "critical_moments": 5685,
+          "critical_cz": 3715,
+          "dominant": "children",
+          "children": [
+            {
+              "name": "rootRL",
+              "divide_moments": 2329,
+              "divide_cz": 1495,
+              "route_moments": 31,
+              "route_cz": 51,
+              "leaf_moments": 0,
+              "leaf_cz": 0,
+              "child_moments": 493,
+              "child_cz": 246,
+              "critical_moments": 2853,
+              "critical_cz": 1792,
+              "dominant": "divide",
+              "children": [
+                {
+                  "name": "rootRLL",
+                  "divide_moments": 0,
+                  "divide_cz": 0,
+                  "route_moments": 0,
+                  "route_cz": 0,
+                  "leaf_moments": 493,
+                  "leaf_cz": 246,
+                  "child_moments": 0,
+                  "child_cz": 0,
+                  "critical_moments": 493,
+                  "critical_cz": 246,
+                  "dominant": "leaf",
+                  "children": [],
+                  "logical_divide_moments": 0,
+                  "logical_route_moments": 0,
+                  "logical_leaf_moments": 220,
+                  "swap_count": 100
+                },
+                {
+                  "name": "rootRLR",
+                  "divide_moments": 0,
+                  "divide_cz": 0,
+                  "route_moments": 0,
+                  "route_cz": 0,
+                  "leaf_moments": 493,
+                  "leaf_cz": 246,
+                  "child_moments": 0,
+                  "child_cz": 0,
+                  "critical_moments": 493,
+                  "critical_cz": 246,
+                  "dominant": "leaf",
+                  "children": [],
+                  "logical_divide_moments": 0,
+                  "logical_route_moments": 0,
+                  "logical_leaf_moments": 220,
+                  "swap_count": 100
+                }
+              ],
+              "logical_divide_moments": 1035,
+              "logical_route_moments": 5,
+              "logical_leaf_moments": 0,
+              "swap_count": 447
+            },
+            {
+              "name": "rootRR",
+              "divide_moments": 2329,
+              "divide_cz": 1495,
+              "route_moments": 49,
+              "route_cz": 120,
+              "leaf_moments": 0,
+              "leaf_cz": 0,
+              "child_moments": 917,
+              "child_cz": 458,
+              "critical_moments": 3295,
+              "critical_cz": 2073,
+              "dominant": "divide",
+              "children": [
+                {
+                  "name": "rootRRL",
+                  "divide_moments": 0,
+                  "divide_cz": 0,
+                  "route_moments": 0,
+                  "route_cz": 0,
+                  "leaf_moments": 917,
+                  "leaf_cz": 458,
+                  "child_moments": 0,
+                  "child_cz": 0,
+                  "critical_moments": 917,
+                  "critical_cz": 458,
+                  "dominant": "leaf",
+                  "children": [],
+                  "logical_divide_moments": 0,
+                  "logical_route_moments": 0,
+                  "logical_leaf_moments": 392,
+                  "swap_count": 188
+                },
+                {
+                  "name": "rootRRR",
+                  "divide_moments": 0,
+                  "divide_cz": 0,
+                  "route_moments": 0,
+                  "route_cz": 0,
+                  "leaf_moments": 917,
+                  "leaf_cz": 458,
+                  "child_moments": 0,
+                  "child_cz": 0,
+                  "critical_moments": 917,
+                  "critical_cz": 458,
+                  "dominant": "leaf",
+                  "children": [],
+                  "logical_divide_moments": 0,
+                  "logical_route_moments": 0,
+                  "logical_leaf_moments": 392,
+                  "swap_count": 188
+                }
+              ],
+              "logical_divide_moments": 1035,
+              "logical_route_moments": 8,
+              "logical_leaf_moments": 0,
+              "swap_count": 470
+            }
+          ],
+          "logical_divide_moments": 1035,
+          "logical_route_moments": 10,
+          "logical_leaf_moments": 0,
+          "swap_count": 479
+        }
+      ],
+      "logical_divide_moments": 1035,
+      "logical_route_moments": 17,
+      "logical_leaf_moments": 0,
+      "swap_count": 647
+    },
+    "dominant_at_root": "children"
+  },
+  "baselines": {
+    "scs_2019_snake": {
+      "moments": 11093,
+      "cz_count": 5546,
+      "backend": "scs_2019_snake"
+    }
+  },
+  "validation": {
+    "cz_on_grid_edges": true,
+    "permutation_certificates": 14,
+    "permutations_correct": true,
+    "compile_seconds": 55.136265900102444
+  },
+  "port": [
+    [
+      6,
+      4
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      5
+    ]
+  ],
+  "tree_kind": "balanced"
+}

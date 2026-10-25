@@ -1,0 +1,83 @@
+{
+  "algorithm": "yuan_zhang_2025_grid",
+  "paper": "arxiv:2505.15413",
+  "kind": "divide_isolation",
+  "methodology_version": "yz2025-1",
+  "git_commit": "01f6e6ef0a36667b4bb75090a032c6d6866ca9f3",
+  "packages": {
+    "python": "3.14.4",
+    "cirq": "1.8.0.dev20261023221525",
+    "numpy": "2.5.0"
+  },
+  "created_utc": "2026-10-25T04:15:39.059334+00:00",
+  "comparisons": [
+    {
+      "k": 1,
+      "n": 4,
+      "m": 2,
+      "equivalence_passed": true,
+      "reference": {
+        "moments": 5,
+        "cz_count": 2,
+        "swap_count": 0
+      },
+      "lnn_optimized": {
+        "logical_moments": 7,
+        "moments": 5,
+        "cz_count": 2,
+        "swap_count": 2
+      }
+    },
+    {
+      "k": 2,
+      "n": 8,
+      "m": 4,
+      "equivalence_passed": true,
+      "reference": {
+        "moments": 85,
+        "cz_count": 42,
+        "swap_count": 6
+      },
+      "lnn_optimized": {
+        "logical_moments": 101,
+        "moments": 165,
+        "cz_count": 82,
+        "swap_count": 22
+      }
+    },
+    {
+      "k": 3,
+      "n": 12,
+      "m": 6,
+      "equivalence_passed": true,
+      "reference": {
+        "moments": 805,
+        "cz_count": 402,
+        "swap_count": 148
+      },
+      "lnn_optimized": {
+        "logical_moments": 299,
+        "moments": 567,
+        "cz_count": 307,
+        "swap_count": 84
+      }
+    },
+    {
+      "k": 4,
+      "n": 16,
+      "m": 8,
+      "equivalence_passed": true,
+      "reference": {
+        "moments": 4051,
+        "cz_count": 2025,
+        "swap_count": 750
+      },
+      "lnn_optimized": {
+        "logical_moments": 606,
+        "moments": 1265,
+        "cz_count": 756,
+        "swap_count": 212
+      }
+    }
+  ]
+}

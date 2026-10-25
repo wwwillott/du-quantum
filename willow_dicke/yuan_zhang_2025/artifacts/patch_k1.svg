@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="166" viewBox="0 0 148 166">
+<rect width="100%" height="100%" fill="#f7f4ee"/>
+<line x1="51.0" y1="51.0" x2="97.0" y2="51.0" stroke="#b7b1a6" stroke-width="2"/>
+<line x1="51.0" y1="51.0" x2="51.0" y2="97.0" stroke="#b7b1a6" stroke-width="2"/>
+<line x1="97.0" y1="51.0" x2="97.0" y2="97.0" stroke="#b7b1a6" stroke-width="2"/>
+<line x1="51.0" y1="97.0" x2="97.0" y2="97.0" stroke="#b7b1a6" stroke-width="2"/>
+<circle cx="51.0" cy="51.0" r="14" fill="#3b6ea5" stroke="#333" stroke-width="1"/>
+<text x="51.0" y="73.0" text-anchor="middle" font-size="8" font-family="sans-serif" fill="#444">0,0</text>
+<circle cx="97.0" cy="51.0" r="14" fill="#d17b2a" stroke="#333" stroke-width="1"/>
+<text x="97.0" y="73.0" text-anchor="middle" font-size="8" font-family="sans-serif" fill="#444">0,1</text>
+<circle cx="51.0" cy="97.0" r="14" fill="#e4e0d8" stroke="#333" stroke-width="1"/>
+<text x="51.0" y="119.0" text-anchor="middle" font-size="8" font-family="sans-serif" fill="#444">1,0</text>
+<circle cx="97.0" cy="97.0" r="14" fill="#e4e0d8" stroke="#333" stroke-width="1"/>
+<text x="97.0" y="119.0" text-anchor="middle" font-size="8" font-family="sans-serif" fill="#444">1,1</text>
+</svg>

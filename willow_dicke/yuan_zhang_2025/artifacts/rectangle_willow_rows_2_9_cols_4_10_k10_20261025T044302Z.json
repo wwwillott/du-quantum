@@ -1,0 +1,253 @@
+{
+  "algorithm": "yuan_zhang_2025_grid",
+  "paper": "arxiv:2505.15413",
+  "kind": "rectangle",
+  "methodology_version": "yz2025-2",
+  "git_commit": "01f6e6ef0a36667b4bb75090a032c6d6866ca9f3",
+  "packages": {
+    "python": "3.14.4",
+    "cirq": "1.8.0.dev20261023221525",
+    "numpy": "2.5.0"
+  },
+  "created_utc": "2026-10-25T04:43:02.842196+00:00",
+  "geometry": {
+    "name": "willow_rows_2_9_cols_4_10",
+    "height": 7,
+    "width": 8,
+    "qubits": 56,
+    "physical_rows": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "physical_cols": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "graph_hash": "f1d7c6b54d87f766623acd3796210b0241db6cedacf8ad6efa7dc2bf4e94cf69"
+  },
+  "target": {
+    "n": 56,
+    "k": 10
+  },
+  "implementation": {
+    "divide_backend": "lnn_optimized",
+    "routing_backend": "structured_permutation"
+  },
+  "metrics": {
+    "logical": {
+      "divide_blocks": 3,
+      "certificates": 6,
+      "swap_layers": 84,
+      "swap_count": 540
+    },
+    "hardware": {
+      "moments": 38987,
+      "cz_count": 48266,
+      "single_qubit_count": 105553
+    },
+    "critical_path": {
+      "name": "root",
+      "divide_moments": 15649,
+      "divide_cz": 12090,
+      "route_moments": 133,
+      "route_cz": 1104,
+      "leaf_moments": 0,
+      "leaf_cz": 0,
+      "child_moments": 22399,
+      "child_cz": 15674,
+      "critical_moments": 38181,
+      "critical_cz": 28868,
+      "dominant": "children",
+      "children": [
+        {
+          "name": "rootL",
+          "divide_moments": 15649,
+          "divide_cz": 12090,
+          "route_moments": 97,
+          "route_cz": 258,
+          "leaf_moments": 0,
+          "leaf_cz": 0,
+          "child_moments": 6653,
+          "child_cz": 3326,
+          "critical_moments": 22399,
+          "critical_cz": 15674,
+          "dominant": "divide",
+          "children": [
+            {
+              "name": "rootLL",
+              "divide_moments": 0,
+              "divide_cz": 0,
+              "route_moments": 0,
+              "route_cz": 0,
+              "leaf_moments": 3725,
+              "leaf_cz": 1862,
+              "child_moments": 0,
+              "child_cz": 0,
+              "critical_moments": 3725,
+              "critical_cz": 1862,
+              "dominant": "leaf",
+              "children": [],
+              "logical_divide_moments": 0,
+              "logical_route_moments": 0,
+              "logical_leaf_moments": 1296,
+              "swap_count": 744
+            },
+            {
+              "name": "rootLR",
+              "divide_moments": 0,
+              "divide_cz": 0,
+              "route_moments": 0,
+              "route_cz": 0,
+              "leaf_moments": 6653,
+              "leaf_cz": 3326,
+              "child_moments": 0,
+              "child_cz": 0,
+              "critical_moments": 6653,
+              "critical_cz": 3326,
+              "dominant": "leaf",
+              "children": [],
+              "logical_divide_moments": 0,
+              "logical_route_moments": 0,
+              "logical_leaf_moments": 2220,
+              "swap_count": 1320
+            }
+          ],
+          "logical_divide_moments": 5445,
+          "logical_route_moments": 16,
+          "logical_leaf_moments": 0,
+          "swap_count": 3796
+        },
+        {
+          "name": "rootR",
+          "divide_moments": 15649,
+          "divide_cz": 12090,
+          "route_moments": 97,
+          "route_cz": 258,
+          "leaf_moments": 0,
+          "leaf_cz": 0,
+          "child_moments": 6653,
+          "child_cz": 3326,
+          "critical_moments": 22399,
+          "critical_cz": 15674,
+          "dominant": "divide",
+          "children": [
+            {
+              "name": "rootRL",
+              "divide_moments": 0,
+              "divide_cz": 0,
+              "route_moments": 0,
+              "route_cz": 0,
+              "leaf_moments": 3725,
+              "leaf_cz": 1862,
+              "child_moments": 0,
+              "child_cz": 0,
+              "critical_moments": 3725,
+              "critical_cz": 1862,
+              "dominant": "leaf",
+              "children": [],
+              "logical_divide_moments": 0,
+              "logical_route_moments": 0,
+              "logical_leaf_moments": 1296,
+              "swap_count": 744
+            },
+            {
+              "name": "rootRR",
+              "divide_moments": 0,
+              "divide_cz": 0,
+              "route_moments": 0,
+              "route_cz": 0,
+              "leaf_moments": 6653,
+              "leaf_cz": 3326,
+              "child_moments": 0,
+              "child_cz": 0,
+              "critical_moments": 6653,
+              "critical_cz": 3326,
+              "dominant": "leaf",
+              "children": [],
+              "logical_divide_moments": 0,
+              "logical_route_moments": 0,
+              "logical_leaf_moments": 2220,
+              "swap_count": 1320
+            }
+          ],
+          "logical_divide_moments": 5445,
+          "logical_route_moments": 16,
+          "logical_leaf_moments": 0,
+          "swap_count": 3796
+        }
+      ],
+      "logical_divide_moments": 5445,
+      "logical_route_moments": 22,
+      "logical_leaf_moments": 0,
+      "swap_count": 4078
+    },
+    "dominant_at_root": "children"
+  },
+  "baselines": {
+    "scs_2019_snake": {
+      "moments": 35933,
+      "cz_count": 17966,
+      "backend": "scs_2019_snake"
+    }
+  },
+  "validation": {
+    "cz_on_grid_edges": true,
+    "permutation_certificates": 6,
+    "permutations_correct": true,
+    "compile_seconds": 165.79771750001237
+  },
+  "port": [
+    [
+      6,
+      4
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      7,
+      6
+    ]
+  ],
+  "tree_kind": "balanced"
+}
