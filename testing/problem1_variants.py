@@ -71,53 +71,16 @@ def circuit_calibration_cost(
     one_errors: ErrorMap,
     uncertainty_weight: float = 1.0,
 ) -> float:
-    """Estimate aggregate circuit risk from actual gate traffic and readout."""
-    cost = 0.0
-    for operation in circuit.all_operations():
-        if isinstance(operation.gate, cirq.PhasedXZGate):
-            error = _risk_rate(
-                sq_errors,
-                operation.qubits[0],
-                0.001,
-                uncertainty_weight,
-            )
-        elif operation.gate == cirq.CZ:
-            first, second = operation.qubits
-            error = _risk_rate(
-                cz_errors,
-                (first, second),
-                _risk_rate(
-                    cz_errors,
-                    (second, first),
-                    0.01,
-                    uncertainty_weight,
-                ),
-                uncertainty_weight,
-            )
-        else:
-            continue
-        cost += _negative_log_survival(error)
-
-    excitation_probability = num_excitations / len(outputs)
-    for qubit in outputs:
-        zero_to_one = _risk_rate(
-            zero_errors,
-            qubit,
-            0.01,
-            uncertainty_weight,
-        )
-        one_to_zero = _risk_rate(
-            one_errors,
-            qubit,
-            0.01,
-            uncertainty_weight,
-        )
-        effective_readout_error = (
-            (1.0 - excitation_probability) * zero_to_one
-            + excitation_probability * one_to_zero
-        )
-        cost += _negative_log_survival(effective_readout_error)
-    return cost
+    """Estimate aggregate judge-aligned risk from actual gate traffic, depth, and readout."""
+    return runtime_submission._robust_calibration_cost(
+        circuit,
+        outputs,
+        num_excitations,
+        cz_errors,
+        sq_errors,
+        zero_errors,
+        one_errors,
+    )
 
 
 def validate_problem1_candidate(

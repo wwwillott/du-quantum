@@ -1358,36 +1358,111 @@ def _risk_adjusted_rate(value, uncertainty_weight=1.0):
     return min(max(mean + uncertainty_weight * uncertainty, 0.0), 1.0 - 1e-12)
 
 def _robust_calibration_cost(circuit, outputs, k, cz, sq, zero, one):
-    """Rank candidates by conservative physical survival, not judge score."""
+    """Rank candidates by state- and N-aware expected judge denominator (Score_Z + Score_X)."""
     n = len(outputs)
+    if n == 0:
+        return 0.0
+    p = k / n
+    M = math.comb(n, k) if 0 <= k <= n else 1
     pairs = {}
     for pair, value in cz.items():
         key = frozenset(pair)
         risk = _risk_adjusted_rate(value)
         pairs[key] = max(pairs.get(key, 0.0), risk)
-    result = 0.0
+
+    t_curr = 0.0
+    wire_first = {}
+    wire_cz = {q: 0 for q in outputs}
+    wire_sq = {q: 0 for q in outputs}
     cz_count = 0
-    for op in circuit.all_operations():
-        if len(op.qubits) == 1:
-            error = _risk_adjusted_rate(sq.get(op.qubits[0], (0.001, 0.0)))
-        else:
-            error = pairs.get(frozenset(op.qubits), 0.01)
-            cz_count += 1
-        result -= math.log1p(-error)
+    sq_count = 0
+    gate_lz = 0.0
+    gate_lx = 0.0
+
+    for moment in circuit:
+        has2 = any((len(op.qubits) == 2 for op in moment.operations))
+        dt = 4.2e-08 if has2 else 2.5e-08
+        for op in moment.operations:
+            if len(op.qubits) == 1:
+                q = op.qubits[0]
+                if q not in wire_first:
+                    wire_first[q] = t_curr
+                if q in wire_sq:
+                    wire_sq[q] += 1
+                sq_count += 1
+                err = _risk_adjusted_rate(sq.get(q, (0.001, 0.0)))
+                gate_lz -= math.log1p(-err)
+                gate_lx -= math.log1p(-err)
+            elif len(op.qubits) == 2:
+                for q in op.qubits:
+                    if q not in wire_first:
+                        wire_first[q] = t_curr
+                    if q in wire_cz:
+                        wire_cz[q] += 1
+                cz_count += 1
+                err = pairs.get(frozenset(op.qubits), 0.01)
+                gate_lz -= math.log1p(-err)
+                gate_lx -= math.log1p(-err)
+        t_curr += dt
+
+    t_total = t_curr
+    T1_EST = 7.5e-05
+    TPHI_EST = 8.5e-05
+
+    active_t1_loss = 0.0
+    idle_tphi_loss = 0.0
+    for q in outputs:
+        if q in wire_first:
+            act = max(0.0, t_total - wire_first[q])
+            active_t1_loss += p * act / T1_EST
+            gate_busy = wire_cz.get(q, 0) * 4.2e-08 + wire_sq.get(q, 0) * 2.5e-08
+            idle_time = max(0.0, act - gate_busy)
+            idle_tphi_loss += 4.0 * p * (1.0 - p) * (idle_time / TPHI_EST)
+
+    readout_lz = 0.0
     readout_deltas = []
+    x_readout_lx = 0.0
+    x_deltas = []
     for q in outputs:
         e0 = _risk_adjusted_rate(zero.get(q, (0.01, 0.0)))
         e1 = _risk_adjusted_rate(one.get(q, (0.02, 0.0)))
-        result -= (1 - k / n) * math.log1p(-e0) + k / n * math.log1p(-e1)
-        readout_deltas.append(math.log1p(-e1) - math.log1p(-e0))
-    mean = sum(readout_deltas) / n
-    dispersion = sum((delta - mean) ** 2 for delta in readout_deltas)
-    bounded_dispersion = dispersion / (1.0 + dispersion)
+        readout_lz -= (1.0 - p) * math.log1p(-e0) + p * math.log1p(-e1)
+        delta = math.log1p(-e1) - math.log1p(-e0)
+        readout_deltas.append(delta)
+        eff_x_ro = min(0.99, e0 + e1)
+        esq = _risk_adjusted_rate(sq.get(q, (0.001, 0.0)))
+        x_readout_lx -= math.log1p(-eff_x_ro) + 4.0 / 3.0 * esq
+        x_deltas.append(e1 - e0)
+
+    total_lz = gate_lz + readout_lz + active_t1_loss
+    shots = 10000.0
+    f_z = math.exp(-min(total_lz, 20.0))
+    inv_fz = 1.0 / max(f_z, 1e-06)
+    score_z_sub = (1.0 - 1.0 / M) * inv_fz if M > 1 else 0.0
+
+    mean_delta = sum(readout_deltas) / max(1, n)
+    if M > 1 and n > 1:
+        disp_scale = (shots * f_z / M) * (k * (n - k) / (n * (n - 1)))
+        score_z_disp = disp_scale * sum(((d - mean_delta) ** 2 for d in readout_deltas))
+    else:
+        score_z_disp = 0.0
+    score_z = score_z_sub + score_z_disp
+
+    total_lx = gate_lx + x_readout_lx + idle_tphi_loss
+    mean_lx_per_qubit = total_lx / max(1, n)
+    score_x = 0.0
+    for m in range(1, n // 2 + 1):
+        ell = 2 * m
+        damp = math.exp(-min(ell * mean_lx_per_qubit, 20.0))
+        score_x += (1.0 - damp) ** 2
+    mean_x_bias = sum(x_deltas) / max(1, n)
+    score_x += mean_x_bias ** 2
+
     return (
-        result
-        + 1e-3 * bounded_dispersion
-        + 1e-7 * cz_count
-        + 1e-9 * len(circuit)
+        score_z
+        + score_x
+        + 1e-07 * cz_count
+        + 1e-09 * len(circuit)
     )
 
 def _hardware_portfolio(num_qubits, num_excitations, cz_pauli_error_rate, sq_pauli_error_rate, zero_errors, one_errors):

@@ -12,6 +12,7 @@ from .models import (
     VerificationReport,
     VerificationStatus,
 )
+from .scoring import projected_judge_penalty, projected_log_loss, projected_survival
 from .templates import CircuitTemplate, TemplateRegistry
 from .verification import (
     dicke_state_vector,
@@ -35,6 +36,9 @@ __all__ = [
     "dicke_state_vector",
     "line_target",
     "optimize_dicke",
+    "projected_judge_penalty",
+    "projected_log_loss",
+    "projected_survival",
     "state_preparation_fidelity",
     "verify_dicke_preparation",
     "willow_target",
