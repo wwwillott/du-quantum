@@ -1,5 +1,10 @@
 # Problem 2: exact states under the provided depth score
 
+The [original-judges audit](../../judges_audit/README.md) subsequently promotes
+two Will circuits and raises the verified score to **82.323036395**. The
+standalone `problem2_submission.py` and notebook wrapper include them. The
+82.152487741 result below documents the previous integration and its evidence.
+
 The notebook entry point now selects this depth portfolio. Its complete,
 independently checked score is **82.152487741**, across all **100** instances
 with no skips. The lowest verified fidelity is **0.9999999999998976**; the

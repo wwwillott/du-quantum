@@ -1,0 +1,74 @@
+{
+  "physical_hardware": false,
+  "source": "C:\\Users\\pinol\\Documents\\.FALL 2026\\Hackathons\\DuQuantum\\du-quantum\\adaptive_dicke_validation\\snapshots\\will-605b9a8\\dicke_submission.py",
+  "rows": [
+    {
+      "n": 12,
+      "k": 6,
+      "construction_seconds": 2.74837759998627,
+      "moments": 101,
+      "verification": {
+        "fidelity": 0.9999999999999993,
+        "amplitude_residual": 2.0448426375563935e-15,
+        "norm": 0.9999999999999982,
+        "active_qubits": 12,
+        "ancilla_zero_probability": 1.0
+      },
+      "native_gates": true,
+      "calibrated_qubits": true,
+      "calibrated_couplers": true,
+      "serializer_pass": true
+    },
+    {
+      "n": 16,
+      "k": 8,
+      "construction_seconds": 3.129459899966605,
+      "moments": 283,
+      "verification": {
+        "fidelity": 1.0000000000000364,
+        "amplitude_residual": 1.866977819888856e-14,
+        "norm": 0.9999999999999771,
+        "active_qubits": 16,
+        "ancilla_zero_probability": 1.0000000000000004
+      },
+      "native_gates": true,
+      "calibrated_qubits": true,
+      "calibrated_couplers": true,
+      "serializer_pass": true
+    },
+    {
+      "n": 20,
+      "k": 1,
+      "construction_seconds": 3.010963400010951,
+      "moments": 19,
+      "verification": {
+        "fidelity": 1.0000000000000009,
+        "amplitude_residual": 6.390827640793999e-16,
+        "norm": 1.0000000000000009,
+        "active_qubits": 20,
+        "ancilla_zero_probability": 1.0000000000000013
+      },
+      "native_gates": true,
+      "calibrated_qubits": true,
+      "calibrated_couplers": true,
+      "serializer_pass": true
+    },
+    {
+      "n": 20,
+      "k": 10,
+      "construction_seconds": 2.6858339000027627,
+      "moments": 375,
+      "verification": {
+        "fidelity": 0.9999999999990445,
+        "amplitude_residual": 4.766510780460898e-13,
+        "norm": 1.0000000000003364,
+        "active_qubits": 20,
+        "ancilla_zero_probability": 0.9999999999999972
+      },
+      "native_gates": true,
+      "calibrated_qubits": true,
+      "calibrated_couplers": true,
+      "serializer_pass": true
+    }
+  ]
+}

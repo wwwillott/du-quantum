@@ -32,6 +32,11 @@ def _selected(n, k):
     # Validate domain before entering the private, cached portfolio builder.
     circuit, outputs = portfolio.create_dicke_state_adaptive(n, k)
     choices = [(circuit, outputs, 'prior portfolio: ' + portfolio.method_for(n, k))]
+    from problem2_submission import _judge_depth_improvement
+    improvement = _judge_depth_improvement(n, k)
+    if improvement is not None:
+        c, q = improvement
+        choices.append((c, q, 'Will 605b9a8 all-branch verified depth improvement'))
     choices.extend(interference_candidates().get((n, k), []))
     c, q, method = min(choices, key=lambda item: len(item[0]))
     return cirq.FrozenCircuit(c), frozenset(q), method

@@ -1,5 +1,9 @@
 # Dicke states on Willow
 
+Latest original-judges scoring comparison: [judges_audit/README.md](judges_audit/README.md).
+The best tested calibrated-noise P1 and verified depth P2 APIs are combined in
+[recommended_submission.py](recommended_submission.py).
+
 Deterministic, ancilla-free preparation of
 
 \[

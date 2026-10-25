@@ -1,0 +1,28 @@
+[
+  {
+    "n": 2,
+    "k": 1,
+    "identical_to_scored_circuit": true,
+    "seconds": 0.1321028999518603,
+    "verification": {
+      "fidelity": 1.0,
+      "amplitude_residual": 2.220446049250313e-16,
+      "norm": 1.0,
+      "active_qubits": 2,
+      "ancilla_zero_probability": 1.0000000000000002
+    }
+  },
+  {
+    "n": 8,
+    "k": 4,
+    "identical_to_scored_circuit": true,
+    "seconds": 10.940488000051118,
+    "verification": {
+      "fidelity": 0.9999999999999991,
+      "amplitude_residual": 8.289305951411509e-12,
+      "norm": 0.9999999999999996,
+      "active_qubits": 8,
+      "ancilla_zero_probability": 0.9999999999999993
+    }
+  }
+]

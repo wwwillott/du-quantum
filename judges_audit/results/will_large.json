@@ -1,0 +1,186 @@
+{
+  "candidate": "will",
+  "source": "C:\\Users\\pinol\\Documents\\.FALL 2026\\Hackathons\\DuQuantum\\du-quantum\\adaptive_dicke_validation\\snapshots\\will-605b9a8\\dicke_submission.py",
+  "source_sha256": "849e7131aaa0f02603df0687ad81f1cca75f2a8d0e87bea5f9c77317f7bb044a",
+  "judges_notebook_sha256": "ee1d7d53f64bde2e5f8da114d0bc198ea2666e40cc65ea4eadca2f97c062acd1",
+  "timestamp_utc": "2026-10-25T09:02:10.182506+00:00",
+  "backend": "Google calibrated noisy Willow QVM; exact density matrices",
+  "physical_hardware": false,
+  "calibration_timestamp": 1723795877630,
+  "shots_per_basis": 10000,
+  "bootstrap_repetitions": 4000,
+  "rows": [
+    {
+      "n": 9,
+      "k": 1,
+      "accepted": true,
+      "moments": 12,
+      "cz": 15,
+      "construction_seconds": 2.987646900000982,
+      "verification": {
+        "fidelity": 0.9999999999999996,
+        "amplitude_residual": 4.810537299059269e-16,
+        "norm": 0.9999999999999997,
+        "active_qubits": 9,
+        "ancilla_zero_probability": 0.9999999999999996
+      },
+      "scores": {
+        "4": 1.3182182702071876,
+        "9": 1.318055869637974
+      },
+      "shot_statistics": {
+        "4": {
+          "median": 1.1079112456987856,
+          "mean": 1.3539370383117424,
+          "q025": 0.46192322229321653,
+          "q975": 3.7671833650291093
+        },
+        "9": {
+          "median": 1.0892724379814918,
+          "mean": 1.322983330812141,
+          "q025": 0.4627714983501973,
+          "q975": 3.5461802488533856
+        }
+      },
+      "z_sector_retention": 0.9400793284916336
+    },
+    {
+      "n": 9,
+      "k": 4,
+      "accepted": true,
+      "moments": 61,
+      "cz": 59,
+      "construction_seconds": 1.9869804999325424,
+      "verification": {
+        "fidelity": 0.9999999999999942,
+        "amplitude_residual": 5.999897583222629e-08,
+        "norm": 0.9999999999999988,
+        "active_qubits": 9,
+        "ancilla_zero_probability": 0.9999999999999978
+      },
+      "scores": {
+        "4": 0.3441012452662543,
+        "9": 0.3286161394159806
+      },
+      "shot_statistics": {
+        "4": {
+          "median": 0.35866332325013817,
+          "mean": 0.36143580149795945,
+          "q025": 0.2944406172496781,
+          "q975": 0.44542125757173645
+        },
+        "9": {
+          "median": 0.33603720620116473,
+          "mean": 0.33781596685085835,
+          "q025": 0.27706283804367166,
+          "q975": 0.4101802286747829
+        }
+      },
+      "z_sector_retention": 0.7919801705029264
+    },
+    {
+      "n": 10,
+      "k": 1,
+      "accepted": true,
+      "moments": 15,
+      "cz": 17,
+      "construction_seconds": 3.1706345999846235,
+      "verification": {
+        "fidelity": 0.9999999999999993,
+        "amplitude_residual": 4.92241179383036e-16,
+        "norm": 0.9999999999999996,
+        "active_qubits": 10,
+        "ancilla_zero_probability": 0.999999999999999
+      },
+      "scores": {
+        "4": 0.9584760971975279,
+        "10": 0.9583509876105496
+      },
+      "shot_statistics": {
+        "4": {
+          "median": 1.0849060836061315,
+          "mean": 1.281630014787148,
+          "q025": 0.4852576793999868,
+          "q975": 3.167799675027468
+        },
+        "10": {
+          "median": 1.103839733450714,
+          "mean": 1.289269144607543,
+          "q025": 0.4790207493426458,
+          "q975": 3.1347051407514304
+        }
+      },
+      "z_sector_retention": 0.9377859692759283
+    },
+    {
+      "n": 10,
+      "k": 3,
+      "accepted": true,
+      "moments": 51,
+      "cz": 57,
+      "construction_seconds": 1.0621612999821082,
+      "verification": {
+        "fidelity": 0.9999999999999989,
+        "amplitude_residual": 1.4962570193984227e-15,
+        "norm": 0.9999999999999992,
+        "active_qubits": 10,
+        "ancilla_zero_probability": 0.999999999999999
+      },
+      "scores": {
+        "4": 0.7400402146610127,
+        "10": 0.7145474777120173
+      },
+      "shot_statistics": {
+        "4": {
+          "median": 0.7019854792082922,
+          "mean": 0.7087963245883625,
+          "q025": 0.5512189494550734,
+          "q975": 0.9056924112350123
+        },
+        "10": {
+          "median": 0.6635333699604651,
+          "mean": 0.6696998536298351,
+          "q025": 0.5351298465208264,
+          "q975": 0.8343210280044495
+        }
+      },
+      "z_sector_retention": 0.8084265053254609
+    },
+    {
+      "n": 10,
+      "k": 5,
+      "accepted": true,
+      "moments": 73,
+      "cz": 73,
+      "construction_seconds": 1.158235700102523,
+      "verification": {
+        "fidelity": 1.0000000000000009,
+        "amplitude_residual": 1.4462094383414953e-15,
+        "norm": 1.0000000000000013,
+        "active_qubits": 10,
+        "ancilla_zero_probability": 1.0000000000000009
+      },
+      "scores": {
+        "4": 0.6573763978038811,
+        "10": 0.5886012258098742
+      },
+      "shot_statistics": {
+        "4": {
+          "median": 0.6010439670635486,
+          "mean": 0.6033915694419404,
+          "q025": 0.5140600934559171,
+          "q975": 0.7095195275553877
+        },
+        "10": {
+          "median": 0.4928124136902205,
+          "mean": 0.49433265486557193,
+          "q025": 0.43487327085466587,
+          "q975": 0.5643071874827013
+        }
+      },
+      "z_sector_retention": 0.7291183810730799
+    }
+  ],
+  "complete": true,
+  "bootstrap_seed_rule": "43210+1000*N+31*k+K; same per-case seed for every candidate"
+}

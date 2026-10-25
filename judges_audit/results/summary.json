@@ -1,0 +1,85 @@
+{
+  "original_notebook_sha256": "ee1d7d53f64bde2e5f8da114d0bc198ea2666e40cc65ea4eadca2f97c062acd1",
+  "p1": {
+    "team": {
+      "cases": 16,
+      "observed_N": 24.036508159392223,
+      "median_sum_N": 19.665218558257642,
+      "median_sum_4": 19.750184220497413,
+      "min_fidelity": 0.9999999999999956,
+      "max_construction_seconds": 18.012579199974425,
+      "max_depth": 29
+    },
+    "will": {
+      "cases": 16,
+      "observed_N": 25.154595087719688,
+      "median_sum_N": 20.087911505456024,
+      "median_sum_4": 20.194654947043084,
+      "min_fidelity": 0.9999999999999971,
+      "max_construction_seconds": 15.314716999884695,
+      "max_depth": 29
+    },
+    "kai_v2": {
+      "cases": 16,
+      "observed_N": 24.036508159392223,
+      "median_sum_N": 19.665218558257642,
+      "median_sum_4": 19.750184220497413,
+      "min_fidelity": 0.9999999999999956,
+      "max_construction_seconds": 16.5294472000096,
+      "max_depth": 29
+    },
+    "scs": {
+      "cases": 16,
+      "observed_N": 14.923788111250154,
+      "median_sum_N": 11.570881615662312,
+      "median_sum_4": 11.632052038633127,
+      "min_fidelity": 0.9999999999999991,
+      "max_construction_seconds": 9.18397809995804,
+      "max_depth": 478
+    },
+    "kai_large": {
+      "cases": 5,
+      "observed_N": 3.5453506370869254,
+      "median_sum_N": 3.492110137985536,
+      "median_sum_4": 3.6560711699911144,
+      "min_fidelity": 0.9999999999999747,
+      "max_construction_seconds": 2.040348600014113,
+      "max_depth": 73
+    },
+    "will_large": {
+      "cases": 5,
+      "observed_N": 3.908171700186396,
+      "median_sum_N": 3.685495161284056,
+      "median_sum_4": 3.8545100988268963,
+      "min_fidelity": 0.9999999999999942,
+      "max_construction_seconds": 3.1706345999846235,
+      "max_depth": 73
+    }
+  },
+  "p2_best": {
+    "score_N20": 82.3230363949385,
+    "score_N15": 49.34990320150647
+  },
+  "p2_previous": {
+    "score_N20": 82.15248774069418,
+    "score_N15": 49.179354547262164
+  },
+  "p2_references": {
+    "will-605b9a8": {
+      "score_N20": 73.41192780054523,
+      "score_N15": 41.37140321982784
+    },
+    "kai-v2-48115b9": {
+      "score_N20": 73.07879744695451,
+      "score_N15": 41.10363234336131
+    }
+  },
+  "qvm_calibration_utc": "2024-08-16T08:11:17.630000+00:00",
+  "physical_hardware": false,
+  "score_ast_matches_repository": true,
+  "limitations": [
+    "P1 test cases and K are not specified by original notebook",
+    "P2 prose N<=15 disagrees with code N<=20",
+    "Noise model and calibration can change rankings; no universal optimum established"
+  ]
+}
