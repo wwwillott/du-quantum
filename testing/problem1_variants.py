@@ -607,6 +607,25 @@ def create_midtime_portfolio(
     )
 
 
+def create_shallow_incumbent(
+    num_qubits: int,
+    num_excitations: int,
+    cz_pauli_error_rate: dict,
+    sq_pauli_error_rate: dict,
+    zero_errors: dict,
+    one_errors: dict,
+) -> tuple[cirq.Circuit, set[cirq.GridQubit]]:
+    """Return the Astra shallow incumbent without later family replacement."""
+    return runtime_submission._FINAL_ASTRA_MAIN(
+        num_qubits,
+        num_excitations,
+        cz_pauli_error_rate,
+        sq_pauli_error_rate,
+        zero_errors,
+        one_errors,
+    )
+
+
 def create_runtime_anytime(
     num_qubits: int,
     num_excitations: int,
@@ -789,6 +808,7 @@ VARIANTS: dict[str, CreateFunction] = {
     "score_matched_compressed": create_score_matched_compressed,
     "score_matched_fused": create_score_matched_fused,
     "midtime_portfolio": create_midtime_portfolio,
+    "shallow_incumbent": create_shallow_incumbent,
     "runtime_anytime": create_runtime_anytime,
     "portfolio_best": create_portfolio_best,
 }

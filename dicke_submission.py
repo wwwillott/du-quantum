@@ -5,7 +5,7 @@
 """DuQuantum exact Dicke-state submission: Astra and Claude collaboration.
 
 Hardware: create_dicke_state(N,k,cz_rates,sq_rates,zero_errors,one_errors).
-Bonus: create_dicke_state_adaptive(N,k), deterministic and measurement-free.
+Bonus: create_dicke_state_adaptive(N,k). Measurement-free by default; a shallower exact feed-forward circuit is used when it wins.
 Optional hardware echo variant: create_dicke_state_echo (paired native X pulses).
 
 Preparation families are analytically constructed or independently numerically validated; online selection
@@ -2625,8 +2625,8 @@ def create_dicke_state(num_qubits: int, num_excitations: int,
         c,q=_idea_create_dicke_state(num_qubits,num_excitations,*args)
     return _checked_hardware(c,q,num_qubits,cz_pauli_error_rate,sq_pauli_error_rate)
 
-def create_dicke_state_adaptive(num_qubits: int,num_excitations: int) -> tuple[cirq.Circuit,set[cirq.GridQubit]]:
-    """Notebook bonus API; only validated unitary candidates are selected."""
+def _unitary_bonus_best(num_qubits, num_excitations):
+    """Select the shallowest validated measurement-free bonus circuit."""
     c,q=_FINAL_ASTRA_BONUS(num_qubits,num_excitations)
     candidates=[]
     try:
@@ -2644,12 +2644,74 @@ def create_dicke_state_adaptive(num_qubits: int,num_excitations: int) -> tuple[c
         if not all(op.gate==cirq.CZ or isinstance(op.gate,cirq.PhasedXZGate) for op in candidate.all_operations()):continue
         cirq_google.Willow105.validate_circuit(candidate)
         c,q=candidate,set(outputs)
+    return optimize_native_depth(cirq.Circuit(c)), set(q)
+
+
+def _willow_readout_line(qubit):
+    line = qubit.row + qubit.col
+    return tuple(
+        sorted(
+            item
+            for item in cirq_google.Willow105.metadata.qubit_set
+            if item.row + item.col == line
+        )
+    )
+
+
+def _isolated_bonus_output(outputs):
+    for qubit in sorted(outputs):
+        if sum(item.row + item.col == qubit.row + qubit.col for item in outputs) == 1:
+            return qubit
+    return None
+
+
+def _complement_from_balanced_parent(num_qubits, num_excitations):
+    """Exact D(2k+1,k) via one diagonal measurement and an X-frame correction.
+
+    A balanced parent D(2k+2,k+1) is prepared unitarily. Measuring one isolated
+    output qubit yields D(2k+1,k) or its complement; the zero branch is
+    corrected by a single parallel native-X layer. The full Willow readout
+    line is measured together.
+    """
+    if num_qubits != 2 * num_excitations + 1 or num_qubits + 1 > 15:
+        return None
+    parent, outputs = _unitary_bonus_best(num_qubits + 1, num_excitations + 1)
+    measured = _isolated_bonus_output(outputs)
+    if measured is None:
+        return None
+    line = _willow_readout_line(measured)
+    if set(parent.all_qubits()) & set(line) - {measured}:
+        return None
+    import sympy
+    remaining = set(outputs) - {measured}
+    key = f'complement_{measured.row}_{measured.col}'
+    circuit = cirq.Circuit(parent)
+    circuit.append(
+        cirq.Moment(
+            cirq.measure(item, key=key if item == measured else f'line_{item.row}_{item.col}')
+            for item in line
+        )
+    )
+    condition = cirq.SympyCondition(sympy.Eq(sympy.Symbol(key), 0))
+    native_x = cirq.PhasedXZGate(x_exponent=1.0, z_exponent=0.0, axis_phase_exponent=0.0)
+    circuit.append(
+        cirq.Moment(native_x.on(item).with_classical_controls(condition) for item in sorted(remaining))
+    )
+    return circuit, remaining
+
+
+def create_dicke_state_adaptive(num_qubits: int,num_excitations: int) -> tuple[cirq.Circuit,set[cirq.GridQubit]]:
+    """Notebook bonus API. Measurement-free circuits are the default; a shallower exact feed-forward circuit is used when it wins."""
+    c,q=_unitary_bonus_best(num_qubits,num_excitations)
+    adaptive=_complement_from_balanced_parent(num_qubits,num_excitations)
+    if adaptive is not None and len(adaptive[0]) < len(c):
+        return adaptive[0], set(adaptive[1])
     return c,set(q)
 
 """ColumnForge: first-column Dicke synthesis, extending the attributed Astra baseline.
 
 Hardware: create_dicke_state(N,k,cz_rates,sq_rates,zero_errors,one_errors).
-Bonus: create_dicke_state_adaptive(N,k), deterministic and measurement-free.
+Bonus: create_dicke_state_adaptive(N,k). Measurement-free by default; a shallower exact feed-forward circuit is used when it wins.
 Optional hardware echo variant: create_dicke_state_echo (paired native X pulses).
 
 Families include analytic constructions and offline numerical templates

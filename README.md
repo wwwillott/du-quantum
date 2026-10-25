@@ -17,6 +17,12 @@ The compiler is deliberately explicit about equivalence:
 pip install quicke-states
 ```
 
+For Willow hardware support:
+
+```bash
+pip install "quicke-states[willow]"
+```
+
 For a source checkout, Willow support and development tools are optional:
 
 ```bash
