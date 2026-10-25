@@ -1,0 +1,5 @@
+numpy==2.5.0
+scipy==1.18.1
+cirq-core==1.8.0.dev20261023221525
+cirq-google==1.8.0.dev20261023221525
+matplotlib==3.11.2

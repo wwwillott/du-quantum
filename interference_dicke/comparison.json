@@ -1,0 +1,1529 @@
+{
+  "source": "C:\\Users\\pinol\\Documents\\.FALL 2026\\Hackathons\\DuQuantum\\du-quantum\\interference_dicke\\artifacts\\pruned-20261025T080258195319Z\\results.json",
+  "records": [
+    {
+      "id": "chain-4-2-depth2-cp0",
+      "n": 4,
+      "l": 2,
+      "ideal_fidelity": 0.3333333333333334,
+      "unpruned_CZ": {
+        "two_qubit_gates": 6,
+        "single_qubit_gates": 16,
+        "depth": 9,
+        "two_qubit_depth": 4
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 2,
+        "single_qubit_gates": 7,
+        "depth": 5,
+        "two_qubit_depth": 2
+      },
+      "logical_removed_operations": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "device_validated": true,
+      "optimization_seconds": 0.01615809998475015,
+      "matching_layers": 2,
+      "cp_count": 0,
+      "noise": {
+        "fidelity": 0.33122882198483045,
+        "p_valid": 0.9950613588389278,
+        "f_post": 0.3328727611042195,
+        "observed_valid_after_readout": 0.9563857757342381,
+        "duration_ns_illustrative": 155.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      }
+    },
+    {
+      "id": "chain-4-2-depth2-cp1",
+      "n": 4,
+      "l": 2,
+      "ideal_fidelity": 0.33333333333333354,
+      "unpruned_CZ": {
+        "two_qubit_gates": 7,
+        "single_qubit_gates": 18,
+        "depth": 11,
+        "two_qubit_depth": 5
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 2,
+        "single_qubit_gates": 7,
+        "depth": 5,
+        "two_qubit_depth": 2
+      },
+      "logical_removed_operations": 7,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "device_validated": true,
+      "optimization_seconds": 0.021721099968999624,
+      "matching_layers": 2,
+      "cp_count": 1,
+      "noise": {
+        "fidelity": 0.33122899119030746,
+        "p_valid": 0.9950613588389285,
+        "f_post": 0.33287293114948885,
+        "observed_valid_after_readout": 0.956385775734239,
+        "duration_ns_illustrative": 155.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      }
+    },
+    {
+      "id": "chain-4-2-depth4-cp0",
+      "n": 4,
+      "l": 2,
+      "ideal_fidelity": 0.9714045207910318,
+      "unpruned_CZ": {
+        "two_qubit_gates": 12,
+        "single_qubit_gates": 27,
+        "depth": 17,
+        "two_qubit_depth": 8
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 8,
+        "single_qubit_gates": 20,
+        "depth": 13,
+        "two_qubit_depth": 6
+      },
+      "logical_removed_operations": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "device_validated": true,
+      "optimization_seconds": 0.07887780002783984,
+      "matching_layers": 4,
+      "cp_count": 0,
+      "noise": {
+        "fidelity": 0.9499196382444504,
+        "p_valid": 0.9838468664071788,
+        "f_post": 0.9655157430275464,
+        "observed_valid_after_readout": 0.9459107074144981,
+        "duration_ns_illustrative": 415.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      }
+    },
+    {
+      "id": "chain-4-2-depth4-cp1",
+      "n": 4,
+      "l": 2,
+      "ideal_fidelity": 0.971404520791031,
+      "unpruned_CZ": {
+        "two_qubit_gates": 13,
+        "single_qubit_gates": 29,
+        "depth": 19,
+        "two_qubit_depth": 9
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 8,
+        "single_qubit_gates": 20,
+        "depth": 13,
+        "two_qubit_depth": 6
+      },
+      "logical_removed_operations": 7,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "device_validated": true,
+      "optimization_seconds": 0.11793750000651926,
+      "matching_layers": 4,
+      "cp_count": 1,
+      "noise": {
+        "fidelity": 0.9499202694364213,
+        "p_valid": 0.9838469458479389,
+        "f_post": 0.9655163066219843,
+        "observed_valid_after_readout": 0.9459107837292532,
+        "duration_ns_illustrative": 415.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      }
+    },
+    {
+      "id": "chain-4-2-depth6-cp0",
+      "n": 4,
+      "l": 2,
+      "ideal_fidelity": 0.9714045207910313,
+      "unpruned_CZ": {
+        "two_qubit_gates": 18,
+        "single_qubit_gates": 39,
+        "depth": 25,
+        "two_qubit_depth": 12
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 14,
+        "single_qubit_gates": 31,
+        "depth": 21,
+        "two_qubit_depth": 10
+      },
+      "logical_removed_operations": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "device_validated": true,
+      "optimization_seconds": 0.08395819994620979,
+      "matching_layers": 6,
+      "cp_count": 0,
+      "noise": {
+        "fidelity": 0.9350686101471135,
+        "p_valid": 0.9728948840438726,
+        "f_post": 0.9611198758292029,
+        "observed_valid_after_readout": 0.9356779722129109,
+        "duration_ns_illustrative": 675.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      }
+    },
+    {
+      "id": "chain-4-2-depth6-cp1",
+      "n": 4,
+      "l": 2,
+      "ideal_fidelity": 0.9999999999999911,
+      "unpruned_CZ": {
+        "two_qubit_gates": 19,
+        "single_qubit_gates": 42,
+        "depth": 27,
+        "two_qubit_depth": 13
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 15,
+        "single_qubit_gates": 34,
+        "depth": 23,
+        "two_qubit_depth": 11
+      },
+      "logical_removed_operations": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "device_validated": true,
+      "optimization_seconds": 0.07172929996158928,
+      "matching_layers": 6,
+      "cp_count": 1,
+      "noise": {
+        "fidelity": 0.9597639177427373,
+        "p_valid": 0.9711203148777191,
+        "f_post": 0.9883058803723905,
+        "observed_valid_after_readout": 0.9340106951093163,
+        "duration_ns_illustrative": 740.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      }
+    },
+    {
+      "id": "chain-4-2-depth8-cp0",
+      "n": 4,
+      "l": 2,
+      "ideal_fidelity": 0.9714045207910336,
+      "unpruned_CZ": {
+        "two_qubit_gates": 24,
+        "single_qubit_gates": 52,
+        "depth": 33,
+        "two_qubit_depth": 16
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 20,
+        "single_qubit_gates": 44,
+        "depth": 29,
+        "two_qubit_depth": 14
+      },
+      "logical_removed_operations": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "device_validated": true,
+      "optimization_seconds": 0.09681230003479868,
+      "matching_layers": 8,
+      "cp_count": 0,
+      "noise": {
+        "fidelity": 0.9213036097185885,
+        "p_valid": 0.9624307263500999,
+        "f_post": 0.9572674526015177,
+        "observed_valid_after_readout": 0.9259114038000198,
+        "duration_ns_illustrative": 935.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      }
+    },
+    {
+      "id": "chain-4-2-depth8-cp1",
+      "n": 4,
+      "l": 2,
+      "ideal_fidelity": 0.9999999999999967,
+      "unpruned_CZ": {
+        "two_qubit_gates": 25,
+        "single_qubit_gates": 54,
+        "depth": 35,
+        "two_qubit_depth": 17
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 21,
+        "single_qubit_gates": 46,
+        "depth": 31,
+        "two_qubit_depth": 15
+      },
+      "logical_removed_operations": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "device_validated": true,
+      "optimization_seconds": 0.0711382000008598,
+      "matching_layers": 8,
+      "cp_count": 1,
+      "noise": {
+        "fidelity": 0.94520972267185,
+        "p_valid": 0.9608999262887297,
+        "f_post": 0.9836713447596154,
+        "observed_valid_after_readout": 0.9244630273008219,
+        "duration_ns_illustrative": 1000.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      }
+    },
+    {
+      "id": "chain-6-3-depth6-cp0",
+      "n": 6,
+      "l": 3,
+      "ideal_fidelity": 0.8999999999999921,
+      "unpruned_CZ": {
+        "two_qubit_gates": 30,
+        "single_qubit_gates": 66,
+        "depth": 25,
+        "two_qubit_depth": 12
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 26,
+        "single_qubit_gates": 58,
+        "depth": 25,
+        "two_qubit_depth": 12
+      },
+      "logical_removed_operations": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "device_validated": true,
+      "optimization_seconds": 0.30585460003931075,
+      "matching_layers": 6,
+      "cp_count": 0,
+      "noise": {
+        "fidelity": 0.8413170092780237,
+        "p_valid": 0.9503689546445734,
+        "f_post": 0.8852530432169537,
+        "observed_valid_after_readout": 0.8972995383267622,
+        "duration_ns_illustrative": 805.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      }
+    },
+    {
+      "id": "chain-6-3-depth6-cp1",
+      "n": 6,
+      "l": 3,
+      "ideal_fidelity": 0.9467802384352941,
+      "unpruned_CZ": {
+        "two_qubit_gates": 31,
+        "single_qubit_gates": 67,
+        "depth": 27,
+        "two_qubit_depth": 13
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 27,
+        "single_qubit_gates": 59,
+        "depth": 27,
+        "two_qubit_depth": 13
+      },
+      "logical_removed_operations": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "device_validated": true,
+      "optimization_seconds": 0.8616911999415606,
+      "matching_layers": 6,
+      "cp_count": 1
+    },
+    {
+      "id": "chain-6-3-depth6-cp2",
+      "n": 6,
+      "l": 3,
+      "ideal_fidelity": 0.9774687897864753,
+      "unpruned_CZ": {
+        "two_qubit_gates": 32,
+        "single_qubit_gates": 69,
+        "depth": 29,
+        "two_qubit_depth": 14
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 28,
+        "single_qubit_gates": 62,
+        "depth": 29,
+        "two_qubit_depth": 14
+      },
+      "logical_removed_operations": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "device_validated": true,
+      "optimization_seconds": 1.0910361999412999,
+      "matching_layers": 6,
+      "cp_count": 2,
+      "noise": {
+        "fidelity": 0.905967546589567,
+        "p_valid": 0.9465949598901923,
+        "f_post": 0.9570804673359573,
+        "observed_valid_after_readout": 0.8938700070443282,
+        "duration_ns_illustrative": 935.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      }
+    },
+    {
+      "id": "chain-6-3-depth10-cp0",
+      "n": 6,
+      "l": 3,
+      "ideal_fidelity": 0.8999999999999957,
+      "unpruned_CZ": {
+        "two_qubit_gates": 50,
+        "single_qubit_gates": 106,
+        "depth": 41,
+        "two_qubit_depth": 20
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 46,
+        "single_qubit_gates": 98,
+        "depth": 41,
+        "two_qubit_depth": 20
+      },
+      "logical_removed_operations": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "device_validated": true,
+      "optimization_seconds": 0.3804927999153733,
+      "matching_layers": 10,
+      "cp_count": 0
+    },
+    {
+      "id": "chain-6-3-depth10-cp1",
+      "n": 6,
+      "l": 3,
+      "ideal_fidelity": 0.9999999999997125,
+      "unpruned_CZ": {
+        "two_qubit_gates": 51,
+        "single_qubit_gates": 108,
+        "depth": 43,
+        "two_qubit_depth": 21
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 47,
+        "single_qubit_gates": 100,
+        "depth": 43,
+        "two_qubit_depth": 21
+      },
+      "logical_removed_operations": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "device_validated": true,
+      "optimization_seconds": 0.33419060008600354,
+      "matching_layers": 10,
+      "cp_count": 1,
+      "noise": {
+        "fidelity": 0.8868400420882132,
+        "p_valid": 0.9155723905280069,
+        "f_post": 0.9686181576279033,
+        "observed_valid_after_readout": 0.8656663030657205,
+        "duration_ns_illustrative": 1390.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      }
+    },
+    {
+      "id": "chain-6-3-depth10-cp2",
+      "n": 6,
+      "l": 3,
+      "ideal_fidelity": 0.999999999999359,
+      "unpruned_CZ": {
+        "two_qubit_gates": 52,
+        "single_qubit_gates": 110,
+        "depth": 45,
+        "two_qubit_depth": 22
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 48,
+        "single_qubit_gates": 102,
+        "depth": 45,
+        "two_qubit_depth": 22
+      },
+      "logical_removed_operations": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "device_validated": true,
+      "optimization_seconds": 0.8061105000087991,
+      "matching_layers": 10,
+      "cp_count": 2
+    },
+    {
+      "id": "star-depth6",
+      "n": 4,
+      "l": 2,
+      "ideal_fidelity": 0.999999999999996,
+      "unpruned_CZ": {
+        "two_qubit_gates": 12,
+        "single_qubit_gates": 28,
+        "depth": 25,
+        "two_qubit_depth": 12
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 10,
+        "single_qubit_gates": 24,
+        "depth": 21,
+        "two_qubit_depth": 10
+      },
+      "logical_removed_operations": 6,
+      "topology": {
+        "qubits": [
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            7
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      "device_validated": true,
+      "optimization_seconds": 0.02204339997842908,
+      "matching_layers": 6,
+      "cp_count": 0,
+      "noise": {
+        "fidelity": 0.9685406949990832,
+        "p_valid": 0.9764715552043999,
+        "f_post": 0.9918780427724221,
+        "observed_valid_after_readout": 0.9390379779532732,
+        "duration_ns_illustrative": 675.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      }
+    },
+    {
+      "id": "SCS-4-2",
+      "n": 4,
+      "l": 2,
+      "ideal_fidelity": 1.0,
+      "unpruned_CZ": {
+        "two_qubit_gates": 46,
+        "single_qubit_gates": 91,
+        "depth": 93,
+        "two_qubit_depth": 46
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 28,
+        "single_qubit_gates": 58,
+        "depth": 57,
+        "two_qubit_depth": 28
+      },
+      "logical_removed_operations": 9,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "device_validated": true,
+      "optimization_seconds": 0,
+      "matching_layers": null,
+      "cp_count": null,
+      "noise": {
+        "fidelity": 0.9175155805722311,
+        "p_valid": 0.9442252638248347,
+        "f_post": 0.9717125941489757,
+        "observed_valid_after_readout": 0.9088745561763191,
+        "duration_ns_illustrative": 1845.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      }
+    },
+    {
+      "id": "recursive-4-2",
+      "n": 4,
+      "l": 2,
+      "ideal_fidelity": 1.0,
+      "unpruned_CZ": {
+        "two_qubit_gates": 44,
+        "single_qubit_gates": 83,
+        "depth": 83,
+        "two_qubit_depth": 41
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 32,
+        "single_qubit_gates": 60,
+        "depth": 58,
+        "two_qubit_depth": 29
+      },
+      "logical_removed_operations": 11,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "device_validated": true,
+      "optimization_seconds": 0,
+      "matching_layers": null,
+      "cp_count": null,
+      "noise": {
+        "fidelity": 0.9245555727648671,
+        "p_valid": 0.9553919192601634,
+        "f_post": 0.9677238776321497,
+        "observed_valid_after_readout": 0.9191497277277272,
+        "duration_ns_illustrative": 1885.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      }
+    },
+    {
+      "id": "SCS-6-3",
+      "n": 6,
+      "l": 3,
+      "ideal_fidelity": 1.0,
+      "unpruned_CZ": {
+        "two_qubit_gates": 150,
+        "single_qubit_gates": 297,
+        "depth": 298,
+        "two_qubit_depth": 150
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 109,
+        "single_qubit_gates": 218,
+        "depth": 216,
+        "two_qubit_depth": 108
+      },
+      "logical_removed_operations": 20,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "device_validated": true,
+      "optimization_seconds": 0,
+      "matching_layers": null,
+      "cp_count": null,
+      "noise": {
+        "fidelity": 0.6403247586419589,
+        "p_valid": 0.7586447430258367,
+        "f_post": 0.8440376929101738,
+        "observed_valid_after_readout": 0.7222770220316529,
+        "duration_ns_illustrative": 7020.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      }
+    },
+    {
+      "id": "recursive-6-3",
+      "n": 6,
+      "l": 3,
+      "ideal_fidelity": 1.0000000000000036,
+      "unpruned_CZ": {
+        "two_qubit_gates": 436,
+        "single_qubit_gates": 837,
+        "depth": 810,
+        "two_qubit_depth": 408
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 330,
+        "single_qubit_gates": 622,
+        "depth": 595,
+        "two_qubit_depth": 301
+      },
+      "logical_removed_operations": 41,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "device_validated": true,
+      "optimization_seconds": 0,
+      "matching_layers": null,
+      "cp_count": null,
+      "noise": {
+        "fidelity": 0.3333135887817278,
+        "p_valid": 0.5634405833497013,
+        "f_post": 0.5915683013107623,
+        "observed_valid_after_readout": 0.5431191251403654,
+        "duration_ns_illustrative": 19390.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      }
+    }
+  ],
+  "pareto_ids_n4_path": [
+    "chain-4-2-depth2-cp1",
+    "chain-4-2-depth4-cp1",
+    "chain-4-2-depth6-cp1"
+  ]
+}

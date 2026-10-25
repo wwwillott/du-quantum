@@ -2553,6 +2553,8 @@ def create_dicke_state(num_qubits: int, num_excitations: int,
 
 def create_dicke_state_adaptive(num_qubits: int,num_excitations: int) -> tuple[cirq.Circuit,set[cirq.GridQubit]]:
     """Notebook bonus API; only validated unitary candidates are selected."""
+    if num_excitations in (0, num_qubits):
+        return _boundary_product_state(num_qubits, num_excitations)
     c,q=_FINAL_ASTRA_BONUS(num_qubits,num_excitations)
     candidates=[]
     try:
@@ -4699,6 +4701,23 @@ def _peer__append_flip(c, qubits):
 # Final public entry points. Earlier constructors are private portfolio members.
 # Runtime decisions use only supplied calibration dictionaries. The peer's
 # relaxation/dephasing constants are heuristic assumptions, not hardware inputs.
+def _boundary_product_state(n, k, available=None):
+    """Product states need no synthesis: depth zero or one, with no CZs."""
+    if type(n) is not int or type(k) is not int or n < 1 or not 0 <= k <= n:
+        raise ValueError('Require integer N>=1 and 0<=n<=N')
+    device_qubits = set(cirq_google.Willow105.metadata.qubit_set)
+    if available is not None:
+        device_qubits &= set(available)
+    outputs = set(sorted(device_qubits)[:n])
+    if len(outputs) != n:
+        raise NotImplementedError('Not enough available Willow qubits')
+    circuit = cirq.Circuit()
+    if k:
+        gate = cirq.PhasedXZGate(x_exponent=1, z_exponent=0, axis_phase_exponent=0)
+        circuit.append(cirq.Moment(gate.on(q) for q in sorted(outputs)))
+    return circuit, outputs
+
+
 def _team_checked_small(candidate, n, k, cz, sq):
     circuit,outputs=_checked_hardware(*candidate,n,cz,sq)
     cirq_google.Willow105.validate_circuit(circuit)
@@ -4731,7 +4750,10 @@ def create_dicke_state(
     if not isinstance(n,int) or not isinstance(k,int) or n<1 or not 0<=k<=n:
         raise ValueError('Require integer N>=1 and 0<=n<=N')
     args=cz_pauli_error_rate,sq_pauli_error_rate,zero_errors,one_errors
-    if n>8 or k in (0,n):
+    if k in (0,n):
+        available = set(sq_pauli_error_rate) & set(zero_errors) & set(one_errors)
+        return _boundary_product_state(n, k, available)
+    if n>8:
         return _FINAL_ASTRA_MAIN(n,k,*args)
     started=time.monotonic()
     choices=[]

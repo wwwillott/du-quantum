@@ -1,0 +1,114 @@
+{
+  "scorer_parity": [
+    {
+      "n": 2,
+      "k": 1,
+      "case": "uniform_noise",
+      "maximum_error": 0.0,
+      "passed": true
+    },
+    {
+      "n": 2,
+      "k": 1,
+      "case": "ideal_weight_Z",
+      "maximum_error": 0.0,
+      "passed": true
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "case": "uniform_noise",
+      "maximum_error": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "case": "ideal_weight_Z",
+      "maximum_error": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "n": 6,
+      "k": 1,
+      "case": "uniform_noise",
+      "maximum_error": 0.0,
+      "passed": true
+    },
+    {
+      "n": 6,
+      "k": 1,
+      "case": "ideal_weight_Z",
+      "maximum_error": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "case": "uniform_noise",
+      "maximum_error": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "case": "ideal_weight_Z",
+      "maximum_error": 0.0,
+      "passed": true
+    }
+  ],
+  "all_parity_pass": true,
+  "multinomial_dispersion_checks": [
+    {
+      "fraction_valid": 1.0,
+      "observed_mean_Z": 28.176343063333334,
+      "exact_conditional_mean_Z": 28.163933333333333,
+      "standard_error": 0.029786582977068148,
+      "true_dispersion_leading_term": 27.333333333333332,
+      "extra_f_factor_prediction": 27.333333333333332
+    },
+    {
+      "fraction_valid": 0.5,
+      "observed_mean_Z": 28.96747657333333,
+      "exact_conditional_mean_Z": 28.994533333333333,
+      "standard_error": 0.042302011335194394,
+      "true_dispersion_leading_term": 27.333333333333332,
+      "extra_f_factor_prediction": 13.666666666666666
+    },
+    {
+      "fraction_valid": 0.25,
+      "observed_mean_Z": 30.493789013333327,
+      "exact_conditional_mean_Z": 30.65573333333333,
+      "standard_error": 0.0606989667953334,
+      "true_dispersion_leading_term": 27.333333333333332,
+      "extra_f_factor_prediction": 6.833333333333333
+    }
+  ],
+  "zero_correlator_counterexample": {
+    "n": 6,
+    "k": 1,
+    "attenuation_per_site": 0.9,
+    "ideal_even_correlators": [
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "correct_noiseless_population_X_penalty_after_attenuation": 0.03609999999999998,
+    "surrogate_even_sum": 0.3739147464809999
+  },
+  "committed_csv_totals": {
+    "shallow_incumbent": {
+      "rows": 10,
+      "sum_score": 14.203592062997643
+    },
+    "runtime_anytime": {
+      "rows": 10,
+      "sum_score": 14.08029221309967
+    }
+  },
+  "walkthrough_claimed_totals": {
+    "runtime_anytime": 9.645,
+    "shallow_incumbent": 9.527
+  },
+  "scope": "surrogate findings concern problem 1 ranking; challenge 2 uses moment counts"
+}

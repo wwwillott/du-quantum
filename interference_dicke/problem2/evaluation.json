@@ -1,0 +1,1837 @@
+{
+  "timestamp_utc": "2026-10-25T08:34:30.232981+00:00",
+  "formula": "sum(N*k/len(circuit) for N=2..20, k=1..N//2)",
+  "cirq": "1.8.0.dev20261023221525",
+  "numpy": "2.5.0",
+  "rows": [
+    {
+      "n": 2,
+      "k": 1,
+      "moments": 3,
+      "score": 0.6666666666666666,
+      "construction_seconds": 0.35639139998238534,
+      "method": "prior portfolio: parallel W tree",
+      "verification": {
+        "fidelity": 0.9999999999999996,
+        "amplitude_residual": 2.7194799110210365e-16,
+        "norm": 1.0,
+        "active_qubits": 2
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 3,
+      "k": 1,
+      "moments": 6,
+      "score": 0.5,
+      "construction_seconds": 0.915669999900274,
+      "method": "prior portfolio: parallel W tree",
+      "verification": {
+        "fidelity": 1.0000000000000004,
+        "amplitude_residual": 3.752139109024437e-16,
+        "norm": 1.0,
+        "active_qubits": 3
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 4,
+      "k": 1,
+      "moments": 6,
+      "score": 0.6666666666666666,
+      "construction_seconds": 0.0005645999917760491,
+      "method": "prior portfolio: boundary-compatible W tree",
+      "verification": {
+        "fidelity": 1.0,
+        "amplitude_residual": 3.5868108437031825e-16,
+        "norm": 1.0,
+        "active_qubits": 4
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "moments": 7,
+      "score": 1.1428571428571428,
+      "construction_seconds": 0.000941599952057004,
+      "method": "prior portfolio: analytic square",
+      "verification": {
+        "fidelity": 1.0,
+        "amplitude_residual": 5.967700892073772e-16,
+        "norm": 0.9999999999999999,
+        "active_qubits": 4
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 5,
+      "k": 1,
+      "moments": 8,
+      "score": 0.625,
+      "construction_seconds": 1.69086780003272,
+      "method": "prior portfolio: parallel W tree",
+      "verification": {
+        "fidelity": 0.9999999999999996,
+        "amplitude_residual": 5.330806145609621e-16,
+        "norm": 0.9999999999999999,
+        "active_qubits": 5
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "moments": 13,
+      "score": 0.7692307692307693,
+      "construction_seconds": 0.49805759999435395,
+      "method": "prior portfolio: independent native grid seed",
+      "verification": {
+        "fidelity": 0.9999999999999989,
+        "amplitude_residual": 3.8819981939368065e-14,
+        "norm": 0.9999999999999992,
+        "active_qubits": 5
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 6,
+      "k": 1,
+      "moments": 9,
+      "score": 0.6666666666666666,
+      "construction_seconds": 0.0008437000215053558,
+      "method": "prior portfolio: boundary-compatible W tree",
+      "verification": {
+        "fidelity": 1.0000000000000009,
+        "amplitude_residual": 6.463049828163842e-16,
+        "norm": 1.0000000000000002,
+        "active_qubits": 6
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "moments": 15,
+      "score": 0.8,
+      "construction_seconds": 0.27975889993831515,
+      "method": "prior portfolio: hypergeometric 3+3 / fused",
+      "verification": {
+        "fidelity": 1.0000000000000009,
+        "amplitude_residual": 7.807643297340225e-16,
+        "norm": 1.0000000000000002,
+        "active_qubits": 6
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "moments": 13,
+      "score": 1.3846153846153846,
+      "construction_seconds": 0.9572576000355184,
+      "method": "prior portfolio: independent native grid seed",
+      "verification": {
+        "fidelity": 1.0000000000000009,
+        "amplitude_residual": 2.2517356285330628e-14,
+        "norm": 1.0000000000000004,
+        "active_qubits": 6
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 7,
+      "k": 1,
+      "moments": 9,
+      "score": 0.7777777777777778,
+      "construction_seconds": 0.0007326999912038445,
+      "method": "prior portfolio: boundary-compatible W tree",
+      "verification": {
+        "fidelity": 1.0,
+        "amplitude_residual": 7.580721741897973e-16,
+        "norm": 1.0000000000000002,
+        "active_qubits": 7
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "moments": 18,
+      "score": 0.7777777777777778,
+      "construction_seconds": 0.6701432999689132,
+      "method": "prior portfolio: hypergeometric 3+4 / fused",
+      "verification": {
+        "fidelity": 1.0000000000000009,
+        "amplitude_residual": 8.991575644985671e-16,
+        "norm": 1.0000000000000004,
+        "active_qubits": 7
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "moments": 24,
+      "score": 0.875,
+      "construction_seconds": 0.8036977000301704,
+      "method": "prior portfolio: native balanced seed + deterministic measurement/complement",
+      "verification": {
+        "fidelity": 1.0,
+        "branches": 2,
+        "probabilities": [
+          0.5000000000000012,
+          0.5000000000000007
+        ],
+        "probability_sum": 1.0000000000000018,
+        "active_qubits": 8
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 8,
+      "k": 1,
+      "moments": 9,
+      "score": 0.8888888888888888,
+      "construction_seconds": 0.0005909000756219029,
+      "method": "prior portfolio: boundary-compatible W tree",
+      "verification": {
+        "fidelity": 1.0000000000000004,
+        "amplitude_residual": 6.930540519069479e-16,
+        "norm": 1.0000000000000004,
+        "active_qubits": 8
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 8,
+      "k": 2,
+      "moments": 19,
+      "score": 0.8421052631578947,
+      "construction_seconds": 0.7753722000634298,
+      "method": "prior portfolio: hypergeometric 4+4 / fused",
+      "verification": {
+        "fidelity": 1.0000000000000009,
+        "amplitude_residual": 1.0023264668879415e-15,
+        "norm": 1.0000000000000004,
+        "active_qubits": 8
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 8,
+      "k": 3,
+      "moments": 27,
+      "score": 0.8888888888888888,
+      "construction_seconds": 1.2123834999511018,
+      "method": "prior portfolio: three-arm binary distribution + coherent decoders",
+      "verification": {
+        "fidelity": 1.0000000000000009,
+        "amplitude_residual": 4.555885967935594e-15,
+        "norm": 1.0000000000000004,
+        "active_qubits": 8
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "moments": 23,
+      "score": 1.391304347826087,
+      "construction_seconds": 1.7230668999254704,
+      "method": "prior portfolio: independent native grid seed",
+      "verification": {
+        "fidelity": 1.0000000000000022,
+        "amplitude_residual": 2.3826842148492482e-15,
+        "norm": 1.000000000000001,
+        "active_qubits": 8
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 9,
+      "k": 1,
+      "moments": 10,
+      "score": 0.9,
+      "construction_seconds": 0.0010185999562963843,
+      "method": "prior portfolio: boundary-compatible W tree",
+      "verification": {
+        "fidelity": 1.0000000000000004,
+        "amplitude_residual": 5.857819822929375e-16,
+        "norm": 1.0000000000000002,
+        "active_qubits": 9
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 9,
+      "k": 2,
+      "moments": 22,
+      "score": 0.8181818181818182,
+      "construction_seconds": 1.0539748000446707,
+      "method": "prior portfolio: hypergeometric 4+5 / fused",
+      "verification": {
+        "fidelity": 1.0,
+        "amplitude_residual": 1.0638398969754365e-15,
+        "norm": 1.0000000000000002,
+        "active_qubits": 9
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 9,
+      "k": 3,
+      "moments": 31,
+      "score": 0.8709677419354839,
+      "construction_seconds": 1.6541111000115052,
+      "method": "prior portfolio: three-arm binary distribution + coherent decoders",
+      "verification": {
+        "fidelity": 1.0000000000000004,
+        "amplitude_residual": 1.9955550806216288e-14,
+        "norm": 1.0,
+        "active_qubits": 9
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 9,
+      "k": 4,
+      "moments": 31,
+      "score": 1.1612903225806452,
+      "construction_seconds": 1.8408088999567553,
+      "method": "prior portfolio: three-arm binary distribution + coherent decoders",
+      "verification": {
+        "fidelity": 1.0,
+        "amplitude_residual": 5.251578239066355e-14,
+        "norm": 0.9999999999999997,
+        "active_qubits": 9
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 10,
+      "k": 1,
+      "moments": 11,
+      "score": 0.9090909090909091,
+      "construction_seconds": 0.0008243999909609556,
+      "method": "prior portfolio: boundary-compatible W tree",
+      "verification": {
+        "fidelity": 1.0000000000000009,
+        "amplitude_residual": 8.0058991954519415e-16,
+        "norm": 1.0,
+        "active_qubits": 10
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 10,
+      "k": 2,
+      "moments": 23,
+      "score": 0.8695652173913043,
+      "construction_seconds": 0.6871099999407306,
+      "method": "prior portfolio: hypergeometric 5+5 / fused",
+      "verification": {
+        "fidelity": 0.9999999999999996,
+        "amplitude_residual": 9.476462780720754e-16,
+        "norm": 0.9999999999999996,
+        "active_qubits": 10
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 10,
+      "k": 3,
+      "moments": 41,
+      "score": 0.7317073170731707,
+      "construction_seconds": 0.002081400016322732,
+      "method": "prior portfolio: binary count seed + moving six-CZ decoders",
+      "verification": {
+        "fidelity": 0.9999999999999996,
+        "amplitude_residual": 1.3376434422345936e-15,
+        "norm": 0.9999999999999999,
+        "active_qubits": 10
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 10,
+      "k": 4,
+      "moments": 54,
+      "score": 0.7407407407407407,
+      "construction_seconds": 0.0027600999455899,
+      "method": "prior portfolio: paired binary counts + recursive coherent decoders",
+      "verification": {
+        "fidelity": 1.0000000000000013,
+        "amplitude_residual": 4.5153995503385405e-14,
+        "norm": 1.0000000000000004,
+        "active_qubits": 10
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 10,
+      "k": 5,
+      "moments": 40,
+      "score": 1.25,
+      "construction_seconds": 2.730941400048323,
+      "method": "prior portfolio: adaptive cat complement + even-site teleportation",
+      "verification": {
+        "fidelity": 1.0000000000000004,
+        "core": {
+          "fidelity": 1.0000000000000004,
+          "amplitude_residual": 5.266764664266825e-14,
+          "norm": 0.9999999999999998,
+          "active_qubits": 11
+        },
+        "independent_bits": 18,
+        "branches_certified": 262144,
+        "choi_basis_checks": 19,
+        "certificate": "Clifford Choi isometry; affine Pauli measurement signs",
+        "scheduling": "shared-wire dependencies and causal measurement keys preserved"
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 11,
+      "k": 1,
+      "moments": 11,
+      "score": 1.0,
+      "construction_seconds": 0.0015667000552639365,
+      "method": "prior portfolio: boundary-compatible W tree",
+      "verification": {
+        "fidelity": 1.0000000000000009,
+        "amplitude_residual": 9.009744842539787e-16,
+        "norm": 1.0000000000000004,
+        "active_qubits": 11
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 11,
+      "k": 2,
+      "moments": 26,
+      "score": 0.8461538461538461,
+      "construction_seconds": 1.5457453000126407,
+      "method": "prior portfolio: hypergeometric 5+6 / fused",
+      "verification": {
+        "fidelity": 0.9999999999999993,
+        "amplitude_residual": 9.931661340022744e-16,
+        "norm": 0.9999999999999997,
+        "active_qubits": 11
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 11,
+      "k": 3,
+      "moments": 41,
+      "score": 0.8048780487804879,
+      "construction_seconds": 0.001853700028732419,
+      "method": "prior portfolio: binary count seed + moving six-CZ decoders",
+      "verification": {
+        "fidelity": 1.0000000000000018,
+        "amplitude_residual": 2.8855240547759076e-14,
+        "norm": 1.0000000000000007,
+        "active_qubits": 11
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 11,
+      "k": 4,
+      "moments": 56,
+      "score": 0.7857142857142857,
+      "construction_seconds": 0.0026144000003114343,
+      "method": "prior portfolio: paired binary counts + recursive coherent decoders",
+      "verification": {
+        "fidelity": 0.9999999999999993,
+        "amplitude_residual": 4.099127864284317e-14,
+        "norm": 0.9999999999999996,
+        "active_qubits": 11
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 11,
+      "k": 5,
+      "moments": 65,
+      "score": 0.8461538461538461,
+      "construction_seconds": 0.05018340004608035,
+      "method": "prior portfolio: verified balanced seed + deterministic measurement/complement",
+      "verification": {
+        "fidelity": 1.0000000000000002,
+        "branches": 2,
+        "probabilities": [
+          0.5000000000000029,
+          0.49999999999999784
+        ],
+        "probability_sum": 1.0000000000000007,
+        "active_qubits": 12
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 12,
+      "k": 1,
+      "moments": 12,
+      "score": 1.0,
+      "construction_seconds": 0.0011352000292390585,
+      "method": "prior portfolio: boundary-compatible W tree",
+      "verification": {
+        "fidelity": 0.9999999999999998,
+        "amplitude_residual": 1.0268194813972074e-15,
+        "norm": 0.9999999999999999,
+        "active_qubits": 12
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 12,
+      "k": 2,
+      "moments": 26,
+      "score": 0.9230769230769231,
+      "construction_seconds": 0.9572984999977052,
+      "method": "prior portfolio: three-arm unary distribution + parallel decoders",
+      "verification": {
+        "fidelity": 1.0000000000000018,
+        "amplitude_residual": 5.050477836761008e-14,
+        "norm": 1.0000000000000009,
+        "active_qubits": 12
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 12,
+      "k": 3,
+      "moments": 41,
+      "score": 0.8780487804878049,
+      "construction_seconds": 0.0019004999194294214,
+      "method": "prior portfolio: binary count seed + moving six-CZ decoders",
+      "verification": {
+        "fidelity": 0.9999999999999996,
+        "amplitude_residual": 1.1309260069080802e-14,
+        "norm": 1.0000000000000002,
+        "active_qubits": 12
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 12,
+      "k": 4,
+      "moments": 57,
+      "score": 0.8421052631578947,
+      "construction_seconds": 0.002751499996520579,
+      "method": "prior portfolio: paired binary counts + recursive coherent decoders",
+      "verification": {
+        "fidelity": 1.0000000000000022,
+        "amplitude_residual": 3.4908492342833497e-14,
+        "norm": 1.0000000000000009,
+        "active_qubits": 12
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 12,
+      "k": 5,
+      "moments": 55,
+      "score": 1.0909090909090908,
+      "construction_seconds": 0.0025476000737398863,
+      "method": "prior portfolio: paired binary counts + recursive coherent decoders",
+      "verification": {
+        "fidelity": 1.0000000000000022,
+        "amplitude_residual": 2.5959956680317178e-14,
+        "norm": 1.0000000000000022,
+        "active_qubits": 12
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 12,
+      "k": 6,
+      "moments": 64,
+      "score": 1.125,
+      "construction_seconds": 0.4054230999900028,
+      "method": "prior portfolio: paired binary counts + recursive coherent decoders",
+      "verification": {
+        "fidelity": 1.0000000000000004,
+        "amplitude_residual": 2.2590398812000296e-14,
+        "norm": 1.0000000000000007,
+        "active_qubits": 12
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 13,
+      "k": 1,
+      "moments": 12,
+      "score": 1.0833333333333333,
+      "construction_seconds": 0.0009923999896273017,
+      "method": "prior portfolio: boundary-compatible W tree",
+      "verification": {
+        "fidelity": 0.9999999999999998,
+        "amplitude_residual": 1.0127877268720605e-15,
+        "norm": 1.0,
+        "active_qubits": 13
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 13,
+      "k": 2,
+      "moments": 30,
+      "score": 0.8666666666666667,
+      "construction_seconds": 2.3807244000490755,
+      "method": "prior portfolio: hypergeometric 6+7 / fused",
+      "verification": {
+        "fidelity": 0.9999999999999978,
+        "amplitude_residual": 1.0839071062628508e-15,
+        "norm": 0.9999999999999994,
+        "active_qubits": 13
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 13,
+      "k": 3,
+      "moments": 51,
+      "score": 0.7647058823529411,
+      "construction_seconds": 0.0029906999552622437,
+      "method": "prior portfolio: binary count seed + moving six-CZ decoders",
+      "verification": {
+        "fidelity": 1.0000000000000022,
+        "amplitude_residual": 5.0188419384160966e-14,
+        "norm": 1.0000000000000013,
+        "active_qubits": 13
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 13,
+      "k": 4,
+      "moments": 74,
+      "score": 0.7027027027027027,
+      "construction_seconds": 0.0036798000801354647,
+      "method": "prior portfolio: paired binary counts + recursive coherent decoders",
+      "verification": {
+        "fidelity": 0.9999999999999978,
+        "amplitude_residual": 3.259549597203089e-14,
+        "norm": 0.9999999999999986,
+        "active_qubits": 13
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 13,
+      "k": 5,
+      "moments": 87,
+      "score": 0.7471264367816092,
+      "construction_seconds": 0.0034617000492289662,
+      "method": "prior portfolio: paired binary counts + recursive coherent decoders",
+      "verification": {
+        "fidelity": 1.0,
+        "amplitude_residual": 2.4314126538389706e-14,
+        "norm": 0.9999999999999996,
+        "active_qubits": 13
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 13,
+      "k": 6,
+      "moments": 89,
+      "score": 0.8764044943820225,
+      "construction_seconds": 0.09804489999078214,
+      "method": "prior portfolio: paired binary counts + recursive coherent decoders",
+      "verification": {
+        "fidelity": 0.9999999999999987,
+        "amplitude_residual": 4.88756343197068e-14,
+        "norm": 0.9999999999999983,
+        "active_qubits": 13
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 14,
+      "k": 1,
+      "moments": 13,
+      "score": 1.0769230769230769,
+      "construction_seconds": 0.0013888999819755554,
+      "method": "prior portfolio: boundary-compatible W tree",
+      "verification": {
+        "fidelity": 1.0000000000000004,
+        "amplitude_residual": 8.73564884343247e-16,
+        "norm": 1.0000000000000004,
+        "active_qubits": 14
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 14,
+      "k": 2,
+      "moments": 31,
+      "score": 0.9032258064516129,
+      "construction_seconds": 0.9885978000238538,
+      "method": "prior portfolio: hypergeometric 7+7 / fused",
+      "verification": {
+        "fidelity": 0.999999999999998,
+        "amplitude_residual": 1.1506933927036073e-15,
+        "norm": 0.999999999999999,
+        "active_qubits": 14
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 14,
+      "k": 3,
+      "moments": 51,
+      "score": 0.8235294117647058,
+      "construction_seconds": 0.0033267000690102577,
+      "method": "prior portfolio: binary count seed + moving six-CZ decoders",
+      "verification": {
+        "fidelity": 0.9999999999999993,
+        "amplitude_residual": 1.322401181787881e-14,
+        "norm": 0.9999999999999996,
+        "active_qubits": 14
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 14,
+      "k": 4,
+      "moments": 75,
+      "score": 0.7466666666666667,
+      "construction_seconds": 0.0033572999527677894,
+      "method": "prior portfolio: paired binary counts + recursive coherent decoders",
+      "verification": {
+        "fidelity": 1.0000000000000027,
+        "amplitude_residual": 3.3756145218563354e-14,
+        "norm": 1.0000000000000013,
+        "active_qubits": 14
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 14,
+      "k": 5,
+      "moments": 87,
+      "score": 0.8045977011494253,
+      "construction_seconds": 0.004278300097212195,
+      "method": "prior portfolio: paired binary counts + recursive coherent decoders",
+      "verification": {
+        "fidelity": 1.0,
+        "amplitude_residual": 7.27183354857885e-14,
+        "norm": 0.9999999999999998,
+        "active_qubits": 14
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 14,
+      "k": 6,
+      "moments": 90,
+      "score": 0.9333333333333333,
+      "construction_seconds": 0.0043496000580489635,
+      "method": "prior portfolio: paired binary counts + recursive coherent decoders",
+      "verification": {
+        "fidelity": 1.0000000000000013,
+        "amplitude_residual": 3.231483386612503e-14,
+        "norm": 1.0000000000000007,
+        "active_qubits": 14
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 14,
+      "k": 7,
+      "moments": 103,
+      "score": 0.9514563106796117,
+      "construction_seconds": 4.010466399951838,
+      "method": "prior portfolio: paired binary counts + recursive coherent decoders",
+      "verification": {
+        "fidelity": 0.999999999999998,
+        "amplitude_residual": 2.613124154386054e-14,
+        "norm": 0.9999999999999987,
+        "active_qubits": 14
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 15,
+      "k": 1,
+      "moments": 13,
+      "score": 1.1538461538461537,
+      "construction_seconds": 0.0013383999466896057,
+      "method": "prior portfolio: boundary-compatible W tree",
+      "verification": {
+        "fidelity": 1.0000000000000009,
+        "amplitude_residual": 9.824947661632102e-16,
+        "norm": 1.0000000000000007,
+        "active_qubits": 15
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 15,
+      "k": 2,
+      "moments": 30,
+      "score": 1.0,
+      "construction_seconds": 2.5584841000381857,
+      "method": "prior portfolio: three-arm unary distribution + parallel decoders",
+      "verification": {
+        "fidelity": 0.9999999999999984,
+        "amplitude_residual": 7.540865953631634e-14,
+        "norm": 0.9999999999999991,
+        "active_qubits": 15
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 15,
+      "k": 3,
+      "moments": 51,
+      "score": 0.8823529411764706,
+      "construction_seconds": 0.0024066000478342175,
+      "method": "prior portfolio: binary count seed + moving six-CZ decoders",
+      "verification": {
+        "fidelity": 1.0000000000000018,
+        "amplitude_residual": 5.189264163287345e-14,
+        "norm": 1.0000000000000007,
+        "active_qubits": 15
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 15,
+      "k": 4,
+      "moments": 91,
+      "score": 0.6593406593406593,
+      "construction_seconds": 0.0036696000024676323,
+      "method": "prior portfolio: paired binary counts + recursive coherent decoders",
+      "verification": {
+        "fidelity": 1.0000000000000013,
+        "amplitude_residual": 3.458712869287624e-14,
+        "norm": 1.0000000000000004,
+        "active_qubits": 15
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 15,
+      "k": 5,
+      "moments": 119,
+      "score": 0.6302521008403361,
+      "construction_seconds": 0.004557200009003282,
+      "method": "prior portfolio: paired binary counts + recursive coherent decoders",
+      "verification": {
+        "fidelity": 1.0000000000000018,
+        "amplitude_residual": 3.760032099567862e-14,
+        "norm": 1.0000000000000009,
+        "active_qubits": 15
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 15,
+      "k": 6,
+      "moments": 121,
+      "score": 0.743801652892562,
+      "construction_seconds": 0.004451799904927611,
+      "method": "prior portfolio: paired binary counts + recursive coherent decoders",
+      "verification": {
+        "fidelity": 0.9999999999999996,
+        "amplitude_residual": 4.979095524862379e-14,
+        "norm": 0.9999999999999997,
+        "active_qubits": 15
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 15,
+      "k": 7,
+      "moments": 136,
+      "score": 0.7720588235294118,
+      "construction_seconds": 0.005014599999412894,
+      "method": "prior portfolio: paired binary counts + recursive coherent decoders",
+      "verification": {
+        "fidelity": 0.9999999999999976,
+        "amplitude_residual": 3.6679581629801575e-14,
+        "norm": 0.9999999999999983,
+        "active_qubits": 15
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 16,
+      "k": 1,
+      "moments": 15,
+      "score": 1.0666666666666667,
+      "construction_seconds": 4.239038100000471,
+      "method": "prior portfolio: parallel W tree",
+      "verification": {
+        "fidelity": 1.0000000000000018,
+        "amplitude_residual": 5.890016025544852e-16,
+        "norm": 1.000000000000001,
+        "active_qubits": 16
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 16,
+      "k": 2,
+      "moments": 35,
+      "score": 0.9142857142857143,
+      "construction_seconds": 0.9949018000625074,
+      "method": "prior portfolio: hypergeometric 8+8 / fused",
+      "verification": {
+        "fidelity": 0.9999999999999993,
+        "amplitude_residual": 1.3531842586358466e-15,
+        "norm": 0.9999999999999997,
+        "active_qubits": 16
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 16,
+      "k": 3,
+      "moments": 92,
+      "score": 0.5217391304347826,
+      "construction_seconds": 1.6853508000494912,
+      "method": "prior portfolio: hypergeometric 8+8 / center-out seed",
+      "verification": {
+        "fidelity": 0.9999999999999964,
+        "amplitude_residual": 1.7463240491987498e-15,
+        "norm": 0.9999999999999986,
+        "active_qubits": 16
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 16,
+      "k": 4,
+      "moments": 120,
+      "score": 0.5333333333333333,
+      "construction_seconds": 2.2082486000144854,
+      "method": "prior portfolio: hypergeometric 8+8 / center-out seed",
+      "verification": {
+        "fidelity": 0.9999999999999984,
+        "amplitude_residual": 1.929796528744252e-15,
+        "norm": 0.9999999999999991,
+        "active_qubits": 16
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 16,
+      "k": 5,
+      "moments": 130,
+      "score": 0.6153846153846154,
+      "construction_seconds": 2.8136863000690937,
+      "method": "prior portfolio: hypergeometric 8+8 / center-out seed",
+      "verification": {
+        "fidelity": 0.9999999999999947,
+        "amplitude_residual": 2.2057849160136934e-15,
+        "norm": 0.9999999999999984,
+        "active_qubits": 16
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 16,
+      "k": 6,
+      "moments": 142,
+      "score": 0.676056338028169,
+      "construction_seconds": 3.3687270999653265,
+      "method": "prior portfolio: hypergeometric 8+8 / center-out seed",
+      "verification": {
+        "fidelity": 0.999999999999988,
+        "amplitude_residual": 3.032918265162895e-15,
+        "norm": 0.9999999999999963,
+        "active_qubits": 16
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 16,
+      "k": 7,
+      "moments": 152,
+      "score": 0.7368421052631579,
+      "construction_seconds": 3.546551899984479,
+      "method": "prior portfolio: hypergeometric 8+8 / center-out seed",
+      "verification": {
+        "fidelity": 0.9999999999999947,
+        "amplitude_residual": 2.5129726822113935e-15,
+        "norm": 0.9999999999999937,
+        "active_qubits": 16
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 16,
+      "k": 8,
+      "moments": 159,
+      "score": 0.8050314465408805,
+      "construction_seconds": 3.6277337999781594,
+      "method": "prior portfolio: hypergeometric 8+8 / center-out seed",
+      "verification": {
+        "fidelity": 0.9999999999999956,
+        "amplitude_residual": 3.277536018074045e-15,
+        "norm": 0.9999999999999905,
+        "active_qubits": 16
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 17,
+      "k": 1,
+      "moments": 15,
+      "score": 1.1333333333333333,
+      "construction_seconds": 5.059317799983546,
+      "method": "prior portfolio: parallel W tree",
+      "verification": {
+        "fidelity": 1.0000000000000009,
+        "amplitude_residual": 9.876514781044766e-16,
+        "norm": 1.0000000000000004,
+        "active_qubits": 17
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 17,
+      "k": 2,
+      "moments": 38,
+      "score": 0.8947368421052632,
+      "construction_seconds": 2.5444607998942956,
+      "method": "prior portfolio: hypergeometric 8+9 / fused",
+      "verification": {
+        "fidelity": 0.9999999999999991,
+        "amplitude_residual": 1.631959362129827e-15,
+        "norm": 0.9999999999999997,
+        "active_qubits": 17
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 17,
+      "k": 3,
+      "moments": 104,
+      "score": 0.49038461538461536,
+      "construction_seconds": 3.119775200029835,
+      "method": "prior portfolio: hypergeometric 8+9 / fused",
+      "verification": {
+        "fidelity": 0.9999999999999956,
+        "amplitude_residual": 1.9920414470026875e-15,
+        "norm": 0.9999999999999991,
+        "active_qubits": 17
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 17,
+      "k": 4,
+      "moments": 134,
+      "score": 0.5074626865671642,
+      "construction_seconds": 4.009064399986528,
+      "method": "prior portfolio: hypergeometric 8+9 / fused",
+      "verification": {
+        "fidelity": 0.9999999999999947,
+        "amplitude_residual": 2.3766576615597475e-15,
+        "norm": 0.999999999999998,
+        "active_qubits": 17
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 17,
+      "k": 5,
+      "moments": 144,
+      "score": 0.5902777777777778,
+      "construction_seconds": 4.860558899934404,
+      "method": "prior portfolio: hypergeometric 8+9 / fused",
+      "verification": {
+        "fidelity": 0.999999999999992,
+        "amplitude_residual": 3.3104563361195834e-15,
+        "norm": 0.999999999999996,
+        "active_qubits": 17
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 17,
+      "k": 6,
+      "moments": 154,
+      "score": 0.6623376623376623,
+      "construction_seconds": 5.14101749996189,
+      "method": "prior portfolio: hypergeometric 8+9 / fused",
+      "verification": {
+        "fidelity": 0.9999999999999982,
+        "amplitude_residual": 3.9720477249427034e-15,
+        "norm": 0.9999999999999978,
+        "active_qubits": 17
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 17,
+      "k": 7,
+      "moments": 164,
+      "score": 0.725609756097561,
+      "construction_seconds": 5.862490200088359,
+      "method": "prior portfolio: hypergeometric 8+9 / fused",
+      "verification": {
+        "fidelity": 0.9999999999999836,
+        "amplitude_residual": 6.2898322841364816e-15,
+        "norm": 0.9999999999999915,
+        "active_qubits": 17
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 17,
+      "k": 8,
+      "moments": 174,
+      "score": 0.7816091954022989,
+      "construction_seconds": 6.051861500018276,
+      "method": "prior portfolio: hypergeometric 8+9 / fused",
+      "verification": {
+        "fidelity": 0.9999999999999778,
+        "amplitude_residual": 7.511097686389237e-15,
+        "norm": 0.9999999999999908,
+        "active_qubits": 17
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 18,
+      "k": 1,
+      "moments": 15,
+      "score": 1.2,
+      "construction_seconds": 6.616239200113341,
+      "method": "prior portfolio: parallel W tree",
+      "verification": {
+        "fidelity": 0.9999999999999971,
+        "amplitude_residual": 9.818111704994606e-16,
+        "norm": 0.9999999999999984,
+        "active_qubits": 18
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 18,
+      "k": 2,
+      "moments": 39,
+      "score": 0.9230769230769231,
+      "construction_seconds": 1.4104081999976188,
+      "method": "prior portfolio: hypergeometric 9+9 / fused",
+      "verification": {
+        "fidelity": 0.9999999999999991,
+        "amplitude_residual": 1.7525946107304543e-15,
+        "norm": 0.9999999999999996,
+        "active_qubits": 18
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 18,
+      "k": 3,
+      "moments": 106,
+      "score": 0.5094339622641509,
+      "construction_seconds": 2.3458838999504223,
+      "method": "prior portfolio: hypergeometric 9+9 / center-out seed",
+      "verification": {
+        "fidelity": 0.999999999999994,
+        "amplitude_residual": 2.23189859545768e-15,
+        "norm": 0.999999999999999,
+        "active_qubits": 18
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 18,
+      "k": 4,
+      "moments": 138,
+      "score": 0.5217391304347826,
+      "construction_seconds": 3.0382120000431314,
+      "method": "prior portfolio: hypergeometric 9+9 / center-out seed",
+      "verification": {
+        "fidelity": 0.9999999999999956,
+        "amplitude_residual": 2.3514834576265213e-15,
+        "norm": 1.0,
+        "active_qubits": 18
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 18,
+      "k": 5,
+      "moments": 148,
+      "score": 0.6081081081081081,
+      "construction_seconds": 4.226671000011265,
+      "method": "prior portfolio: hypergeometric 9+9 / center-out seed",
+      "verification": {
+        "fidelity": 0.9999999999999962,
+        "amplitude_residual": 2.705083707817123e-15,
+        "norm": 1.0000000000000002,
+        "active_qubits": 18
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 18,
+      "k": 6,
+      "moments": 160,
+      "score": 0.675,
+      "construction_seconds": 4.255751400021836,
+      "method": "prior portfolio: hypergeometric 9+9 / center-out seed",
+      "verification": {
+        "fidelity": 0.9999999999999958,
+        "amplitude_residual": 3.5228902863831073e-15,
+        "norm": 0.9999999999999929,
+        "active_qubits": 18
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 18,
+      "k": 7,
+      "moments": 170,
+      "score": 0.7411764705882353,
+      "construction_seconds": 4.777844900032505,
+      "method": "prior portfolio: hypergeometric 9+9 / center-out seed",
+      "verification": {
+        "fidelity": 0.9999999999999798,
+        "amplitude_residual": 7.949332521855734e-15,
+        "norm": 0.9999999999999976,
+        "active_qubits": 18
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 18,
+      "k": 8,
+      "moments": 182,
+      "score": 0.7912087912087912,
+      "construction_seconds": 4.434356000041589,
+      "method": "prior portfolio: hypergeometric 9+9 / center-out seed",
+      "verification": {
+        "fidelity": 1.000000000000004,
+        "amplitude_residual": 6.8910488749395764e-15,
+        "norm": 0.9999999999999808,
+        "active_qubits": 18
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 18,
+      "k": 9,
+      "moments": 188,
+      "score": 0.8617021276595744,
+      "construction_seconds": 4.321773599949665,
+      "method": "prior portfolio: hypergeometric 9+9 / center-out seed",
+      "verification": {
+        "fidelity": 0.9999999999999969,
+        "amplitude_residual": 4.500224638162861e-15,
+        "norm": 0.9999999999999795,
+        "active_qubits": 18
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 19,
+      "k": 1,
+      "moments": 16,
+      "score": 1.1875,
+      "construction_seconds": 5.305224799900316,
+      "method": "prior portfolio: parallel W tree",
+      "verification": {
+        "fidelity": 1.0000000000000004,
+        "amplitude_residual": 1.0814135588727877e-15,
+        "norm": 1.0,
+        "active_qubits": 19
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 19,
+      "k": 2,
+      "moments": 42,
+      "score": 0.9047619047619048,
+      "construction_seconds": 2.529824599972926,
+      "method": "prior portfolio: hypergeometric 9+10 / fused",
+      "verification": {
+        "fidelity": 0.9999999999999989,
+        "amplitude_residual": 1.655030604378998e-15,
+        "norm": 0.9999999999999991,
+        "active_qubits": 19
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 19,
+      "k": 3,
+      "moments": 118,
+      "score": 0.4830508474576271,
+      "construction_seconds": 3.591166300000623,
+      "method": "prior portfolio: hypergeometric 9+10 / fused",
+      "verification": {
+        "fidelity": 0.9999999999999938,
+        "amplitude_residual": 2.065531062298057e-15,
+        "norm": 0.9999999999999972,
+        "active_qubits": 19
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 19,
+      "k": 4,
+      "moments": 152,
+      "score": 0.5,
+      "construction_seconds": 4.289171000011265,
+      "method": "prior portfolio: hypergeometric 9+10 / fused",
+      "verification": {
+        "fidelity": 0.9999999999999931,
+        "amplitude_residual": 2.6623132867517842e-15,
+        "norm": 0.9999999999999972,
+        "active_qubits": 19
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 19,
+      "k": 5,
+      "moments": 162,
+      "score": 0.5864197530864198,
+      "construction_seconds": 5.5930761999916285,
+      "method": "prior portfolio: hypergeometric 9+10 / fused",
+      "verification": {
+        "fidelity": 0.9999999999999947,
+        "amplitude_residual": 3.973971627614013e-15,
+        "norm": 1.0000000000000004,
+        "active_qubits": 19
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 19,
+      "k": 6,
+      "moments": 172,
+      "score": 0.6627906976744186,
+      "construction_seconds": 7.639584699994884,
+      "method": "prior portfolio: hypergeometric 9+10 / fused",
+      "verification": {
+        "fidelity": 0.9999999999999927,
+        "amplitude_residual": 6.516941919451865e-15,
+        "norm": 0.999999999999989,
+        "active_qubits": 19
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 19,
+      "k": 7,
+      "moments": 182,
+      "score": 0.7307692307692307,
+      "construction_seconds": 7.614198700059205,
+      "method": "prior portfolio: hypergeometric 9+10 / fused",
+      "verification": {
+        "fidelity": 1.0000000000000009,
+        "amplitude_residual": 1.4138604035953468e-14,
+        "norm": 0.9999999999999805,
+        "active_qubits": 19
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 19,
+      "k": 8,
+      "moments": 192,
+      "score": 0.7916666666666666,
+      "construction_seconds": 8.136260199942626,
+      "method": "prior portfolio: hypergeometric 9+10 / fused",
+      "verification": {
+        "fidelity": 1.0000000000000355,
+        "amplitude_residual": 2.2321516675226708e-14,
+        "norm": 0.9999999999999472,
+        "active_qubits": 19
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 19,
+      "k": 9,
+      "moments": 202,
+      "score": 0.8465346534653465,
+      "construction_seconds": 8.444278799928725,
+      "method": "prior portfolio: hypergeometric 9+10 / fused",
+      "verification": {
+        "fidelity": 0.999999999999966,
+        "amplitude_residual": 1.3067662957377023e-14,
+        "norm": 0.9999999999999668,
+        "active_qubits": 19
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 20,
+      "k": 1,
+      "moments": 16,
+      "score": 1.25,
+      "construction_seconds": 7.577632599975914,
+      "method": "prior portfolio: parallel W tree",
+      "verification": {
+        "fidelity": 0.9999999999999993,
+        "amplitude_residual": 1.1906072428940283e-15,
+        "norm": 0.9999999999999998,
+        "active_qubits": 20
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 20,
+      "k": 2,
+      "moments": 43,
+      "score": 0.9302325581395349,
+      "construction_seconds": 1.7050486999796703,
+      "method": "prior portfolio: hypergeometric 10+10 / fused",
+      "verification": {
+        "fidelity": 0.9999999999999978,
+        "amplitude_residual": 1.6953361046255922e-15,
+        "norm": 0.9999999999999991,
+        "active_qubits": 20
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 20,
+      "k": 3,
+      "moments": 120,
+      "score": 0.5,
+      "construction_seconds": 2.6250893999822438,
+      "method": "prior portfolio: hypergeometric 10+10 / center-out seed",
+      "verification": {
+        "fidelity": 0.9999999999999942,
+        "amplitude_residual": 2.228796610757781e-15,
+        "norm": 0.9999999999999984,
+        "active_qubits": 20
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 20,
+      "k": 4,
+      "moments": 156,
+      "score": 0.5128205128205128,
+      "construction_seconds": 4.28201700001955,
+      "method": "prior portfolio: hypergeometric 10+10 / center-out seed",
+      "verification": {
+        "fidelity": 1.0000000000000013,
+        "amplitude_residual": 3.157385062290372e-15,
+        "norm": 0.9999999999999968,
+        "active_qubits": 20
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 20,
+      "k": 5,
+      "moments": 166,
+      "score": 0.6024096385542169,
+      "construction_seconds": 5.15384990000166,
+      "method": "prior portfolio: hypergeometric 10+10 / center-out seed",
+      "verification": {
+        "fidelity": 0.999999999999994,
+        "amplitude_residual": 5.486273333139204e-15,
+        "norm": 1.0000000000000049,
+        "active_qubits": 20
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 20,
+      "k": 6,
+      "moments": 178,
+      "score": 0.6741573033707865,
+      "construction_seconds": 5.335082200006582,
+      "method": "prior portfolio: hypergeometric 10+10 / center-out seed",
+      "verification": {
+        "fidelity": 0.9999999999999698,
+        "amplitude_residual": 1.0788025783700174e-14,
+        "norm": 0.9999999999999956,
+        "active_qubits": 20
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 20,
+      "k": 7,
+      "moments": 188,
+      "score": 0.7446808510638298,
+      "construction_seconds": 6.420721400063485,
+      "method": "prior portfolio: hypergeometric 10+10 / center-out seed",
+      "verification": {
+        "fidelity": 0.9999999999999991,
+        "amplitude_residual": 1.9337205666912685e-14,
+        "norm": 0.9999999999999765,
+        "active_qubits": 20
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 20,
+      "k": 8,
+      "moments": 200,
+      "score": 0.8,
+      "construction_seconds": 6.1235968000255525,
+      "method": "prior portfolio: hypergeometric 10+10 / center-out seed",
+      "verification": {
+        "fidelity": 0.999999999999982,
+        "amplitude_residual": 8.614707230666656e-15,
+        "norm": 1.0000000000000064,
+        "active_qubits": 20
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 20,
+      "k": 9,
+      "moments": 210,
+      "score": 0.8571428571428571,
+      "construction_seconds": 6.275102699990384,
+      "method": "prior portfolio: hypergeometric 10+10 / center-out seed",
+      "verification": {
+        "fidelity": 0.9999999999998976,
+        "amplitude_residual": 4.693223190029451e-14,
+        "norm": 1.0000000000000497,
+        "active_qubits": 20
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    },
+    {
+      "n": 20,
+      "k": 10,
+      "moments": 217,
+      "score": 0.9216589861751152,
+      "construction_seconds": 6.634876700001769,
+      "method": "prior portfolio: hypergeometric 10+10 / center-out seed",
+      "verification": {
+        "fidelity": 0.9999999999999019,
+        "amplitude_residual": 4.380952245908119e-14,
+        "norm": 0.999999999999882,
+        "active_qubits": 20
+      },
+      "readout_lines_valid": true,
+      "causal_controls": true,
+      "device_valid": true
+    }
+  ],
+  "score": 82.15248774069418,
+  "portfolio_sha256": "1ba6d5d7f1350aa2455df3518c3eddbddd1ffbb6789aa3c0f7d62a8bf1c68fe3",
+  "paper_model": [
+    {
+      "n": 4,
+      "k": 2,
+      "failure_after_rounds": [
+        0.625,
+        0.48697916666666685,
+        0.38124935012669137,
+        0.29930635524897053,
+        0.2354941214306684,
+        0.1856282528360811,
+        0.14655067164324542,
+        0.1158541215861697
+      ],
+      "expected_collective_rounds": 3.9207332536333803,
+      "compiled_depth": null,
+      "eligible_for_score": false
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "failure_after_rounds": [
+        0.7265625000000003,
+        0.6027568359375005,
+        0.49858573742945755,
+        0.41162541353590054,
+        0.34039482644017793,
+        0.2815032202314174,
+        0.2328783157406048,
+        0.19269585103561304
+      ],
+      "expected_collective_rounds": 5.215809604749474,
+      "compiled_depth": null,
+      "eligible_for_score": false
+    },
+    {
+      "n": 12,
+      "k": 6,
+      "failure_after_rounds": [
+        0.7744140625000002,
+        0.6536413050400542,
+        0.5513970182119283,
+        0.4642843180905786,
+        0.3906597012048336,
+        0.32876263822811314,
+        0.2766749137123746,
+        0.23284881091062204
+      ],
+      "expected_collective_rounds": 5.912242897573002,
+      "compiled_depth": null,
+      "eligible_for_score": false
+    },
+    {
+      "n": 20,
+      "k": 10,
+      "failure_after_rounds": [
+        0.8238029479980471,
+        0.7079926938784511,
+        0.6071260816832218,
+        0.5199356099062256,
+        0.44476081125077815,
+        0.3801946210452505,
+        0.32489477998351046,
+        0.27758663259167804
+      ],
+      "expected_collective_rounds": 6.7132817545149575,
+      "compiled_depth": null,
+      "eligible_for_score": false
+    }
+  ],
+  "interference_comparison": [
+    {
+      "n": 4,
+      "k": 2,
+      "name": "star-depth6",
+      "moments": 21,
+      "selected_moments": 7
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "name": "chain-4-2-depth6-cp1",
+      "moments": 23,
+      "selected_moments": 7
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "name": "chain-6-3-depth10-cp1",
+      "moments": 43,
+      "selected_moments": 13
+    }
+  ],
+  "complete": true,
+  "standalone_sha256": "e897ab1e17192d46a9b06c0a8126af7b2ad3b143f16dd037dfdb5f6fd7ba9fa7",
+  "standalone_parity": "AST identical except product-state boundary handling outside scored domain",
+  "additional_clifford_certificate": {
+    "fidelity": 1.0000000000000004,
+    "core": {
+      "fidelity": 1.0000000000000004,
+      "amplitude_residual": 5.266764664266825e-14,
+      "norm": 0.9999999999999998,
+      "active_qubits": 11,
+      "ancilla_zero_probability": 0.9999999999999994
+    },
+    "independent_bits": 18,
+    "branches_certified": 262144,
+    "choi_basis_checks": 19,
+    "certificate": "Clifford Choi isometry; affine Pauli measurement signs",
+    "scheduling": "shared-wire dependencies and causal measurement keys preserved"
+  }
+}

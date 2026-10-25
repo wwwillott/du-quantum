@@ -1,0 +1,87 @@
+{
+  "label": "will-605b9a8",
+  "calibration_seed": 101,
+  "calibration_source": "Kai test_dicke.fake_calibration; synthetic",
+  "records": [
+    {
+      "n": 2,
+      "k": 1,
+      "build_seconds": 0.058522699982859194,
+      "depth": 3,
+      "CZ": 1,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999998,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 2
+      },
+      "accepted": true
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "build_seconds": 0.3607027999823913,
+      "depth": 7,
+      "CZ": 5,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 1.0000000000000002,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 4
+      },
+      "accepted": true
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "build_seconds": 1.3666947999736294,
+      "depth": 18,
+      "CZ": 14,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999993,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 6
+      },
+      "accepted": true
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "build_seconds": 12.789239300065674,
+      "depth": 23,
+      "CZ": 24,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999997,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 8
+      },
+      "accepted": true
+    },
+    {
+      "n": 10,
+      "k": 3,
+      "build_seconds": 0.8176653999835253,
+      "depth": 51,
+      "CZ": 57,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999989,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 10
+      },
+      "accepted": true
+    }
+  ]
+}

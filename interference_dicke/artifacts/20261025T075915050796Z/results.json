@@ -1,0 +1,6151 @@
+{
+  "run_id": "20261025T075915050796Z",
+  "timestamp_utc": "2026-10-25T07:59:15.051796+00:00",
+  "git_commit": "14e4360e86b451a2f845ee7a9a809c6dbd2beeaa",
+  "git_status": " M testing/__pycache__/qvm_simulate.cpython-314.pyc\n?? benchmarks/__pycache__/\n?? interference_dicke/\n?? willow_dicke/__pycache__/rectangle.cpython-314.pyc\n?? willow_dicke/__pycache__/yuan_zhang.cpython-314.pyc\n?? willow_dicke/tests/__pycache__/test_grid7x8.cpython-314-pytest-9.1.1.pyc\n?? willow_dicke/yuan_zhang_2025/__pycache__/\n?? willow_dicke/yuan_zhang_2025/tests/__pycache__/\n",
+  "environment": {
+    "python": "3.14.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 189 Stepping 1, GenuineIntel",
+    "threads": 1,
+    "packages": {
+      "numpy": "2.5.0",
+      "scipy": "1.18.1",
+      "cirq-core": "1.8.0.dev20261023221525",
+      "cirq-google": "1.8.0.dev20261023221525",
+      "matplotlib": "3.11.2"
+    }
+  },
+  "conventions": "bit i = qubit i; initial lowest l bits; uniform positive target; hbar=1; see core.py",
+  "noise_model": "none for optimization; optional synthetic channels on compiled CZ circuits",
+  "output_path": "C:\\Users\\pinol\\Documents\\.FALL 2026\\Hackathons\\DuQuantum\\du-quantum\\interference_dicke\\artifacts\\20261025T075915050796Z",
+  "experiments": [
+    {
+      "id": "chain-4-1-depth4-cp0",
+      "n": 4,
+      "l": 1,
+      "dimension": 4,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "free_XY",
+      "matching_layers": 4,
+      "cp_count": 0,
+      "parameter_count": 18,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.9999999999999996,
+        "parameters": [
+          1.6092672456149228,
+          -0.38403808930179695,
+          1.98108379343449,
+          1.5121532884306583,
+          -2.549858925072973,
+          3.7881716218542416,
+          1.3687357505291722,
+          2.1608106334619195,
+          -2.427993164612759,
+          -0.6379530254052455,
+          -0.9800871643617772,
+          2.6614238288311802,
+          1.0153130929268304,
+          1.8185803773149323,
+          -0.9718235957881661,
+          -1.7338293343704272,
+          0.9503155097422781,
+          -3.4459749503499335
+        ],
+        "seconds": 0.013189899967983365,
+        "evaluations": 20,
+        "trials": [
+          {
+            "iterations": 17,
+            "evaluations": 20,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.9999999999999996
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 6,
+        "single_qubit_gates": 13,
+        "depth": 9,
+        "two_qubit_depth": 5
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 12,
+        "single_qubit_gates": 28,
+        "depth": 17,
+        "two_qubit_depth": 8
+      },
+      "compiled_fidelity": 1.0000000000000013,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "native_circuit_path": "chain-4-1-depth4-cp0.cirq.json"
+    },
+    {
+      "id": "chain-4-2-depth2-cp0",
+      "n": 4,
+      "l": 2,
+      "dimension": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "free_XY",
+      "matching_layers": 2,
+      "cp_count": 0,
+      "parameter_count": 9,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.3333333333333335,
+        "parameters": [
+          -0.311734346044068,
+          -0.8117999558004185,
+          2.6814435075521947,
+          0.9039312087064584,
+          2.0279710262248587,
+          -0.785398161495501,
+          -1.7138096556494131,
+          0.7646700688600142,
+          -3.1623207447781154
+        ],
+        "seconds": 0.015356099931523204,
+        "evaluations": 37,
+        "trials": [
+          {
+            "iterations": 7,
+            "evaluations": 8,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.33333333333333304
+          },
+          {
+            "iterations": 9,
+            "evaluations": 11,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.3333333333333335
+          },
+          {
+            "iterations": 6,
+            "evaluations": 8,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.3333333333333335
+          },
+          {
+            "iterations": 8,
+            "evaluations": 10,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.3333333333333335
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 3,
+        "single_qubit_gates": 8,
+        "depth": 5,
+        "two_qubit_depth": 3
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 6,
+        "single_qubit_gates": 16,
+        "depth": 9,
+        "two_qubit_depth": 4
+      },
+      "compiled_fidelity": 0.33333333333333354,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "native_circuit_path": "chain-4-2-depth2-cp0.cirq.json"
+    },
+    {
+      "id": "chain-4-2-depth2-cp1",
+      "n": 4,
+      "l": 2,
+      "dimension": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "interacting_XY",
+      "matching_layers": 2,
+      "cp_count": 1,
+      "parameter_count": 10,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "cp",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.3333333333333335,
+        "parameters": [
+          -0.8117999558004185,
+          2.6814435075521947,
+          0.9039312087064583,
+          2.0279710262248587,
+          -0.3555390745230987,
+          -1.7138096556494131,
+          0.7853981628982475,
+          -2.740617007691522,
+          2.6210168367143325,
+          0.264822347365874
+        ],
+        "seconds": 0.021405300009064376,
+        "evaluations": 53,
+        "trials": [
+          {
+            "iterations": 8,
+            "evaluations": 9,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.33333333333333326
+          },
+          {
+            "iterations": 10,
+            "evaluations": 16,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.3333333333333335
+          },
+          {
+            "iterations": 12,
+            "evaluations": 19,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.3333333333333335
+          },
+          {
+            "iterations": 7,
+            "evaluations": 9,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.3333333333333335
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 4,
+        "single_qubit_gates": 8,
+        "depth": 6,
+        "two_qubit_depth": 4
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 7,
+        "single_qubit_gates": 18,
+        "depth": 11,
+        "two_qubit_depth": 5
+      },
+      "compiled_fidelity": 0.33333333333333354,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "native_circuit_path": "chain-4-2-depth2-cp1.cirq.json"
+    },
+    {
+      "id": "chain-4-2-depth4-cp0",
+      "n": 4,
+      "l": 2,
+      "dimension": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "free_XY",
+      "matching_layers": 4,
+      "cp_count": 0,
+      "parameter_count": 18,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.971404520791032,
+        "parameters": [
+          -2.3252717601793034,
+          -0.15265045057405713,
+          -1.7158791655715955,
+          1.0669727963426203,
+          -0.3948861399258016,
+          2.18627603305791,
+          1.2583027464413523,
+          -1.3927538451524235,
+          2.3014685854400403,
+          2.0943951016723292,
+          -1.047197546012674,
+          -1.5898984816805763,
+          1.1927591204068355,
+          -2.501463318919186,
+          -2.5261129443984838,
+          -3.3552588828150274,
+          0.9306669889592082,
+          1.716065158268573
+        ],
+        "seconds": 0.06404009996913373,
+        "evaluations": 109,
+        "trials": [
+          {
+            "iterations": 24,
+            "evaluations": 27,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910238
+          },
+          {
+            "iterations": 20,
+            "evaluations": 23,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.9714045207910312
+          },
+          {
+            "iterations": 26,
+            "evaluations": 32,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.971404520791032
+          },
+          {
+            "iterations": 19,
+            "evaluations": 27,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.9714045207910316
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 6,
+        "single_qubit_gates": 14,
+        "depth": 9,
+        "two_qubit_depth": 5
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 12,
+        "single_qubit_gates": 27,
+        "depth": 17,
+        "two_qubit_depth": 8
+      },
+      "compiled_fidelity": 0.971404520791032,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "native_circuit_path": "chain-4-2-depth4-cp0.cirq.json"
+    },
+    {
+      "id": "chain-4-2-depth4-cp1",
+      "n": 4,
+      "l": 2,
+      "dimension": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "interacting_XY",
+      "matching_layers": 4,
+      "cp_count": 1,
+      "parameter_count": 19,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "cp",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.9714045207910313,
+        "parameters": [
+          -1.715879165571594,
+          1.066972796342621,
+          -0.394886139925804,
+          2.090278753489613,
+          1.258302746441354,
+          -0.9553166079789732,
+          2.0876499022927333,
+          2.14091313711439,
+          -0.9330163995560947,
+          -1.3299737473283346,
+          1.047197528613992,
+          -2.0943951086398385,
+          -1.1607815934210508,
+          -3.5940627241167857,
+          2.6214594507068036,
+          0.6154796874855041,
+          2.0138428721193846,
+          2.090929527220941,
+          -0.26526495763960795
+        ],
+        "seconds": 0.07843509991653264,
+        "evaluations": 120,
+        "trials": [
+          {
+            "iterations": 34,
+            "evaluations": 46,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910308
+          },
+          {
+            "iterations": 17,
+            "evaluations": 20,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.9714045207910308
+          },
+          {
+            "iterations": 25,
+            "evaluations": 29,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910313
+          },
+          {
+            "iterations": 22,
+            "evaluations": 25,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910312
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 7,
+        "single_qubit_gates": 14,
+        "depth": 10,
+        "two_qubit_depth": 6
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 13,
+        "single_qubit_gates": 29,
+        "depth": 19,
+        "two_qubit_depth": 9
+      },
+      "compiled_fidelity": 0.9714045207910306,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "native_circuit_path": "chain-4-2-depth4-cp1.cirq.json"
+    },
+    {
+      "id": "chain-4-2-depth6-cp0",
+      "n": 4,
+      "l": 2,
+      "dimension": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "free_XY",
+      "matching_layers": 6,
+      "cp_count": 0,
+      "parameter_count": 27,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.9714045207910325,
+        "parameters": [
+          -2.8663654759963415,
+          -2.172163183978775,
+          1.150130493507593,
+          1.537885981753596,
+          2.9374502817940877,
+          -1.2026253230536605,
+          -0.8139256717294364,
+          -0.13533802544563167,
+          -2.0070574478952765,
+          -2.187663660726557,
+          -0.8386835543532226,
+          -1.5834469276714078,
+          0.9904890122776496,
+          -0.2510886214710061,
+          1.8432335924784176,
+          1.3907349843415384,
+          -1.1278872356207559,
+          2.1039157102981965,
+          1.7511577195441999,
+          -0.5672136499463815,
+          -1.189121783017306,
+          1.1892812691754193,
+          -1.988378127258008,
+          -1.7197654854619582,
+          -2.9544821841517526,
+          1.902146196053786,
+          1.2541932916037573
+        ],
+        "seconds": 0.09173710003960878,
+        "evaluations": 110,
+        "trials": [
+          {
+            "iterations": 22,
+            "evaluations": 30,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.9714045207910316
+          },
+          {
+            "iterations": 18,
+            "evaluations": 21,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.9714045207910325
+          },
+          {
+            "iterations": 20,
+            "evaluations": 27,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.9714045207910325
+          },
+          {
+            "iterations": 21,
+            "evaluations": 32,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910308
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 9,
+        "single_qubit_gates": 20,
+        "depth": 13,
+        "two_qubit_depth": 7
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 18,
+        "single_qubit_gates": 39,
+        "depth": 25,
+        "two_qubit_depth": 12
+      },
+      "compiled_fidelity": 0.9714045207910322,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "native_circuit_path": "chain-4-2-depth6-cp0.cirq.json"
+    },
+    {
+      "id": "chain-4-2-depth6-cp1",
+      "n": 4,
+      "l": 2,
+      "dimension": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "interacting_XY",
+      "matching_layers": 6,
+      "cp_count": 1,
+      "parameter_count": 28,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "cp",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.9999999999999916,
+        "parameters": [
+          1.721316619099806,
+          -0.38403808930179695,
+          2.2531371815723262,
+          1.2400999002928097,
+          -2.549858925072965,
+          2.3069592874517935,
+          1.6407891386670366,
+          1.738713774982881,
+          -2.27794969427164,
+          -0.9235258682565655,
+          -0.5160124357163418,
+          2.716268908595081,
+          0.8104245428217733,
+          1.708559153479473,
+          -1.6514526467105906,
+          -0.21333302472942392,
+          0.37779173281641715,
+          -3.0082418770252586,
+          1.9132736967414417,
+          1.2091605112653916,
+          1.0816219222955819,
+          -0.47354342514763076,
+          2.284186568230848,
+          2.084868700403784,
+          2.27396008138113,
+          -1.4781447097309448,
+          -0.13799405194091707,
+          -3.9959500202709917
+        ],
+        "seconds": 0.0649364999262616,
+        "evaluations": 67,
+        "trials": [
+          {
+            "iterations": 56,
+            "evaluations": 67,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9999999999999916
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 10,
+        "single_qubit_gates": 20,
+        "depth": 14,
+        "two_qubit_depth": 8
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 19,
+        "single_qubit_gates": 42,
+        "depth": 27,
+        "two_qubit_depth": 13
+      },
+      "compiled_fidelity": 0.9999999999999905,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "native_circuit_path": "chain-4-2-depth6-cp1.cirq.json"
+    },
+    {
+      "id": "chain-4-2-depth8-cp0",
+      "n": 4,
+      "l": 2,
+      "dimension": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "free_XY",
+      "matching_layers": 8,
+      "cp_count": 0,
+      "parameter_count": 36,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.9714045207910313,
+        "parameters": [
+          -2.3252717601793034,
+          -0.15265045057405713,
+          -1.7158791655715941,
+          1.066972796342621,
+          -0.3948861399258023,
+          1.8926838492889808,
+          1.258302746441353,
+          -1.1669435580017644,
+          2.0756582982893805,
+          2.1267182226992536,
+          -0.930062983893466,
+          -1.379977194746184,
+          1.208648120623103,
+          -2.2809670593123705,
+          -1.9889184727871223,
+          -3.1453375958806324,
+          1.918818018454358,
+          0.9642993885965064,
+          1.2099963113173398,
+          1.4173423319393204,
+          -0.12371695310137563,
+          0.36350636805960307,
+          -2.1931477067209184,
+          -2.490008735394434,
+          1.1925298576004115,
+          -0.20585747986116526,
+          0.43580733061394983,
+          1.6075429428950319,
+          0.7896860350254208,
+          0.3112947718357844,
+          0.5075373490364732,
+          -0.9934856517010702,
+          -3.099055862445071,
+          -0.42297090132120846,
+          -1.6806662975271,
+          -0.3135225762472496
+        ],
+        "seconds": 0.09448089997749776,
+        "evaluations": 83,
+        "trials": [
+          {
+            "iterations": 18,
+            "evaluations": 20,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910301
+          },
+          {
+            "iterations": 16,
+            "evaluations": 19,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910313
+          },
+          {
+            "iterations": 18,
+            "evaluations": 23,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910099
+          },
+          {
+            "iterations": 15,
+            "evaluations": 21,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910299
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 12,
+        "single_qubit_gates": 26,
+        "depth": 17,
+        "two_qubit_depth": 9
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 24,
+        "single_qubit_gates": 52,
+        "depth": 33,
+        "two_qubit_depth": 16
+      },
+      "compiled_fidelity": 0.9714045207910333,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "native_circuit_path": "chain-4-2-depth8-cp0.cirq.json"
+    },
+    {
+      "id": "chain-4-2-depth8-cp1",
+      "n": 4,
+      "l": 2,
+      "dimension": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "interacting_XY",
+      "matching_layers": 8,
+      "cp_count": 1,
+      "parameter_count": 37,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "cp",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.9999999999999962,
+        "parameters": [
+          -0.15265045057405713,
+          -1.715879165571594,
+          1.0669727963426183,
+          -0.39488613992580557,
+          2.090278753489616,
+          0.9069232189651851,
+          -1.1789351620051198,
+          2.237218623731714,
+          1.765322211736955,
+          -0.7806740446479616,
+          -1.1712852694925917,
+          1.2194603638436394,
+          -2.186740475136688,
+          -1.7370110396692704,
+          -2.9669509124079223,
+          1.8756063276348254,
+          1.0847958868033936,
+          1.4653674458800352,
+          1.6955538828760952,
+          -0.41939108911061734,
+          0.4123992881538311,
+          -2.1692752285010233,
+          -2.394111257353519,
+          1.2807505767362921,
+          -0.3949125047398203,
+          0.5038375262054673,
+          1.834252792886975,
+          0.9277555857781293,
+          0.19202940573764918,
+          0.21190513910075065,
+          -0.99012758323059,
+          -2.926485922313348,
+          -0.34259767879531844,
+          -1.2796806595147352,
+          -0.3330412016807506,
+          2.3070458929662276,
+          -1.681765151427165
+        ],
+        "seconds": 0.06808840006124228,
+        "evaluations": 56,
+        "trials": [
+          {
+            "iterations": 23,
+            "evaluations": 24,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910241
+          },
+          {
+            "iterations": 29,
+            "evaluations": 32,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9999999999999962
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 13,
+        "single_qubit_gates": 26,
+        "depth": 18,
+        "two_qubit_depth": 10
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 25,
+        "single_qubit_gates": 54,
+        "depth": 35,
+        "two_qubit_depth": 17
+      },
+      "compiled_fidelity": 0.9999999999999967,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "native_circuit_path": "chain-4-2-depth8-cp1.cirq.json"
+    },
+    {
+      "id": "chain-6-3-depth6-cp0",
+      "n": 6,
+      "l": 3,
+      "dimension": 20,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "free_XY",
+      "matching_layers": 6,
+      "cp_count": 0,
+      "parameter_count": 45,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.8999999999999926,
+        "parameters": [
+          -2.1845874877167852,
+          1.1467637056716213,
+          -0.338310098197077,
+          -0.7475656840568262,
+          -1.2471363251188363,
+          0.8988967246229854,
+          -0.9485640247655692,
+          -2.590871968367391,
+          -2.4502046932526707,
+          2.2303890640430954,
+          2.5671881926513227,
+          1.1599774698544276,
+          -1.2959559093255888,
+          2.557723198071273,
+          2.0613354569594704,
+          1.4846541645160156,
+          0.347390987151432,
+          -1.3845173105278321,
+          -2.609695247242184,
+          2.508550874355495,
+          -0.24308083034568906,
+          -2.1199634825520532,
+          -1.2204752894263988,
+          1.1649285140612733,
+          -1.9786792190407594,
+          2.1669287593394193,
+          1.80945326310411,
+          1.207509616033253,
+          -0.5017198178662292,
+          0.6238306898122641,
+          0.626722211636162,
+          1.150270842801272,
+          -2.6250636544282937,
+          -0.5452857939057221,
+          -2.752452706735134,
+          0.5497348877010131,
+          -1.9029698221778362,
+          -1.7376075144570726,
+          -2.5750668114729143,
+          0.6163858130553515,
+          -2.0860135204215013,
+          3.147010788485662,
+          0.7485819200418676,
+          -0.7275058367985848,
+          -0.0014440893709332682
+        ],
+        "seconds": 0.30585460003931075,
+        "evaluations": 219,
+        "trials": [
+          {
+            "iterations": 50,
+            "evaluations": 56,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.89999999999989
+          },
+          {
+            "iterations": 53,
+            "evaluations": 60,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.8999999999999027
+          },
+          {
+            "iterations": 42,
+            "evaluations": 49,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.8999999999999926
+          },
+          {
+            "iterations": 44,
+            "evaluations": 54,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.8999999999999625
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 15,
+        "single_qubit_gates": 33,
+        "depth": 13,
+        "two_qubit_depth": 7
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 30,
+        "single_qubit_gates": 66,
+        "depth": 25,
+        "two_qubit_depth": 12
+      },
+      "compiled_fidelity": 0.8999999999999919,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "native_circuit_path": "chain-6-3-depth6-cp0.cirq.json"
+    },
+    {
+      "id": "chain-6-3-depth6-cp1",
+      "n": 6,
+      "l": 3,
+      "dimension": 20,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "interacting_XY",
+      "matching_layers": 6,
+      "cp_count": 1,
+      "parameter_count": 46,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "cp",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.9467802384352926,
+        "parameters": [
+          1.7764778256810798,
+          -2.3814897211141735,
+          -0.08382817965092171,
+          -0.05838967653121119,
+          2.7509447489933296,
+          0.8974193632775604,
+          -0.6133097242390698,
+          -1.464135089876283,
+          -0.7191191096713584,
+          0.9145163553129042,
+          -0.3838306150483862,
+          -2.9728242118115045,
+          2.4639156034083523,
+          2.081478121686026,
+          -2.2994469375054596,
+          0.8296859245719259,
+          -1.7992105878732019,
+          0.8978978770516604,
+          -1.894754519691119,
+          1.5548635395457147,
+          1.5549121727391197,
+          1.5653885868252522,
+          -2.0560658081056284,
+          2.6998492773611305,
+          -1.1572847682083114,
+          -4.184441943580839,
+          -0.1755576148580092,
+          -0.2837916351454036,
+          2.2267470251942685,
+          1.9252965262890387,
+          -0.8514484982990111,
+          4.077500638030141,
+          -0.9099367018150306,
+          -0.8405008928790165,
+          -1.3641403417190774,
+          2.5775880667296183,
+          -1.655216324963095,
+          -3.168413454651744,
+          -0.24163622568746057,
+          2.751095367901753,
+          2.75109558553073,
+          1.7312264707643774,
+          3.0014391483953315,
+          2.216041056013828,
+          -0.19775263693472772,
+          -0.9831502388529755
+        ],
+        "seconds": 0.8616911999415606,
+        "evaluations": 588,
+        "trials": [
+          {
+            "iterations": 143,
+            "evaluations": 158,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9467802384350195
+          },
+          {
+            "iterations": 159,
+            "evaluations": 178,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.946780238434816
+          },
+          {
+            "iterations": 109,
+            "evaluations": 116,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9467802384352492
+          },
+          {
+            "iterations": 128,
+            "evaluations": 136,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9467802384352926
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 16,
+        "single_qubit_gates": 33,
+        "depth": 14,
+        "two_qubit_depth": 8
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 31,
+        "single_qubit_gates": 67,
+        "depth": 27,
+        "two_qubit_depth": 13
+      },
+      "compiled_fidelity": 0.9467802384352944,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "native_circuit_path": "chain-6-3-depth6-cp1.cirq.json"
+    },
+    {
+      "id": "chain-6-3-depth6-cp2",
+      "n": 6,
+      "l": 3,
+      "dimension": 20,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "interacting_XY",
+      "matching_layers": 6,
+      "cp_count": 2,
+      "parameter_count": 47,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "cp",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "cp",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.9774687897864736,
+        "parameters": [
+          -0.05838967653121108,
+          4.2461009677628265,
+          0.45068064480196446,
+          -0.16657100576345735,
+          -1.4641350898762522,
+          -0.6890826781612133,
+          -0.2393119875363275,
+          -0.3838306150484026,
+          -2.1506822695383954,
+          2.1789143350255133,
+          2.4891515409045413,
+          -1.9696784314014075,
+          0.41801641930380584,
+          -2.5457224450885496,
+          0.7993471918025128,
+          -1.2781092304961676,
+          1.4712314332725205,
+          2.574580770351287,
+          1.9570306448150532,
+          -2.513005489675873,
+          2.9529518845261027,
+          -1.6841757390429717,
+          -2.9252963565230243,
+          -0.047908284832572576,
+          0.7878787542851025,
+          2.276060362259151,
+          1.888431955493112,
+          -0.942247417782893,
+          2.98896014163841,
+          -1.8519821822923026,
+          0.22155670727885268,
+          -3.1415941097123112,
+          3.322025064282449,
+          -1.3591421369781245,
+          -2.5688665937035315,
+          -0.4028898732611133,
+          3.247113223359596,
+          2.468305479650883,
+          1.1597547219419921,
+          2.2775160544427964,
+          2.6641431507730506,
+          -0.4774493481173123,
+          -1.151644551294797,
+          1.8355005915095362,
+          1.0501025476075505,
+          0.0024584464015147685,
+          -3.9245325363837096
+        ],
+        "seconds": 1.0910361999412999,
+        "evaluations": 687,
+        "trials": [
+          {
+            "iterations": 133,
+            "evaluations": 145,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9614687458715265
+          },
+          {
+            "iterations": 155,
+            "evaluations": 165,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.977468789785428
+          },
+          {
+            "iterations": 171,
+            "evaluations": 185,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9774687897861258
+          },
+          {
+            "iterations": 167,
+            "evaluations": 192,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9774687897864736
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 17,
+        "single_qubit_gates": 33,
+        "depth": 15,
+        "two_qubit_depth": 9
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 32,
+        "single_qubit_gates": 69,
+        "depth": 29,
+        "two_qubit_depth": 14
+      },
+      "compiled_fidelity": 0.9774687897864762,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "native_circuit_path": "chain-6-3-depth6-cp2.cirq.json"
+    },
+    {
+      "id": "chain-6-3-depth10-cp0",
+      "n": 6,
+      "l": 3,
+      "dimension": 20,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "free_XY",
+      "matching_layers": 10,
+      "cp_count": 0,
+      "parameter_count": 75,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.8999999999999959,
+        "parameters": [
+          2.0501526239493444,
+          3.965420111413838,
+          -2.2603816382483997,
+          0.3395191031412034,
+          -2.45939115217144,
+          0.7210319244809756,
+          -1.0133641776760023,
+          1.0016819559280143,
+          1.6389855141421017,
+          2.072312920356703,
+          -2.4646363249780743,
+          2.332524147884999,
+          -1.774944620809629,
+          -2.9101624943896685,
+          0.7094725912271821,
+          -0.9865035825088025,
+          1.9449166465357353,
+          1.8528539343323438,
+          -1.4991759427003029,
+          2.914521180465853,
+          -1.6519863938435946,
+          0.34942216322144903,
+          -1.6598486817966849,
+          2.9899022517400162,
+          -1.8528273213956892,
+          -3.2096366305169752,
+          0.042058497763627994,
+          2.3744171422254654,
+          2.8422776086004684,
+          1.3090367966398821,
+          2.257299966769222,
+          2.1337191078653266,
+          -0.2015022562513565,
+          -0.7769118602963772,
+          1.4290944760068471,
+          0.6329195446769111,
+          -0.7489767761706514,
+          -2.7520369904295316,
+          1.7107940026341528,
+          -1.3271625784913754,
+          3.1242179861356645,
+          -2.0395826084919664,
+          -2.6210672546836493,
+          1.728920515456523,
+          -1.9860979186703578,
+          -2.1334838202716444,
+          0.9922352169327117,
+          2.7904977270464615,
+          -1.8979694917699266,
+          -1.2335719824567497,
+          1.26418306683482,
+          2.8410686052868894,
+          0.3074804295837867,
+          -2.1596113120051412,
+          -3.593160792210297,
+          -1.6892335038144648,
+          -2.9143824994921226,
+          1.1967122277502342,
+          -2.326761707601641,
+          0.16975654723384737,
+          1.218700676150507,
+          0.6036902656694606,
+          -2.0551943986430192,
+          1.617090694159808,
+          1.0555574606881715,
+          1.5359135756909625,
+          -2.2226807052685755,
+          -2.193032425959033,
+          2.9048511926266953,
+          -1.080312155046579,
+          -1.5444563154784134,
+          -0.2524470142517114,
+          0.9404718269008667,
+          2.7778403379401566,
+          -0.9904289570291174
+        ],
+        "seconds": 0.3804927999153733,
+        "evaluations": 179,
+        "trials": [
+          {
+            "iterations": 33,
+            "evaluations": 37,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.8999999999999231
+          },
+          {
+            "iterations": 43,
+            "evaluations": 51,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.8999999999999747
+          },
+          {
+            "iterations": 33,
+            "evaluations": 40,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.8999999999999959
+          },
+          {
+            "iterations": 43,
+            "evaluations": 51,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.8999999999999515
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 25,
+        "single_qubit_gates": 53,
+        "depth": 21,
+        "two_qubit_depth": 11
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 50,
+        "single_qubit_gates": 106,
+        "depth": 41,
+        "two_qubit_depth": 20
+      },
+      "compiled_fidelity": 0.8999999999999957,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "native_circuit_path": "chain-6-3-depth10-cp0.cirq.json"
+    },
+    {
+      "id": "chain-6-3-depth10-cp1",
+      "n": 6,
+      "l": 3,
+      "dimension": 20,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "interacting_XY",
+      "matching_layers": 10,
+      "cp_count": 1,
+      "parameter_count": 76,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "cp",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.9999999999997133,
+        "parameters": [
+          1.721316619099806,
+          -0.9631004071359818,
+          2.2531371815723604,
+          1.2400999002927984,
+          -2.5498589250729498,
+          2.8241449471893176,
+          1.8050675630479902,
+          1.7973950398246756,
+          -2.4458463064515654,
+          -0.5248445206171841,
+          -0.8117999558004065,
+          2.5664488066710427,
+          0.8546474852066837,
+          1.9975729034187686,
+          -0.16086252733611575,
+          -1.8781992722426708,
+          0.9944481995391371,
+          -2.810207508440183,
+          1.8887403502572877,
+          0.8821041329418026,
+          1.4126262923245947,
+          -0.7847353417854545,
+          2.4914708408518025,
+          2.534379594452242,
+          2.0708798725925273,
+          -2.08846859998642,
+          -0.5369792232060503,
+          -2.6926388424538557,
+          -2.271348363977734,
+          0.9126085611989599,
+          1.6069918499204965,
+          2.928659867313435,
+          -0.9034899049454604,
+          -1.2342761072921038,
+          -0.2686441822847628,
+          -2.0798580233838435,
+          -2.1219812773119653,
+          -0.07791280983783645,
+          -2.351759403895577,
+          1.2305771623902209,
+          0.6896754849776856,
+          1.6699283179269409,
+          1.3395505843631055,
+          -1.46628973225461,
+          2.2715693141505047,
+          2.0089996449217398,
+          -0.2665299104594108,
+          -1.3760017501128299,
+          1.1147757128623057,
+          -2.30509136810481,
+          -2.1830455044834762,
+          -2.979726529853431,
+          1.583756255992067,
+          0.9450898544943592,
+          1.673270099150152,
+          1.007535400417598,
+          -0.29972926166530167,
+          0.6940112499007544,
+          -2.7072252993184898,
+          -2.3251055997372423,
+          0.6514922341045879,
+          -0.9451194632142607,
+          1.0676996023961964,
+          1.0649299188937782,
+          0.9704464425123036,
+          0.4331711406257695,
+          0.3367333782791798,
+          -1.543671390901874,
+          -2.823090081461319,
+          -0.3225298231571838,
+          -1.924432735631929,
+          -0.45074520810047347,
+          2.3748712719381433,
+          -1.7648361342512693,
+          -2.659688718716863,
+          -1.6761676432868624
+        ],
+        "seconds": 0.33419060008600354,
+        "evaluations": 141,
+        "trials": [
+          {
+            "iterations": 129,
+            "evaluations": 141,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9999999999997133
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 26,
+        "single_qubit_gates": 53,
+        "depth": 22,
+        "two_qubit_depth": 12
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 51,
+        "single_qubit_gates": 108,
+        "depth": 43,
+        "two_qubit_depth": 21
+      },
+      "compiled_fidelity": 0.9999999999997131,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "native_circuit_path": "chain-6-3-depth10-cp1.cirq.json"
+    },
+    {
+      "id": "chain-6-3-depth10-cp2",
+      "n": 6,
+      "l": 3,
+      "dimension": 20,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "interacting_XY",
+      "matching_layers": 10,
+      "cp_count": 2,
+      "parameter_count": 77,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "cp",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "cp",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "xy",
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            4
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.9999999999993607,
+        "parameters": [
+          1.721316619099806,
+          1.1019153497671972,
+          2.2531371815723604,
+          1.2400999002929327,
+          -2.549858925072852,
+          3.386147277731919,
+          1.2430652325053684,
+          1.797395039824532,
+          -2.5674944610660315,
+          -0.6615153934485674,
+          -0.8117999558002833,
+          2.92695717475753,
+          1.056141447663033,
+          1.3608492270314987,
+          -0.08614118149147529,
+          -1.5708160129522795,
+          1.0776770401524827,
+          -2.9900958519275687,
+          2.179383502721634,
+          0.9519693485639901,
+          1.5026703598187174,
+          -1.3100091232105762,
+          3.0320882573467394,
+          1.5707848219400122,
+          1.1294636312571087,
+          -1.7978254475221511,
+          -0.4722844955255256,
+          -2.5974242870182196,
+          -2.1449918036599636,
+          0.8015956359510844,
+          1.400897451077076,
+          3.406996086341649,
+          -0.5552130977881429,
+          -0.871277438956732,
+          -0.07449577278095065,
+          -2.2102699589818116,
+          -2.466718478761278,
+          0.2849088373048818,
+          -1.8451539378559394,
+          2.4895957230643346,
+          -0.9365247108082416,
+          2.207069459989601,
+          1.131672331281348,
+          -1.452912430348933,
+          2.2073866133196476,
+          2.103438737743687,
+          -1.6291265519854914,
+          -1.1694608063277534,
+          1.66129540348289,
+          -1.8574275507983986,
+          -2.301446432809059,
+          -3.599293063582829,
+          2.152517390796382,
+          1.0434107398652448,
+          1.7950380067641494,
+          1.1865883709262632,
+          -0.7392584354662459,
+          0.8379880235446873,
+          -2.727915922546154,
+          -2.877158239654202,
+          1.5580022026122684,
+          -0.32416246263454457,
+          -0.8262167471043201,
+          0.9199632668276169,
+          0.3342733578386899,
+          0.23265006407298908,
+          0.4173894389397787,
+          -0.8604590086998258,
+          -3.2746014167916093,
+          0.6372332050522047,
+          -2.1916719876710533,
+          -0.8558104248227887,
+          2.1164977585618137,
+          -1.0520110927006723,
+          -2.9782234130800798,
+          -0.4879365559593939,
+          -1.4743509834420012
+        ],
+        "seconds": 0.8061105000087991,
+        "evaluations": 333,
+        "trials": [
+          {
+            "iterations": 313,
+            "evaluations": 333,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9999999999993607
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 27,
+        "single_qubit_gates": 53,
+        "depth": 23,
+        "two_qubit_depth": 13
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 52,
+        "single_qubit_gates": 110,
+        "depth": 45,
+        "two_qubit_depth": 22
+      },
+      "compiled_fidelity": 0.9999999999993572,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "native_circuit_path": "chain-6-3-depth10-cp2.cirq.json"
+    }
+  ],
+  "baselines": [
+    {
+      "method": "SCS",
+      "n": 4,
+      "l": 2,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "ideal_fidelity": 0.9999999999999998,
+      "logical_after_routing": {
+        "two_qubit_gates": 40,
+        "single_qubit_gates": 16,
+        "depth": 53,
+        "two_qubit_depth": 40
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 46,
+        "single_qubit_gates": 91,
+        "depth": 93,
+        "two_qubit_depth": 46
+      },
+      "device_validated": true,
+      "construction_compilation_seconds": 0.4013750000158325,
+      "optimization_seconds": 0.0,
+      "duration_calibrated_ns": null
+    },
+    {
+      "method": "recursive",
+      "n": 4,
+      "l": 2,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "ideal_fidelity": 1.0000000000000004,
+      "logical_after_routing": {
+        "two_qubit_gates": 40,
+        "single_qubit_gates": 65,
+        "depth": 105,
+        "two_qubit_depth": 40
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 44,
+        "single_qubit_gates": 83,
+        "depth": 83,
+        "two_qubit_depth": 41
+      },
+      "device_validated": true,
+      "construction_compilation_seconds": 0.4203262999653816,
+      "optimization_seconds": 0.0,
+      "duration_calibrated_ns": null
+    },
+    {
+      "method": "SCS",
+      "n": 6,
+      "l": 3,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "ideal_fidelity": 0.9999999999999996,
+      "logical_after_routing": {
+        "two_qubit_gates": 124,
+        "single_qubit_gates": 41,
+        "depth": 156,
+        "two_qubit_depth": 124
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 150,
+        "single_qubit_gates": 297,
+        "depth": 298,
+        "two_qubit_depth": 150
+      },
+      "device_validated": true,
+      "construction_compilation_seconds": 1.2676072000758722,
+      "optimization_seconds": 0.0,
+      "duration_calibrated_ns": null
+    },
+    {
+      "method": "recursive",
+      "n": 6,
+      "l": 3,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "ideal_fidelity": 0.9999999999999991,
+      "logical_after_routing": {
+        "two_qubit_gates": 298,
+        "single_qubit_gates": 379,
+        "depth": 677,
+        "two_qubit_depth": 298
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 436,
+        "single_qubit_gates": 837,
+        "depth": 810,
+        "two_qubit_depth": 408
+      },
+      "device_validated": true,
+      "construction_compilation_seconds": 3.960642599966377,
+      "optimization_seconds": 0.0,
+      "duration_calibrated_ns": null
+    }
+  ],
+  "kernel_benchmarks": [
+    {
+      "n": 4,
+      "l": 2,
+      "dimension": 6,
+      "state_bytes": 96,
+      "sparse_operator_bytes": 76,
+      "direct": {
+        "median_seconds": 1.2199976481497288e-05,
+        "max_error": 0.0,
+        "repetitions": 7
+      },
+      "sparse_expm_multiply": {
+        "median_seconds": 0.0008839999791234732,
+        "max_error": 2.7755575615628914e-17,
+        "repetitions": 7
+      },
+      "dense_expm": {
+        "median_seconds": 1.6700010746717453e-05,
+        "max_error": 3.925231146709438e-17,
+        "repetitions": 7
+      }
+    },
+    {
+      "n": 6,
+      "l": 3,
+      "dimension": 20,
+      "state_bytes": 320,
+      "sparse_operator_bytes": 228,
+      "direct": {
+        "median_seconds": 1.1399970389902592e-05,
+        "max_error": 0.0,
+        "repetitions": 7
+      },
+      "sparse_expm_multiply": {
+        "median_seconds": 0.0006749000167474151,
+        "max_error": 5.594315114139762e-17,
+        "repetitions": 7
+      },
+      "dense_expm": {
+        "median_seconds": 7.179996464401484e-05,
+        "max_error": 5.594315114139762e-17,
+        "repetitions": 7
+      }
+    },
+    {
+      "n": 8,
+      "l": 4,
+      "dimension": 70,
+      "state_bytes": 1120,
+      "sparse_operator_bytes": 764,
+      "direct": {
+        "median_seconds": 1.200009137392044e-05,
+        "max_error": 0.0,
+        "repetitions": 7
+      },
+      "sparse_expm_multiply": {
+        "median_seconds": 0.0008889000164344907,
+        "max_error": 5.551115123125783e-17,
+        "repetitions": 7
+      },
+      "dense_expm": {
+        "median_seconds": 0.0010873000137507915,
+        "max_error": 5.561946577567963e-17,
+        "repetitions": 7
+      }
+    },
+    {
+      "n": 10,
+      "l": 5,
+      "dimension": 252,
+      "state_bytes": 4032,
+      "sparse_operator_bytes": 2692,
+      "direct": {
+        "median_seconds": 1.4199991710484028e-05,
+        "max_error": 0.0,
+        "repetitions": 7
+      },
+      "sparse_expm_multiply": {
+        "median_seconds": 0.000992799992673099,
+        "max_error": 5.551115123125783e-17,
+        "repetitions": 7
+      }
+    },
+    {
+      "n": 12,
+      "l": 6,
+      "dimension": 924,
+      "state_bytes": 14784,
+      "sparse_operator_bytes": 9748,
+      "direct": {
+        "median_seconds": 1.9900035113096237e-05,
+        "max_error": 0.0,
+        "repetitions": 7
+      },
+      "sparse_expm_multiply": {
+        "median_seconds": 0.0012405000161379576,
+        "max_error": 1.5515838457795457e-17,
+        "repetitions": 7
+      }
+    }
+  ]
+}

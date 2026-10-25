@@ -1,0 +1,125 @@
+{
+  "updated": "2026-10-25T08:02:58.198829+00:00",
+  "evidence_scope": "small-system numerical research, not hardware execution",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "hypothesis": "Interference reduces routing overhead",
+      "status": "inconclusive",
+      "evidence": "Path circuits need no SWAP routing, but no same-algorithm routing ablation isolates the source of the benefit.",
+      "mathematical_evidence": "No routing advantage theorem.",
+      "numerical_evidence": "Path circuits need no SWAP routing, but no same-algorithm routing ablation isolates the source of the benefit.",
+      "counterexamples_or_limits": "Routing, decomposition and state-specific gate elimination are confounded in total cost differences.",
+      "experiment_runs": [
+        "20261025T075710653153Z",
+        "20261025T075915050796Z",
+        "geometry-20261025T080010278842Z",
+        "pruned-20261025T080258195319Z"
+      ],
+      "next_cheapest_experiment": "Measure explicit SWAP and controlled-distribution costs with the same topology/compiler.",
+      "falsifier": "Optimized candidates lose their cost advantage under equally optimized routing."
+    },
+    {
+      "id": "H2",
+      "hypothesis": "Free XY has reachability limitations",
+      "status": "supported",
+      "evidence": "Proven for open chains; exact D\u2082\u2074 bound verified independently. Star is a counterexample to extending the chain claim to all graphs.",
+      "mathematical_evidence": "Complete derivation in theory.md: Plucker obstruction and exact D2^4 Slater bound.",
+      "numerical_evidence": "Proven for open chains; exact D\u2082\u2074 bound verified independently. Star is a counterexample to extending the chain claim to all graphs.",
+      "counterexamples_or_limits": "The star prepares D2^4 with XY+Z alone; the chain theorem is not graph-general.",
+      "experiment_runs": [
+        "20261025T075710653153Z",
+        "20261025T075915050796Z",
+        "geometry-20261025T080010278842Z",
+        "pruned-20261025T080258195319Z"
+      ],
+      "next_cheapest_experiment": "Joint-sector star leaf test; distinguish ring parity from branched connectivity.",
+      "falsifier": "An independently verified open-chain quadratic circuit violates the Plucker bound (would contradict the assumptions or implementation)."
+    },
+    {
+      "id": "H3",
+      "hypothesis": "Few interactions suffice",
+      "status": "supported",
+      "evidence": "One CP achieves unit numerical fidelity for D\u2082\u2074 and D\u2083\u2076 at sufficient tested depth; four-layer D\u2082\u2074 is a negative result.",
+      "mathematical_evidence": "CP introduces nonquadratic fermion interactions; no general sufficiency theorem.",
+      "numerical_evidence": "One CP achieves unit numerical fidelity for D\u2082\u2074 and D\u2083\u2076 at sufficient tested depth; four-layer D\u2082\u2074 is a negative result.",
+      "counterexamples_or_limits": "Four-layer one-CP D2^4 trial did not improve fidelity; zero-CP star single-sector success does not imply all-sector success.",
+      "experiment_runs": [
+        "20261025T075710653153Z",
+        "20261025T075915050796Z",
+        "geometry-20261025T080010278842Z",
+        "pruned-20261025T080258195319Z"
+      ],
+      "next_cheapest_experiment": "Require common-sector phase coherence before generalizing.",
+      "falsifier": "Additional intermediate states require interaction counts growing too rapidly to retain the cost advantage."
+    },
+    {
+      "id": "H4",
+      "hypothesis": "Native FSim provides an advantage",
+      "status": "inconclusive",
+      "evidence": "Arbitrary FSim compiled to CZ; no calibrated fixed-native comparison exists.",
+      "mathematical_evidence": "Exchange and CP commute on the same pair and combine algebraically into FSim; pulse availability is a separate question.",
+      "numerical_evidence": "Arbitrary FSim compiled to CZ; no calibrated fixed-native comparison exists.",
+      "counterexamples_or_limits": "No fixed-native-FSim experiment was performed.",
+      "experiment_runs": [
+        "20261025T075710653153Z",
+        "20261025T075915050796Z",
+        "geometry-20261025T080010278842Z",
+        "pruned-20261025T080258195319Z"
+      ],
+      "next_cheapest_experiment": "Obtain an actual processor gate-set record and fixed-pulse compiler.",
+      "falsifier": "Fixed native pulse compilation is no cheaper than CZ at equal fidelity."
+    },
+    {
+      "id": "H5",
+      "hypothesis": "Symmetry reduces search cost",
+      "status": "untested",
+      "evidence": "Collective symmetry can conserve target overlap and obstruct preparation; no fair constrained-parameter optimization measured.",
+      "mathematical_evidence": "Permutation-symmetric target-eigenstate controls can conserve target overlap; symmetry is not automatically helpful.",
+      "numerical_evidence": "Collective symmetry can conserve target overlap and obstruct preparation; no fair constrained-parameter optimization measured.",
+      "counterexamples_or_limits": "No structured-parameter benchmark was performed.",
+      "experiment_runs": [
+        "20261025T075710653153Z",
+        "20261025T075915050796Z",
+        "geometry-20261025T080010278842Z",
+        "pruned-20261025T080258195319Z"
+      ],
+      "next_cheapest_experiment": "Test input-compatible reflection constraints at equal budgets.",
+      "falsifier": "Symmetry constraints reduce attainable fidelity or do not reduce wall time."
+    },
+    {
+      "id": "H6",
+      "hypothesis": "Short approximate beats deep exact under noise",
+      "status": "supported",
+      "evidence": "Observed at n=6 for synthetic channel model after equal pruning/compilation, not calibrated hardware.",
+      "mathematical_evidence": "No general noise ordering theorem.",
+      "numerical_evidence": "Observed at n=6 for synthetic channel model after equal pruning/compilation, not calibrated hardware.",
+      "counterexamples_or_limits": "At n=4 the deeper exact chain circuit beats the shorter approximate one at p2=.001; the ordering depends on noise and candidate.",
+      "experiment_runs": [
+        "20261025T075710653153Z",
+        "20261025T075915050796Z",
+        "geometry-20261025T080010278842Z",
+        "pruned-20261025T080258195319Z"
+      ],
+      "next_cheapest_experiment": "Sweep T1/T2 and coherent parameter errors; reversal would limit this observation.",
+      "falsifier": "The ordering reverses across measured/calibrated error ranges."
+    },
+    {
+      "id": "H7",
+      "hypothesis": "Hybrid scales better",
+      "status": "inconclusive",
+      "evidence": "A common-phase, all-weight star leaf with one CP is numerically verified at 26 CZ versus the same-star routed SCS unitary at 250 CZ. Full recursive integration/scaling remains untested. Zero-CP trial fails the coherent leaf test within the bounded schedule.",
+      "mathematical_evidence": "The binomial split and common-sector phase conditions are necessary for coherent substitution.",
+      "numerical_evidence": "A common-phase, all-weight star leaf with one CP is numerically verified at 26 CZ versus the same-star routed SCS unitary at 250 CZ. Full recursive integration/scaling remains untested. Zero-CP trial fails the coherent leaf test within the bounded schedule.",
+      "counterexamples_or_limits": "The zero-CP star trial fails common-sector preparation despite unit weight-two fidelity; no full recursive integration exists.",
+      "experiment_runs": [
+        "20261025T075710653153Z",
+        "20261025T075915050796Z",
+        "geometry-20261025T080010278842Z",
+        "pruned-20261025T080258195319Z"
+      ],
+      "next_cheapest_experiment": "Substitute the verified leaf into one physically mapped recursion node; compare full routed cost and branch coherence.",
+      "falsifier": "A coherent multi-sector leaf is no cheaper than the existing exact unitary."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "bell_helper": {
+    "structure_violations": [
+      "partial readout diagonal 8 at moment 4: 6 missing"
+    ],
+    "verification": {
+      "status": "verified",
+      "minimum_branch_fidelity": 0.9999999999999996,
+      "branches": 2,
+      "active_qubits": 3,
+      "total_probability": 1.0,
+      "discarded_roundoff_probability": 0.0
+    },
+    "reported_readout_line_valid": true
+  },
+  "scope": "experimental helpers only; not a rejection of the public accepted portfolio"
+}

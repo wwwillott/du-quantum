@@ -1,0 +1,146 @@
+{
+  "source": "C:\\Users\\pinol\\Documents\\.FALL 2026\\Hackathons\\DuQuantum\\du-quantum\\interference_dicke\\artifacts\\20261025T075915050796Z\\results.json",
+  "environment": {
+    "python": "3.14.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 189 Stepping 1, GenuineIntel",
+    "threads": 1,
+    "packages": {
+      "numpy": "2.5.0",
+      "scipy": "1.18.1",
+      "cirq-core": "1.8.0.dev20261023221525",
+      "cirq-google": "1.8.0.dev20261023221525",
+      "matplotlib": "3.11.2"
+    }
+  },
+  "git_commit": "14e4360e86b451a2f845ee7a9a809c6dbd2beeaa",
+  "timestamp_utc": "2026-10-25T08:01:32.779597+00:00",
+  "records": [
+    {
+      "id": "chain-6-3-depth6-cp0",
+      "noise": {
+        "fidelity": 0.8375366838394096,
+        "p_valid": 0.9461829853347692,
+        "f_post": 0.8851741120065487,
+        "observed_valid_after_readout": 0.893448101210977,
+        "duration_ns_illustrative": 805.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      },
+      "simulation_seconds": 0.3683988000266254
+    },
+    {
+      "id": "chain-6-3-depth6-cp1",
+      "noise": {
+        "fidelity": 0.8778253457091842,
+        "p_valid": 0.9440919786583748,
+        "f_post": 0.9298091346530024,
+        "observed_valid_after_readout": 0.8915373424657351,
+        "duration_ns_illustrative": 870.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      },
+      "simulation_seconds": 0.37333300011232495
+    },
+    {
+      "id": "chain-6-3-depth6-cp2",
+      "noise": {
+        "fidelity": 0.9019555930398517,
+        "p_valid": 0.9424946963255169,
+        "f_post": 0.9569874467795797,
+        "observed_valid_after_readout": 0.8900963418631375,
+        "duration_ns_illustrative": 935.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      },
+      "simulation_seconds": 0.29862530005630106
+    },
+    {
+      "id": "chain-6-3-depth10-cp1",
+      "noise": {
+        "fidelity": 0.8828652093020091,
+        "p_valid": 0.9116071687480398,
+        "f_post": 0.9684711129625015,
+        "observed_valid_after_readout": 0.862016216031678,
+        "duration_ns_illustrative": 1390.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      },
+      "simulation_seconds": 0.4920228000264615
+    },
+    {
+      "id": "SCS",
+      "noise": {
+        "fidelity": 0.6013857382217221,
+        "p_valid": 0.7098278378123012,
+        "f_post": 0.8472276039147759,
+        "observed_valid_after_readout": 0.6777377201544603,
+        "duration_ns_illustrative": 9700.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      },
+      "simulation_seconds": 1.486765000037849
+    },
+    {
+      "id": "recursive",
+      "noise": {
+        "fidelity": 0.2499181431973499,
+        "p_valid": 0.5012172225110195,
+        "f_post": 0.49862241753246084,
+        "observed_valid_after_readout": 0.4853765573038656,
+        "duration_ns_illustrative": 26370.0,
+        "settings": {
+          "p1": 0.0001,
+          "p2": 0.001,
+          "t1_ns": 100000,
+          "t2_ns": 80000,
+          "single_ns": 25,
+          "two_ns": 40,
+          "readout_flip": 0.01
+        },
+        "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+      },
+      "simulation_seconds": 6.45969549997244
+    }
+  ]
+}

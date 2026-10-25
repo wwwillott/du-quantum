@@ -1,0 +1,3155 @@
+{
+  "run_id": "20261025T075710653153Z",
+  "timestamp_utc": "2026-10-25T07:57:10.655006+00:00",
+  "git_commit": "14e4360e86b451a2f845ee7a9a809c6dbd2beeaa",
+  "git_status": " M testing/__pycache__/qvm_simulate.cpython-314.pyc\n?? benchmarks/__pycache__/\n?? interference_dicke/\n?? willow_dicke/__pycache__/rectangle.cpython-314.pyc\n?? willow_dicke/__pycache__/yuan_zhang.cpython-314.pyc\n?? willow_dicke/tests/__pycache__/test_grid7x8.cpython-314-pytest-9.1.1.pyc\n?? willow_dicke/yuan_zhang_2025/__pycache__/\n?? willow_dicke/yuan_zhang_2025/tests/__pycache__/\n",
+  "environment": {
+    "python": "3.14.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 189 Stepping 1, GenuineIntel",
+    "threads": 1,
+    "packages": {
+      "numpy": "2.5.0",
+      "scipy": "1.18.1",
+      "cirq-core": "1.8.0.dev20261023221525",
+      "cirq-google": "1.8.0.dev20261023221525",
+      "matplotlib": "3.11.2"
+    }
+  },
+  "conventions": "bit i = qubit i; initial lowest l bits; uniform positive target; hbar=1; see core.py",
+  "noise_model": "none for optimization; optional synthetic channels on compiled CZ circuits",
+  "output_path": "C:\\Users\\pinol\\Documents\\.FALL 2026\\Hackathons\\DuQuantum\\du-quantum\\interference_dicke\\artifacts\\20261025T075710653153Z",
+  "experiments": [
+    {
+      "id": "chain-4-1-depth4-cp0",
+      "n": 4,
+      "l": 1,
+      "dimension": 4,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "free_XY",
+      "matching_layers": 4,
+      "cp_count": 0,
+      "parameter_count": 18,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.9999999999999996,
+        "parameters": [
+          1.6092672456149228,
+          -0.38403808930179695,
+          1.98108379343449,
+          1.5121532884306583,
+          -2.549858925072973,
+          3.7881716218542416,
+          1.3687357505291722,
+          2.1608106334619195,
+          -2.427993164612759,
+          -0.6379530254052455,
+          -0.9800871643617772,
+          2.6614238288311802,
+          1.0153130929268304,
+          1.8185803773149323,
+          -0.9718235957881661,
+          -1.7338293343704272,
+          0.9503155097422781,
+          -3.4459749503499335
+        ],
+        "seconds": 0.018848099978640676,
+        "evaluations": 20,
+        "trials": [
+          {
+            "iterations": 17,
+            "evaluations": 20,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.9999999999999996
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 6,
+        "single_qubit_gates": 13,
+        "depth": 9,
+        "two_qubit_depth": 5
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 12,
+        "single_qubit_gates": 28,
+        "depth": 17,
+        "two_qubit_depth": 8
+      },
+      "compiled_fidelity": 1.0000000000000013,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "native_circuit_path": "chain-4-1-depth4-cp0.cirq.json"
+    },
+    {
+      "id": "chain-4-2-depth2-cp0",
+      "n": 4,
+      "l": 2,
+      "dimension": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "free_XY",
+      "matching_layers": 2,
+      "cp_count": 0,
+      "parameter_count": 9,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.3333333333333335,
+        "parameters": [
+          -0.311734346044068,
+          -0.8117999558004185,
+          2.6814435075521947,
+          0.9039312087064584,
+          2.0279710262248587,
+          -0.785398161495501,
+          -1.7138096556494131,
+          0.7646700688600142,
+          -3.1623207447781154
+        ],
+        "seconds": 0.01615809998475015,
+        "evaluations": 37,
+        "trials": [
+          {
+            "iterations": 7,
+            "evaluations": 8,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.33333333333333304
+          },
+          {
+            "iterations": 9,
+            "evaluations": 11,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.3333333333333335
+          },
+          {
+            "iterations": 6,
+            "evaluations": 8,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.3333333333333335
+          },
+          {
+            "iterations": 8,
+            "evaluations": 10,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.3333333333333335
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 3,
+        "single_qubit_gates": 8,
+        "depth": 5,
+        "two_qubit_depth": 3
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 6,
+        "single_qubit_gates": 16,
+        "depth": 9,
+        "two_qubit_depth": 4
+      },
+      "compiled_fidelity": 0.33333333333333354,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "noise": [
+        {
+          "fidelity": 0.33022870510291513,
+          "p_valid": 0.9915328434188528,
+          "f_post": 0.33304868042925406,
+          "observed_valid_after_readout": 0.9530753611862877,
+          "duration_ns_illustrative": 285.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.0,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.3286516932186604,
+          "p_valid": 0.9873343512174081,
+          "f_post": 0.3328676783233811,
+          "observed_valid_after_readout": 0.9491327637342115,
+          "duration_ns_illustrative": 285.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.001,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.3224216755302942,
+          "p_valid": 0.9707741374402714,
+          "f_post": 0.3321284149374362,
+          "observed_valid_after_readout": 0.9335821197218537,
+          "duration_ns_illustrative": 285.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.005,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        }
+      ],
+      "native_circuit_path": "chain-4-2-depth2-cp0.cirq.json"
+    },
+    {
+      "id": "chain-4-2-depth2-cp1",
+      "n": 4,
+      "l": 2,
+      "dimension": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "interacting_XY",
+      "matching_layers": 2,
+      "cp_count": 1,
+      "parameter_count": 10,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "cp",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.3333333333333335,
+        "parameters": [
+          -0.8117999558004185,
+          2.6814435075521947,
+          0.9039312087064583,
+          2.0279710262248587,
+          -0.3555390745230987,
+          -1.7138096556494131,
+          0.7853981628982475,
+          -2.740617007691522,
+          2.6210168367143325,
+          0.264822347365874
+        ],
+        "seconds": 0.021721099968999624,
+        "evaluations": 53,
+        "trials": [
+          {
+            "iterations": 8,
+            "evaluations": 9,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.33333333333333326
+          },
+          {
+            "iterations": 10,
+            "evaluations": 16,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.3333333333333335
+          },
+          {
+            "iterations": 12,
+            "evaluations": 19,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.3333333333333335
+          },
+          {
+            "iterations": 7,
+            "evaluations": 9,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.3333333333333335
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 4,
+        "single_qubit_gates": 8,
+        "depth": 6,
+        "two_qubit_depth": 4
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 7,
+        "single_qubit_gates": 18,
+        "depth": 11,
+        "two_qubit_depth": 5
+      },
+      "compiled_fidelity": 0.33333333333333354,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "noise": [
+        {
+          "fidelity": 0.32982319342017447,
+          "p_valid": 0.9908515656767983,
+          "f_post": 0.3328684182831055,
+          "observed_valid_after_readout": 0.9524404361286678,
+          "duration_ns_illustrative": 350.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.0,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.3279868994603244,
+          "p_valid": 0.9861357908969866,
+          "f_post": 0.3325981091934493,
+          "observed_valid_after_readout": 0.9480157952841868,
+          "duration_ns_illustrative": 350.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.001,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.3207509615929904,
+          "p_valid": 0.967583345542383,
+          "f_post": 0.3314969848030942,
+          "observed_valid_after_readout": 0.9306089516955464,
+          "duration_ns_illustrative": 350.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.005,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        }
+      ],
+      "native_circuit_path": "chain-4-2-depth2-cp1.cirq.json"
+    },
+    {
+      "id": "chain-4-2-depth4-cp0",
+      "n": 4,
+      "l": 2,
+      "dimension": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "free_XY",
+      "matching_layers": 4,
+      "cp_count": 0,
+      "parameter_count": 18,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.971404520791032,
+        "parameters": [
+          -2.3252717601793034,
+          -0.15265045057405713,
+          -1.7158791655715955,
+          1.0669727963426203,
+          -0.3948861399258016,
+          2.18627603305791,
+          1.2583027464413523,
+          -1.3927538451524235,
+          2.3014685854400403,
+          2.0943951016723292,
+          -1.047197546012674,
+          -1.5898984816805763,
+          1.1927591204068355,
+          -2.501463318919186,
+          -2.5261129443984838,
+          -3.3552588828150274,
+          0.9306669889592082,
+          1.716065158268573
+        ],
+        "seconds": 0.07887780002783984,
+        "evaluations": 109,
+        "trials": [
+          {
+            "iterations": 24,
+            "evaluations": 27,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910238
+          },
+          {
+            "iterations": 20,
+            "evaluations": 23,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.9714045207910312
+          },
+          {
+            "iterations": 26,
+            "evaluations": 32,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.971404520791032
+          },
+          {
+            "iterations": 19,
+            "evaluations": 27,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.9714045207910316
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 6,
+        "single_qubit_gates": 14,
+        "depth": 9,
+        "two_qubit_depth": 5
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 12,
+        "single_qubit_gates": 27,
+        "depth": 17,
+        "two_qubit_depth": 8
+      },
+      "compiled_fidelity": 0.971404520791032,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "noise": [
+        {
+          "fidelity": 0.9524097950520801,
+          "p_valid": 0.9840954695215014,
+          "f_post": 0.967802235198961,
+          "observed_valid_after_readout": 0.946134187931339,
+          "duration_ns_illustrative": 545.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.0,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.9426550815220502,
+          "p_valid": 0.976386552472176,
+          "f_post": 0.9654527493596478,
+          "observed_valid_after_readout": 0.9389066744196505,
+          "duration_ns_illustrative": 545.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.001,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.9046298205677005,
+          "p_valid": 0.9464280511336071,
+          "f_post": 0.9558358075758197,
+          "observed_valid_after_readout": 0.9108187019460124,
+          "duration_ns_illustrative": 545.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.005,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        }
+      ],
+      "native_circuit_path": "chain-4-2-depth4-cp0.cirq.json"
+    },
+    {
+      "id": "chain-4-2-depth4-cp1",
+      "n": 4,
+      "l": 2,
+      "dimension": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "interacting_XY",
+      "matching_layers": 4,
+      "cp_count": 1,
+      "parameter_count": 19,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "cp",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.9714045207910313,
+        "parameters": [
+          -1.715879165571594,
+          1.066972796342621,
+          -0.394886139925804,
+          2.090278753489613,
+          1.258302746441354,
+          -0.9553166079789732,
+          2.0876499022927333,
+          2.14091313711439,
+          -0.9330163995560947,
+          -1.3299737473283346,
+          1.047197528613992,
+          -2.0943951086398385,
+          -1.1607815934210508,
+          -3.5940627241167857,
+          2.6214594507068036,
+          0.6154796874855041,
+          2.0138428721193846,
+          2.090929527220941,
+          -0.26526495763960795
+        ],
+        "seconds": 0.11793750000651926,
+        "evaluations": 120,
+        "trials": [
+          {
+            "iterations": 34,
+            "evaluations": 46,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910308
+          },
+          {
+            "iterations": 17,
+            "evaluations": 20,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.9714045207910308
+          },
+          {
+            "iterations": 25,
+            "evaluations": 29,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910313
+          },
+          {
+            "iterations": 22,
+            "evaluations": 25,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910312
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 7,
+        "single_qubit_gates": 14,
+        "depth": 10,
+        "two_qubit_depth": 6
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 13,
+        "single_qubit_gates": 29,
+        "depth": 19,
+        "two_qubit_depth": 9
+      },
+      "compiled_fidelity": 0.9714045207910306,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "noise": [
+        {
+          "fidelity": 0.9506463669307887,
+          "p_valid": 0.9828600864322032,
+          "f_post": 0.9672245114578304,
+          "observed_valid_after_readout": 0.9449828608138497,
+          "duration_ns_illustrative": 610.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.0,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.9401624587044844,
+          "p_valid": 0.9746560453195791,
+          "f_post": 0.9646094775887996,
+          "observed_valid_after_readout": 0.9372939220219811,
+          "duration_ns_illustrative": 610.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.001,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.8993916396299195,
+          "p_valid": 0.9428479283343105,
+          "f_post": 0.9539095463876519,
+          "observed_valid_after_readout": 0.9074823581629906,
+          "duration_ns_illustrative": 610.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.005,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        }
+      ],
+      "native_circuit_path": "chain-4-2-depth4-cp1.cirq.json"
+    },
+    {
+      "id": "chain-4-2-depth6-cp0",
+      "n": 4,
+      "l": 2,
+      "dimension": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "free_XY",
+      "matching_layers": 6,
+      "cp_count": 0,
+      "parameter_count": 27,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.9714045207910325,
+        "parameters": [
+          -2.8663654759963415,
+          -2.172163183978775,
+          1.150130493507593,
+          1.537885981753596,
+          2.9374502817940877,
+          -1.2026253230536605,
+          -0.8139256717294364,
+          -0.13533802544563167,
+          -2.0070574478952765,
+          -2.187663660726557,
+          -0.8386835543532226,
+          -1.5834469276714078,
+          0.9904890122776496,
+          -0.2510886214710061,
+          1.8432335924784176,
+          1.3907349843415384,
+          -1.1278872356207559,
+          2.1039157102981965,
+          1.7511577195441999,
+          -0.5672136499463815,
+          -1.189121783017306,
+          1.1892812691754193,
+          -1.988378127258008,
+          -1.7197654854619582,
+          -2.9544821841517526,
+          1.902146196053786,
+          1.2541932916037573
+        ],
+        "seconds": 0.08395819994620979,
+        "evaluations": 110,
+        "trials": [
+          {
+            "iterations": 22,
+            "evaluations": 30,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.9714045207910316
+          },
+          {
+            "iterations": 18,
+            "evaluations": 21,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.9714045207910325
+          },
+          {
+            "iterations": 20,
+            "evaluations": 27,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "fidelity": 0.9714045207910325
+          },
+          {
+            "iterations": 21,
+            "evaluations": 32,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910308
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 9,
+        "single_qubit_gates": 20,
+        "depth": 13,
+        "two_qubit_depth": 7
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 18,
+        "single_qubit_gates": 39,
+        "depth": 25,
+        "two_qubit_depth": 12
+      },
+      "compiled_fidelity": 0.9714045207910322,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "noise": [
+        {
+          "fidelity": 0.942796375457174,
+          "p_valid": 0.9766570219478203,
+          "f_post": 0.9653300537141324,
+          "observed_valid_after_readout": 0.939190906794256,
+          "duration_ns_illustrative": 805.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.0,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.9278636455287842,
+          "p_valid": 0.9655049460841907,
+          "f_post": 0.9610138708164379,
+          "observed_valid_after_readout": 0.9287399896265328,
+          "duration_ns_illustrative": 805.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.001,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.8705109892660629,
+          "p_valid": 0.9228136913183235,
+          "f_post": 0.9433225768708076,
+          "observed_valid_after_readout": 0.8887315517647967,
+          "duration_ns_illustrative": 805.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.005,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        }
+      ],
+      "native_circuit_path": "chain-4-2-depth6-cp0.cirq.json"
+    },
+    {
+      "id": "chain-4-2-depth6-cp1",
+      "n": 4,
+      "l": 2,
+      "dimension": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "interacting_XY",
+      "matching_layers": 6,
+      "cp_count": 1,
+      "parameter_count": 28,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "cp",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.9999999999999916,
+        "parameters": [
+          1.721316619099806,
+          -0.38403808930179695,
+          2.2531371815723262,
+          1.2400999002928097,
+          -2.549858925072965,
+          2.3069592874517935,
+          1.6407891386670366,
+          1.738713774982881,
+          -2.27794969427164,
+          -0.9235258682565655,
+          -0.5160124357163418,
+          2.716268908595081,
+          0.8104245428217733,
+          1.708559153479473,
+          -1.6514526467105906,
+          -0.21333302472942392,
+          0.37779173281641715,
+          -3.0082418770252586,
+          1.9132736967414417,
+          1.2091605112653916,
+          1.0816219222955819,
+          -0.47354342514763076,
+          2.284186568230848,
+          2.084868700403784,
+          2.27396008138113,
+          -1.4781447097309448,
+          -0.13799405194091707,
+          -3.9959500202709917
+        ],
+        "seconds": 0.07172929996158928,
+        "evaluations": 67,
+        "trials": [
+          {
+            "iterations": 56,
+            "evaluations": 67,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9999999999999916
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 10,
+        "single_qubit_gates": 20,
+        "depth": 14,
+        "two_qubit_depth": 8
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 19,
+        "single_qubit_gates": 42,
+        "depth": 27,
+        "two_qubit_depth": 13
+      },
+      "compiled_fidelity": 0.9999999999999905,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "noise": [
+        {
+          "fidelity": 0.9685825558510519,
+          "p_valid": 0.9756186334967489,
+          "f_post": 0.9927880860367757,
+          "observed_valid_after_readout": 0.9382164025867068,
+          "duration_ns_illustrative": 870.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.0,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.9523695598280729,
+          "p_valid": 0.963749853608821,
+          "f_post": 0.9881916518709353,
+          "observed_valid_after_readout": 0.9270909779164935,
+          "duration_ns_illustrative": 870.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.001,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.8902783187901075,
+          "p_valid": 0.918441424406222,
+          "f_post": 0.9693359806431617,
+          "observed_valid_after_readout": 0.8846190597046069,
+          "duration_ns_illustrative": 870.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.005,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        }
+      ],
+      "native_circuit_path": "chain-4-2-depth6-cp1.cirq.json"
+    },
+    {
+      "id": "chain-4-2-depth8-cp0",
+      "n": 4,
+      "l": 2,
+      "dimension": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "free_XY",
+      "matching_layers": 8,
+      "cp_count": 0,
+      "parameter_count": 36,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.9714045207910313,
+        "parameters": [
+          -2.3252717601793034,
+          -0.15265045057405713,
+          -1.7158791655715941,
+          1.066972796342621,
+          -0.3948861399258023,
+          1.8926838492889808,
+          1.258302746441353,
+          -1.1669435580017644,
+          2.0756582982893805,
+          2.1267182226992536,
+          -0.930062983893466,
+          -1.379977194746184,
+          1.208648120623103,
+          -2.2809670593123705,
+          -1.9889184727871223,
+          -3.1453375958806324,
+          1.918818018454358,
+          0.9642993885965064,
+          1.2099963113173398,
+          1.4173423319393204,
+          -0.12371695310137563,
+          0.36350636805960307,
+          -2.1931477067209184,
+          -2.490008735394434,
+          1.1925298576004115,
+          -0.20585747986116526,
+          0.43580733061394983,
+          1.6075429428950319,
+          0.7896860350254208,
+          0.3112947718357844,
+          0.5075373490364732,
+          -0.9934856517010702,
+          -3.099055862445071,
+          -0.42297090132120846,
+          -1.6806662975271,
+          -0.3135225762472496
+        ],
+        "seconds": 0.09681230003479868,
+        "evaluations": 83,
+        "trials": [
+          {
+            "iterations": 18,
+            "evaluations": 20,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910301
+          },
+          {
+            "iterations": 16,
+            "evaluations": 19,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910313
+          },
+          {
+            "iterations": 18,
+            "evaluations": 23,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910099
+          },
+          {
+            "iterations": 15,
+            "evaluations": 21,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910299
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 12,
+        "single_qubit_gates": 26,
+        "depth": 17,
+        "two_qubit_depth": 9
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 24,
+        "single_qubit_gates": 52,
+        "depth": 33,
+        "two_qubit_depth": 16
+      },
+      "compiled_fidelity": 0.9714045207910333,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "noise": [
+        {
+          "fidelity": 0.9338103925155989,
+          "p_valid": 0.9694253870606447,
+          "f_post": 0.9632617476080004,
+          "observed_valid_after_readout": 0.9324451522602266,
+          "duration_ns_illustrative": 1065.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.0,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.9142182913131474,
+          "p_valid": 0.9551699469990002,
+          "f_post": 0.9571263147311987,
+          "observed_valid_after_readout": 0.9190941327294988,
+          "duration_ns_illustrative": 1065.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.001,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.8400328555337284,
+          "p_valid": 0.9013594008498297,
+          "f_post": 0.931962161532591,
+          "observed_valid_after_readout": 0.8686935360519711,
+          "duration_ns_illustrative": 1065.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.005,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        }
+      ],
+      "native_circuit_path": "chain-4-2-depth8-cp0.cirq.json"
+    },
+    {
+      "id": "chain-4-2-depth8-cp1",
+      "n": 4,
+      "l": 2,
+      "dimension": 6,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "family": "interacting_XY",
+      "matching_layers": 8,
+      "cp_count": 1,
+      "parameter_count": 37,
+      "schedule": [
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "cp",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          "xy",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ],
+        [
+          "xy",
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          "z",
+          [
+            0
+          ]
+        ],
+        [
+          "z",
+          [
+            1
+          ]
+        ],
+        [
+          "z",
+          [
+            2
+          ]
+        ]
+      ],
+      "optimization": {
+        "fidelity": 0.9999999999999962,
+        "parameters": [
+          -0.15265045057405713,
+          -1.715879165571594,
+          1.0669727963426183,
+          -0.39488613992580557,
+          2.090278753489616,
+          0.9069232189651851,
+          -1.1789351620051198,
+          2.237218623731714,
+          1.765322211736955,
+          -0.7806740446479616,
+          -1.1712852694925917,
+          1.2194603638436394,
+          -2.186740475136688,
+          -1.7370110396692704,
+          -2.9669509124079223,
+          1.8756063276348254,
+          1.0847958868033936,
+          1.4653674458800352,
+          1.6955538828760952,
+          -0.41939108911061734,
+          0.4123992881538311,
+          -2.1692752285010233,
+          -2.394111257353519,
+          1.2807505767362921,
+          -0.3949125047398203,
+          0.5038375262054673,
+          1.834252792886975,
+          0.9277555857781293,
+          0.19202940573764918,
+          0.21190513910075065,
+          -0.99012758323059,
+          -2.926485922313348,
+          -0.34259767879531844,
+          -1.2796806595147352,
+          -0.3330412016807506,
+          2.3070458929662276,
+          -1.681765151427165
+        ],
+        "seconds": 0.0711382000008598,
+        "evaluations": 56,
+        "trials": [
+          {
+            "iterations": 23,
+            "evaluations": 24,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9714045207910241
+          },
+          {
+            "iterations": 29,
+            "evaluations": 32,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "fidelity": 0.9999999999999962
+          }
+        ],
+        "optimizer": "L-BFGS-B, analytic adjoint",
+        "budget": {
+          "starts": 4,
+          "maxiter": 350,
+          "maxfun_per_start": 700,
+          "seconds": 12
+        },
+        "seed": 42
+      },
+      "logical": {
+        "two_qubit_gates": 13,
+        "single_qubit_gates": 26,
+        "depth": 18,
+        "two_qubit_depth": 10
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 25,
+        "single_qubit_gates": 54,
+        "depth": 35,
+        "two_qubit_depth": 17
+      },
+      "compiled_fidelity": 0.9999999999999967,
+      "device_validated": true,
+      "duration_calibrated_ns": null,
+      "noise": [
+        {
+          "fidelity": 0.9594030697084085,
+          "p_valid": 0.9687915923523482,
+          "f_post": 0.9903090378590681,
+          "observed_valid_after_readout": 0.9318442316916882,
+          "duration_ns_illustrative": 1130.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.0,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.9379405434698393,
+          "p_valid": 0.953657927169269,
+          "f_post": 0.9835188454354032,
+          "observed_valid_after_readout": 0.9176635369912919,
+          "duration_ns_illustrative": 1130.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.001,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.8569745061433028,
+          "p_valid": 0.8967461425755802,
+          "f_post": 0.9556489461799661,
+          "observed_valid_after_readout": 0.8643328277917596,
+          "duration_ns_illustrative": 1130.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.005,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        }
+      ],
+      "native_circuit_path": "chain-4-2-depth8-cp1.cirq.json"
+    }
+  ],
+  "baselines": [
+    {
+      "method": "SCS",
+      "n": 4,
+      "l": 2,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "ideal_fidelity": 0.9999999999999998,
+      "logical_after_routing": {
+        "two_qubit_gates": 40,
+        "single_qubit_gates": 16,
+        "depth": 53,
+        "two_qubit_depth": 40
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 46,
+        "single_qubit_gates": 91,
+        "depth": 93,
+        "two_qubit_depth": 46
+      },
+      "device_validated": true,
+      "construction_compilation_seconds": 0.4448144999332726,
+      "optimization_seconds": 0.0,
+      "duration_calibrated_ns": null,
+      "noise": [
+        {
+          "fidelity": 0.9177033091803185,
+          "p_valid": 0.9417777784581616,
+          "f_post": 0.9744372081944248,
+          "observed_valid_after_readout": 0.9066158399107564,
+          "duration_ns_illustrative": 3015.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.0,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.8819250695325866,
+          "p_valid": 0.9156403746761284,
+          "f_post": 0.9631784420215554,
+          "observed_valid_after_readout": 0.8821234070384824,
+          "duration_ns_illustrative": 3015.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.001,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.7533589354592465,
+          "p_valid": 0.8222966478858513,
+          "f_post": 0.9161644248412715,
+          "observed_valid_after_readout": 0.7946422675845919,
+          "duration_ns_illustrative": 3015.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.005,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        }
+      ]
+    },
+    {
+      "method": "recursive",
+      "n": 4,
+      "l": 2,
+      "topology": {
+        "source": "dicke_willow.topology.willow105_graph / Cirq Willow105 static",
+        "qubits": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            8
+          ]
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "kind": "physical path (other device edges unused)"
+      },
+      "ideal_fidelity": 1.0000000000000004,
+      "logical_after_routing": {
+        "two_qubit_gates": 40,
+        "single_qubit_gates": 65,
+        "depth": 105,
+        "two_qubit_depth": 40
+      },
+      "compiled_CZ": {
+        "two_qubit_gates": 44,
+        "single_qubit_gates": 83,
+        "depth": 83,
+        "two_qubit_depth": 41
+      },
+      "device_validated": true,
+      "construction_compilation_seconds": 0.45759130001533777,
+      "optimization_seconds": 0.0,
+      "duration_calibrated_ns": null,
+      "noise": [
+        {
+          "fidelity": 0.9354695865862679,
+          "p_valid": 0.9627721726366124,
+          "f_post": 0.9716416959003139,
+          "observed_valid_after_readout": 0.9259903099154226,
+          "duration_ns_illustrative": 2690.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.0,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.9012951432608057,
+          "p_valid": 0.9411075483182983,
+          "f_post": 0.9576962217244618,
+          "observed_valid_after_readout": 0.9056495253069066,
+          "duration_ns_illustrative": 2690.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.001,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        },
+        {
+          "fidelity": 0.7775783870721121,
+          "p_valid": 0.8619766292391842,
+          "f_post": 0.9020875516757741,
+          "observed_valid_after_readout": 0.8313647336850947,
+          "duration_ns_illustrative": 2690.0,
+          "settings": {
+            "p1": 0.0001,
+            "p2": 0.005,
+            "t1_ns": 100000,
+            "t2_ns": 80000,
+            "single_ns": 25,
+            "two_ns": 40,
+            "readout_flip": 0.01
+          },
+          "model": "synthetic Markovian channels on compiled CZ circuit; no crosstalk/leakage"
+        }
+      ]
+    }
+  ],
+  "kernel_benchmarks": [
+    {
+      "n": 4,
+      "l": 2,
+      "dimension": 6,
+      "state_bytes": 96,
+      "sparse_operator_bytes": 76,
+      "direct": {
+        "median_seconds": 1.4099990949034691e-05,
+        "max_error": 0.0,
+        "repetitions": 7
+      },
+      "sparse_expm_multiply": {
+        "median_seconds": 0.001064400072209537,
+        "max_error": 2.7755575615628914e-17,
+        "repetitions": 7
+      },
+      "dense_expm": {
+        "median_seconds": 1.7000013031065464e-05,
+        "max_error": 3.925231146709438e-17,
+        "repetitions": 7
+      }
+    },
+    {
+      "n": 6,
+      "l": 3,
+      "dimension": 20,
+      "state_bytes": 320,
+      "sparse_operator_bytes": 228,
+      "direct": {
+        "median_seconds": 1.4199991710484028e-05,
+        "max_error": 0.0,
+        "repetitions": 7
+      },
+      "sparse_expm_multiply": {
+        "median_seconds": 0.0008717000018805265,
+        "max_error": 5.594315114139762e-17,
+        "repetitions": 7
+      },
+      "dense_expm": {
+        "median_seconds": 7.489998824894428e-05,
+        "max_error": 5.594315114139762e-17,
+        "repetitions": 7
+      }
+    },
+    {
+      "n": 8,
+      "l": 4,
+      "dimension": 70,
+      "state_bytes": 1120,
+      "sparse_operator_bytes": 764,
+      "direct": {
+        "median_seconds": 1.1999974958598614e-05,
+        "max_error": 0.0,
+        "repetitions": 7
+      },
+      "sparse_expm_multiply": {
+        "median_seconds": 0.001227300032041967,
+        "max_error": 5.551115123125783e-17,
+        "repetitions": 7
+      },
+      "dense_expm": {
+        "median_seconds": 0.0014003000687807798,
+        "max_error": 5.561946577567963e-17,
+        "repetitions": 7
+      }
+    },
+    {
+      "n": 10,
+      "l": 5,
+      "dimension": 252,
+      "state_bytes": 4032,
+      "sparse_operator_bytes": 2692,
+      "direct": {
+        "median_seconds": 1.4199991710484028e-05,
+        "max_error": 0.0,
+        "repetitions": 7
+      },
+      "sparse_expm_multiply": {
+        "median_seconds": 0.0010150999296456575,
+        "max_error": 5.551115123125783e-17,
+        "repetitions": 7
+      }
+    },
+    {
+      "n": 12,
+      "l": 6,
+      "dimension": 924,
+      "state_bytes": 14784,
+      "sparse_operator_bytes": 9748,
+      "direct": {
+        "median_seconds": 2.1799933165311813e-05,
+        "max_error": 0.0,
+        "repetitions": 7
+      },
+      "sparse_expm_multiply": {
+        "median_seconds": 0.0012650000862777233,
+        "max_error": 1.5515838457795457e-17,
+        "repetitions": 7
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "fidelity": 1.0000000000000004,
+  "core": {
+    "fidelity": 1.0000000000000004,
+    "amplitude_residual": 5.266764664266825e-14,
+    "norm": 0.9999999999999998,
+    "active_qubits": 11,
+    "ancilla_zero_probability": 0.9999999999999994
+  },
+  "independent_bits": 18,
+  "branches_certified": 262144,
+  "choi_basis_checks": 19,
+  "certificate": "Clifford Choi isometry; affine Pauli measurement signs",
+  "scheduling": "shared-wire dependencies and causal measurement keys preserved"
+}

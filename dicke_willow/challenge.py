@@ -1,7 +1,10 @@
 """Challenge entry points for ``DuQuantum_Google_Standard.ipynb``.
 
-Both functions return a circuit of ``PhasedXZGate`` and ``CZPowGate`` only.
-The unitary is the ancilla-free Split & Cyclic Shift preparation of
+The hardware function returns ``PhasedXZGate`` and full CZ only.
+Problem 2 additionally permits measurements and classically controlled
+single-qubit corrections. Its independent depth portfolio is described in
+``interference_dicke/problem2/README.md``.
+The hardware unitary is the ancilla-free Split & Cyclic Shift preparation of
 Bärtschi & Eidenbenz (arXiv:1904.07358). It is placed on a path of the
 device graph and SWAP-routed along that path, so every CZ is a coupler the
 caller actually listed.
@@ -54,6 +57,18 @@ def _cz_pair_set(cz_pauli_error_rate: dict) -> set[tuple[cirq.Qid, cirq.Qid]]:
     return pairs
 
 
+def _product_state(qubits, num_qubits, num_excitations):
+    """Zero depth for vacuum, one parallel native-X layer for full weight."""
+    outputs = set(sorted(qubits)[:num_qubits])
+    if len(outputs) != num_qubits:
+        raise NotImplementedError("not enough available qubits")
+    circuit = cirq.Circuit()
+    if num_excitations:
+        gate = cirq.PhasedXZGate(x_exponent=1, z_exponent=0, axis_phase_exponent=0)
+        circuit.append(cirq.Moment(gate.on(q) for q in sorted(outputs)))
+    return circuit, outputs
+
+
 def create_dicke_state(
     num_qubits: int,
     num_excitations: int,
@@ -83,6 +98,10 @@ def create_dicke_state(
         raise NotImplementedError(
             f"unsupported Dicke parameters N={num_qubits}, n={num_excitations}"
         )
+    if num_excitations in (0, num_qubits):
+        available = set(sq_pauli_error_rate) & set(zero_errors) & set(one_errors)
+        available &= set(cirq_google.Willow105.metadata.qubit_set)
+        return _product_state(available, num_qubits, num_excitations)
     adjacency = graph_from_error_rates(
         cz_pauli_error_rate,
         sq_pauli_error_rate,
@@ -120,11 +139,11 @@ def create_dicke_state(
 def create_dicke_state_adaptive(
     num_qubits: int, num_excitations: int
 ) -> tuple[cirq.Circuit, set[cirq.GridQubit]]:
-    """Dicke state on the static Willow105 grid, adaptive gates allowed but unused.
+    """Depth-scored Problem 2 portfolio, including exact adaptive candidates.
 
-    The notebook permits reusing the non-adaptive circuit. Mid-circuit
-    measurement is intentionally absent: a partial readout on one Willow
-    readout line (constant row + column) dephases the other qubits on that line.
+    N=2..20 uses the independently checked integration in
+    interference_dicke.problem2. Readout uses complete Willow diagonals.
+    The original unitary path is retained outside the scored domain.
     """
     if num_qubits < 1 or num_excitations < 0 or num_excitations > num_qubits:
         raise NotImplementedError(
@@ -132,6 +151,12 @@ def create_dicke_state_adaptive(
         )
     if num_qubits > len(cirq_google.Willow105.metadata.qubit_set):
         raise NotImplementedError(f"Willow105 has fewer than {num_qubits} qubits")
+    if num_excitations in (0, num_qubits):
+        return _product_state(cirq_google.Willow105.metadata.qubit_set,
+                              num_qubits, num_excitations)
+    if 2 <= num_qubits <= 20 and 1 <= num_excitations <= num_qubits // 2:
+        from interference_dicke.problem2 import create_dicke_state_adaptive as prepare
+        return prepare(num_qubits, num_excitations)
     adjacency = graph_from_device(cirq_google.Willow105)
     path = snake_path(adjacency, num_qubits)
     if path is None:

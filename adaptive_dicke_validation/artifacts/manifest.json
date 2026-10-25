@@ -1,0 +1,24 @@
+{
+  "commits": {
+    "will": "605b9a86c931e66710ed31c4e1e5aa9ab08e78d7",
+    "kai": "48115b9fbd9dd3d587fd8cfa01f0e58e00617638"
+  },
+  "sources": {
+    "snapshots\\will-605b9a8\\dicke_submission.py": "849e7131aaa0f02603df0687ad81f1cca75f2a8d0e87bea5f9c77317f7bb044a",
+    "snapshots\\kai-48115b9\\final_v2\\submission_v2.py": "ecdccd818959b4cb6c0148ecab230e38b33cba4016ccb42f0b0207c8f7afe897"
+  },
+  "scores_N15": {
+    "kai-portfolio-913fcdf": 41.10363234336131,
+    "kai-v2-48115b9": 41.10363234336131,
+    "will-605b9a8": 41.37140321982784,
+    "yu_one_round": 39.05690457484139,
+    "yu_two_rounds": 39.02772166786295,
+    "best_validated": 41.37140321982784
+  },
+  "paper_result": "artifacts\\yu-prototype-20261025T083528581862Z\\results.json",
+  "all_56_cases_valid": {
+    "kai-portfolio-913fcdf": true,
+    "kai-v2-48115b9": true,
+    "will-605b9a8": true
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "label": "kai-v2-48115b9",
+  "calibration_seed": 101,
+  "calibration_source": "Kai test_dicke.fake_calibration; synthetic",
+  "records": [
+    {
+      "n": 2,
+      "k": 1,
+      "build_seconds": 0.0829098999965936,
+      "depth": 3,
+      "CZ": 1,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999998,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 2
+      },
+      "literal_key_warnings": [],
+      "accepted": true
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "build_seconds": 0.4093272000318393,
+      "depth": 7,
+      "CZ": 5,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 1.0000000000000002,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 4
+      },
+      "literal_key_warnings": [],
+      "accepted": true
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "build_seconds": 1.4841164000099525,
+      "depth": 18,
+      "CZ": 14,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999993,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 6
+      },
+      "literal_key_warnings": [],
+      "accepted": true
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "build_seconds": 12.639115900034085,
+      "depth": 23,
+      "CZ": 24,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999997,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 8
+      },
+      "literal_key_warnings": [],
+      "accepted": true
+    },
+    {
+      "n": 10,
+      "k": 3,
+      "build_seconds": 0.5483815000625327,
+      "depth": 45,
+      "CZ": 45,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999744,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 10
+      },
+      "literal_key_warnings": [
+        [
+          "q(8, 7)",
+          "q(7, 7)"
+        ],
+        [
+          "q(7, 7)",
+          "q(6, 7)"
+        ],
+        [
+          "q(8, 8)",
+          "q(7, 8)"
+        ],
+        [
+          "q(8, 8)",
+          "q(7, 8)"
+        ],
+        [
+          "q(7, 8)",
+          "q(6, 8)"
+        ],
+        [
+          "q(8, 8)",
+          "q(7, 8)"
+        ],
+        [
+          "q(8, 7)",
+          "q(7, 7)"
+        ],
+        [
+          "q(7, 8)",
+          "q(6, 8)"
+        ],
+        [
+          "q(8, 8)",
+          "q(7, 8)"
+        ],
+        [
+          "q(7, 8)",
+          "q(6, 8)"
+        ],
+        [
+          "q(8, 9)",
+          "q(8, 8)"
+        ],
+        [
+          "q(8, 8)",
+          "q(7, 8)"
+        ],
+        [
+          "q(8, 9)",
+          "q(8, 8)"
+        ],
+        [
+          "q(8, 8)",
+          "q(7, 8)"
+        ],
+        [
+          "q(8, 9)",
+          "q(8, 8)"
+        ],
+        [
+          "q(8, 8)",
+          "q(7, 8)"
+        ],
+        [
+          "q(8, 9)",
+          "q(8, 8)"
+        ],
+        [
+          "q(8, 9)",
+          "q(8, 8)"
+        ]
+      ],
+      "accepted": true
+    }
+  ]
+}

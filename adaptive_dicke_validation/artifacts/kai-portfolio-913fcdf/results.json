@@ -1,0 +1,1077 @@
+{
+  "label": "kai-portfolio-913fcdf",
+  "source": "C:\\Users\\pinol\\Documents\\.FALL 2026\\Hackathons\\DuQuantum\\du-quantum\\adaptive_dicke_validation\\snapshots\\kai-48115b9\\dicke_submission.py",
+  "timestamp_utc": "2026-10-25T08:25:52.653749+00:00",
+  "python": "3.14.4",
+  "cirq": "1.8.0.dev20261023221525",
+  "numpy": "2.5.0",
+  "score_definition": "sum N*k / len(circuit); text domain N<=15, literal notebook N<=20",
+  "records": [
+    {
+      "n": 2,
+      "k": 1,
+      "construction_seconds": 0.004389700014144182,
+      "depth": 3,
+      "measurements": 0,
+      "total_qubits": 2,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999998,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 2
+      },
+      "accepted": true,
+      "score_term": 0.6666666666666666,
+      "audit_seconds": 0.0075530000030994415
+    },
+    {
+      "n": 3,
+      "k": 1,
+      "construction_seconds": 0.00041880004573613405,
+      "depth": 6,
+      "measurements": 0,
+      "total_qubits": 3,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999997,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 3
+      },
+      "accepted": true,
+      "score_term": 0.5,
+      "audit_seconds": 0.004573300015181303
+    },
+    {
+      "n": 4,
+      "k": 1,
+      "construction_seconds": 0.0004552999744191766,
+      "depth": 7,
+      "measurements": 0,
+      "total_qubits": 4,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999998,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 4
+      },
+      "accepted": true,
+      "score_term": 0.5714285714285714,
+      "audit_seconds": 0.005536100012250245
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "construction_seconds": 0.0003654999891296029,
+      "depth": 7,
+      "measurements": 0,
+      "total_qubits": 4,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 1.0000000000000002,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 4
+      },
+      "accepted": true,
+      "score_term": 1.1428571428571428,
+      "audit_seconds": 0.004902300075627863
+    },
+    {
+      "n": 5,
+      "k": 1,
+      "construction_seconds": 0.0005950001068413258,
+      "depth": 9,
+      "measurements": 0,
+      "total_qubits": 5,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999992,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 5
+      },
+      "accepted": true,
+      "score_term": 0.5555555555555556,
+      "audit_seconds": 0.006387100089341402
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "construction_seconds": 0.1463472000323236,
+      "depth": 13,
+      "measurements": 0,
+      "total_qubits": 5,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999988,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 5
+      },
+      "accepted": true,
+      "score_term": 0.7692307692307693,
+      "audit_seconds": 0.1521225000033155
+    },
+    {
+      "n": 6,
+      "k": 1,
+      "construction_seconds": 0.0004672999493777752,
+      "depth": 10,
+      "measurements": 0,
+      "total_qubits": 6,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999997,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 6
+      },
+      "accepted": true,
+      "score_term": 0.6,
+      "audit_seconds": 0.0057243999326601624
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "construction_seconds": 0.10942760005127639,
+      "depth": 15,
+      "measurements": 0,
+      "total_qubits": 6,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 1.0,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 6
+      },
+      "accepted": true,
+      "score_term": 0.8,
+      "audit_seconds": 0.1206868999870494
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "construction_seconds": 0.4392121999990195,
+      "depth": 13,
+      "measurements": 0,
+      "total_qubits": 6,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 1.0000000000000009,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 6
+      },
+      "accepted": true,
+      "score_term": 1.3846153846153846,
+      "audit_seconds": 0.44626110000535846
+    },
+    {
+      "n": 7,
+      "k": 1,
+      "construction_seconds": 0.0004980999510735273,
+      "depth": 10,
+      "measurements": 0,
+      "total_qubits": 7,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999992,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 7
+      },
+      "accepted": true,
+      "score_term": 0.7,
+      "audit_seconds": 0.0065157999051734805
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "construction_seconds": 0.1758435999508947,
+      "depth": 18,
+      "measurements": 0,
+      "total_qubits": 7,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 1.0000000000000004,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 7
+      },
+      "accepted": true,
+      "score_term": 0.7777777777777778,
+      "audit_seconds": 0.18513379991054535
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "construction_seconds": 0.1839959000935778,
+      "depth": 27,
+      "measurements": 0,
+      "total_qubits": 7,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 1.000000000000001,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 7
+      },
+      "accepted": true,
+      "score_term": 0.7777777777777778,
+      "audit_seconds": 0.19529689999762923
+    },
+    {
+      "n": 8,
+      "k": 1,
+      "construction_seconds": 0.0005032999906688929,
+      "depth": 11,
+      "measurements": 0,
+      "total_qubits": 8,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999993,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 8
+      },
+      "accepted": true,
+      "score_term": 0.7272727272727273,
+      "audit_seconds": 0.007643399992957711
+    },
+    {
+      "n": 8,
+      "k": 2,
+      "construction_seconds": 0.2023844999494031,
+      "depth": 19,
+      "measurements": 0,
+      "total_qubits": 8,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999999,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 8
+      },
+      "accepted": true,
+      "score_term": 0.8421052631578947,
+      "audit_seconds": 0.21435969998128712
+    },
+    {
+      "n": 8,
+      "k": 3,
+      "construction_seconds": 0.4326227999990806,
+      "depth": 29,
+      "measurements": 0,
+      "total_qubits": 8,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999999,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 8
+      },
+      "accepted": true,
+      "score_term": 0.8275862068965517,
+      "audit_seconds": 0.45558409998193383
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "construction_seconds": 0.8083881000056863,
+      "depth": 23,
+      "measurements": 0,
+      "total_qubits": 8,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999996,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 8
+      },
+      "accepted": true,
+      "score_term": 1.391304347826087,
+      "audit_seconds": 0.8199368000496179
+    },
+    {
+      "n": 9,
+      "k": 1,
+      "construction_seconds": 0.0005781999789178371,
+      "depth": 12,
+      "measurements": 0,
+      "total_qubits": 9,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999994,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 9
+      },
+      "accepted": true,
+      "score_term": 0.75,
+      "audit_seconds": 0.008587099961005151
+    },
+    {
+      "n": 9,
+      "k": 2,
+      "construction_seconds": 0.21125110005959868,
+      "depth": 22,
+      "measurements": 0,
+      "total_qubits": 9,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999993,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 9
+      },
+      "accepted": true,
+      "score_term": 0.8181818181818182,
+      "audit_seconds": 0.22641500004101545
+    },
+    {
+      "n": 9,
+      "k": 3,
+      "construction_seconds": 0.30949280003551394,
+      "depth": 48,
+      "measurements": 0,
+      "total_qubits": 9,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999997,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 9
+      },
+      "accepted": true,
+      "score_term": 0.5625,
+      "audit_seconds": 0.33451790001709014
+    },
+    {
+      "n": 9,
+      "k": 4,
+      "construction_seconds": 0.32752319995779544,
+      "depth": 62,
+      "measurements": 0,
+      "total_qubits": 9,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 1.0000000000000007,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 9
+      },
+      "accepted": true,
+      "score_term": 0.5806451612903226,
+      "audit_seconds": 0.35059279995039105
+    },
+    {
+      "n": 10,
+      "k": 1,
+      "construction_seconds": 0.0009003999875858426,
+      "depth": 13,
+      "measurements": 0,
+      "total_qubits": 10,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999992,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 10
+      },
+      "accepted": true,
+      "score_term": 0.7692307692307693,
+      "audit_seconds": 0.012028199969790876
+    },
+    {
+      "n": 10,
+      "k": 2,
+      "construction_seconds": 0.27911690005566925,
+      "depth": 23,
+      "measurements": 0,
+      "total_qubits": 10,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999986,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 10
+      },
+      "accepted": true,
+      "score_term": 0.8695652173913043,
+      "audit_seconds": 0.2936063000233844
+    },
+    {
+      "n": 10,
+      "k": 3,
+      "construction_seconds": 0.34799470007419586,
+      "depth": 51,
+      "measurements": 0,
+      "total_qubits": 10,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999987,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 10
+      },
+      "accepted": true,
+      "score_term": 0.5882352941176471,
+      "audit_seconds": 0.37717230000998825
+    },
+    {
+      "n": 10,
+      "k": 4,
+      "construction_seconds": 0.4230440000537783,
+      "depth": 67,
+      "measurements": 0,
+      "total_qubits": 10,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 1.0000000000000004,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 10
+      },
+      "accepted": true,
+      "score_term": 0.5970149253731343,
+      "audit_seconds": 0.4511127000441775
+    },
+    {
+      "n": 10,
+      "k": 5,
+      "construction_seconds": 0.7788003999739885,
+      "depth": 72,
+      "measurements": 0,
+      "total_qubits": 10,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 1.0000000000000009,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 10
+      },
+      "accepted": true,
+      "score_term": 0.6944444444444444,
+      "audit_seconds": 0.8078354999888688
+    },
+    {
+      "n": 11,
+      "k": 1,
+      "construction_seconds": 0.0009419000707566738,
+      "depth": 13,
+      "measurements": 0,
+      "total_qubits": 11,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999989,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 11
+      },
+      "accepted": true,
+      "score_term": 0.8461538461538461,
+      "audit_seconds": 0.010326100047677755
+    },
+    {
+      "n": 11,
+      "k": 2,
+      "construction_seconds": 0.26879540004301816,
+      "depth": 26,
+      "measurements": 0,
+      "total_qubits": 11,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999993,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 11
+      },
+      "accepted": true,
+      "score_term": 0.8461538461538461,
+      "audit_seconds": 0.28651800006628036
+    },
+    {
+      "n": 11,
+      "k": 3,
+      "construction_seconds": 0.41704440000467,
+      "depth": 62,
+      "measurements": 0,
+      "total_qubits": 11,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999979,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 11
+      },
+      "accepted": true,
+      "score_term": 0.532258064516129,
+      "audit_seconds": 0.4511274000396952
+    },
+    {
+      "n": 11,
+      "k": 4,
+      "construction_seconds": 0.5167685999767855,
+      "depth": 80,
+      "measurements": 0,
+      "total_qubits": 11,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 1.0000000000000013,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 11
+      },
+      "accepted": true,
+      "score_term": 0.55,
+      "audit_seconds": 0.5649342000251636
+    },
+    {
+      "n": 11,
+      "k": 5,
+      "construction_seconds": 0.5626944000832736,
+      "depth": 90,
+      "measurements": 0,
+      "total_qubits": 11,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999989,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 11
+      },
+      "accepted": true,
+      "score_term": 0.6111111111111112,
+      "audit_seconds": 0.6286287000402808
+    },
+    {
+      "n": 12,
+      "k": 1,
+      "construction_seconds": 0.0009803000139072537,
+      "depth": 13,
+      "measurements": 0,
+      "total_qubits": 12,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.999999999999999,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 12
+      },
+      "accepted": true,
+      "score_term": 0.9230769230769231,
+      "audit_seconds": 0.015584100037813187
+    },
+    {
+      "n": 12,
+      "k": 2,
+      "construction_seconds": 0.5886385999619961,
+      "depth": 26,
+      "measurements": 0,
+      "total_qubits": 12,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 1.0000000000000022,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 12
+      },
+      "accepted": true,
+      "score_term": 0.9230769230769231,
+      "audit_seconds": 0.6128875999711454
+    },
+    {
+      "n": 12,
+      "k": 3,
+      "construction_seconds": 0.49697229999583215,
+      "depth": 65,
+      "measurements": 0,
+      "total_qubits": 12,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999993,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 12
+      },
+      "accepted": true,
+      "score_term": 0.5538461538461539,
+      "audit_seconds": 0.5288730999454856
+    },
+    {
+      "n": 12,
+      "k": 4,
+      "construction_seconds": 0.5218220000388101,
+      "depth": 85,
+      "measurements": 0,
+      "total_qubits": 12,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 1.000000000000003,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 12
+      },
+      "accepted": true,
+      "score_term": 0.5647058823529412,
+      "audit_seconds": 0.5737614000681788
+    },
+    {
+      "n": 12,
+      "k": 5,
+      "construction_seconds": 0.745465699932538,
+      "depth": 97,
+      "measurements": 0,
+      "total_qubits": 12,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 1.0,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 12
+      },
+      "accepted": true,
+      "score_term": 0.6185567010309279,
+      "audit_seconds": 0.8156639999942854
+    },
+    {
+      "n": 12,
+      "k": 6,
+      "construction_seconds": 1.5833203999791294,
+      "depth": 101,
+      "measurements": 0,
+      "total_qubits": 12,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999989,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 12
+      },
+      "accepted": true,
+      "score_term": 0.7128712871287128,
+      "audit_seconds": 1.6456039000768214
+    },
+    {
+      "n": 13,
+      "k": 1,
+      "construction_seconds": 0.0011332000140100718,
+      "depth": 14,
+      "measurements": 0,
+      "total_qubits": 13,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999989,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 13
+      },
+      "accepted": true,
+      "score_term": 0.9285714285714286,
+      "audit_seconds": 0.016540199983865023
+    },
+    {
+      "n": 13,
+      "k": 2,
+      "construction_seconds": 0.3610225000884384,
+      "depth": 30,
+      "measurements": 0,
+      "total_qubits": 13,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999981,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 13
+      },
+      "accepted": true,
+      "score_term": 0.8666666666666667,
+      "audit_seconds": 0.38438350008800626
+    },
+    {
+      "n": 13,
+      "k": 3,
+      "construction_seconds": 0.5322979999473318,
+      "depth": 76,
+      "measurements": 0,
+      "total_qubits": 13,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999967,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 13
+      },
+      "accepted": true,
+      "score_term": 0.5131578947368421,
+      "audit_seconds": 0.6007941999705508
+    },
+    {
+      "n": 13,
+      "k": 4,
+      "construction_seconds": 0.6562286999542266,
+      "depth": 98,
+      "measurements": 0,
+      "total_qubits": 13,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999996,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 13
+      },
+      "accepted": true,
+      "score_term": 0.5306122448979592,
+      "audit_seconds": 0.7258061999455094
+    },
+    {
+      "n": 13,
+      "k": 5,
+      "construction_seconds": 0.7202666000230238,
+      "depth": 108,
+      "measurements": 0,
+      "total_qubits": 13,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999961,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 13
+      },
+      "accepted": true,
+      "score_term": 0.6018518518518519,
+      "audit_seconds": 0.7982840000186116
+    },
+    {
+      "n": 13,
+      "k": 6,
+      "construction_seconds": 0.9380405999254435,
+      "depth": 118,
+      "measurements": 0,
+      "total_qubits": 13,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999969,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 13
+      },
+      "accepted": true,
+      "score_term": 0.6610169491525424,
+      "audit_seconds": 1.0260528000071645
+    },
+    {
+      "n": 14,
+      "k": 1,
+      "construction_seconds": 0.001151000033132732,
+      "depth": 14,
+      "measurements": 0,
+      "total_qubits": 14,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.999999999999999,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 14
+      },
+      "accepted": true,
+      "score_term": 1.0,
+      "audit_seconds": 0.015457200002856553
+    },
+    {
+      "n": 14,
+      "k": 2,
+      "construction_seconds": 0.35925070010125637,
+      "depth": 31,
+      "measurements": 0,
+      "total_qubits": 14,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999976,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 14
+      },
+      "accepted": true,
+      "score_term": 0.9032258064516129,
+      "audit_seconds": 0.3873461000621319
+    },
+    {
+      "n": 14,
+      "k": 3,
+      "construction_seconds": 0.5541596999391913,
+      "depth": 79,
+      "measurements": 0,
+      "total_qubits": 14,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999983,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 14
+      },
+      "accepted": true,
+      "score_term": 0.5316455696202531,
+      "audit_seconds": 0.6206961999414489
+    },
+    {
+      "n": 14,
+      "k": 4,
+      "construction_seconds": 0.8332669000374153,
+      "depth": 103,
+      "measurements": 0,
+      "total_qubits": 14,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999954,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 14
+      },
+      "accepted": true,
+      "score_term": 0.5436893203883495,
+      "audit_seconds": 0.9290481000207365
+    },
+    {
+      "n": 14,
+      "k": 5,
+      "construction_seconds": 0.8857785000000149,
+      "depth": 115,
+      "measurements": 0,
+      "total_qubits": 14,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999942,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 14
+      },
+      "accepted": true,
+      "score_term": 0.6086956521739131,
+      "audit_seconds": 1.0008468999294564
+    },
+    {
+      "n": 14,
+      "k": 6,
+      "construction_seconds": 1.0313633000478148,
+      "depth": 127,
+      "measurements": 0,
+      "total_qubits": 14,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999962,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 14
+      },
+      "accepted": true,
+      "score_term": 0.6614173228346457,
+      "audit_seconds": 1.1332001000409946
+    },
+    {
+      "n": 14,
+      "k": 7,
+      "construction_seconds": 2.452563399914652,
+      "depth": 132,
+      "measurements": 0,
+      "total_qubits": 14,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 1.0000000000000067,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 14
+      },
+      "accepted": true,
+      "score_term": 0.7424242424242424,
+      "audit_seconds": 2.544217799906619
+    },
+    {
+      "n": 15,
+      "k": 1,
+      "construction_seconds": 0.0008997999830171466,
+      "depth": 14,
+      "measurements": 0,
+      "total_qubits": 15,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999984,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 15
+      },
+      "accepted": true,
+      "score_term": 1.0714285714285714,
+      "audit_seconds": 0.02058270003180951
+    },
+    {
+      "n": 15,
+      "k": 2,
+      "construction_seconds": 0.8493449001107365,
+      "depth": 30,
+      "measurements": 0,
+      "total_qubits": 15,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999989,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 15
+      },
+      "accepted": true,
+      "score_term": 1.0,
+      "audit_seconds": 0.9007016000105068
+    },
+    {
+      "n": 15,
+      "k": 3,
+      "construction_seconds": 0.7110337000340223,
+      "depth": 90,
+      "measurements": 0,
+      "total_qubits": 15,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999949,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 15
+      },
+      "accepted": true,
+      "score_term": 0.5,
+      "audit_seconds": 0.8321103000780568
+    },
+    {
+      "n": 15,
+      "k": 4,
+      "construction_seconds": 0.8618967999937013,
+      "depth": 116,
+      "measurements": 0,
+      "total_qubits": 15,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.999999999999999,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 15
+      },
+      "accepted": true,
+      "score_term": 0.5172413793103449,
+      "audit_seconds": 0.9988328000763431
+    },
+    {
+      "n": 15,
+      "k": 5,
+      "construction_seconds": 1.0360357000026852,
+      "depth": 126,
+      "measurements": 0,
+      "total_qubits": 15,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 1.0000000000000022,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 15
+      },
+      "accepted": true,
+      "score_term": 0.5952380952380952,
+      "audit_seconds": 1.199717600014992
+    },
+    {
+      "n": 15,
+      "k": 6,
+      "construction_seconds": 1.109336799941957,
+      "depth": 136,
+      "measurements": 0,
+      "total_qubits": 15,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.9999999999999996,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 15
+      },
+      "accepted": true,
+      "score_term": 0.6617647058823529,
+      "audit_seconds": 1.2887120000086725
+    },
+    {
+      "n": 15,
+      "k": 7,
+      "construction_seconds": 1.3567178000230342,
+      "depth": 146,
+      "measurements": 0,
+      "total_qubits": 15,
+      "violations": [],
+      "verification": {
+        "status": "verified",
+        "minimum_branch_fidelity": 0.999999999999987,
+        "branches": 1,
+        "total_probability": 1.0,
+        "active_qubits": 15
+      },
+      "accepted": true,
+      "score_term": 0.7191780821917808,
+      "audit_seconds": 1.5471320999786258
+    }
+  ],
+  "validated_score_15": 41.10363234336131,
+  "validated_score_20": 41.10363234336131
+}
